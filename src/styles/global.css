@@ -146,8 +146,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .faq__question-text { font-family: var(--font-heading); font-size: 15px; font-weight: 600; color: var(--text-heading); }
 .faq__icon { width: 28px; height: 28px; background: var(--green-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 16px; color: var(--green); transition: transform .3s; }
 .faq__item.open .faq__icon { transform: rotate(45deg); }
-.faq__answer { display: none; padding: 0 var(--space-6) var(--space-5); }
-.faq__item.open .faq__answer { display: block; }
+.faq__answer { max-height: 0; overflow: hidden; padding: 0 var(--space-6); transition: max-height .35s ease, padding .35s ease; }
+.faq__item.open .faq__answer { max-height: 600px; padding: 0 var(--space-6) var(--space-5); }
 .faq__answer p { font-size: 14px; color: var(--text-muted); line-height: 1.7; font-weight: 300; }
 
 /* ── FORM ELEMENTS ──────────────────────────────────── */

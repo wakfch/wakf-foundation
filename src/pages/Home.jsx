@@ -4,47 +4,41 @@ import { Link } from 'react-router-dom';
 const PROJECTS = [
   {
     id: 1,
+    slug: 'madretsch',
     title: 'Mosquée Madretsch',
     type: 'Lieu de culte',
     ville: 'Bienne, BE',
     date: '2009',
     surface: '496 m²',
-    pct: 100,
-    status: 'Terminé',
-    statusCss: 'badge--green',
     img: 'https://picsum.photos/600/320?grayscale&random=1',
-    excerpt: 'Construction et aménagement de la mosquée Madretsch, premier grand projet de la Fondation.',
+    excerpt: 'Construction et aménagement de la mosquée Madretsch, premier grand projet de la Fondation Wakef.',
   },
   {
     id: 2,
+    slug: 'aliman',
     title: 'Centre Al Iman',
     type: 'Centre islamique',
     ville: 'Fribourg, FR',
     date: '2018',
     surface: '132 m²',
-    pct: 90,
-    status: 'En cours',
-    statusCss: 'badge--gold',
     img: 'https://picsum.photos/600/320?grayscale&random=2',
-    excerpt: 'Rénovation et extension du Centre Al Iman pour mieux accueillir la communauté fribourgeoise.',
+    excerpt: 'Centre islamique ouvert à toutes les nationalités — philosophie d\'ouverture totale au cœur de Fribourg.',
   },
   {
     id: 3,
+    slug: 'albadr',
     title: 'Centre Al Badr',
     type: 'Centre culturel',
     ville: 'Le Locle, NE',
     date: '2017',
     surface: '2 029 m²',
-    pct: 65,
-    status: 'En cours',
-    statusCss: 'badge--gold',
     img: 'https://picsum.photos/600/320?grayscale&random=3',
-    excerpt: 'Grand centre culturel et islamique au cœur du canton de Neuchâtel, un projet d\'envergure.',
+    excerpt: 'Seule mosquée à la frontière franco-suisse — rénovation d\'un bâtiment historique de 1902.',
   },
 ];
 
 const STATS = [
-  { num: 3, suffix: '', label: 'Projets réalisés', gold: false },
+  { num: 5, suffix: '', label: 'Projets financés', gold: false },
   { num: 15, suffix: '+', label: 'Années d\'action', gold: true },
   { num: 50, suffix: 'k', label: 'CHF capital de dotation', gold: false },
   { num: 2657, suffix: ' m²', label: 'Surface construite', gold: false },
@@ -109,7 +103,7 @@ export default function Home() {
       }}>
         <div style={{
           position: 'absolute', inset: 0, opacity: .04,
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon fill='%23ffffff' points='30,2 34.6,18.9 49.8,10.2 41.1,25.4 58,30 41.1,34.6 49.8,49.8 34.6,41.1 30,58 25.4,41.1 10.2,49.8 18.9,34.6 2,30 18.9,25.4 10.2,10.2 25.4,18.9'/%3E%3C/svg%3E")`,
         }} />
         <div className="container" style={{ position: 'relative', zIndex: 1, paddingBlock: '120px 80px', textAlign: 'center' }}>
           <div style={{ display: 'inline-block', background: 'rgba(200,169,81,.15)', border: '1px solid rgba(200,169,81,.3)', borderRadius: 999, padding: '6px 20px', marginBottom: 'var(--space-5)' }}>
@@ -132,6 +126,54 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── À PROPOS INTRO ───────────────────────────────────── */}
+      <section className="section section--alt">
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }} className="reveal" ref={addReveal}>
+            <span className="section-label">Qui sommes-nous</span>
+            <h2 className="section-title" style={{ marginInline: 'auto' }}>La Fondation Wakef – Suisse</h2>
+            <span className="accent-line" style={{ marginInline: 'auto' }} />
+            <p className="section-body" style={{ marginInline: 'auto' }}>
+              Fondée en 2009, fondation de droit privé suisse (art. 80 CC) dédiée au financement de projets islamiques durables sur le territoire helvétique.
+            </p>
+          </div>
+          <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
+            <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
+              <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🤝</div>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Objectifs</h3>
+              <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)', textAlign: 'left' }}>
+                {['Lieux de culte musulman', 'Formation des imams', 'Enseignement de l\'arabe', 'Bourses d\'études', 'Activités caritatives', 'Carrés musulmans'].map(item => (
+                  <li key={item} style={{ fontSize: 14, color: 'var(--text-muted)', display: 'flex', alignItems: 'flex-start', gap: 'var(--space-2)', lineHeight: 1.5 }}>
+                    <span style={{ color: 'var(--green)', fontWeight: 700, marginTop: 1 }}>·</span> {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="reveal" ref={addReveal} style={{ background: 'var(--green)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
+              <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🔍</div>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Mission</h3>
+              <p style={{ fontSize: 14, color: 'rgba(255,255,255,.85)', lineHeight: 1.8, fontWeight: 300 }}>
+                Bâtir un héritage islamique durable en Suisse en finançant des mosquées, centres islamiques et programmes éducatifs — en conformité avec les valeurs de l'Islam et le droit civil suisse.
+              </p>
+            </div>
+            <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
+              <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🌱</div>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Valeurs</h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
+                {['Pérennité', 'Intégrité', 'Transparence', 'Institutionnalisme', 'Innovation', 'Coopération'].map((v, i) => (
+                  <div key={v} style={{ background: i % 2 === 0 ? 'var(--green-light)' : 'var(--gold-light)', borderRadius: 'var(--radius-sm)', padding: '6px 12px', fontSize: 13, fontWeight: 600, color: i % 2 === 0 ? 'var(--green)' : '#92710a' }}>
+                    {v}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div style={{ textAlign: 'center' }}>
+            <Link to="/a-propos" className="btn btn--primary">En savoir plus →</Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── STATS ─────────────────────────────────────────────── */}
       <div className="stats" ref={statsRef}>
         <div className="container">
@@ -149,7 +191,7 @@ export default function Home() {
       </div>
 
       {/* ── PROJECTS ──────────────────────────────────────────── */}
-      <section className="section" ref={addReveal}>
+      <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }} className="reveal" ref={addReveal}>
             <span className="section-label">Nos réalisations</span>
@@ -164,23 +206,11 @@ export default function Home() {
                   <img src={p.img} alt={p.title} loading="lazy" />
                 </div>
                 <div className="projet-card__body">
-                  <div style={{ display: 'flex', gap: 'var(--space-2)', alignItems: 'center', flexWrap: 'wrap' }}>
-                    <span className={`badge ${p.statusCss}`}>{p.status}</span>
-                  </div>
                   <span className="projet-card__tag">{p.type}</span>
                   <h3 className="projet-card__title">{p.title}</h3>
                   <p className="projet-card__location">📍 {p.ville} · 📅 {p.date} · {p.surface}</p>
                   <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6 }}>{p.excerpt}</p>
-                  {p.pct > 0 && (
-                    <div>
-                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, marginBottom: 4 }}>
-                        <span style={{ color: 'var(--text-muted)' }}>Financement</span>
-                        <span style={{ fontWeight: 700, color: 'var(--green)' }}>{p.pct}%</span>
-                      </div>
-                      <div className="projet-card__bar"><div className="projet-card__bar-fill" style={{ width: `${p.pct}%` }} /></div>
-                    </div>
-                  )}
-                  <Link to="/projets" className="projet-card__link">Voir le projet →</Link>
+                  <Link to={`/projets/${p.slug}`} className="projet-card__link">En savoir plus →</Link>
                 </div>
               </article>
             ))}
@@ -196,8 +226,8 @@ export default function Home() {
         <div className="container" style={{ textAlign: 'center' }}>
           <span style={{ display: 'block', fontSize: 11, fontWeight: 700, letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 'var(--space-4)' }}>Soutenir la Fondation</span>
           <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(26px,4vw,40px)', fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Votre don compte</h2>
-          <p style={{ fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: 300, maxWidth: 520, marginInline: 'auto', marginBottom: 'var(--space-8)' }}>
-            CHF 50 aide un enfant à apprendre l'arabe. CHF 200 finance une journée de construction. CHF 1 000 contribue à un carré musulman. Chaque franc bâtit l'avenir.
+          <p style={{ fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: 300, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-8)', lineHeight: 1.75 }}>
+            Votre don, quel que soit son montant, contribue directement au financement de nos projets Waqf en Suisse : mosquées, centres islamiques et accompagnement de la communauté musulmane. Chaque contribution est une Sadaqa Jariya — une aumône qui dure.
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link to="/don" className="btn btn--gold btn--lg">Faire un don maintenant →</Link>
@@ -273,36 +303,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── À PROPOS BRIEF ────────────────────────────────────── */}
-      <section className="section">
-        <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-16)', alignItems: 'center' }}>
-            <div>
-              <span className="section-label">Notre mission</span>
-              <h2 className="section-title">Fondée en 2009, une mission durable</h2>
-              <span className="accent-line" />
-              <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
-                La Fondation Wakef – Suisse finance des projets d'infrastructure islamique depuis 2009 : mosquées, centres islamiques, bourses d'études et carrés musulmans.
-              </p>
-              <p className="section-body" style={{ marginBottom: 'var(--space-6)' }}>
-                Toutes les opérations sont validées par notre Comité Charia et conformes à la finance islamique — sans intérêt, en total transparence.
-              </p>
-              <Link to="/a-propos" className="btn btn--primary">En savoir plus →</Link>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
-              {[['🕌', 'Lieux de culte', 'Construire et assainir les mosquées en Suisse'], ['📖', 'Imams & intégration', 'Former les imams et les intégrer dans la société suisse'], ['🎓', 'Bourses d\'études', 'Soutenir les étudiants musulmans en Suisse'], ['⚰️', 'Carrés musulmans', 'Créer des carrés islamiques dans les cimetières suisses']].map(([icon, title, desc]) => (
-                <div key={title} style={{ background: 'var(--bg-section)', border: '1px solid var(--border)', borderRadius: 'var(--radius-lg)', padding: 'var(--space-5)' }}>
-                  <div style={{ fontSize: 28, marginBottom: 'var(--space-2)' }}>{icon}</div>
-                  <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: 14, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 4 }}>{title}</h4>
-                  <p style={{ fontSize: 12, color: 'var(--text-muted)', lineHeight: 1.5, fontWeight: 300 }}>{desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <style>{`@media(max-width:768px){.section .container>div{grid-template-columns:1fr!important}}`}</style>
-      </section>
-
       {/* ── CONTACT CTA ───────────────────────────────────────── */}
       <section style={{ background: 'var(--bg-section)', padding: 'var(--space-16) 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
@@ -325,7 +325,7 @@ function FaqItem({ q, a, defaultOpen }) {
         <span className="faq__question-text">{q}</span>
         <div className="faq__icon">+</div>
       </div>
-      {open && <div className="faq__answer"><p>{a}</p></div>}
+      <div className="faq__answer"><p>{a}</p></div>
     </div>
   );
 }

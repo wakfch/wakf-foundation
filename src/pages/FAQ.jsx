@@ -17,13 +17,13 @@ const FAQS = [
       ['Comment faire un don ?', 'Vous pouvez faire un don via notre formulaire en ligne sur la page "Faire un don", par virement bancaire (coordonnées disponibles sur demande à info@wakf.ch), ou par courrier à notre bureau de contact à Bienne.'],
       ['Les dons sont-ils déductibles des impôts suisses ?', 'Oui. En tant que fondation reconnue d\'utilité publique, vos dons à la Fondation Wakef sont déductibles de votre revenu imposable selon les règles cantonales. Nous émettons un reçu fiscal pour tout don dès CHF 20.'],
       ['Puis-je faire un don récurrent (mensuel) ?', 'Oui. Vous pouvez opter pour un don mensuel en précisant votre souhait dans le formulaire. Notre équipe vous contactera pour mettre en place le virement automatique.'],
-      ['Mon don est-il conforme à la Charia ?', 'Oui. Tous les fonds sont gérés selon les principes de la finance islamique — sans intérêt, sans spéculation, en totale transparence. Notre comité Charia valide chaque projet et mode de collecte.'],
+      ['La Fondation est-elle transparente dans sa gestion ?', 'Oui. La Fondation Wakef – Suisse est soumise au droit civil suisse (art. 80 CC) et supervisée par l\'Autorité cantonale de surveillance des fondations du canton de Vaud. Les comptes sont contrôlés annuellement par un organe de révision indépendant et les rapports financiers sont disponibles sur demande à info@wakf.ch.'],
     ],
   },
   {
     cat: 'Zakat',
     items: [
-      ['Puis-je verser ma Zakat à la Fondation ?', 'Oui. La Fondation Wakef accepte la Zakat et la Sadaqah. Ces fonds sont affectés à des projets approuvés par notre comité Charia et répondant aux critères de distribution de la Zakat.'],
+      ['Puis-je faire un don dédié à un projet spécifique ?', 'Oui. Lors de votre don, vous pouvez préciser le projet que vous souhaitez soutenir parmi nos cinq projets : Mosquée Madretsch (Bienne), Centre Al Iman (Fribourg), Centre Al Badr (Le Locle), Mosquée An-Nour (Sion) et Bibliothèque Mobile « Ponts du Savoir ». Si le projet est intégralement financé, les fonds seront affectés au projet prioritaire en cours.'],
       ['Comment calculer ma Zakat ?', 'Utilisez notre calculateur Zakat disponible sur la page /zakat. Entrez vos avoirs (or, argent, liquidités, investissements) et vos dettes à court terme. Si votre patrimoine net dépasse le Nisab (CHF/€ 4 600) depuis une année lunaire, vous devez 2,5% de ce montant.'],
       ['Qu\'est-ce que le Nisab ?', 'Le Nisab est le seuil minimal de richesse. Il est fixé à la valeur de 85g d\'or, soit environ CHF 4 600 en 2025. Si votre patrimoine net est inférieur à ce seuil, vous n\'êtes pas redevable de la Zakat al-Māl.'],
       ['La Zakat al-Fitr est-elle différente ?', 'Oui. La Zakat al-Fitr est une aumône obligatoire versée à la fin du Ramadan, indépendamment de votre patrimoine. Son montant est fixé chaque année par les savants islamiques (généralement entre CHF 10 et 20 par personne).'],
@@ -32,7 +32,7 @@ const FAQS = [
   {
     cat: 'Projets',
     items: [
-      ['Quels sont les projets actuels ?', 'Nos trois projets principaux sont : la Mosquée Madretsch à Bienne (terminé, 496 m²), le Centre Al Iman à Fribourg (en cours, 132 m²) et le Centre Al Badr au Locle (en cours, 2 029 m²). Consultez la page Projets pour le détail.'],
+      ['Quels sont les projets actuels ?', 'La Fondation Wakef finance cinq projets : Mosquée Madretsch à Bienne (réalisé, 496 m²), Centre Al Iman à Fribourg (en cours, 132 m²), Centre Al Badr au Locle (en cours, 2 029 m²), Mosquée An-Nour à Sion (en cours, 420 m²) et la Bibliothèque Mobile « Ponts du Savoir » en Suisse romande. Consultez la page Projets pour le détail complet.'],
       ['Comment les fonds sont-ils alloués ?', 'Chaque don est affecté à un fonds général ou à un projet spécifique selon votre choix. Le Conseil de fondation valide l\'allocation des fonds, et un rapport annuel détaille l\'utilisation de chaque franc collecté.'],
       ['Puis-je dédier mon don à un projet spécifique ?', 'Oui. Lors de votre don, vous pouvez préciser le projet que vous souhaitez soutenir (Mosquée Madretsch, Centre Al Iman ou Centre Al Badr). Si le projet est déjà financé, les fonds seront affectés au projet le plus urgent.'],
     ],
@@ -47,7 +47,7 @@ function FaqItem({ q, a }) {
         <span className="faq__question-text">{q}</span>
         <div className="faq__icon">+</div>
       </div>
-      {open && <div className="faq__answer"><p>{a}</p></div>}
+      <div className="faq__answer"><p>{a}</p></div>
     </div>
   );
 }

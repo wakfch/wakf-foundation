@@ -8,6 +8,7 @@ import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Statuts from './pages/Statuts';
+import ProjectDetail from './pages/ProjectDetail';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Confidentialite from './pages/Confidentialite';
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/a-propos" element={<About />} />
         <Route path="/statuts" element={<Statuts />} />
+        <Route path="/projets/:slug" element={<ProjectDetail />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/confidentialite" element={<Confidentialite />} />
