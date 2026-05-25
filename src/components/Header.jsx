@@ -29,14 +29,21 @@ const navLinks = [
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const [scrolledDown, setScrolledDown] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const location = useLocation();
   const dropRef = useRef(null);
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', onScroll);
+    const onScroll = () => {
+      const y = window.scrollY;
+      setScrolled(y > 20);
+      setScrolledDown(y > lastScrollY.current && y > 60);
+      lastScrollY.current = y;
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
@@ -54,7 +61,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`nav${scrolled ? ' nav--scrolled' : ''}${menuOpen ? ' nav--open' : ''}`}>
+    <header className={`nav${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
       <style>{`
         .nav {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -63,7 +70,8 @@ export default function Header() {
           transition: background .3s, box-shadow .3s;
         }
         .nav--scrolled { background: rgba(255,255,255,.97); box-shadow: var(--shadow-md); backdrop-filter: blur(12px); }
-        .nav:not(.nav--scrolled):not(.nav--open) { background: transparent; }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) { background: rgba(10,20,12,.92); box-shadow: 0 2px 16px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
+        .nav:not(.nav--scrolled):not(.nav--dark):not(.nav--open) { background: transparent; }
         .nav--open { background: rgba(255,255,255,.97); }
         .nav__logo { display: flex; align-items: center; gap: var(--space-3); text-decoration: none; flex-shrink: 0; }
         .nav__logo-img { height: 44px; width: auto; border-radius: 8px; object-fit: contain; }
@@ -83,6 +91,11 @@ export default function Header() {
         .nav:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.15); }
         .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
         .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.6); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link { color: rgba(255,255,255,.9); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.12); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.55); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__burger span { background: var(--white); }
         .nav__dropdown-wrap { position: relative; }
         .nav__dropdown {
           position: absolute; top: calc(100% + 8px); left: 0; min-width: 240px;

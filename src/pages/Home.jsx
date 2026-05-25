@@ -142,7 +142,7 @@ export default function Home() {
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🤝</div>
               <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Objectifs</h3>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)', textAlign: 'left' }}>
-                {['Lieux de culte musulman', 'Formation des imams', 'Enseignement de l\'arabe', 'Bourses d\'études', 'Activités caritatives', 'Carrés musulmans'].map(item => (
+                {['Lieux de culte musulman', 'Formation & intégration des imams', 'Enseignement de l\'arabe', 'Bourses d\'études', 'Activités caritatives', 'Carrés musulmans'].map(item => (
                   <li key={item} style={{ fontSize: 14, color: 'var(--text-muted)', display: 'flex', alignItems: 'flex-start', gap: 'var(--space-2)', lineHeight: 1.5 }}>
                     <span style={{ color: 'var(--green)', fontWeight: 700, marginTop: 1 }}>·</span> {item}
                   </li>
