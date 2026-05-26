@@ -3,14 +3,14 @@ import { Link, useParams } from 'react-router-dom';
 const PROJECTS = {
   madretsch: {
     title: 'Mosquée Madretsch',
-    subtitle: 'Premier grand projet de la Fondation Wakef – Suisse',
+    subtitle: 'Premier grand projet de la Fondation Wakef Suisse',
     ville: 'Bienne (Madretsch), BE',
     annee: '2009',
     surface: '496 m²',
     type: 'Lieu de culte',
     statut: 'Réalisé',
     img: 'https://picsum.photos/1200/500?grayscale&random=1',
-    intro: 'La Mosquée Madretsch, inaugurée en 2009 à Bienne, est le premier grand projet de la Fondation Wakef – Suisse. Avec ses 496 m², elle accueille la communauté musulmane du quartier de Madretsch et constitue le fondement sur lequel la Fondation a bâti son expertise en matière de financement islamique en Suisse.',
+    intro: 'La Mosquée Madretsch, inaugurée en 2009 à Bienne, est le premier grand projet de la Fondation Wakef Suisse. Avec ses 496 m², elle accueille la communauté musulmane du quartier de Madretsch et constitue le fondement sur lequel la Fondation a bâti son expertise en matière de financement islamique en Suisse.',
     objectifs: [
       'Créer un espace de culte digne pour la communauté musulmane de Madretsch',
       'Offrir un cadre d\'apprentissage pour la langue arabe et l\'éducation islamique',
@@ -53,7 +53,7 @@ const PROJECTS = {
     ],
     description: 'Le Centre Al Iman se distingue par sa philosophie d\'ouverture totale : ses portes sont ouvertes à toutes les nationalités et cultures, au-delà des origines de l\'association gestionnaire. C\'est un lieu de rencontre, d\'apprentissage et de prière pour toute la communauté musulmane fribourgeoise, reflet du cosmopolitisme de la ville.',
     avancement: 'Travaux de rénovation partiellement réalisés. La Fondation Wakef accompagne l\'Association CCA dans la finalisation des aménagements intérieurs et l\'optimisation des espaces.',
-    vision: 'Faire du Centre Al Iman un modèle d\'intégration et d\'ouverture, où la diversité de l\'islam suisse trouve son expression la plus harmonieuse — un centre communautaire au sens plein du terme.',
+    vision: 'Faire du Centre Al Iman un modèle d\'intégration et d\'ouverture, où la diversité de l\'islam suisse trouve son expression la plus harmonieuse, un centre communautaire au sens plein du terme.',
   },
   albadr: {
     title: 'Centre Al Badr',
@@ -83,7 +83,7 @@ const PROJECTS = {
     ],
     description: 'Le Centre Al Badr est le projet le plus ambitieux de la Fondation Wakef. Situé à quelques pas de la frontière française, il dessert une communauté transfrontalière unique. Le projet intègre la préservation d\'un patrimoine architectural remarquable (bâtiment de 1902) avec une vision résolument moderne pour son extension.',
     avancement: 'Phase 1 réalisée : salle de prière pour hommes (70 m²) et femmes (60 m²) opérationnelles. Phase 2 en cours : rénovation complète du bâtiment historique et construction de l\'extension de 1 400 m².',
-    vision: 'Faire du Centre Al Badr un centre culturel islamique de référence pour les communautés du Locle et des régions frontalières françaises — alliant patrimoine et modernité, en un lieu unique en Suisse.',
+    vision: 'Faire du Centre Al Badr un centre culturel islamique de référence pour les communautés du Locle et des régions frontalières françaises, alliant patrimoine et modernité, en un lieu unique en Suisse.',
   },
   annour: {
     title: 'Mosquée An-Nour',
@@ -107,17 +107,17 @@ const PROJECTS = {
       { label: 'Surface totale', value: '420 m²' },
       { label: 'Budget total', value: 'CHF 900 000' },
       { label: 'Opérateur', value: 'Association An-Nour' },
-      { label: 'Phase 1', value: '210 m² — finalisée' },
-      { label: 'Phase 2', value: '210 m² — promesse de vente jusqu\'à fin 2026' },
+      { label: 'Phase 1', value: '210 m² finalisée' },
+      { label: 'Phase 2', value: '210 m² promesse de vente jusqu\'à fin 2026' },
       { label: 'Statut', value: 'En cours' },
     ],
     description: 'Le Valais accueille une communauté musulmane arabophone importante, longtemps privée d\'un lieu de culte à sa mesure. La Mosquée An-Nour, portée par l\'Association An-Nour avec le soutien de la Fondation Wakef, comble ce vide historique. La Phase 1 de 210 m² est d\'ores et déjà opérationnelle.',
     avancement: 'Phase 1 (210 m²) : finalisée et opérationnelle. Phase 2 (210 m²) : promesse de vente signée, valable jusqu\'à fin 2026. Collecte de fonds en cours pour finaliser l\'acquisition et les travaux.',
-    vision: 'Faire de la Mosquée An-Nour le cœur spirituel de la communauté arabophone valaisanne — un espace de prière, d\'apprentissage et de vie communautaire pour les générations présentes et futures.',
+    vision: 'Faire de la Mosquée An-Nour le cœur spirituel de la communauté arabophone valaisanne, un espace de prière, d\'apprentissage et de vie communautaire pour les générations présentes et futures.',
   },
   bibliotheque: {
     title: 'Bibliothèque Mobile',
-    subtitle: '« Ponts du Savoir » — Le savoir nous rassemble',
+    subtitle: '« Ponts du Savoir » Le savoir nous rassemble',
     ville: 'Suisse romande',
     annee: '2023',
     surface: 'Itinérante',
@@ -140,9 +140,9 @@ const PROJECTS = {
       { label: 'Conformité', value: 'Conforme à la LPD' },
       { label: 'Statut', value: 'En cours' },
     ],
-    description: 'Sous le slogan « Faisons connaissance. Le savoir nous rassemble. », la Bibliothèque Mobile sillonne la Suisse romande pour créer des ponts entre les communautés. L\'équipe d\'ambassadeurs ne transporte pas seulement des livres — elle transporte des histoires, des langues, et l\'élan d\'une rencontre authentique entre des personnes de cultures différentes.',
+    description: 'Sous le slogan « Faisons connaissance. Le savoir nous rassemble. », la Bibliothèque Mobile sillonne la Suisse romande pour créer des ponts entre les communautés. L\'équipe d\'ambassadeurs ne transporte pas seulement des livres, elle transporte des histoires, des langues, et l\'élan d\'une rencontre authentique entre des personnes de cultures différentes.',
     avancement: 'Programme actif depuis 2023. Présence régulière dans les événements culturels et espaces publics de Suisse romande. Réseau d\'ambassadeurs en développement continu.',
-    vision: 'Faire de la Bibliothèque Mobile « Ponts du Savoir » une référence nationale pour le dialogue interculturel par l\'éducation — en s\'appuyant sur le pouvoir rassembleur universel de la connaissance.',
+    vision: 'Faire de la Bibliothèque Mobile « Ponts du Savoir » une référence nationale pour le dialogue interculturel par l\'éducation, en s\'appuyant sur le pouvoir rassembleur universel de la connaissance.',
   },
 };
 

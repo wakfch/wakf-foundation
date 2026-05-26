@@ -14,7 +14,7 @@ export default function About() {
     <>
       <div className="page-hero">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="page-hero__label">Fondation Wakef – Suisse depuis 2009</span>
+          <span className="page-hero__label">Fondation Wakef Suisse depuis 2009</span>
           <h1 className="page-hero__title">À Propos de la Fondation</h1>
           <p className="page-hero__sub">Découvrez notre histoire, notre mission et les 6 objectifs qui guident notre action pour la communauté musulmane en Suisse.</p>
         </div>
@@ -40,10 +40,10 @@ export default function About() {
                 <h2 className="section-title">Fondée en 2009, une mission durable</h2>
                 <span className="accent-line" />
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
-                  La Fondation Wakef – Suisse a été créée en 2009 sous l'égide de l'article 80 du Code civil suisse, enregistrée sous le numéro CHE-114.901.246. Elle est née d'une conviction profonde : la communauté musulmane de Suisse mérite des institutions durables, indépendantes et gouvernées avec rigueur.
+                  La Fondation Wakef Suisse a été créée en 2009 sous l'égide de l'article 80 du Code civil suisse, enregistrée sous le numéro CHE-114.901.246. Elle est née d'une conviction profonde : la communauté musulmane de Suisse mérite des institutions durables, indépendantes et gouvernées avec rigueur.
                 </p>
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
-                  Son nom — <em>Wakef</em> (وقف) — renvoie au concept islamique de dotation perpétuelle : un bien ou une somme dédiés irrévocablement à une cause d'intérêt général, dont les revenus servent la communauté génération après génération.
+                  Son nom <em>Wakef</em> (وقف) renvoie au concept islamique de dotation perpétuelle : un bien ou une somme dédiés irrévocablement à une cause d'intérêt général, dont les revenus servent la communauté génération après génération.
                 </p>
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
                   <strong>Notre mission :</strong> Promouvoir une citoyenneté positive à travers un cadre éducatif et religieux équilibré. Nos actions couvrent l'entretien des lieux de culte, la formation des imams, le soutien à la recherche scientifique et l'accompagnement académique des jeunes.
@@ -107,7 +107,7 @@ export default function About() {
                 ['🏛️', 'Conseil de fondation', 'Organe suprême responsable de la stratégie, de la surveillance et du respect des statuts. Composé de membres indépendants élus conformément à l\'art. 80 CC. Il se réunit au moins une fois par an.'],
                 ['⚙️', 'Comité de direction', 'Assure la gestion opérationnelle quotidienne : suivi des projets, relations partenaires, gestion financière et communication. Rend compte au Conseil de fondation avec un rapport d\'activité annuel détaillé.'],
                 ['📋', 'Organe de révision', 'Conformément à la législation suisse, un organe de révision indépendant vérifie annuellement les comptes et s\'assure du respect des obligations légales et statutaires.'],
-                ['☪️', 'Comité Charia', 'Un comité de savants qualifiés valide la conformité de chaque projet avec les principes islamiques. Tous les fonds sont gérés selon la finance islamique — sans intérêt, dans la transparence totale.'],
+                ['☪️', 'Comité Charia', 'Un comité de savants qualifiés valide la conformité de chaque projet avec les principes islamiques. Tous les fonds sont gérés selon la finance islamique, sans intérêt, dans la transparence totale.'],
               ].map(([icon, title, desc]) => (
                 <div key={title} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-3)', marginBottom: 'var(--space-4)' }}>
@@ -133,7 +133,7 @@ export default function About() {
               <div className="legal-box__title">Identification officielle de la Fondation</div>
               <div className="legal-box__grid">
                 {[
-                  ['Dénomination officielle', 'Fondation WAKEF – SUISSE'],
+                  ['Dénomination officielle', 'Fondation WAKEF SUISSE'],
                   ['Numéro d\'identification', 'CHE-114.901.246'],
                   ['Forme juridique', 'Fondation de droit privé suisse'],
                   ['Base légale', 'Art. 80 ss du Code civil suisse (CC)'],
@@ -141,7 +141,7 @@ export default function About() {
                   ['Bureau de contact', 'Rue de Mardertsch 64, 2503 Bienne (BE)'],
                   ['Année de fondation', '2009'],
                   ['Capital de dotation', 'CHF 50 000'],
-                  ['Reconnaissance d\'utilité publique', 'Oui — exonération fiscale'],
+                  ['Reconnaissance d\'utilité publique', 'Oui, exonération fiscale'],
                   ['Surveillance', 'Autorité fédérale de surveillance des fondations'],
                   ['Email', <a href="mailto:info@wakf.ch" style={{ color: 'var(--green)' }}>info@wakf.ch</a>],
                   ['Téléphone', <a href="tel:+41793799646" style={{ color: 'var(--green)' }}>+41 79 379 96 46</a>],

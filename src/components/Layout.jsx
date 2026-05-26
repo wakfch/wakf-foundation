@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import CookieBanner from './CookieBanner';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -16,6 +17,7 @@ export default function Layout({ children }) {
       <Header />
       <main style={{ paddingTop: 'var(--nav-h)' }}>{children}</main>
       <Footer />
+      <CookieBanner />
     </>
   );
 }

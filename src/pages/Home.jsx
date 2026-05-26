@@ -103,12 +103,12 @@ export default function Home() {
       }}>
         <div style={{
           position: 'absolute', inset: 0, opacity: .04,
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon fill='%23ffffff' points='30,2 34.6,18.9 49.8,10.2 41.1,25.4 58,30 41.1,34.6 49.8,49.8 34.6,41.1 30,58 25.4,41.1 10.2,49.8 18.9,34.6 2,30 18.9,25.4 10.2,10.2 25.4,18.9'/%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpolygon fill='%23ffffff' points='30,8 33.83,20.76 45.56,14.44 39.24,26.17 52,30 39.24,33.83 45.56,45.56 33.83,39.24 30,52 26.17,39.24 14.44,45.56 20.76,33.83 8,30 20.76,26.17 14.44,14.44 26.17,20.76'/%3E%3Cpolygon fill='%23ffffff' points='0,0 6,0 0,6'/%3E%3Cpolygon fill='%23ffffff' points='60,0 60,6 54,0'/%3E%3Cpolygon fill='%23ffffff' points='0,60 0,54 6,60'/%3E%3Cpolygon fill='%23ffffff' points='60,60 54,60 60,54'/%3E%3Cpolygon fill='%23ffffff' points='26,0 30,4 34,0'/%3E%3Cpolygon fill='%23ffffff' points='26,60 30,56 34,60'/%3E%3Cpolygon fill='%23ffffff' points='0,26 4,30 0,34'/%3E%3Cpolygon fill='%23ffffff' points='60,26 56,30 60,34'/%3E%3C/svg%3E")`,
         }} />
         <div className="container" style={{ position: 'relative', zIndex: 1, paddingBlock: '120px 80px', textAlign: 'center' }}>
           <div style={{ display: 'inline-block', background: 'rgba(200,169,81,.15)', border: '1px solid rgba(200,169,81,.3)', borderRadius: 999, padding: '6px 20px', marginBottom: 'var(--space-5)' }}>
             <span style={{ fontSize: 12, fontWeight: 700, letterSpacing: '.15em', textTransform: 'uppercase', color: 'var(--gold)' }}>
-              Fondation Wakef – Suisse · CHE-114.901.246
+              Fondation Wakef Suisse
             </span>
           </div>
           <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(36px,6vw,68px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.1, marginBottom: 'var(--space-6)', maxWidth: 800, marginInline: 'auto' }}>
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }} className="reveal" ref={addReveal}>
             <span className="section-label">Qui sommes-nous</span>
-            <h2 className="section-title" style={{ marginInline: 'auto' }}>La Fondation Wakef – Suisse</h2>
+            <h2 className="section-title" style={{ marginInline: 'auto' }}>La Fondation Wakef Suisse</h2>
             <span className="accent-line" style={{ marginInline: 'auto' }} />
             <p className="section-body" style={{ marginInline: 'auto' }}>
               Fondée en 2009, fondation de droit privé suisse (art. 80 CC) dédiée au financement de projets islamiques durables sur le territoire helvétique.
@@ -153,7 +153,7 @@ export default function Home() {
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🔍</div>
               <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Mission</h3>
               <p style={{ fontSize: 14, color: 'rgba(255,255,255,.85)', lineHeight: 1.8, fontWeight: 300 }}>
-                Bâtir un héritage islamique durable en Suisse en finançant des mosquées, centres islamiques et programmes éducatifs — en conformité avec les valeurs de l'Islam et le droit civil suisse.
+                Bâtir un héritage islamique durable en Suisse en finançant des mosquées, centres islamiques et programmes éducatifs en conformité avec les valeurs de l'Islam et le droit civil suisse.
               </p>
             </div>
             <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
@@ -227,7 +227,7 @@ export default function Home() {
           <span style={{ display: 'block', fontSize: 11, fontWeight: 700, letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 'var(--space-4)' }}>Soutenir la Fondation</span>
           <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(26px,4vw,40px)', fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Votre don compte</h2>
           <p style={{ fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: 300, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-8)', lineHeight: 1.75 }}>
-            Votre don, quel que soit son montant, contribue directement au financement de nos projets Waqf en Suisse : mosquées, centres islamiques et accompagnement de la communauté musulmane. Chaque contribution est une Sadaqa Jariya — une aumône qui dure.
+            Votre don, quel que soit son montant, contribue directement au financement de nos projets Waqf en Suisse : mosquées, centres islamiques et accompagnement de la communauté musulmane. Chaque contribution est une Sadaqa Jariya, une aumône qui dure.
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link to="/don" className="btn btn--gold btn--lg">Faire un don maintenant →</Link>

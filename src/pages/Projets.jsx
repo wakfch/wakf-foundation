@@ -79,7 +79,7 @@ export default function Projets() {
     <>
       <div className="page-hero">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="page-hero__label">Fondation Wakef – Suisse</span>
+          <span className="page-hero__label">Fondation Wakef Suisse</span>
           <h1 className="page-hero__title">Nos Projets</h1>
           <p className="page-hero__sub">Chaque projet construit un héritage durable pour la communauté musulmane en Suisse. Explorez nos réalisations passées et en cours.</p>
         </div>

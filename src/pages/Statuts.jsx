@@ -4,7 +4,7 @@ const ARTICLES = [
   {
     num: 1,
     titre: 'Dénomination et durée',
-    contenu: 'Il est constitué sous le nom de « Fondation WAKEF – SUISSE » (ci-après « la Fondation ») une fondation de droit privé suisse au sens des articles 80 et suivants du Code civil suisse. La durée de la Fondation est illimitée.',
+    contenu: 'Il est constitué sous le nom de « Fondation WAKEF SUISSE » (ci-après « la Fondation ») une fondation de droit privé suisse au sens des articles 80 et suivants du Code civil suisse. La durée de la Fondation est illimitée.',
   },
   {
     num: 2,
@@ -138,7 +138,7 @@ export default function Statuts() {
             <div style={{ background: 'var(--green-light)', border: '1px solid rgba(45,122,58,.15)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', marginBottom: 'var(--space-10)' }}>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-6)', flexWrap: 'wrap' }}>
                 <div style={{ flex: 1, minWidth: 200 }}>
-                  <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>Fondation WAKEF – SUISSE</h2>
+                  <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>Fondation WAKEF SUISSE</h2>
                   <p style={{ fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.7 }}>
                     Numéro IDE : CHE-114.901.246<br />
                     Fondée le 5 juin 2009 · Modifiée le 13 avril 2018<br />
@@ -176,7 +176,7 @@ export default function Statuts() {
                   </div>
                   <div>
                     <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 15, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>
-                      Art. {art.num} — {art.titre}
+                      Art. {art.num}: {art.titre}
                     </h3>
                     <p style={{ fontSize: 14, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{art.contenu}</p>
                   </div>
@@ -186,7 +186,6 @@ export default function Statuts() {
 
             <div style={{ marginTop: 'var(--space-10)', display: 'flex', gap: 'var(--space-4)', alignItems: 'center', flexWrap: 'wrap' }}>
               <Link to="/a-propos" className="btn btn--outline btn--sm">← Retour À Propos</Link>
-              <a href="mailto:info@wakf.ch" className="btn btn--primary btn--sm">Demander une copie officielle</a>
             </div>
 
           </div>

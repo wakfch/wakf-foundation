@@ -29,7 +29,7 @@ export default function Contact() {
     <>
       <div className="page-hero">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="page-hero__label">Fondation Wakef – Suisse</span>
+          <span className="page-hero__label">Fondation Wakef Suisse</span>
           <h1 className="page-hero__title">Contactez-nous</h1>
           <p className="page-hero__sub">Notre équipe répond dans les 48h ouvrables. Pour les urgences, appelez le +41 79 379 96 46.</p>
         </div>

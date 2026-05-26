@@ -69,7 +69,7 @@ export default function Zakat() {
             <div className="zakat__grid">
               {/* Form */}
               <div className="zakat__form">
-                <p className="zakat__form-title">Vos avoirs — نصاب</p>
+                <p className="zakat__form-title">Vos avoirs</p>
                 {[
                   ['or', 'Or possédé', '(valeur en CHF/€)'],
                   ['argent', 'Argent possédé', '(valeur en CHF/€)'],
@@ -124,12 +124,12 @@ export default function Zakat() {
           <div className="container" style={{ maxWidth: 900 }}>
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }}>
               <span className="section-label">Comprendre</span>
-              <h2 className="section-title" style={{ marginInline: 'auto' }}>Nisab, Hawl et Zakat — les bases</h2>
+              <h2 className="section-title" style={{ marginInline: 'auto' }}>Nisab, Hawl et Zakat</h2>
               <span className="accent-line" style={{ marginInline: 'auto' }} />
             </div>
             <div className="grid-2">
               {[
-                ['⚖️', 'Le Nisab — النصاب', 'Le Nisab est le seuil minimal de richesse. Il est fixé à la valeur de 85g d\'or (ou 595g d\'argent selon les écoles). En 2025, cela correspond environ à <strong>CHF 4 600</strong>. Ce montant est réévalué selon le cours de l\'or.'],
+                ['⚖️', 'Le Nisab النصاب', 'Le Nisab est le seuil minimal de richesse. Il est fixé à la valeur de 85g d\'or (ou 595g d\'argent selon les écoles). En 2025, cela correspond environ à <strong>CHF 4 600</strong>. Ce montant est réévalué selon le cours de l\'or.'],
                 ['📅', 'Le Hawl — الحول', 'Le Hawl est la condition de durée : votre patrimoine doit dépasser le Nisab pendant une année lunaire complète (environ 354 jours) pour que la Zakat soit obligatoire.'],
                 ['💰', 'Le taux de 2,5%', 'Le taux de la Zakat sur la richesse monétaire (Zakat al-Māl) est de <strong>2,5%</strong> du patrimoine net imposable, soit la somme totale de vos avoirs moins vos dettes à court terme.'],
                 ['📦', 'Ce qui est zakatable', 'Sont zakatables : or & argent physiques, espèces, comptes bancaires, actions (valeur de marché), épargne et placements halal. Ne sont pas zakatables : résidence principale, véhicule personnel, biens d\'usage personnel.'],
@@ -149,15 +149,15 @@ export default function Zakat() {
           <div className="container">
             <div style={{ textAlign: 'center', marginBottom: 'var(--space-10)' }}>
               <span className="section-label">Questions fréquentes</span>
-              <h2 className="section-title" style={{ marginInline: 'auto' }}>FAQ — Zakat</h2>
+              <h2 className="section-title" style={{ marginInline: 'auto' }}>FAQ Zakat</h2>
               <span className="accent-line" style={{ marginInline: 'auto' }} />
             </div>
             <div className="faq__list">
               {[
                 ['Puis-je payer ma Zakat en plusieurs fois ?', 'Oui, la Zakat peut être versée en plusieurs fois tout au long de l\'année lunaire, tant que le montant total est acquitté avant la date anniversaire (Hawl). Toutefois, il est préférable de la payer en une seule fois pour éviter d\'oublier une échéance.'],
-                ['La Zakat sur les salaires — comment la calculer ?', 'Pour les salariés, la Zakat se calcule sur l\'épargne nette accumulée depuis un an, pas sur le salaire brut. Calculez votre épargne restante (revenus - dépenses nécessaires) au bout d\'une année lunaire. Si cette épargne dépasse le Nisab, vous devez 2,5% dessus.'],
-                ['La Zakat est-elle déductible des impôts suisses ?', 'Les dons à une fondation reconnue d\'utilité publique comme la Fondation Wakef – Suisse peuvent être déduits des impôts suisses selon les règles cantonales. Nous émettons des reçus fiscaux pour tous vos dons.'],
-                ['Mon calculateur indique "En dessous du Nisab" — suis-je exempt ?', 'Si votre patrimoine net est inférieur au Nisab (~CHF 4 600), vous n\'êtes pas redevable de la Zakat al-Māl. Vous pouvez néanmoins faire une Sadaqah voluntaire à tout moment.'],
+                ['La Zakat sur les salaires, comment la calculer ?', 'Pour les salariés, la Zakat se calcule sur l\'épargne nette accumulée depuis un an, pas sur le salaire brut. Calculez votre épargne restante (revenus - dépenses nécessaires) au bout d\'une année lunaire. Si cette épargne dépasse le Nisab, vous devez 2,5% dessus.'],
+                ['La Zakat est-elle déductible des impôts suisses ?', 'Les dons à une fondation reconnue d\'utilité publique comme la Fondation Wakef Suisse peuvent être déduits des impôts suisses selon les règles cantonales. Nous émettons des reçus fiscaux pour tous vos dons.'],
+                ['Mon calculateur indique "En dessous du Nisab", suis-je exempt ?', 'Si votre patrimoine net est inférieur au Nisab (~CHF 4 600), vous n\'êtes pas redevable de la Zakat al-Māl. Vous pouvez néanmoins faire une Sadaqah voluntaire à tout moment.'],
                 ['Situations complexes : entrepreneur, immobilier, crypto…', 'Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre comité Charia. Contactez-nous à <a href="mailto:info@wakf.ch" style="color:var(--green)">info@wakf.ch</a>.'],
               ].map(([q, a]) => <FaqItem key={q} q={q} a={a} />)}
             </div>

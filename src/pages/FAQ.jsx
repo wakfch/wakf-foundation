@@ -5,8 +5,8 @@ const FAQS = [
   {
     cat: 'Fondation',
     items: [
-      ['Qu\'est-ce que la Fondation Wakef – Suisse ?', 'La Fondation Wakef – Suisse est une fondation de droit privé suisse (art. 80 CC), enregistrée sous CHE-114.901.246, fondée en 2009. Elle finance des projets d\'infrastructure islamique en Suisse : mosquées, centres islamiques, bourses d\'études et carrés musulmans dans les cimetières.'],
-      ['La Fondation est-elle reconnue d\'utilité publique ?', 'Oui. La Fondation Wakef – Suisse est reconnue d\'utilité publique par les autorités fiscales suisses. Vos dons sont déductibles des impôts selon les règles cantonales en vigueur.'],
+      ['Qu\'est-ce que la Fondation Wakef Suisse ?', 'La Fondation Wakef Suisse est une fondation de droit privé suisse (art. 80 CC), enregistrée sous CHE-114.901.246, fondée en 2009. Elle finance des projets d\'infrastructure islamique en Suisse : mosquées, centres islamiques, bourses d\'études et carrés musulmans dans les cimetières.'],
+      ['La Fondation est-elle reconnue d\'utilité publique ?', 'Oui. La Fondation Wakef Suisse est reconnue d\'utilité publique par les autorités fiscales suisses. Vos dons sont déductibles des impôts selon les règles cantonales en vigueur.'],
       ['Qui contrôle la Fondation ?', 'La Fondation est supervisée par l\'Autorité fédérale de surveillance des fondations. Elle dispose d\'un organe de révision indépendant qui vérifie annuellement les comptes et d\'un comité Charia qui valide la conformité islamique de chaque projet.'],
       ['Quel est le capital de dotation ?', 'Le capital de dotation initial est de CHF 50 000, conformément aux statuts enregistrés en 2009. Tous les fonds collectés s\'ajoutent à ce capital et sont utilisés exclusivement pour les projets de la Fondation.'],
     ],
@@ -17,7 +17,7 @@ const FAQS = [
       ['Comment faire un don ?', 'Vous pouvez faire un don via notre formulaire en ligne sur la page "Faire un don", par virement bancaire (coordonnées disponibles sur demande à info@wakf.ch), ou par courrier à notre bureau de contact à Bienne.'],
       ['Les dons sont-ils déductibles des impôts suisses ?', 'Oui. En tant que fondation reconnue d\'utilité publique, vos dons à la Fondation Wakef sont déductibles de votre revenu imposable selon les règles cantonales. Nous émettons un reçu fiscal pour tout don dès CHF 20.'],
       ['Puis-je faire un don récurrent (mensuel) ?', 'Oui. Vous pouvez opter pour un don mensuel en précisant votre souhait dans le formulaire. Notre équipe vous contactera pour mettre en place le virement automatique.'],
-      ['La Fondation est-elle transparente dans sa gestion ?', 'Oui. La Fondation Wakef – Suisse est soumise au droit civil suisse (art. 80 CC) et supervisée par l\'Autorité cantonale de surveillance des fondations du canton de Vaud. Les comptes sont contrôlés annuellement par un organe de révision indépendant et les rapports financiers sont disponibles sur demande à info@wakf.ch.'],
+      ['La Fondation est-elle transparente dans sa gestion ?', 'Oui. La Fondation Wakef Suisse est soumise au droit civil suisse (art. 80 CC) et supervisée par l\'Autorité cantonale de surveillance des fondations du canton de Vaud. Les comptes sont contrôlés annuellement par un organe de révision indépendant et les rapports financiers sont disponibles sur demande à info@wakf.ch.'],
     ],
   },
   {
@@ -61,7 +61,7 @@ export default function FAQ() {
     <>
       <div className="page-hero">
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="page-hero__label">Fondation Wakef – Suisse</span>
+          <span className="page-hero__label">Fondation Wakef Suisse</span>
           <h1 className="page-hero__title">Questions fréquentes</h1>
           <p className="page-hero__sub">Toutes les réponses sur la Fondation, les dons, la Zakat et nos projets. Une question sans réponse ? Écrivez-nous.</p>
         </div>
