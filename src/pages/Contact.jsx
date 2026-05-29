@@ -12,15 +12,34 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
+    console.log('[Contact] Envoi vers Formspree:', `https://formspree.io/f/${FORMSPREE_ID}`);
+    console.log('[Contact] Données:', form);
     try {
       const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, _subject: `Contact: ${form.sujet}` }),
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+        body: JSON.stringify({
+          nom: form.nom,
+          email: form.email,
+          sujet: form.sujet,
+          message: form.message,
+          _subject: `Contact Wakef: ${form.sujet || 'Message'}`,
+        }),
       });
-      if (res.ok) { setStatus('success'); setForm({ nom: '', email: '', sujet: '', message: '' }); }
-      else setStatus('error');
-    } catch {
+      console.log('[Contact] Réponse status:', res.status, res.ok);
+      if (res.ok) {
+        setStatus('success');
+        setForm({ nom: '', email: '', sujet: '', message: '' });
+      } else {
+        const data = await res.json().catch(() => ({}));
+        console.error('[Contact] Erreur Formspree:', data);
+        setStatus('error');
+      }
+    } catch (err) {
+      console.error('[Contact] Erreur réseau:', err);
       setStatus('error');
     }
   };
