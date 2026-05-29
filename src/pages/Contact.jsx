@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID || 'xyzabcde';
+const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID || 'mreddaay';
 
 export default function Contact() {
   const [form, setForm] = useState({ nom: '', email: '', sujet: '', message: '' });
@@ -92,7 +92,7 @@ export default function Contact() {
                 {status === 'success' ? (
                   <div style={{ textAlign: 'center', padding: 'var(--space-10)' }}>
                     <div style={{ fontSize: 48, marginBottom: 'var(--space-4)' }}>✅</div>
-                    <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>Message envoyé !</h4>
+                    <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>Merci, ton message a été reçu !</h4>
                     <p style={{ fontSize: 14, color: 'var(--text-muted)' }}>Nous vous répondrons dans les 48h ouvrables.</p>
                   </div>
                 ) : (
