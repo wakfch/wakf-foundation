@@ -1,48 +1,12 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-
-const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID || 'mreddaay';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Contact() {
   const [form, setForm] = useState({ nom: '', email: '', sujet: '', message: '' });
-  const [status, setStatus] = useState('idle');
+  const location = useLocation();
+  const sent = new URLSearchParams(location.search).get('sent') === '1';
 
   const set = (k, v) => setForm(f => ({ ...f, [k]: v }));
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus('loading');
-    console.log('[Contact] Envoi vers Formspree:', `https://formspree.io/f/${FORMSPREE_ID}`);
-    console.log('[Contact] Données:', form);
-    try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json',
-        },
-        body: JSON.stringify({
-          nom: form.nom,
-          email: form.email,
-          sujet: form.sujet,
-          message: form.message,
-          _subject: `Contact Wakef: ${form.sujet || 'Message'}`,
-        }),
-      });
-      console.log('[Contact] Réponse status:', res.status, res.ok);
-      if (res.ok) {
-        setStatus('success');
-        setForm({ nom: '', email: '', sujet: '', message: '' });
-      } else {
-        const data = await res.json().catch(() => ({}));
-        console.error('[Contact] Erreur Formspree:', data);
-        setStatus('error');
-      }
-    } catch (err) {
-      console.error('[Contact] Erreur réseau:', err);
-      setStatus('error');
-    }
-  };
 
   return (
     <>
@@ -108,27 +72,33 @@ export default function Contact() {
               <div style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)' }}>
                 <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-6)' }}>Envoyer un message</h3>
 
-                {status === 'success' ? (
+                {sent ? (
                   <div style={{ textAlign: 'center', padding: 'var(--space-10)' }}>
                     <div style={{ fontSize: 48, marginBottom: 'var(--space-4)' }}>✅</div>
                     <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--green)', marginBottom: 'var(--space-3)' }}>Merci, ton message a été reçu !</h4>
                     <p style={{ fontSize: 14, color: 'var(--text-muted)' }}>Nous vous répondrons dans les 48h ouvrables.</p>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
+                  <form
+                    method="POST"
+                    action="https://formspree.io/f/mreddaay"
+                    style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}
+                  >
+                    <input type="hidden" name="_next" value="https://wakf.ch/contact?sent=1" />
+                    <input type="hidden" name="_subject" value="Contact Wakef Suisse" />
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                       <div className="form-group">
                         <label className="form-label">Nom complet *</label>
-                        <input required className="form-input" value={form.nom} onChange={e => set('nom', e.target.value)} />
+                        <input required name="nom" className="form-input" value={form.nom} onChange={e => set('nom', e.target.value)} />
                       </div>
                       <div className="form-group">
                         <label className="form-label">Email *</label>
-                        <input required type="email" className="form-input" value={form.email} onChange={e => set('email', e.target.value)} />
+                        <input required type="email" name="email" className="form-input" value={form.email} onChange={e => set('email', e.target.value)} />
                       </div>
                     </div>
                     <div className="form-group">
                       <label className="form-label">Sujet *</label>
-                      <select required className="form-select" value={form.sujet} onChange={e => set('sujet', e.target.value)}>
+                      <select required name="sujet" className="form-select" value={form.sujet} onChange={e => set('sujet', e.target.value)}>
                         <option value="">Choisir un sujet…</option>
                         <option>Faire un don</option>
                         <option>Zakat & Sadaqah</option>
@@ -140,15 +110,10 @@ export default function Contact() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Message *</label>
-                      <textarea required className="form-textarea" rows={5} value={form.message} onChange={e => set('message', e.target.value)} placeholder="Votre message…" />
+                      <textarea required name="message" className="form-textarea" rows={5} value={form.message} onChange={e => set('message', e.target.value)} placeholder="Votre message…" />
                     </div>
-                    {status === 'error' && (
-                      <div style={{ padding: 'var(--space-3)', background: '#fef2f2', border: '1px solid #fecaca', borderRadius: 'var(--radius-md)', fontSize: 14, color: '#dc2626' }}>
-                        Une erreur est survenue. Veuillez réessayer ou écrire directement à <a href="mailto:info@wakf.ch" style={{ color: '#dc2626' }}>info@wakf.ch</a>.
-                      </div>
-                    )}
-                    <button type="submit" className="btn btn--primary" style={{ width: '100%', justifyContent: 'center' }} disabled={status === 'loading'}>
-                      {status === 'loading' ? 'Envoi en cours…' : 'Envoyer le message →'}
+                    <button type="submit" className="btn btn--primary" style={{ width: '100%', justifyContent: 'center' }}>
+                      Envoyer le message →
                     </button>
                     <p style={{ fontSize: 12, color: 'var(--text-faint)', textAlign: 'center' }}>Vos données sont protégées et ne seront jamais partagées.</p>
                   </form>
