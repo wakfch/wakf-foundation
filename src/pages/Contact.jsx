@@ -1,12 +1,8 @@
-import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Contact() {
-  const [form, setForm] = useState({ nom: '', email: '', sujet: '', message: '' });
   const location = useLocation();
   const sent = new URLSearchParams(location.search).get('sent') === '1';
-
-  const set = (k, v) => setForm(f => ({ ...f, [k]: v }));
 
   return (
     <>
@@ -84,22 +80,21 @@ export default function Contact() {
                     action="https://formspree.io/f/mreddaay"
                     style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}
                   >
-                    <input type="hidden" name="_next" value="https://fluffy-klepon-234f3d.netlify.app/contact?sent=1" />
                     <input type="hidden" name="_subject" value="Contact Wakef Suisse" />
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                       <div className="form-group">
                         <label className="form-label">Nom complet *</label>
-                        <input required name="nom" className="form-input" value={form.nom} onChange={e => set('nom', e.target.value)} />
+                        <input required name="nom" className="form-input" />
                       </div>
                       <div className="form-group">
                         <label className="form-label">Email *</label>
-                        <input required type="email" name="email" className="form-input" value={form.email} onChange={e => set('email', e.target.value)} />
+                        <input required type="email" name="email" className="form-input" />
                       </div>
                     </div>
                     <div className="form-group">
                       <label className="form-label">Sujet *</label>
-                      <select required name="sujet" className="form-select" value={form.sujet} onChange={e => set('sujet', e.target.value)}>
-                        <option value="">Choisir un sujet…</option>
+                      <select required name="sujet" className="form-select" defaultValue="">
+                        <option value="" disabled>Choisir un sujet…</option>
                         <option>Faire un don</option>
                         <option>Zakat & Sadaqah</option>
                         <option>Nos projets</option>
@@ -110,7 +105,7 @@ export default function Contact() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Message *</label>
-                      <textarea required name="message" className="form-textarea" rows={5} value={form.message} onChange={e => set('message', e.target.value)} placeholder="Votre message…" />
+                      <textarea required name="message" className="form-textarea" rows={5} placeholder="Votre message…" />
                     </div>
                     <button type="submit" className="btn btn--primary" style={{ width: '100%', justifyContent: 'center' }}>
                       Envoyer le message →
