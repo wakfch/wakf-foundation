@@ -84,7 +84,7 @@ export default function Contact() {
                     action="https://formspree.io/f/mreddaay"
                     style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}
                   >
-                    <input type="hidden" name="_next" value="https://wakf.ch/contact?sent=1" />
+                    <input type="hidden" name="_next" value="https://fluffy-klepon-234f3d.netlify.app/contact?sent=1" />
                     <input type="hidden" name="_subject" value="Contact Wakef Suisse" />
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                       <div className="form-group">

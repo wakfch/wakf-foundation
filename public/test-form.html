@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Formspree</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 60px auto; padding: 20px; }
+    input, textarea { display: block; width: 100%; margin: 8px 0 16px; padding: 10px; font-size: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    button { background: #2d7a3a; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 15px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>Test Formspree – Wakef</h2>
+  <p>Formulaire HTML basique, sans React, sans JavaScript.</p>
+
+  <form method="POST" action="https://formspree.io/f/mreddaay">
+    <input type="hidden" name="_subject" value="Test Formspree Wakef">
+
+    <label>Email *</label>
+    <input type="email" name="email" required placeholder="votre@email.com">
+
+    <label>Nom</label>
+    <input type="text" name="nom" placeholder="Votre nom">
+
+    <label>Message *</label>
+    <textarea name="message" required placeholder="Votre message..." rows="5"></textarea>
+
+    <button type="submit">Envoyer le test →</button>
+  </form>
+</body>
+</html>
