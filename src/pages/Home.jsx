@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import ImageCarousel from '../components/ImageCarousel';
 
 const MADRETSCH_IMAGES = [
-  { src: '/images/madretsch/madretsch-1.jpg', caption: 'Après rénovation' },
-  { src: '/images/madretsch/madretsch-4.jpg', caption: 'Avant / Après' },
-  { src: '/images/madretsch/madretsch-2.jpg', caption: 'Avant travaux' },
-  { src: '/images/madretsch/madretsch-3.jpg', caption: 'Détail façade' },
+  { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation' },
+  { src: '/images/madretsch/DSC_0376.jpg', caption: 'Avant travaux' },
+  { src: '/images/madretsch/DSC_0381.jpg', caption: 'Détail façade' },
+  { src: '/images/madretsch/IMG-20191026-WA0046 (1) - Copie.jpg', caption: 'Avant / Après' },
 ];
 
 const PROJECTS = [
