@@ -5,7 +5,7 @@ const MADRETSCH_IMAGES = [
   { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation — façade restaurée' },
   { src: '/images/madretsch/DSC_0376.jpg', caption: 'Avant travaux — Vue de rue (2009)' },
   { src: '/images/madretsch/DSC_0381.jpg', caption: 'Avant travaux — Détail de la façade' },
-  { src: '/images/madretsch/IMG-20191026-WA0046 (1) - Copie.jpg', caption: 'Avant / Après — Comparaison de la transformation' },
+  { src: '/images/madretsch/IMG-20191026-WA0046%20(1)%20-%20Copie.jpg', caption: 'Avant / Après — Comparaison de la transformation' },
 ];
 
 const PROJECTS = {
@@ -205,7 +205,7 @@ export default function ProjectDetail() {
               <div>
                 <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', marginBottom: 'var(--space-10)' }}>
                   {project.images ? (
-                    <ImageCarousel images={project.images} title={project.title} height={400} showNav autoplay={false} />
+                    <ImageCarousel images={project.images} title={project.title} height={280} autoplay={false} />
                   ) : (
                     <img src={project.img} alt={project.title} style={{ width: '100%', height: 320, objectFit: 'cover' }} />
                   )}
