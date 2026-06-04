@@ -1,4 +1,12 @@
 import { Link, useParams } from 'react-router-dom';
+import ImageCarousel from '../components/ImageCarousel';
+
+const MADRETSCH_IMAGES = [
+  { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation — façade restaurée' },
+  { src: '/images/madretsch/IMG-20191026-WA0046__1__-_Copie.jpg', caption: 'Avant / Après — Comparaison de la transformation' },
+  { src: '/images/madretsch/DSC_0376.jpg', caption: 'Avant travaux — Vue de rue (2009)' },
+  { src: '/images/madretsch/DSC_0381.jpg', caption: 'Avant travaux — Détail de la façade' },
+];
 
 const PROJECTS = {
   madretsch: {
@@ -10,6 +18,7 @@ const PROJECTS = {
     type: 'Lieu de culte',
     statut: 'Réalisé',
     img: 'https://picsum.photos/1200/500?grayscale&random=1',
+    images: MADRETSCH_IMAGES,
     intro: 'La Mosquée Madretsch, inaugurée en 2009 à Bienne, est le premier grand projet de la Fondation Wakef Suisse. Avec ses 496 m², elle accueille la communauté musulmane du quartier de Madretsch et constitue le fondement sur lequel la Fondation a bâti son expertise en matière de financement islamique en Suisse.',
     objectifs: [
       'Créer un espace de culte digne pour la communauté musulmane de Madretsch',
@@ -195,7 +204,11 @@ export default function ProjectDetail() {
 
               <div>
                 <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', marginBottom: 'var(--space-10)' }}>
-                  <img src={project.img} alt={project.title} style={{ width: '100%', height: 320, objectFit: 'cover' }} />
+                  {project.images ? (
+                    <ImageCarousel images={project.images} title={project.title} height={400} showNav autoplay={false} />
+                  ) : (
+                    <img src={project.img} alt={project.title} style={{ width: '100%', height: 320, objectFit: 'cover' }} />
+                  )}
                 </div>
 
                 <div style={{ marginBottom: 'var(--space-10)' }}>
