@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ImageCarousel from '../components/ImageCarousel';
+import ImageLightbox from '../components/ImageLightbox';
 
 const MADRETSCH_IMAGES = [
   { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation — façade restaurée' },
@@ -158,6 +160,7 @@ const PROJECTS = {
 export default function ProjectDetail() {
   const { slug } = useParams();
   const project = PROJECTS[slug];
+  const [lightbox, setLightbox] = useState(null);
 
   if (!project) {
     return (
@@ -205,7 +208,13 @@ export default function ProjectDetail() {
               <div>
                 <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', marginBottom: 'var(--space-10)' }}>
                   {project.images ? (
-                    <ImageCarousel images={project.images} title={project.title} height={280} autoplay={false} />
+                    <ImageCarousel
+                      images={project.images}
+                      title={project.title}
+                      height={280}
+                      autoplay={false}
+                      onImageClick={(i) => setLightbox(i)}
+                    />
                   ) : (
                     <img src={project.img} alt={project.title} style={{ width: '100%', height: 320, objectFit: 'cover' }} />
                   )}
@@ -283,6 +292,14 @@ export default function ProjectDetail() {
           .project-detail-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
+
+      {lightbox !== null && project.images && (
+        <ImageLightbox
+          images={project.images}
+          initialIndex={lightbox}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </>
   );
 }

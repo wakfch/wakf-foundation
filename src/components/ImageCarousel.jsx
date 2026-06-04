@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
-export default function ImageCarousel({ images, title = '', height = 280, showNav = false, autoplay = false }) {
+export default function ImageCarousel({ images, title = '', height = 280, showNav = false, autoplay = false, onImageClick }) {
   const [idx, setIdx] = useState(0);
   const [animating, setAnimating] = useState(false);
   const touchStartX = useRef(null);
@@ -83,6 +83,8 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
           alt={img.caption || `${title} — photo ${i + 1}`}
           className={`carousel-img ${i === idx ? 'active' : 'inactive'}`}
           loading={i === 0 ? 'eager' : 'lazy'}
+          onClick={onImageClick ? () => onImageClick(i) : undefined}
+          style={onImageClick ? { cursor: 'zoom-in' } : undefined}
         />
       ))}
 
