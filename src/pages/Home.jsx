@@ -9,6 +9,11 @@ const MADRETSCH_IMAGES = [
   { src: '/images/madretsch/IMG-20191026-WA0046%20(1)%20-%20Copie.jpg', caption: 'Avant / Après' },
 ];
 
+const ALBADR_IMAGES = [
+  { src: '/images/albadr/el%20badr.jpg', caption: 'Centre Al Badr' },
+  { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure' },
+];
+
 const PROJECTS = [
   {
     id: 1,
@@ -42,6 +47,7 @@ const PROJECTS = [
     date: '2017',
     surface: '2 029 m²',
     img: 'https://picsum.photos/600/320?grayscale&random=3',
+    images: ALBADR_IMAGES,
     excerpt: 'Seule mosquée à la frontière franco-suisse — rénovation d\'un bâtiment historique de 1902.',
   },
 ];

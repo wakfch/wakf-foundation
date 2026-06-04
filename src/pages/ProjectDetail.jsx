@@ -10,6 +10,11 @@ const MADRETSCH_IMAGES = [
   { src: '/images/madretsch/IMG-20191026-WA0046%20(1)%20-%20Copie.jpg', caption: 'Avant / Après — Comparaison de la transformation' },
 ];
 
+const ALBADR_IMAGES = [
+  { src: '/images/albadr/el%20badr.jpg', caption: 'Centre Al Badr — vue principale' },
+  { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure — avril 2023' },
+];
+
 const PROJECTS = {
   madretsch: {
     title: 'Mosquée Madretsch',
@@ -75,6 +80,7 @@ const PROJECTS = {
     type: 'Centre culturel islamique',
     statut: 'En cours',
     img: 'https://picsum.photos/1200/500?grayscale&random=3',
+    images: ALBADR_IMAGES,
     intro: 'Le Centre Al Badr au Locle est un projet d\'envergure unique : avec un terrain de 2 029 m², dont 600 m² déjà bâtis et 1 400 m² destinés à l\'extension, il est la seule mosquée présente à la frontière franco-suisse. Le bâtiment existant, construit en 1902, est remarquable par son intérêt architectural.',
     objectifs: [
       'Rénovation complète du bâtiment historique de 1902',
