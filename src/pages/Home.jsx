@@ -104,6 +104,7 @@ export default function Home() {
         <div style={{
           position: 'absolute', inset: 0, opacity: .04,
           backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpolygon fill='%23ffffff' points='30,8 33.83,20.76 45.56,14.44 39.24,26.17 52,30 39.24,33.83 45.56,45.56 33.83,39.24 30,52 26.17,39.24 14.44,45.56 20.76,33.83 8,30 20.76,26.17 14.44,14.44 26.17,20.76'/%3E%3Cpolygon fill='%23ffffff' points='0,0 6,0 0,6'/%3E%3Cpolygon fill='%23ffffff' points='60,0 60,6 54,0'/%3E%3Cpolygon fill='%23ffffff' points='0,60 0,54 6,60'/%3E%3Cpolygon fill='%23ffffff' points='60,60 54,60 60,54'/%3E%3Cpolygon fill='%23ffffff' points='26,0 30,4 34,0'/%3E%3Cpolygon fill='%23ffffff' points='26,60 30,56 34,60'/%3E%3Cpolygon fill='%23ffffff' points='0,26 4,30 0,34'/%3E%3Cpolygon fill='%23ffffff' points='60,26 56,30 60,34'/%3E%3C/svg%3E")`,
+          backgroundSize: '40px 40px',
         }} />
         <div className="container" style={{ position: 'relative', zIndex: 1, paddingBlock: '120px 80px', textAlign: 'center' }}>
           <div style={{ display: 'inline-block', background: 'rgba(200,169,81,.15)', border: '1px solid rgba(200,169,81,.3)', borderRadius: 999, padding: '6px 20px', marginBottom: 'var(--space-5)' }}>
