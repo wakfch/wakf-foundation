@@ -1,5 +1,18 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ImageCarousel from '../components/ImageCarousel';
+
+const MADRETSCH_IMAGES = [
+  { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation' },
+  { src: '/images/madretsch/DSC_0376.jpg', caption: 'Avant travaux' },
+  { src: '/images/madretsch/DSC_0381.jpg', caption: 'Détail façade' },
+  { src: '/images/madretsch/IMG-20191026-WA0046%20(1)%20-%20Copie.jpg', caption: 'Avant / Après' },
+];
+
+const ALBADR_IMAGES = [
+  { src: '/images/albadr/el%20badr.jpg', caption: 'Centre Al Badr' },
+  { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure' },
+];
 
 const PROJECTS = [
   {
@@ -11,7 +24,7 @@ const PROJECTS = [
     date: '2009',
     surface: '496 m²',
     statut: 'termine',
-    img: 'https://picsum.photos/600/320?grayscale&random=1',
+    images: MADRETSCH_IMAGES,
     excerpt: 'Premier grand projet de la Fondation Wakef : construction et aménagement de la mosquée Madretsch à Bienne. Un espace de 496 m² au service de la communauté musulmane de Madretsch.',
   },
   {
@@ -35,7 +48,7 @@ const PROJECTS = [
     date: '2017',
     surface: '2 029 m²',
     statut: 'en-cours',
-    img: 'https://picsum.photos/600/320?grayscale&random=3',
+    images: ALBADR_IMAGES,
     excerpt: 'Seule mosquée à la frontière franco-suisse — rénovation d\'un bâtiment historique de 1902 et extension de 1 400 m² pour un grand centre culturel islamique.',
   },
   {
@@ -119,7 +132,11 @@ export default function Projets() {
                 {visible.map(p => (
                   <article className="projet-card" key={p.id} id={p.slug}>
                     <div className="projet-card__img">
-                      <img src={p.img} alt={p.title} loading="lazy" />
+                      {p.images ? (
+                        <ImageCarousel images={p.images} title={p.title} height={200} showNav autoplay />
+                      ) : (
+                        <img src={p.img} alt={p.title} loading="lazy" />
+                      )}
                     </div>
                     <div className="projet-card__body">
                       <span className="projet-card__tag">{p.type}</span>
