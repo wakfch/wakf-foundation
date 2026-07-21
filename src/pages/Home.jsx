@@ -64,7 +64,7 @@ const PROJECTS = [
 
 const STATS = [
   { num: 5, suffix: '', label: 'Projets financés', gold: false },
-  { num: 15, suffix: '+', label: 'Années d\'action', gold: true },
+  { num: 800, suffix: '+', label: 'Bénéficiaires', gold: true },
   { num: 50, suffix: 'k', label: 'CHF capital de dotation', gold: false },
   { num: 2657, suffix: ' m²', label: 'Surface construite', gold: false },
 ];
@@ -166,9 +166,17 @@ export default function Home() {
           <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
             <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🤝</div>
-              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Objectifs</h3>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-2)' }}>Objectifs</h3>
+              <p style={{ fontSize: 13, color: 'var(--green)', fontWeight: 600, marginBottom: 'var(--space-3)', textAlign: 'left' }}>Acquérir et promouvoir :</p>
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)', textAlign: 'left' }}>
-                {['Lieux de culte musulman', 'Formation & intégration des imams', 'Enseignement de l\'arabe', 'Bourses d\'études', 'Activités caritatives', 'Carrés musulmans'].map(item => (
+                {[
+                  'Les lieux de culte musulman',
+                  'La formation et intégration des imams',
+                  "L'enseignement de l'arabe",
+                  'Les bourses d\'études',
+                  'Les activités caritatives',
+                  'Les carrés musulmans',
+                ].map(item => (
                   <li key={item} style={{ fontSize: 14, color: 'var(--text-muted)', display: 'flex', alignItems: 'flex-start', gap: 'var(--space-2)', lineHeight: 1.5 }}>
                     <span style={{ color: 'var(--green)', fontWeight: 700, marginTop: 1 }}>·</span> {item}
                   </li>
