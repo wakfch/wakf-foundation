@@ -81,6 +81,7 @@ export default function Contact() {
                     style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}
                   >
                     <input type="hidden" name="_subject" value="Contact Wakef Suisse" />
+                    <input type="hidden" name="_next" value="https://wakf.ch/contact?sent=1" />
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
                       <div className="form-group">
                         <label className="form-label">Nom complet *</label>
