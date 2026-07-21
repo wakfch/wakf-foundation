@@ -14,6 +14,16 @@ const ALBADR_IMAGES = [
   { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure' },
 ];
 
+const ALIMAN_IMAGES = [
+  { src: '/images/aliman/0000.jpg', caption: 'Salle de prière' },
+  { src: '/images/aliman/IMG-20230418-WA0026.jpg', caption: 'Repas communautaire' },
+  { src: '/images/aliman/IMG-20231031-WA0012.jpg', caption: 'Conférence — espace femmes' },
+  { src: '/images/aliman/IMG-20231031-WA0013.jpg', caption: 'Prière — espace femmes' },
+  { src: '/images/aliman/IMG-20250331-WA0008.jpg', caption: 'Grande prière du vendredi' },
+  { src: '/images/aliman/IMG-20250331-WA0013.jpg', caption: 'Rassemblement extérieur' },
+  { src: '/images/aliman/IMG-20250413-WA0056.jpg', caption: 'Cours pour les enfants' },
+];
+
 const PROJECTS = [
   {
     id: 1,
@@ -36,7 +46,7 @@ const PROJECTS = [
     date: '2018',
     surface: '132 m²',
     statut: 'en-cours',
-    img: 'https://picsum.photos/600/320?grayscale&random=2',
+    images: ALIMAN_IMAGES,
     excerpt: 'Centre islamique opéré par l\'Association Culturelle Albanaise (CCA) — philosophie d\'ouverture totale, transcendant les nationalités pour accueillir toute la communauté fribourgeoise.',
   },
   {

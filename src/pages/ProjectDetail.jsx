@@ -15,6 +15,16 @@ const ALBADR_IMAGES = [
   { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure — avril 2023' },
 ];
 
+const ALIMAN_IMAGES = [
+  { src: '/images/aliman/0000.jpg', caption: 'Salle de prière — intérieur' },
+  { src: '/images/aliman/IMG-20230418-WA0026.jpg', caption: 'Repas communautaire' },
+  { src: '/images/aliman/IMG-20231031-WA0012.jpg', caption: 'Conférence — espace femmes' },
+  { src: '/images/aliman/IMG-20231031-WA0013.jpg', caption: 'Prière — espace femmes' },
+  { src: '/images/aliman/IMG-20250331-WA0008.jpg', caption: 'Grande prière du vendredi' },
+  { src: '/images/aliman/IMG-20250331-WA0013.jpg', caption: 'Rassemblement extérieur' },
+  { src: '/images/aliman/IMG-20250413-WA0056.jpg', caption: 'Cours pour les enfants' },
+];
+
 const PROJECTS = {
   madretsch: {
     title: 'Mosquée Madretsch',
@@ -53,6 +63,7 @@ const PROJECTS = {
     statut: 'En cours',
     operateur: 'Association Culturelle Albanaise (CCA)',
     img: 'https://picsum.photos/1200/500?grayscale&random=2',
+    images: ALIMAN_IMAGES,
     intro: 'Le Centre Al Iman à Fribourg, opéré par l\'Association Culturelle Albanaise (CCA), incarne une philosophie d\'ouverture totale : transcender les nationalités pour accueillir l\'ensemble de la communauté musulmane fribourgeoise. Construit en 1997, il couvre 132 m² au cœur de la ville.',
     objectifs: [
       'Rénover et moderniser les infrastructures pour mieux accueillir les fidèles',
