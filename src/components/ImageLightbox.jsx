@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
+  const { t } = useTranslation();
   const [idx, setIdx] = useState(initialIndex);
   const touchStartX = useRef(null);
   const total = images.length;
@@ -66,21 +68,21 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
         .lb-counter { position: absolute; top: 20px; left: 20px; color: rgba(255,255,255,.6); font-size: 13px; z-index: 10000; pointer-events: none; }
       `}</style>
 
-      <button className="lb-close" onClick={onClose} aria-label="Fermer">✕</button>
+      <button className="lb-close" onClick={onClose} aria-label={t('common.close')}>✕</button>
 
       <span className="lb-counter">{idx + 1} / {total}</span>
 
       <img
         key={idx}
         src={images[idx].src}
-        alt={images[idx].caption || `Photo ${idx + 1}`}
+        alt={images[idx].caption || t('common.photo', { n: idx + 1 })}
         className="lb-img"
       />
 
       {total > 1 && (
         <>
-          <button className="lb-btn lb-prev" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Photo précédente">‹</button>
-          <button className="lb-btn lb-next" onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Photo suivante">›</button>
+          <button className="lb-btn lb-prev" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label={t('common.prevPhoto')}>‹</button>
+          <button className="lb-btn lb-next" onClick={(e) => { e.stopPropagation(); next(); }} aria-label={t('common.nextPhoto')}>›</button>
         </>
       )}
 
@@ -94,7 +96,7 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
             key={i}
             className={`lb-dot${i === idx ? ' active' : ''}`}
             onClick={(e) => { e.stopPropagation(); goTo(i); }}
-            aria-label={`Photo ${i + 1}`}
+            aria-label={t('common.photo', { n: i + 1 })}
           />
         ))}
       </div>

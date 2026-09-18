@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function CookieBanner() {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -27,9 +29,9 @@ export default function CookieBanner() {
       }}>
         <div style={{ fontSize: 24, flexShrink: 0 }}>🍪</div>
         <p style={{ flex: 1, fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.6, minWidth: 260 }}>
-          Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre utilisation des cookies.{' '}
+          {t('cookies.text')}{' '}
           <Link to="/confidentialite" style={{ color: 'var(--green)', fontWeight: 600 }}>
-            Politique de confidentialité
+            {t('cookies.policy')}
           </Link>
         </p>
         <div style={{ display: 'flex', gap: 'var(--space-3)', flexShrink: 0, flexWrap: 'wrap' }}>
@@ -44,7 +46,7 @@ export default function CookieBanner() {
             onMouseOver={e => e.currentTarget.style.borderColor = 'var(--green)'}
             onMouseOut={e => e.currentTarget.style.borderColor = 'var(--border)'}
           >
-            Refuser
+            {t('cookies.refuse')}
           </button>
           <button
             onClick={accept}
@@ -57,7 +59,7 @@ export default function CookieBanner() {
             onMouseOver={e => e.currentTarget.style.background = 'var(--green-dark)'}
             onMouseOut={e => e.currentTarget.style.background = 'var(--green)'}
           >
-            Accepter tous les cookies
+            {t('cookies.accept')}
           </button>
         </div>
       </div>

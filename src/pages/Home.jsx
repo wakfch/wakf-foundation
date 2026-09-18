@@ -1,75 +1,23 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import ImageCarousel from '../components/ImageCarousel';
-
-const MADRETSCH_IMAGES = [
-  { src: '/images/madretsch/20191026_155720.jpg', caption: 'Après rénovation' },
-  { src: '/images/madretsch/DSC_0376.jpg', caption: 'Avant travaux' },
-  { src: '/images/madretsch/DSC_0381.jpg', caption: 'Détail façade' },
-  { src: '/images/madretsch/IMG-20191026-WA0046%20(1)%20-%20Copie.jpg', caption: 'Avant / Après' },
-];
-
-const ALBADR_IMAGES = [
-  { src: '/images/albadr/el%20badr.jpg', caption: 'Centre Al Badr' },
-  { src: '/images/albadr/20230430_102123.jpg', caption: 'Vue extérieure' },
-];
-
-const ALIMAN_IMAGES = [
-  { src: '/images/aliman/0000.jpg', caption: 'Salle de prière' },
-  { src: '/images/aliman/IMG-20230418-WA0026.jpg', caption: 'Repas communautaire' },
-  { src: '/images/aliman/IMG-20231031-WA0012.jpg', caption: 'Conférence — espace femmes' },
-  { src: '/images/aliman/IMG-20231031-WA0013.jpg', caption: 'Prière — espace femmes' },
-  { src: '/images/aliman/IMG-20250331-WA0008.jpg', caption: 'Grande prière du vendredi' },
-  { src: '/images/aliman/IMG-20250331-WA0013.jpg', caption: 'Rassemblement extérieur' },
-  { src: '/images/aliman/IMG-20250413-WA0056.jpg', caption: 'Cours pour les enfants' },
-];
+import { IMAGE_SRCS } from '../data/projectImages';
 
 const PROJECTS = [
-  {
-    id: 1,
-    slug: 'madretsch',
-    title: 'Mosquée Madretsch',
-    type: 'Lieu de culte',
-    ville: 'Bienne, BE',
-    date: '2009',
-    surface: '496 m²',
-    img: 'https://picsum.photos/600/320?grayscale&random=1',
-    images: MADRETSCH_IMAGES,
-    excerpt: 'Construction et aménagement de la mosquée Madretsch, premier grand projet de la Fondation Wakef.',
-  },
-  {
-    id: 2,
-    slug: 'aliman',
-    title: 'Centre Al Iman',
-    type: 'Centre islamique',
-    ville: 'Fribourg, FR',
-    date: '2018',
-    surface: '132 m²',
-    images: ALIMAN_IMAGES,
-    excerpt: 'Centre islamique ouvert à toutes les nationalités — philosophie d\'ouverture totale au cœur de Fribourg.',
-  },
-  {
-    id: 3,
-    slug: 'albadr',
-    title: 'Centre Al Badr',
-    type: 'Centre culturel',
-    ville: 'Le Locle, NE',
-    date: '2017',
-    surface: '2 029 m²',
-    img: 'https://picsum.photos/600/320?grayscale&random=3',
-    images: ALBADR_IMAGES,
-    excerpt: 'Seule mosquée à la frontière franco-suisse — rénovation d\'un bâtiment historique de 1902.',
-  },
+  { id: 1, slug: 'madretsch', date: '2009', img: 'https://picsum.photos/600/320?grayscale&random=1' },
+  { id: 2, slug: 'aliman', date: '2018' },
+  { id: 3, slug: 'albadr', date: '2017', img: 'https://picsum.photos/600/320?grayscale&random=3' },
 ];
 
 const STATS = [
-  { num: 5, suffix: '', label: 'Projets financés', gold: false },
-  { num: 800, suffix: '+', label: 'Bénéficiaires', gold: true },
-  { num: 50, suffix: 'k', label: 'CHF capital de dotation', gold: false },
-  { num: 2657, suffix: ' m²', label: 'Surface construite', gold: false },
+  { num: 5, suffix: '', key: 'projects', gold: false },
+  { num: 800, suffix: '+', key: 'beneficiaries', gold: true },
+  { num: 50, suffix: 'k', key: 'capital', gold: false },
+  { num: 2657, suffix: ' m²', key: 'surface', gold: false },
 ];
 
-function CountUp({ target, suffix, active }) {
+function CountUp({ target, suffix, active, locale }) {
   const [val, setVal] = useState(0);
   useEffect(() => {
     if (!active) return;
@@ -82,16 +30,20 @@ function CountUp({ target, suffix, active }) {
     }, 25);
     return () => clearInterval(id);
   }, [active, target]);
-  return <>{val.toLocaleString('fr-CH')}{suffix}</>;
+  return <>{val.toLocaleString(locale)}{suffix}</>;
 }
 
-const TESTIMONIALS = [
-  { text: 'Grâce à la Fondation Wakef, notre communauté dispose enfin d\'un lieu de culte digne. Le professionnalisme et la transparence sont exemplaires.', name: 'Imam Youssef A.', role: 'Bienne' },
-  { text: 'Le calculateur de Zakat est simple et fiable. J\'ai pu m\'acquitter de mon obligation en quelques minutes, avec un reçu fiscal en plus.', name: 'Fatima M.', role: 'Lausanne' },
-  { text: 'Je soutiens la Fondation depuis 2015. Chaque rapport annuel montre exactement comment mes dons sont utilisés. Une transparence totale.', name: 'Hassan B.', role: 'Zürich' },
-];
+const TESTIMONIAL_COUNT = 3;
+const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'fr-CH' };
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
+  const numLocale = NUMBER_LOCALES[(i18n.language || 'fr').slice(0, 2)] || 'fr-CH';
+  const testimonials = t('home.testimonials.items', { returnObjects: true });
+  const objectives = t('home.about.objectives', { returnObjects: true });
+  const values = t('home.about.values', { returnObjects: true });
+  const faqItems = t('home.faq.items', { returnObjects: true });
+  const captionsOf = (slug) => t(`projects.items.${slug}.captionsShort`, { returnObjects: true });
   const [statsVisible, setStatsVisible] = useState(false);
   const statsRef = useRef(null);
   const [tIdx, setTIdx] = useState(0);
@@ -104,7 +56,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const id = setInterval(() => setTIdx(i => (i + 1) % TESTIMONIALS.length), 6000);
+    const id = setInterval(() => setTIdx(i => (i + 1) % TESTIMONIAL_COUNT), 6000);
     return () => clearInterval(id);
   }, []);
 
@@ -134,20 +86,20 @@ export default function Home() {
         <div className="container" style={{ position: 'relative', zIndex: 1, paddingBlock: '120px 80px', textAlign: 'center' }}>
           <div style={{ display: 'inline-block', background: 'rgba(200,169,81,.15)', border: '1px solid rgba(200,169,81,.3)', borderRadius: 999, padding: '6px 20px', marginBottom: 'var(--space-5)' }}>
             <span style={{ fontSize: 12, fontWeight: 700, letterSpacing: '.15em', textTransform: 'uppercase', color: 'var(--gold)' }}>
-              Fondation Wakef Suisse
+              {t('home.hero.badge')}
             </span>
           </div>
           <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(36px,6vw,68px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.1, marginBottom: 'var(--space-6)', maxWidth: 800, marginInline: 'auto' }}>
-            Bâtir un héritage<br />
-            <span style={{ color: 'var(--gold)' }}>islamique durable</span><br />
-            en Suisse
+            {t('home.hero.title1')}<br />
+            <span style={{ color: 'var(--gold)' }}>{t('home.hero.title2')}</span><br />
+            {t('home.hero.title3')}
           </h1>
           <p style={{ fontSize: 'clamp(15px,2vw,18px)', color: 'rgba(255,255,255,.75)', fontWeight: 300, lineHeight: 1.75, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-10)' }}>
-            Depuis 2009, la Fondation Wakef finance des mosquées, des centres islamiques et des programmes éducatifs pour la communauté musulmane de Suisse.
+            {t('home.hero.sub')}
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link to="/don" className="btn btn--gold btn--lg">Faire un don →</Link>
-            <Link to="/projets" className="btn btn--outline btn--lg" style={{ color: 'var(--white)', borderColor: 'rgba(255,255,255,.4)' }}>Nos projets</Link>
+            <Link to="/don" className="btn btn--gold btn--lg">{t('home.hero.ctaDonate')}</Link>
+            <Link to="/projets" className="btn btn--outline btn--lg" style={{ color: 'var(--white)', borderColor: 'rgba(255,255,255,.4)' }}>{t('home.hero.ctaProjects')}</Link>
           </div>
         </div>
       </section>
@@ -156,27 +108,22 @@ export default function Home() {
       <section className="section section--alt">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }} className="reveal" ref={addReveal}>
-            <span className="section-label">Qui sommes-nous</span>
-            <h2 className="section-title" style={{ marginInline: 'auto' }}>La Fondation Wakef Suisse</h2>
+            <span className="section-label">{t('home.about.label')}</span>
+            <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.about.title')}</h2>
             <span className="accent-line" style={{ marginInline: 'auto' }} />
             <p className="section-body" style={{ marginInline: 'auto' }}>
-              Fondée en 2009, fondation de droit privé suisse (art. 80 CC) dédiée au financement de projets islamiques durables sur le territoire helvétique.
+              {t('home.about.body')}
             </p>
           </div>
           <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
             <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🤝</div>
-              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-2)' }}>Objectifs</h3>
-              <p style={{ fontSize: 13, color: 'var(--green)', fontWeight: 600, marginBottom: 'var(--space-3)', textAlign: 'left' }}>Acquérir et promouvoir :</p>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-2)' }}>{t('home.about.objectivesTitle')}</h3>
+              {t('home.about.objectivesLead') && (
+                <p style={{ fontSize: 13, color: 'var(--green)', fontWeight: 600, marginBottom: 'var(--space-3)', textAlign: 'left' }}>{t('home.about.objectivesLead')}</p>
+              )}
               <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-2)', textAlign: 'left' }}>
-                {[
-                  'Les lieux de culte musulman',
-                  'La formation et intégration des imams',
-                  "L'enseignement de l'arabe",
-                  'Les bourses d\'études',
-                  'Les activités caritatives',
-                  'Les carrés musulmans',
-                ].map(item => (
+                {objectives.map(item => (
                   <li key={item} style={{ fontSize: 14, color: 'var(--text-muted)', display: 'flex', alignItems: 'flex-start', gap: 'var(--space-2)', lineHeight: 1.5 }}>
                     <span style={{ color: 'var(--green)', fontWeight: 700, marginTop: 1 }}>·</span> {item}
                   </li>
@@ -185,16 +132,16 @@ export default function Home() {
             </div>
             <div className="reveal" ref={addReveal} style={{ background: 'var(--green)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🔍</div>
-              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Mission</h3>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>{t('home.about.missionTitle')}</h3>
               <p style={{ fontSize: 14, color: 'rgba(255,255,255,.85)', lineHeight: 1.8, fontWeight: 300 }}>
-                Bâtir un héritage islamique durable en Suisse en finançant des mosquées, centres islamiques et programmes éducatifs en conformité avec les valeurs de l'Islam et le droit civil suisse.
+                {t('home.about.missionBody')}
               </p>
             </div>
             <div className="reveal" ref={addReveal} style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
               <div style={{ fontSize: 40, marginBottom: 'var(--space-4)' }}>🌱</div>
-              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Valeurs</h3>
+              <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 18, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>{t('home.about.valuesTitle')}</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-2)' }}>
-                {['Pérennité', 'Intégrité', 'Transparence', 'Institutionnalisme', 'Innovation', 'Coopération'].map((v, i) => (
+                {values.map((v, i) => (
                   <div key={v} style={{ background: i % 2 === 0 ? 'var(--green-light)' : 'var(--gold-light)', borderRadius: 'var(--radius-sm)', padding: '6px 12px', fontSize: 13, fontWeight: 600, color: i % 2 === 0 ? 'var(--green)' : '#92710a' }}>
                     {v}
                   </div>
@@ -203,7 +150,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <Link to="/a-propos" className="btn btn--primary">En savoir plus →</Link>
+            <Link to="/a-propos" className="btn btn--primary">{t('home.about.more')}</Link>
           </div>
         </div>
       </section>
@@ -215,9 +162,9 @@ export default function Home() {
             {STATS.map((s, i) => (
               <div key={i} style={{ textAlign: 'center' }}>
                 <div className={`stats__num${s.gold ? ' stats__gold' : ''}`}>
-                  <CountUp target={s.num} suffix={s.suffix} active={statsVisible} />
+                  <CountUp target={s.num} suffix={s.suffix} active={statsVisible} locale={numLocale} />
                 </div>
-                <div className="stats__label">{s.label}</div>
+                <div className="stats__label">{t(`home.stats.${s.key}`)}</div>
               </div>
             ))}
           </div>
@@ -228,33 +175,39 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-12)' }} className="reveal" ref={addReveal}>
-            <span className="section-label">Nos réalisations</span>
-            <h2 className="section-title" style={{ marginInline: 'auto' }}>Projets phares</h2>
+            <span className="section-label">{t('home.projects.label')}</span>
+            <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.projects.title')}</h2>
             <span className="accent-line" style={{ marginInline: 'auto' }} />
-            <p className="section-body" style={{ marginInline: 'auto' }}>Trois projets emblématiques qui illustrent notre mission de construire des espaces durables pour la communauté musulmane en Suisse.</p>
+            <p className="section-body" style={{ marginInline: 'auto' }}>{t('home.projects.body')}</p>
           </div>
           <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
             {PROJECTS.map((p) => (
               <article className="projet-card" key={p.id}>
                 <div className="projet-card__img">
-                  {p.images ? (
-                    <ImageCarousel images={p.images} title={p.title} height={200} showNav autoplay />
+                  {IMAGE_SRCS[p.slug] ? (
+                    <ImageCarousel
+                      images={IMAGE_SRCS[p.slug].map((src, i) => ({ src, caption: captionsOf(p.slug)[i] }))}
+                      title={t(`projects.items.${p.slug}.title`)}
+                      height={200}
+                      showNav
+                      autoplay
+                    />
                   ) : (
-                    <img src={p.img} alt={p.title} loading="lazy" />
+                    <img src={p.img} alt={t(`projects.items.${p.slug}.title`)} loading="lazy" />
                   )}
                 </div>
                 <div className="projet-card__body">
-                  <span className="projet-card__tag">{p.type}</span>
-                  <h3 className="projet-card__title">{p.title}</h3>
-                  <p className="projet-card__location">📍 {p.ville} · 📅 {p.date} · {p.surface}</p>
-                  <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6 }}>{p.excerpt}</p>
-                  <Link to={`/projets/${p.slug}`} className="projet-card__link">En savoir plus →</Link>
+                  <span className="projet-card__tag">{t(`projects.items.${p.slug}.type`)}</span>
+                  <h3 className="projet-card__title">{t(`projects.items.${p.slug}.title`)}</h3>
+                  <p className="projet-card__location">📍 {t(`projects.items.${p.slug}.ville`)} · 📅 {p.date} · {t(`projects.items.${p.slug}.surface`)}</p>
+                  <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6 }}>{t(`projects.items.${p.slug}.excerptHome`)}</p>
+                  <Link to={`/projets/${p.slug}`} className="projet-card__link">{t('common.learnMore')}</Link>
                 </div>
               </article>
             ))}
           </div>
           <div style={{ textAlign: 'center' }}>
-            <Link to="/projets" className="btn btn--outline">Tous nos projets →</Link>
+            <Link to="/projets" className="btn btn--outline">{t('home.projects.all')}</Link>
           </div>
         </div>
       </section>
@@ -262,14 +215,14 @@ export default function Home() {
       {/* ── DON CTA ───────────────────────────────────────────── */}
       <section style={{ background: 'linear-gradient(135deg, var(--green-dark), var(--green))', padding: 'var(--space-16) 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <span style={{ display: 'block', fontSize: 11, fontWeight: 700, letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 'var(--space-4)' }}>Soutenir la Fondation</span>
-          <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(26px,4vw,40px)', fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>Votre don compte</h2>
+          <span style={{ display: 'block', fontSize: 11, fontWeight: 700, letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 'var(--space-4)' }}>{t('home.donCta.label')}</span>
+          <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(26px,4vw,40px)', fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>{t('home.donCta.title')}</h2>
           <p style={{ fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: 300, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-8)', lineHeight: 1.75 }}>
-            Votre don, quel que soit son montant, contribue directement au financement de nos projets Waqf en Suisse : mosquées, centres islamiques et accompagnement de la communauté musulmane. Chaque contribution est une Sadaqa Jariya, une aumône qui dure.
+            {t('home.donCta.body')}
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link to="/don" className="btn btn--gold btn--lg">Faire un don maintenant →</Link>
-            <Link to="/zakat" className="btn btn--white btn--lg">Calculer ma Zakat</Link>
+            <Link to="/don" className="btn btn--gold btn--lg">{t('home.donCta.btnDonate')}</Link>
+            <Link to="/zakat" className="btn btn--white btn--lg">{t('home.donCta.btnZakat')}</Link>
           </div>
         </div>
       </section>
@@ -277,13 +230,13 @@ export default function Home() {
       {/* ── ZAKAT COMPACT ─────────────────────────────────────── */}
       <section className="section section--alt">
         <div className="container" style={{ maxWidth: 800, textAlign: 'center' }}>
-          <span className="section-label">Pilier de l'Islam</span>
-          <h2 className="section-title" style={{ marginInline: 'auto' }}>Évaluateur de Zakat</h2>
+          <span className="section-label">{t('home.zakat.label')}</span>
+          <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.zakat.title')}</h2>
           <span className="accent-line" style={{ marginInline: 'auto' }} />
           <p className="section-body" style={{ marginInline: 'auto', marginBottom: 'var(--space-8)' }}>
-            Nisab actuel : CHF/€ 4 600 (≈ 85g d'or) · Taux : 2,5% du patrimoine net. Calculez votre obligation annuelle en quelques secondes.
+            {t('home.zakat.body')}
           </p>
-          <Link to="/zakat" className="btn btn--primary btn--lg">Ouvrir le calculateur →</Link>
+          <Link to="/zakat" className="btn btn--primary btn--lg">{t('home.zakat.btn')}</Link>
         </div>
       </section>
 
@@ -291,21 +244,17 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: 'var(--space-10)' }}>
-            <span className="section-label">Questions fréquentes</span>
-            <h2 className="section-title" style={{ marginInline: 'auto' }}>On répond à vos questions</h2>
+            <span className="section-label">{t('home.faq.label')}</span>
+            <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.faq.title')}</h2>
             <span className="accent-line" style={{ marginInline: 'auto' }} />
           </div>
           <div className="faq__list" style={{ marginBottom: 'var(--space-8)' }}>
-            {[
-              ['La Fondation est-elle reconnue d\'utilité publique ?', 'Oui. La Fondation Wakef – Suisse est reconnue d\'utilité publique par les autorités fiscales suisses. Vos dons sont déductibles des impôts selon les règles cantonales en vigueur.'],
-              ['Comment sont utilisés les dons ?', 'Chaque franc collecté est affecté à des projets concrets (mosquées, centres islamiques, bourses). Nous publions un rapport annuel détaillant l\'utilisation de tous les fonds.'],
-              ['Puis-je obtenir un reçu fiscal ?', 'Oui. Nous émettons automatiquement un reçu fiscal pour tout don dès CHF 20. Contactez-nous à info@wakf.ch si vous n\'avez pas reçu le vôtre.'],
-            ].map(([q, a], i) => (
+            {faqItems.map(({ q, a }, i) => (
               <FaqItem key={i} q={q} a={a} defaultOpen={i === 0} />
             ))}
           </div>
           <div style={{ textAlign: 'center' }}>
-            <Link to="/faq" className="btn btn--outline">Toutes les questions →</Link>
+            <Link to="/faq" className="btn btn--outline">{t('home.faq.all')}</Link>
           </div>
         </div>
       </section>
@@ -313,25 +262,25 @@ export default function Home() {
       {/* ── TÉMOIGNAGES ───────────────────────────────────────── */}
       <section className="section section--alt">
         <div className="container" style={{ maxWidth: 700, textAlign: 'center' }}>
-          <span className="section-label">Témoignages</span>
-          <h2 className="section-title" style={{ marginInline: 'auto' }}>Ce que dit la communauté</h2>
+          <span className="section-label">{t('home.testimonials.label')}</span>
+          <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.testimonials.title')}</h2>
           <span className="accent-line" style={{ marginInline: 'auto' }} />
           <div style={{ position: 'relative', minHeight: 180 }}>
-            {TESTIMONIALS.map((t, i) => (
+            {testimonials.map((tm, i) => (
               <div key={i} style={{
                 position: i === 0 ? 'relative' : 'absolute', top: 0, left: 0, right: 0,
                 opacity: tIdx === i ? 1 : 0, transform: `translateY(${tIdx === i ? 0 : 12}px)`,
                 transition: 'opacity .5s, transform .5s', pointerEvents: tIdx === i ? 'auto' : 'none',
               }}>
                 <div style={{ fontSize: 36, color: 'var(--gold)', marginBottom: 'var(--space-3)' }}>"</div>
-                <p style={{ fontSize: 17, color: 'var(--text-body)', lineHeight: 1.75, fontStyle: 'italic', marginBottom: 'var(--space-4)', fontWeight: 300 }}>{t.text}</p>
-                <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--green)' }}>{t.name}</p>
-                <p style={{ fontSize: 13, color: 'var(--text-muted)' }}>{t.role}</p>
+                <p style={{ fontSize: 17, color: 'var(--text-body)', lineHeight: 1.75, fontStyle: 'italic', marginBottom: 'var(--space-4)', fontWeight: 300 }}>{tm.text}</p>
+                <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--green)' }}>{tm.name}</p>
+                <p style={{ fontSize: 13, color: 'var(--text-muted)' }}>{tm.role}</p>
               </div>
             ))}
           </div>
           <div style={{ display: 'flex', gap: 8, justifyContent: 'center', marginTop: 'var(--space-6)' }}>
-            {TESTIMONIALS.map((_, i) => (
+            {testimonials.map((_, i) => (
               <button key={i} onClick={() => setTIdx(i)} style={{
                 width: 8, height: 8, borderRadius: '50%', border: 'none', cursor: 'pointer',
                 background: tIdx === i ? 'var(--green)' : 'var(--border)', transition: 'background .3s', padding: 0,
@@ -344,11 +293,11 @@ export default function Home() {
       {/* ── CONTACT CTA ───────────────────────────────────────── */}
       <section style={{ background: 'var(--bg-section)', padding: 'var(--space-16) 0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>Une question ? Contactez-nous</h2>
+          <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>{t('home.contact.title')}</h2>
           <p style={{ fontSize: 15, color: 'var(--text-muted)', marginBottom: 'var(--space-8)', fontWeight: 300 }}>
-            Notre équipe répond dans les 48h · <a href="mailto:info@wakf.ch" style={{ color: 'var(--green)' }}>info@wakf.ch</a> · <a href="tel:+41793799646" style={{ color: 'var(--green)' }}>+41 79 379 96 46</a>
+            {t('home.contact.body')} · <a href="mailto:info@wakf.ch" style={{ color: 'var(--green)' }}>info@wakf.ch</a> · <a href="tel:+41793799646" style={{ color: 'var(--green)' }}>+41 79 379 96 46</a>
           </p>
-          <Link to="/contact" className="btn btn--primary btn--lg">Nous écrire →</Link>
+          <Link to="/contact" className="btn btn--primary btn--lg">{t('home.contact.btn')}</Link>
         </div>
       </section>
     </div>

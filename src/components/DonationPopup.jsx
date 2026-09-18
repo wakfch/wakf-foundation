@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 export default function DonationPopup() {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -52,7 +54,7 @@ export default function DonationPopup() {
       >
         <button
           onClick={dismiss}
-          aria-label="Fermer"
+          aria-label={t('common.close')}
           style={{
             position: 'absolute', top: 14, right: 16,
             background: 'rgba(255,255,255,.12)', border: 'none',
@@ -68,18 +70,18 @@ export default function DonationPopup() {
             fontSize: 11, fontWeight: 700, letterSpacing: '.15em',
             textTransform: 'uppercase', color: 'var(--gold)',
             marginBottom: 8,
-          }}>Sadaqa Jariya</p>
+          }}>{t('popup.label')}</p>
           <h2 style={{
             fontFamily: 'var(--font-heading)', fontSize: 22, fontWeight: 800,
             color: '#fff', lineHeight: 1.25, marginBottom: 10,
           }}>
-            Aidez-nous à construire<br />d'autres projets
+            {t('popup.title1')}<br />{t('popup.title2')}
           </h2>
           <p style={{
             fontSize: 14, color: 'rgba(255,255,255,.75)', lineHeight: 1.65,
             fontWeight: 300, marginBottom: 22, maxWidth: 320, marginInline: 'auto',
           }}>
-            Chaque don contribue à financer des mosquées, centres islamiques et programmes éducatifs pour la communauté musulmane en Suisse.
+            {t('popup.body')}
           </p>
 
           <Link
@@ -88,7 +90,7 @@ export default function DonationPopup() {
             className="btn btn--gold"
             style={{ display: 'block', fontSize: 15, padding: '14px 24px', marginBottom: 12 }}
           >
-            Faire un don maintenant →
+            {t('popup.cta')}
           </Link>
 
           <button
@@ -98,7 +100,7 @@ export default function DonationPopup() {
               fontSize: 13, cursor: 'pointer', padding: 4,
             }}
           >
-            Non merci, continuer la visite
+            {t('popup.dismiss')}
           </button>
         </div>
       </div>

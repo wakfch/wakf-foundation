@@ -1,33 +1,37 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.jpg';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
-const navLinks = [
-  { label: 'Accueil', to: '/', noActive: true },
+const getNavLinks = (t) => [
+  { label: t('header.home'), to: '/', noActive: true },
   {
-    label: 'À Propos',
+    label: t('header.about'),
     dropdown: [
-      { label: 'Wakef Fondation', to: '/a-propos' },
-      { label: 'Statuts de la Fondation', to: '/statuts' },
+      { label: t('header.aboutFoundation'), to: '/a-propos' },
+      { label: t('header.statutes'), to: '/statuts' },
     ],
   },
   {
-    label: 'Nos Projets',
+    label: t('header.projects'),
     dropdown: [
-      { label: 'Tous les projets', to: '/projets' },
-      { label: 'Mosquée Madretsch Bienne', to: '/projets/madretsch' },
-      { label: 'Centre Al Iman Fribourg', to: '/projets/aliman' },
-      { label: 'Centre Al Badr Le Locle', to: '/projets/albadr' },
-      { label: 'Mosquée An-Nour Sion', to: '/projets/annour' },
-      { label: 'Bibliothèque Mobile', to: '/projets/bibliotheque' },
+      { label: t('header.allProjects'), to: '/projets' },
+      { label: t('header.madretsch'), to: '/projets/madretsch' },
+      { label: t('header.aliman'), to: '/projets/aliman' },
+      { label: t('header.albadr'), to: '/projets/albadr' },
+      { label: t('header.annour'), to: '/projets/annour' },
+      { label: t('header.bibliotheque'), to: '/projets/bibliotheque' },
     ],
   },
-  { label: 'Zakat', to: '/zakat' },
-  { label: 'FAQ', to: '/faq' },
-  { label: 'Contact', to: '/contact' },
+  { label: t('header.zakat'), to: '/zakat' },
+  { label: t('header.faq'), to: '/faq' },
+  { label: t('header.contact'), to: '/contact' },
 ];
 
 export default function Header() {
+  const { t } = useTranslation();
+  const navLinks = getNavLinks(t);
   const [scrolled, setScrolled] = useState(false);
   const [scrolledDown, setScrolledDown] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -126,10 +130,10 @@ export default function Header() {
       `}</style>
 
       <Link to="/" className="nav__logo">
-        <img src={logo} alt="Fondation Wakef" className="nav__logo-img" />
+        <img src={logo} alt={t('common.foundationName')} className="nav__logo-img" />
         <div className="nav__logo-text">
-          <span className="nav__logo-name">Fondation Wakef</span>
-          <span className="nav__logo-sub">Suisse · depuis 2009</span>
+          <span className="nav__logo-name">{t('common.foundationName')}</span>
+          <span className="nav__logo-sub">{t('header.sub')}</span>
         </div>
       </Link>
 
@@ -167,11 +171,12 @@ export default function Header() {
       </nav>
 
       <div className="nav__actions">
-        <Link to="/don" className="nav__donate">Faire un don →</Link>
+        <LanguageSwitcher />
+        <Link to="/don" className="nav__donate">{t('header.donate')}</Link>
         <button
           className="nav__burger"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Menu"
+          aria-label={t('common.menu')}
         >
           <span style={menuOpen ? { transform: 'rotate(45deg) translate(5px,5px)' } : {}} />
           <span style={menuOpen ? { opacity: 0 } : {}} />
@@ -195,7 +200,7 @@ export default function Header() {
           )
         )}
         <Link to="/don" className="btn btn--gold" style={{ display: 'block', textAlign: 'center', margin: 'var(--space-4) 0 var(--space-2)' }}>
-          Faire un don →
+          {t('header.donate')}
         </Link>
       </div>
     </header>

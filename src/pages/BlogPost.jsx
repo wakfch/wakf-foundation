@@ -1,39 +1,45 @@
 import { Link, useParams } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { usePost } from '../hooks/useWordPress';
 
+// Textes traduits dans src/locales/*.json (blog.posts.<slug>)
 const STATIC = {
-  'inauguration-centre-cultuel': {
-    tag: 'Centre cultuel', date: '15 avril 2025',
-    title: 'Inauguration de nouveaux locaux pour le centre cultuel',
-    content: '<p>Grâce aux contributions de nos donateurs, un nouveau centre cultuel a été inauguré en Suisse, offrant un espace digne et accueillant pour la communauté musulmane locale.</p><p>Cet espace de plus de 500 m² comprend une salle de prière pour 300 fidèles, des salles de cours pour l\'enseignement de l\'arabe et une bibliothèque islamique. Un véritable héritage pour les générations futures.</p><h3>Un projet collectif</h3><p>Ce projet a été rendu possible grâce aux dons de centaines de membres de la communauté et au travail acharné du Comité de direction de la Fondation Wakef.</p>',
-    img: 10,
-  },
-  'rapport-annuel-2025': {
-    tag: 'Rapport', date: '1 janvier 2025',
-    title: 'Rapport annuel : bilan des actions 2025',
-    content: '<p>Notre rapport annuel 2025 détaille l\'utilisation de chaque franc collecté. Nous avons financé 3 projets majeurs pour un total de CHF 1 350 000 investis dans la communauté musulmane suisse.</p><h3>Points forts 2025</h3><ul><li>Centre Al Badr — Le Locle : 65% financé (CHF 552 500 collectés)</li><li>Centre Al Iman — Fribourg : 90% financé (CHF 108 000 collectés)</li><li>Mosquée Madretsch — Bienne : 100% terminé</li></ul><p>Merci à tous nos donateurs pour leur confiance et leur générosité.</p>',
-    img: 12,
-  },
+  'inauguration-centre-cultuel': { tagKey: 'centre', img: 10 },
+  'rapport-annuel-2025': { tagKey: 'report', img: 12 },
 };
+
+const DATE_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'ar-u-nu-latn' };
 
 export default function BlogPost() {
   const { slug } = useParams();
+  const { t, i18n } = useTranslation();
   const { data: wpPost, isLoading, isError } = usePost(slug);
+  const dateLocale = DATE_LOCALES[(i18n.language || 'fr').slice(0, 2)] || 'fr-CH';
+
+  const staticPost = STATIC[slug]
+    ? {
+        tag: t(`blog.tags.${STATIC[slug].tagKey}`),
+        date: t(`blog.posts.${slug}.date`),
+        title: t(`blog.posts.${slug}.title`),
+        content: t(`blog.posts.${slug}.content`),
+        img: STATIC[slug].img,
+      }
+    : undefined;
 
   const post = !isLoading && !isError && wpPost
     ? {
-        tag: wpPost._embedded?.['wp:term']?.[1]?.[0]?.name || 'Actualité',
-        date: new Date(wpPost.date).toLocaleDateString('fr-CH', { day: 'numeric', month: 'long', year: 'numeric' }),
+        tag: wpPost._embedded?.['wp:term']?.[1]?.[0]?.name || t('blog.defaultTag'),
+        date: new Date(wpPost.date).toLocaleDateString(dateLocale, { day: 'numeric', month: 'long', year: 'numeric' }),
         title: wpPost.title.rendered,
         content: wpPost.content.rendered,
         img: wpPost._embedded?.['wp:featuredmedia']?.[0]?.source_url,
       }
-    : STATIC[slug];
+    : staticPost;
 
   if (isLoading) {
     return (
       <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: 'var(--nav-h)' }}>
-        <p style={{ color: 'var(--text-muted)' }}>Chargement…</p>
+        <p style={{ color: 'var(--text-muted)' }}>{t('common.loading')}</p>
       </div>
     );
   }
@@ -41,8 +47,8 @@ export default function BlogPost() {
   if (!post) {
     return (
       <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 'var(--space-4)', paddingTop: 'var(--nav-h)' }}>
-        <p style={{ fontSize: 18, color: 'var(--text-muted)' }}>Article introuvable.</p>
-        <Link to="/blog" className="btn btn--outline">← Retour aux actualités</Link>
+        <p style={{ fontSize: 18, color: 'var(--text-muted)' }}>{t('blog.notFound')}</p>
+        <Link to="/blog" className="btn btn--outline">{t('blog.back')}</Link>
       </div>
     );
   }
@@ -60,12 +66,12 @@ export default function BlogPost() {
         </div>
       </div>
 
-      <nav className="breadcrumb" aria-label="Fil d'Ariane">
+      <nav className="breadcrumb" aria-label={t('common.breadcrumbLabel')}>
         <div className="container">
           <ol className="breadcrumb__list">
-            <li className="breadcrumb__item"><Link to="/">Accueil</Link></li>
+            <li className="breadcrumb__item"><Link to="/">{t('common.home')}</Link></li>
             <li className="breadcrumb__sep">›</li>
-            <li className="breadcrumb__item"><Link to="/blog">Actualités</Link></li>
+            <li className="breadcrumb__item"><Link to="/blog">{t('blog.breadcrumb')}</Link></li>
             <li className="breadcrumb__sep">›</li>
             <li className="breadcrumb__item">{post.title.slice(0, 40)}…</li>
           </ol>
@@ -79,8 +85,8 @@ export default function BlogPost() {
               dangerouslySetInnerHTML={{ __html: post.content }} />
 
             <div style={{ marginTop: 'var(--space-10)', paddingTop: 'var(--space-8)', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 'var(--space-4)' }}>
-              <Link to="/blog" className="btn btn--outline btn--sm">← Retour aux actualités</Link>
-              <Link to="/don" className="btn btn--primary btn--sm">Soutenir la Fondation →</Link>
+              <Link to="/blog" className="btn btn--outline btn--sm">{t('blog.back')}</Link>
+              <Link to="/don" className="btn btn--primary btn--sm">{t('blog.support')}</Link>
             </div>
           </div>
         </section>

@@ -1,0 +1,92 @@
+/*
+ * Arabe uniquement (html[lang="ar"]) : lisibilité du texte.
+ * L'arabe rend plus petit que le latin à taille égale : chaque taille CSS ou inline
+ * inférieure ou égale à 16px est relevée de 2 à 3px, et la graisse 300 (trop fine
+ * en arabe) passe à 400. Le français et l'allemand ne sont pas concernés.
+ */
+
+/* Pas d'espacement de lettres ni de capitales en arabe : cela casse la liaison des lettres */
+html[lang="ar"] body,
+html[lang="ar"] body * {
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+/* Numéros de téléphone et emails : toujours lus de gauche à droite, même dans une page RTL */
+html[lang="ar"] a[href^="tel:"],
+html[lang="ar"] a[href^="mailto:"] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Styles inline (fontSize dans le JSX) */
+html[lang="ar"] [style*="font-size: 10px"] { font-size: 14px !important; }
+html[lang="ar"] [style*="font-size: 11px"] { font-size: 14px !important; }
+html[lang="ar"] [style*="font-size: 12px"] { font-size: 14px !important; }
+html[lang="ar"] [style*="font-size: 13px"] { font-size: 15px !important; }
+html[lang="ar"] [style*="font-size: 14px"] { font-size: 16px !important; }
+html[lang="ar"] [style*="font-size: 15px"] { font-size: 17px !important; }
+html[lang="ar"] [style*="font-size: 16px"] { font-size: 18px !important; }
+html[lang="ar"] [style*="font-weight: 300"] { font-weight: 400 !important; }
+/* Alignements forcés à gauche en inline : inversés en RTL */
+html[lang="ar"] [style*="text-align: left"] { text-align: right !important; }
+
+/* Classes définies dans global.css et dans les blocs <style> des composants */
+html[lang="ar"] .actu-card__date { font-size: 14px !important; }
+html[lang="ar"] .actu-card__excerpt { font-size: 15px !important; font-weight: 400 !important; }
+html[lang="ar"] .actu-card__link { font-size: 15px !important; }
+html[lang="ar"] .actu-card__tag { font-size: 14px !important; }
+html[lang="ar"] .actu-card__title { font-size: 17px !important; }
+html[lang="ar"] .badge { font-size: 14px !important; }
+html[lang="ar"] .breadcrumb__list { font-size: 15px !important; }
+html[lang="ar"] .btn { font-size: 16px !important; }
+html[lang="ar"] .btn--lg { font-size: 17px !important; }
+html[lang="ar"] .btn--sm { font-size: 15px !important; }
+html[lang="ar"] .carousel-btn { font-size: 16px !important; }
+html[lang="ar"] .don__amount-btn { font-size: 16px !important; }
+html[lang="ar"] .don__tab { font-size: 15px !important; }
+html[lang="ar"] .faq__answer p { font-size: 16px !important; font-weight: 400 !important; }
+html[lang="ar"] .faq__icon { font-size: 18px !important; }
+html[lang="ar"] .faq__question-text { font-size: 17px !important; }
+html[lang="ar"] .form-error { font-size: 14px !important; }
+html[lang="ar"] .form-input { font-size: 16px !important; }
+html[lang="ar"] .form-label { font-size: 15px !important; }
+html[lang="ar"] .form-select { font-size: 16px !important; }
+html[lang="ar"] .form-textarea { font-size: 16px !important; }
+html[lang="ar"] .lang-switcher__option { font-size: 16px !important; }
+html[lang="ar"] .lang-switcher__option-native { font-size: 14px !important; }
+html[lang="ar"] .lang-switcher__trigger { font-size: 15px !important; }
+html[lang="ar"] .lb-caption { font-size: 15px !important; }
+html[lang="ar"] .lb-counter { font-size: 15px !important; }
+html[lang="ar"] .legal-box__title { font-size: 18px !important; }
+html[lang="ar"] .legal-item__label { font-size: 14px !important; }
+html[lang="ar"] .legal-item__value { font-size: 16px !important; }
+html[lang="ar"] .nav__donate { font-size: 16px !important; }
+html[lang="ar"] .nav__dropdown-item { font-size: 16px !important; }
+html[lang="ar"] .nav__link { font-size: 16px !important; }
+html[lang="ar"] .nav__logo-name { font-size: 17px !important; }
+html[lang="ar"] .nav__logo-sub { font-size: 14px !important; }
+html[lang="ar"] .nav__mobile-link { font-size: 17px !important; }
+html[lang="ar"] .nav__mobile-sublabel { font-size: 14px !important; }
+html[lang="ar"] .newsletter__btn { font-size: 16px !important; }
+html[lang="ar"] .newsletter__input { font-size: 16px !important; }
+html[lang="ar"] .newsletter__note { font-size: 14px !important; }
+html[lang="ar"] .newsletter__sub { font-size: 17px !important; font-weight: 400 !important; }
+html[lang="ar"] .page-hero__label { font-size: 14px !important; }
+html[lang="ar"] .page-hero__sub { font-size: 18px !important; font-weight: 400 !important; }
+html[lang="ar"] .projet-card__link { font-size: 15px !important; }
+html[lang="ar"] .projet-card__location { font-size: 15px !important; }
+html[lang="ar"] .projet-card__tag { font-size: 14px !important; }
+html[lang="ar"] .section li { font-size: 17px !important; }
+html[lang="ar"] .section-body { font-size: 18px !important; font-weight: 400 !important; }
+html[lang="ar"] .section-label { font-size: 14px !important; }
+html[lang="ar"] .stats__label { font-size: 15px !important; }
+html[lang="ar"] .zakat__breakdown-row { font-size: 15px !important; }
+html[lang="ar"] .zakat__calc-btn { font-size: 17px !important; }
+html[lang="ar"] .zakat__field label span { font-weight: 400 !important; }
+html[lang="ar"] .zakat__field label { font-size: 15px !important; }
+html[lang="ar"] .zakat__input { font-size: 17px !important; }
+html[lang="ar"] .zakat__nisab-info { font-size: 15px !important; }
+html[lang="ar"] .zakat__result-donate { font-size: 17px !important; }
+html[lang="ar"] .zakat__result-label { font-size: 15px !important; }
+html[lang="ar"] .zakat__result-note { font-size: 15px !important; }

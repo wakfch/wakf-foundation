@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function ImageCarousel({ images, title = '', height = 280, showNav = false, autoplay = false, onImageClick }) {
+  const { t } = useTranslation();
   const [idx, setIdx] = useState(0);
   const [animating, setAnimating] = useState(false);
   const touchStartX = useRef(null);
@@ -80,7 +82,7 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
         <img
           key={i}
           src={img.src}
-          alt={img.caption || `${title} — photo ${i + 1}`}
+          alt={img.caption || t('common.photoOf', { title, n: i + 1 })}
           className={`carousel-img ${i === idx ? 'active' : 'inactive'}`}
           loading={i === 0 ? 'eager' : 'lazy'}
           onClick={onImageClick ? () => onImageClick(i) : undefined}
@@ -98,8 +100,8 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
 
       {showNav && (
         <>
-          <button className="carousel-btn prev" onClick={prev} aria-label="Photo précédente">‹</button>
-          <button className="carousel-btn next" onClick={next} aria-label="Photo suivante">›</button>
+          <button className="carousel-btn prev" onClick={prev} aria-label={t('common.prevPhoto')}>‹</button>
+          <button className="carousel-btn next" onClick={next} aria-label={t('common.nextPhoto')}>›</button>
         </>
       )}
 
@@ -109,7 +111,7 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
             key={i}
             className={`carousel-dot${i === idx ? ' active' : ''}`}
             onClick={() => goTo(i)}
-            aria-label={`Photo ${i + 1}`}
+            aria-label={t('common.photo', { n: i + 1 })}
           />
         ))}
       </div>
