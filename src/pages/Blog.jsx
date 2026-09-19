@@ -13,7 +13,7 @@ const STATIC_POSTS = [
   { id: 6, slug: 'carre-musulman-berne', tagKey: 'cemetery', img: 15 },
 ];
 
-const DATE_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'ar-u-nu-latn' };
+const DATE_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'ar-u-nu-latn' };
 
 export default function Blog() {
   const { t, i18n } = useTranslation();

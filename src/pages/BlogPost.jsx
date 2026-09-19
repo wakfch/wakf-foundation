@@ -8,7 +8,7 @@ const STATIC = {
   'rapport-annuel-2025': { tagKey: 'report', img: 12 },
 };
 
-const DATE_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'ar-u-nu-latn' };
+const DATE_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'ar-u-nu-latn' };
 
 export default function BlogPost() {
   const { slug } = useParams();

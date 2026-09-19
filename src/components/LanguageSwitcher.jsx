@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 const languages = [
   { code: 'fr', label: 'FR', nativeName: 'Français' },
   { code: 'de', label: 'DE', nativeName: 'Deutsch' },
+  { code: 'en', label: 'EN', nativeName: 'English' },
   { code: 'ar', label: 'AR', nativeName: 'العربية' },
 ];
 

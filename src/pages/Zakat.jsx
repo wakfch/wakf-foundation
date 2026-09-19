@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const NISAB = 4600;
-const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'fr-CH' };
+const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'fr-CH' };
 const EXPLAIN_ICONS = ['⚖️', '📅', '💰', '📦'];
 const FIELD_KEYS = ['or', 'argent', 'liquid', 'invest', 'dettes'];
 
@@ -23,6 +23,7 @@ function FaqItem({ q, a }) {
 export default function Zakat() {
   const { t, i18n } = useTranslation();
   const numLocale = NUMBER_LOCALES[(i18n.language || 'fr').slice(0, 2)] || 'fr-CH';
+  const rateLabel = numLocale === 'en-GB' ? '2.5%' : '2,5%';
   const [fields, setFields] = useState({ or: '', argent: '', liquid: '', invest: '', dettes: '' });
   const [result, setResult] = useState(null);
 
@@ -100,7 +101,7 @@ export default function Zakat() {
                     <div className="zakat__breakdown-row"><span>{t('zakat.totalAssets')}</span><strong>CHF {fmt(result.total)}</strong></div>
                     <div className="zakat__breakdown-row"><span>{t('zakat.debtsDeducted')}</span><strong>CHF {fmt(result.dettes)}</strong></div>
                     <div className="zakat__breakdown-row"><span>{t('zakat.taxable')}</span><strong>CHF {fmt(result.net)}</strong></div>
-                    <div className="zakat__breakdown-row"><span>{t('zakat.rate')}</span><strong>2,5%</strong></div>
+                    <div className="zakat__breakdown-row"><span>{t('zakat.rate')}</span><strong>{rateLabel}</strong></div>
                     {!result.aboveNisab && (
                       <div style={{ marginTop: 'var(--space-2)', padding: 'var(--space-3)', background: 'rgba(255,255,255,.1)', borderRadius: 'var(--radius-sm)', fontSize: 12, color: 'rgba(255,255,255,.8)' }}>
                         {t('zakat.belowNisab', { nisab: NISAB.toLocaleString(numLocale) })}
@@ -112,7 +113,7 @@ export default function Zakat() {
                 <div className="zakat__nisab-info">
                   <p>{t('zakat.nisabInfo')}</p>
                 </div>
-                <p className="zakat__result-note">{t('zakat.rateNoteBefore')}<strong style={{ color: 'var(--gold)' }}>2,5%</strong>{t('zakat.rateNoteAfter')}<br />{t('zakat.estimateNote')}</p>
+                <p className="zakat__result-note">{t('zakat.rateNoteBefore')}<strong style={{ color: 'var(--gold)' }}>{rateLabel}</strong>{t('zakat.rateNoteAfter')}<br />{t('zakat.estimateNote')}</p>
                 <Link to="/don" className="zakat__result-donate">{t('zakat.donateZakat')}</Link>
               </div>
             </div>

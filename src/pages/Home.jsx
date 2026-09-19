@@ -34,7 +34,7 @@ function CountUp({ target, suffix, active, locale }) {
 }
 
 const TESTIMONIAL_COUNT = 3;
-const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', ar: 'fr-CH' };
+const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'fr-CH' };
 
 export default function Home() {
   const { t, i18n } = useTranslation();

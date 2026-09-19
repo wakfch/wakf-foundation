@@ -5,6 +5,7 @@ import HttpApi from 'i18next-http-backend';
 import fr from './locales/fr.json';
 import de from './locales/de.json';
 import ar from './locales/ar.json';
+import en from './locales/en.json';
 
 i18n
   .use(HttpApi)
@@ -24,6 +25,7 @@ i18n
       fr: { translation: fr },
       de: { translation: de },
       ar: { translation: ar },
+      en: { translation: en },
     },
     react: {
       useSuspense: false,
