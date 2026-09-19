@@ -24,11 +24,12 @@ function CountUp({ target, suffix, active, locale }) {
     }, 25);
     return () => clearInterval(id);
   }, [active, target]);
-  return <>{val.toLocaleString(locale)}{suffix}</>;
+  // <bdi dir="ltr"> : le nombre et son unité gardent leur ordre (2'657 m², 800+) même dans une page RTL
+  return <bdi dir="ltr">{val.toLocaleString(locale)}{suffix}</bdi>;
 }
 
 const TESTIMONIAL_COUNT = 3;
-const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'fr-CH' };
+const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'de-CH' };
 
 export default function Home() {
   const { t, i18n } = useTranslation();
