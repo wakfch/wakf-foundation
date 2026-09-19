@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
-export default function ImageCarousel({ images, title = '', height = 280, showNav = false, autoplay = false, onImageClick }) {
+export default function ImageCarousel({ images, title = '', height = 280, showNav = false, autoplay = false, onImageClick, imageCursor = 'zoom-in' }) {
   const { t } = useTranslation();
   const [idx, setIdx] = useState(0);
   const [animating, setAnimating] = useState(false);
@@ -86,7 +86,7 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
           className={`carousel-img ${i === idx ? 'active' : 'inactive'}`}
           loading={i === 0 ? 'eager' : 'lazy'}
           onClick={onImageClick ? () => onImageClick(i) : undefined}
-          style={onImageClick ? { cursor: 'zoom-in' } : undefined}
+          style={onImageClick ? { cursor: imageCursor } : undefined}
         />
       ))}
 

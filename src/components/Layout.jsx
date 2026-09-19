@@ -12,11 +12,15 @@ function ScrollToTop() {
 }
 
 export default function Layout({ children }) {
+  const { pathname } = useLocation();
   return (
     <>
       <ScrollToTop />
       <Header />
-      <main style={{ paddingTop: 'var(--nav-h)' }}>{children}</main>
+      <main style={{ paddingTop: 'var(--nav-h)' }}>
+        {/* key = chemin : la page est remontée à chaque navigation, ce qui rejoue l'animation d'entrée */}
+        <div key={pathname} className="page-transition">{children}</div>
+      </main>
       <Footer />
       <CookieBanner />
       <DonationPopup />

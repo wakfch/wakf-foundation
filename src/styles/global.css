@@ -124,6 +124,26 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .projet-card__link { margin-top: auto; font-size: 13px; font-weight: 600; color: var(--green); display: inline-flex; align-items: center; gap: 4px; transition: gap .2s; }
 .projet-card__link:hover { gap: 8px; }
 
+/* Carte entièrement cliquable : le lien du titre est étendu à tout le corps de la carte */
+.projet-card--clickable { position: relative; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: rgba(45,122,58,.12); }
+.projet-card--clickable:active { transform: translateY(-2px) scale(.985); box-shadow: var(--shadow-md); transition-duration: .12s; }
+.projet-card--clickable .projet-card__body { position: relative; cursor: pointer; }
+.projet-card__stretched { color: inherit; transition: color .2s; }
+.projet-card__stretched::after { content: ''; position: absolute; inset: 0; z-index: 1; }
+.projet-card__stretched:focus-visible { outline: none; }
+.projet-card--clickable:has(.projet-card__stretched:focus-visible) { outline: 2px solid var(--green); outline-offset: 3px; }
+.projet-card--clickable:hover .projet-card__stretched { color: var(--green); }
+.projet-card--clickable:hover .projet-card__link { gap: 8px; }
+.projet-card__img a { display: block; height: 100%; cursor: pointer; }
+
+/* Transition de page : fondu et léger glissement à chaque changement de route */
+@keyframes page-enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.page-transition { animation: page-enter .35s ease backwards; }
+@media (prefers-reduced-motion: reduce) {
+  .page-transition { animation: none; }
+  .projet-card--clickable:active { transform: none; }
+}
+
 /* ── ACTU CARD ──────────────────────────────────────── */
 .actu-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-xl); overflow: hidden; transition: all .3s; display: flex; flex-direction: column; }
 .actu-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }

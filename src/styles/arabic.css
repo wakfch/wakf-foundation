@@ -19,6 +19,9 @@ html[lang="ar"] a[href^="mailto:"] {
   unicode-bidi: isolate;
 }
 
+/* Fil d'Ariane : séparateur › inversé en lecture de droite à gauche */
+html[lang="ar"] .breadcrumb__sep { display: inline-block; transform: scaleX(-1); }
+
 /* Styles inline (fontSize dans le JSX) */
 html[lang="ar"] [style*="font-size: 10px"] { font-size: 14px !important; }
 html[lang="ar"] [style*="font-size: 11px"] { font-size: 14px !important; }

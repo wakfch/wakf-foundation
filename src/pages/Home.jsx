@@ -1,14 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import ImageCarousel from '../components/ImageCarousel';
-import { IMAGE_SRCS } from '../data/projectImages';
-
-const PROJECTS = [
-  { id: 1, slug: 'madretsch', date: '2009', img: 'https://picsum.photos/600/320?grayscale&random=1' },
-  { id: 2, slug: 'aliman', date: '2018' },
-  { id: 3, slug: 'albadr', date: '2017', img: 'https://picsum.photos/600/320?grayscale&random=3' },
-];
+import ProjectCard from '../components/ProjectCard';
+import { PROJECTS } from '../data/projects';
 
 const STATS = [
   { num: 5, suffix: '', key: 'projects', gold: false },
@@ -43,7 +37,6 @@ export default function Home() {
   const objectives = t('home.about.objectives', { returnObjects: true });
   const values = t('home.about.values', { returnObjects: true });
   const faqItems = t('home.faq.items', { returnObjects: true });
-  const captionsOf = (slug) => t(`projects.items.${slug}.captionsShort`, { returnObjects: true });
   const [statsVisible, setStatsVisible] = useState(false);
   const statsRef = useRef(null);
   const [tIdx, setTIdx] = useState(0);
@@ -181,29 +174,8 @@ export default function Home() {
             <p className="section-body" style={{ marginInline: 'auto' }}>{t('home.projects.body')}</p>
           </div>
           <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
-            {PROJECTS.map((p) => (
-              <article className="projet-card" key={p.id}>
-                <div className="projet-card__img">
-                  {IMAGE_SRCS[p.slug] ? (
-                    <ImageCarousel
-                      images={IMAGE_SRCS[p.slug].map((src, i) => ({ src, caption: captionsOf(p.slug)[i] }))}
-                      title={t(`projects.items.${p.slug}.title`)}
-                      height={200}
-                      showNav
-                      autoplay
-                    />
-                  ) : (
-                    <img src={p.img} alt={t(`projects.items.${p.slug}.title`)} loading="lazy" />
-                  )}
-                </div>
-                <div className="projet-card__body">
-                  <span className="projet-card__tag">{t(`projects.items.${p.slug}.type`)}</span>
-                  <h3 className="projet-card__title">{t(`projects.items.${p.slug}.title`)}</h3>
-                  <p className="projet-card__location">📍 {t(`projects.items.${p.slug}.ville`)} · 📅 {p.date} · {t(`projects.items.${p.slug}.surface`)}</p>
-                  <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6 }}>{t(`projects.items.${p.slug}.excerptHome`)}</p>
-                  <Link to={`/projets/${p.slug}`} className="projet-card__link">{t('common.learnMore')}</Link>
-                </div>
-              </article>
+            {PROJECTS.filter((p) => p.featured).map((p) => (
+              <ProjectCard key={p.id} project={p} variant="home" />
             ))}
           </div>
           <div style={{ textAlign: 'center' }}>

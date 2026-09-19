@@ -1,16 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import ImageCarousel from '../components/ImageCarousel';
-import { IMAGE_SRCS } from '../data/projectImages';
-
-const PROJECTS = [
-  { id: 1, slug: 'madretsch', date: '2009', statut: 'termine' },
-  { id: 2, slug: 'aliman', date: '2018', statut: 'en-cours' },
-  { id: 3, slug: 'albadr', date: '2017', statut: 'en-cours' },
-  { id: 4, slug: 'annour', date: '2024', statut: 'en-cours', img: 'https://picsum.photos/600/320?grayscale&random=4' },
-  { id: 5, slug: 'bibliotheque', date: '2023', statut: 'en-cours', img: 'https://picsum.photos/600/320?grayscale&random=5' },
-];
+import ProjectCard from '../components/ProjectCard';
+import { PROJECTS } from '../data/projects';
 
 const STATUTS = [
   { slug: 'tous', key: 'all' },
@@ -22,7 +14,7 @@ export default function Projets() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState('tous');
 
-  const visible = filter === 'tous' ? PROJECTS : PROJECTS.filter(p => p.statut === filter);
+  const visible = filter === 'tous' ? PROJECTS : PROJECTS.filter(p => p.status === filter);
 
   return (
     <>
@@ -66,29 +58,7 @@ export default function Projets() {
             {visible.length > 0 ? (
               <div className="grid-3" style={{ marginBottom: 'var(--space-16)' }}>
                 {visible.map(p => (
-                  <article className="projet-card" key={p.id} id={p.slug}>
-                    <div className="projet-card__img">
-                      {IMAGE_SRCS[p.slug] ? (
-                        <ImageCarousel
-                          images={IMAGE_SRCS[p.slug].map((src, i) => ({ src, caption: t(`projects.items.${p.slug}.captionsShort`, { returnObjects: true })[i] }))}
-                          title={t(`projects.items.${p.slug}.title`)}
-                          height={200}
-                          showNav
-                          autoplay
-                        />
-                      ) : (
-                        <img src={p.img} alt={t(`projects.items.${p.slug}.title`)} loading="lazy" />
-                      )}
-                    </div>
-                    <div className="projet-card__body">
-                      <span className="projet-card__tag">{t(`projects.items.${p.slug}.type`)}</span>
-                      <h3 className="projet-card__title">{t(`projects.items.${p.slug}.title`)}</h3>
-                      <p className="projet-card__location">📍 {t(`projects.items.${p.slug}.ville`)}</p>
-                      <p className="projet-card__location" style={{ color: 'var(--text-faint)' }}>📅 {p.date} · {t(`projects.items.${p.slug}.surface`)}</p>
-                      <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6, fontWeight: 300 }}>{t(`projects.items.${p.slug}.excerpt`)}</p>
-                      <Link to={`/projets/${p.slug}`} className="projet-card__link">{t('common.learnMore')}</Link>
-                    </div>
-                  </article>
+                  <ProjectCard key={p.id} project={p} />
                 ))}
               </div>
             ) : (

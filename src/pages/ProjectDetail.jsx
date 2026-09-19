@@ -1,34 +1,29 @@
 import { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, Navigate, useParams } from 'react-router-dom';
 import ImageCarousel from '../components/ImageCarousel';
 import ImageLightbox from '../components/ImageLightbox';
 import { useTranslation } from 'react-i18next';
-import { IMAGE_SRCS } from '../data/projectImages';
-
-// Textes traduits dans src/locales/*.json (projects.items.<slug>)
-const PROJECTS = {
-  madretsch: { img: 'https://picsum.photos/1200/500?grayscale&random=1' },
-  aliman: { img: 'https://picsum.photos/1200/500?grayscale&random=2' },
-  albadr: { img: 'https://picsum.photos/1200/500?grayscale&random=3' },
-  annour: { img: 'https://picsum.photos/1200/500?grayscale&random=4' },
-  bibliotheque: { img: 'https://picsum.photos/1200/500?grayscale&random=5' },
-};
-
-const YEARS = { madretsch: '2009', aliman: '2018', albadr: '2017', annour: '2024', bibliotheque: '2023' };
+import { findProjectBySlug, getProjectCaptions, projectPath } from '../data/projects';
 
 export default function ProjectDetail() {
   const { slug } = useParams();
   const { t } = useTranslation();
-  const base = PROJECTS[slug];
+  const base = findProjectBySlug(slug);
   const [lightbox, setLightbox] = useState(null);
 
-  const k = (field) => `projects.items.${slug}.${field}`;
+  // Ancien lien (ex. /projets/madretsch) : redirection vers l'URL actuelle
+  if (base && slug !== base.slug) {
+    return <Navigate to={projectPath(base)} replace />;
+  }
+
+  const k = (field) => `projects.items.${base?.id}.${field}`;
+  const captions = base?.images ? getProjectCaptions(t, base) : [];
   const project = base && {
-    img: base.img,
+    img: base.heroImage,
     title: t(k('title')),
     subtitle: t(k('subtitle')),
     ville: t(k('villeDetail')),
-    annee: YEARS[slug],
+    annee: base.year,
     surface: t(k('surfaceDetail'), { defaultValue: t(k('surface')) }),
     type: t(k('typeDetail'), { defaultValue: t(k('type')) }),
     intro: t(k('intro')),
@@ -37,9 +32,7 @@ export default function ProjectDetail() {
     description: t(k('description')),
     avancement: t(k('avancement')),
     vision: t(k('vision')),
-    images: IMAGE_SRCS[slug]
-      ? IMAGE_SRCS[slug].map((src, i) => ({ src, caption: t(k('captions'), { returnObjects: true })[i] }))
-      : null,
+    images: base.images ? base.images.map((src, i) => ({ src, caption: captions[i] })) : null,
   };
 
   if (!project) {
@@ -75,7 +68,7 @@ export default function ProjectDetail() {
             <li className="breadcrumb__sep">›</li>
             <li className="breadcrumb__item"><Link to="/projets">{t('projects.breadcrumb')}</Link></li>
             <li className="breadcrumb__sep">›</li>
-            <li className="breadcrumb__item">{project.title}</li>
+            <li className="breadcrumb__item" aria-current="page">{project.title}</li>
           </ol>
         </div>
       </nav>
@@ -133,6 +126,8 @@ export default function ProjectDetail() {
                   <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{t('projects.detail.vision')}</h2>
                   <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300 }}>{project.vision}</p>
                 </div>
+
+                <Link to="/" className="btn btn--outline btn--sm">{t('common.backHome')}</Link>
               </div>
 
               <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + var(--space-6))' }}>
@@ -156,7 +151,7 @@ export default function ProjectDetail() {
                   <p style={{ fontSize: 13, color: 'rgba(255,255,255,.75)', lineHeight: 1.6, marginBottom: 'var(--space-6)', fontWeight: 300 }}>
                     {t('projects.detail.supportBody')}
                   </p>
-                  <Link to={`/don?projet=${slug}`} className="btn btn--gold" style={{ display: 'block', textAlign: 'center' }}>
+                  <Link to={`/don?projet=${base.slug}`} className="btn btn--gold" style={{ display: 'block', textAlign: 'center' }}>
                     {t('common.donate')}
                   </Link>
                 </div>
