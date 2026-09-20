@@ -145,20 +145,9 @@
       "label": "Questions fréquentes",
       "title": "On répond à vos questions",
       "items": [
-        { "q": "La Fondation est-elle reconnue d'utilité publique ?", "a": "Oui. La Fondation Wakef Suisse est reconnue d'utilité publique par les autorités fiscales suisses. Vos dons sont déductibles des impôts selon les règles cantonales en vigueur." },
-        { "q": "Comment sont utilisés les dons ?", "a": "Chaque franc collecté est affecté à des projets concrets (mosquées, centres islamiques, bourses). Nous publions un rapport annuel détaillant l'utilisation de tous les fonds." },
-        { "q": "Puis-je obtenir un reçu fiscal ?", "a": "Oui. Nous émettons automatiquement un reçu fiscal pour tout don dès CHF 20. Contactez-nous à info@wakf.ch si vous n'avez pas reçu le vôtre." }
+        { "q": "Comment sont utilisés les dons ?", "a": "Chaque franc collecté est affecté à des projets concrets (mosquées, centres islamiques, bourses). Nous publions un rapport annuel détaillant l'utilisation de tous les fonds." }
       ],
       "all": "Toutes les questions →"
-    },
-    "testimonials": {
-      "label": "Témoignages",
-      "title": "Ce que dit la communauté",
-      "items": [
-        { "text": "Grâce à la Fondation Wakef, notre communauté dispose enfin d'un lieu de culte digne. Le professionnalisme et la transparence sont exemplaires.", "name": "Imam Youssef A.", "role": "Bienne" },
-        { "text": "Le calculateur de Zakat est simple et fiable. J'ai pu m'acquitter de mon obligation en quelques minutes, avec un reçu fiscal en plus.", "name": "Fatima M.", "role": "Lausanne" },
-        { "text": "Je soutiens la Fondation depuis 2015. Chaque rapport annuel montre exactement comment mes dons sont utilisés. Une transparence totale.", "name": "Hassan B.", "role": "Zürich" }
-      ]
     },
     "contact": {
       "title": "Une question ? Contactez-nous",
@@ -396,7 +385,7 @@
       "office": { "label": "Bureau de contact", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
       "year": { "label": "Année de fondation", "value": "2009" },
       "capital": { "label": "Capital de dotation", "value": "CHF 50 000" },
-      "recognition": { "label": "Reconnaissance d'utilité publique", "value": "Oui, exonération fiscale" },
+      "recognition": { "label": "Statut juridique", "value": "Fondation de droit suisse, inscrite au registre du commerce" },
       "supervision": { "label": "Surveillance", "value": "Autorité fédérale de surveillance des fondations" },
       "email": { "label": "Email" },
       "phone": { "label": "Téléphone" }
@@ -413,33 +402,6 @@
       "sub": "Votre générosité construit des mosquées, finance des bourses d'études et crée des espaces pour les générations futures. Chaque franc compte."
     },
     "breadcrumb": "Faire un don",
-    "yourDonation": "Votre don",
-    "frequency": { "unique": "Don unique", "mensuel": "Don mensuel" },
-    "freqShort": { "unique": "unique", "mensuel": "mensuel" },
-    "amountLabel": "Montant (CHF)",
-    "otherAmount": "Autre montant (CHF)",
-    "typeLabel": "Type de don",
-    "types": {
-      "Don libre": "Don libre",
-      "Zakat": "Zakat",
-      "Sadaqah": "Sadaqah",
-      "Zakat al-Fitr": "Zakat al-Fitr",
-      "Waqf": "Waqf",
-      "Kaffarah": "Kaffarah"
-    },
-    "yourDetails": "Vos coordonnées",
-    "successTitle": "Demande envoyée !",
-    "successText": "Nous vous recontacterons sous 48h pour finaliser votre don et vous envoyer un reçu fiscal.",
-    "firstName": "Prénom *",
-    "lastName": "Nom *",
-    "emailLabel": "Email * (pour le reçu fiscal)",
-    "messageLabel": "Message (optionnel)",
-    "errorBefore": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement à ",
-    "recapLabel": "Récapitulatif :",
-    "recapLine": "{{type}}, {{freq}} :",
-    "sending": "Envoi en cours…",
-    "confirm": "Confirmer le don de CHF {{amount}} →",
-    "protected": "🔒 Vos données sont protégées · Reçu fiscal garanti · Don déductible des impôts",
     "impactTitle": "L'impact de votre don",
     "impact": [
       "Finance une journée d'école de langue arabe pour un enfant",
@@ -450,23 +412,26 @@
     ],
     "guaranteesTitle": "Nos garanties",
     "guarantees": [
-      "Paiement 100% sécurisé",
-      "Reçu fiscal pour déduction d'impôts (Suisse)",
       "Conformité Charia : sans intérêt",
       "Rapport annuel d'utilisation des fonds",
-      "Fondation reconnue d'utilité publique"
+      "Fondation de droit suisse enregistrée (CHE-114.901.246)"
     ],
     "questions": "Questions ? Contactez-nous",
-    "bankTitle": "Don par virement bancaire",
-    "bankBody": "Pour les dons importants ou si vous préférez un virement, voici nos coordonnées bancaires.",
-    "bankBoxTitle": "Coordonnées bancaires",
-    "bank": {
-      "beneficiary": { "label": "Bénéficiaire", "value": "Fondation Wakef Suisse" },
-      "iban": { "label": "IBAN", "value": "CH.. (sur demande à info@wakf.ch)" },
-      "bic": { "label": "BIC / SWIFT", "value": "Sur demande" },
-      "reference": { "label": "Référence", "value": "Votre nom + type de don" },
-      "confirmEmail": { "label": "Email de confirmation", "value": "info@wakf.ch" },
-      "tel": { "label": "Tél.", "value": "+41 79 379 96 46" }
+    "transfer": {
+      "title": "Faire un don par virement",
+      "qrAlt": "QR facture de la Fondation Wakef Suisse, à scanner avec votre application bancaire",
+      "scan": "Scannez ce code avec votre application bancaire. Vous choisissez librement le montant.",
+      "beneficiary": { "label": "Bénéficiaire", "value": "Fondation WAKEF SUISSE" },
+      "iban": { "label": "IBAN", "value": "CH84 0900 0000 1076 1819 4" },
+      "bank": { "label": "Banque", "value": "PostFinance AG" },
+      "address": { "label": "Adresse", "value": "Avenue de la Confrérie 11, 1008 Prilly" },
+      "copy": "Copier l'IBAN",
+      "copied": "IBAN copié",
+      "free": "100 % de votre don parvient à la fondation, sans aucun frais de transaction."
+    },
+    "regular": {
+      "title": "Don régulier",
+      "body": "Vous pouvez aussi mettre en place un ordre permanent mensuel depuis votre e banking, avec le même IBAN. C'est le moyen le plus efficace de soutenir nos projets dans la durée."
     }
   },
   "zakat": {
@@ -512,7 +477,6 @@
     "faq": [
       { "q": "Puis-je payer ma Zakat en plusieurs fois ?", "a": "Oui, la Zakat peut être versée en plusieurs fois tout au long de l'année lunaire, tant que le montant total est acquitté avant la date anniversaire (Hawl). Toutefois, il est préférable de la payer en une seule fois pour éviter d'oublier une échéance." },
       { "q": "La Zakat sur les salaires, comment la calculer ?", "a": "Pour les salariés, la Zakat se calcule sur l'épargne nette accumulée depuis un an, pas sur le salaire brut. Calculez votre épargne restante (revenus moins dépenses nécessaires) au bout d'une année lunaire. Si cette épargne dépasse le Nisab, vous devez 2,5% dessus." },
-      { "q": "La Zakat est-elle déductible des impôts suisses ?", "a": "Les dons à une fondation reconnue d'utilité publique comme la Fondation Wakef Suisse peuvent être déduits des impôts suisses selon les règles cantonales. Nous émettons des reçus fiscaux pour tous vos dons." },
       { "q": "Mon calculateur indique « En dessous du Nisab », suis-je exempt ?", "a": "Si votre patrimoine net est inférieur au Nisab (~CHF 4 600), vous n'êtes pas redevable de la Zakat al-Māl. Vous pouvez néanmoins faire une Sadaqah volontaire à tout moment." },
       { "q": "Situations complexes : entrepreneur, immobilier, crypto…", "a": "Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre comité Charia. Contactez-nous à <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>." }
     ],
@@ -532,7 +496,6 @@
         "cat": "Fondation",
         "items": [
           { "q": "Qu'est-ce que la Fondation Wakef Suisse ?", "a": "La Fondation Wakef Suisse est une fondation de droit privé suisse (art. 80 CC), enregistrée sous CHE-114.901.246, fondée en 2009. Elle finance des projets d'infrastructure islamique en Suisse : mosquées, centres islamiques, bourses d'études et carrés musulmans dans les cimetières." },
-          { "q": "La Fondation est-elle reconnue d'utilité publique ?", "a": "Oui. La Fondation Wakef Suisse est reconnue d'utilité publique par les autorités fiscales suisses. Vos dons sont déductibles des impôts selon les règles cantonales en vigueur." },
           { "q": "Qui contrôle la Fondation ?", "a": "La Fondation est supervisée par l'Autorité fédérale de surveillance des fondations. Elle dispose d'un organe de révision indépendant qui vérifie annuellement les comptes et d'un comité Charia qui valide la conformité islamique de chaque projet." },
           { "q": "Quel est le capital de dotation ?", "a": "Le capital de dotation initial est de CHF 50 000, conformément aux statuts enregistrés en 2009. Tous les fonds collectés s'ajoutent à ce capital et sont utilisés exclusivement pour les projets de la Fondation." }
         ]
@@ -541,7 +504,6 @@
         "cat": "Dons",
         "items": [
           { "q": "Comment faire un don ?", "a": "Vous pouvez faire un don via notre formulaire en ligne sur la page « Faire un don », par virement bancaire (coordonnées disponibles sur demande à info@wakf.ch), ou par courrier à notre bureau de contact à Bienne." },
-          { "q": "Les dons sont-ils déductibles des impôts suisses ?", "a": "Oui. En tant que fondation reconnue d'utilité publique, vos dons à la Fondation Wakef sont déductibles de votre revenu imposable selon les règles cantonales. Nous émettons un reçu fiscal pour tout don dès CHF 20." },
           { "q": "Puis-je faire un don récurrent (mensuel) ?", "a": "Oui. Vous pouvez opter pour un don mensuel en précisant votre souhait dans le formulaire. Notre équipe vous contactera pour mettre en place le virement automatique." },
           { "q": "La Fondation est-elle transparente dans sa gestion ?", "a": "Oui. La Fondation Wakef Suisse est soumise au droit civil suisse (art. 80 CC) et supervisée par l'Autorité cantonale de surveillance des fondations du canton de Vaud. Les comptes sont contrôlés annuellement par un organe de révision indépendant et les rapports financiers sont disponibles sur demande à info@wakf.ch." }
         ]
@@ -732,7 +694,7 @@
       "form": { "label": "Forme juridique", "value": "Fondation de droit privé suisse (Art. 80 CC)" },
       "year": { "label": "Fondée en", "value": "2009" },
       "capital": { "label": "Capital de dotation", "value": "CHF 50 000" },
-      "recognition": { "label": "Reconnaissance", "value": "Utilité publique, exonération fiscale" },
+      "recognition": { "label": "Statut juridique", "value": "Fondation de droit suisse, CHE-114.901.246" },
       "head": { "label": "Siège social", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
       "office": { "label": "Bureau de contact", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
       "email": { "label": "Email" },

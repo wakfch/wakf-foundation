@@ -145,20 +145,9 @@
       "label": "Häufige Fragen",
       "title": "Wir beantworten Ihre Fragen",
       "items": [
-        { "q": "Ist die Stiftung als gemeinnützig anerkannt?", "a": "Ja. Die Fondation Wakef Suisse ist von den Schweizer Steuerbehörden als gemeinnützig anerkannt. Ihre Spenden sind nach den geltenden kantonalen Regeln steuerlich abzugsfähig." },
-        { "q": "Wie werden die Spenden verwendet?", "a": "Jeder gesammelte Franken fliesst in konkrete Projekte (Moscheen, islamische Zentren, Stipendien). Wir veröffentlichen einen Jahresbericht, der die Verwendung sämtlicher Mittel im Detail darlegt." },
-        { "q": "Erhalte ich eine Spendenbescheinigung?", "a": "Ja. Für jede Spende ab CHF 20 stellen wir automatisch eine Spendenbescheinigung aus. Schreiben Sie uns an info@wakf.ch, falls Sie Ihre noch nicht erhalten haben." }
+        { "q": "Wie werden die Spenden verwendet?", "a": "Jeder gesammelte Franken fliesst in konkrete Projekte (Moscheen, islamische Zentren, Stipendien). Wir veröffentlichen einen Jahresbericht, der die Verwendung sämtlicher Mittel im Detail darlegt." }
       ],
       "all": "Alle Fragen →"
-    },
-    "testimonials": {
-      "label": "Erfahrungsberichte",
-      "title": "Was die Gemeinschaft sagt",
-      "items": [
-        { "text": "Dank der Fondation Wakef verfügt unsere Gemeinschaft endlich über eine würdige Gebetsstätte. Professionalität und Transparenz sind vorbildlich.", "name": "Imam Youssef A.", "role": "Biel/Bienne" },
-        { "text": "Der Zakatrechner ist einfach und verlässlich. Ich konnte meine Pflicht in wenigen Minuten erfüllen und erhielt zusätzlich eine Spendenbescheinigung.", "name": "Fatima M.", "role": "Lausanne" },
-        { "text": "Ich unterstütze die Stiftung seit 2015. Jeder Jahresbericht zeigt genau, wie meine Spenden verwendet werden. Vollständige Transparenz.", "name": "Hassan B.", "role": "Zürich" }
-      ]
     },
     "contact": {
       "title": "Haben Sie eine Frage? Kontaktieren Sie uns",
@@ -396,7 +385,7 @@
       "office": { "label": "Kontaktbüro", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
       "year": { "label": "Gründungsjahr", "value": "2009" },
       "capital": { "label": "Stiftungskapital", "value": "CHF 50 000" },
-      "recognition": { "label": "Anerkennung der Gemeinnützigkeit", "value": "Ja, mit Steuerbefreiung" },
+      "recognition": { "label": "Rechtsstatus", "value": "Stiftung nach Schweizer Recht, im Handelsregister eingetragen" },
       "supervision": { "label": "Aufsicht", "value": "Eidgenössische Stiftungsaufsicht" },
       "email": { "label": "E-Mail" },
       "phone": { "label": "Telefon" }
@@ -413,33 +402,6 @@
       "sub": "Ihre Grosszügigkeit baut Moscheen, finanziert Studienstipendien und schafft Räume für künftige Generationen. Jeder Franken zählt."
     },
     "breadcrumb": "Spenden",
-    "yourDonation": "Ihre Spende",
-    "frequency": { "unique": "Einmalige Spende", "mensuel": "Monatliche Spende" },
-    "freqShort": { "unique": "einmalig", "mensuel": "monatlich" },
-    "amountLabel": "Betrag (CHF)",
-    "otherAmount": "Anderer Betrag (CHF)",
-    "typeLabel": "Art der Spende",
-    "types": {
-      "Don libre": "Freie Spende",
-      "Zakat": "Zakat",
-      "Sadaqah": "Sadaqah",
-      "Zakat al-Fitr": "Zakat al-Fitr",
-      "Waqf": "Waqf",
-      "Kaffarah": "Kaffarah"
-    },
-    "yourDetails": "Ihre Kontaktangaben",
-    "successTitle": "Anfrage gesendet!",
-    "successText": "Wir melden uns innerhalb von 48 Stunden bei Ihnen, um Ihre Spende abzuschliessen und Ihnen eine Spendenbescheinigung zuzustellen.",
-    "firstName": "Vorname *",
-    "lastName": "Name *",
-    "emailLabel": "E-Mail * (für die Spendenbescheinigung)",
-    "messageLabel": "Nachricht (freiwillig)",
-    "errorBefore": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter ",
-    "recapLabel": "Zusammenfassung:",
-    "recapLine": "{{type}}, {{freq}}:",
-    "sending": "Wird gesendet…",
-    "confirm": "Spende von CHF {{amount}} bestätigen →",
-    "protected": "🔒 Ihre Daten sind geschützt · Spendenbescheinigung garantiert · Spende steuerlich abzugsfähig",
     "impactTitle": "Die Wirkung Ihrer Spende",
     "impact": [
       "Finanziert einem Kind einen Tag Arabischunterricht",
@@ -450,24 +412,11 @@
     ],
     "guaranteesTitle": "Unsere Garantien",
     "guarantees": [
-      "100% sichere Zahlung",
-      "Spendenbescheinigung für den Steuerabzug (Schweiz)",
       "Konform mit der Scharia: zinsfrei",
       "Jahresbericht über die Verwendung der Mittel",
-      "Als gemeinnützig anerkannte Stiftung"
+      "Eingetragene Stiftung nach Schweizer Recht (CHE-114.901.246)"
     ],
-    "questions": "Fragen? Kontaktieren Sie uns",
-    "bankTitle": "Spende per Banküberweisung",
-    "bankBody": "Für grössere Spenden oder wenn Sie eine Überweisung bevorzugen, finden Sie hier unsere Bankverbindung.",
-    "bankBoxTitle": "Bankverbindung",
-    "bank": {
-      "beneficiary": { "label": "Begünstigte", "value": "Fondation Wakef Suisse" },
-      "iban": { "label": "IBAN", "value": "CH.. (auf Anfrage unter info@wakf.ch)" },
-      "bic": { "label": "BIC / SWIFT", "value": "Auf Anfrage" },
-      "reference": { "label": "Referenz", "value": "Ihr Name + Art der Spende" },
-      "confirmEmail": { "label": "E-Mail für die Bestätigung", "value": "info@wakf.ch" },
-      "tel": { "label": "Tel.", "value": "+41 79 379 96 46" }
-    }
+    "questions": "Fragen? Kontaktieren Sie uns"
   },
   "zakat": {
     "hero": {
@@ -512,7 +461,6 @@
     "faq": [
       { "q": "Kann ich meine Zakat in mehreren Teilbeträgen bezahlen?", "a": "Ja, die Zakat kann im Verlauf des Mondjahres in mehreren Teilbeträgen entrichtet werden, solange der Gesamtbetrag vor dem Jahrestag (Hawl) beglichen ist. Es ist jedoch vorzuziehen, sie auf einmal zu bezahlen, um keine Frist zu vergessen." },
       { "q": "Wie berechnet man die Zakat auf den Lohn?", "a": "Bei Angestellten wird die Zakat auf den seit einem Jahr angesparten Nettobetrag berechnet, nicht auf den Bruttolohn. Ermitteln Sie nach Ablauf eines Mondjahres Ihre verbleibenden Ersparnisse (Einkommen abzüglich der notwendigen Ausgaben). Übersteigen diese Ersparnisse den Nisab, schulden Sie darauf 2,5%." },
-      { "q": "Ist die Zakat in der Schweiz steuerlich abzugsfähig?", "a": "Spenden an eine als gemeinnützig anerkannte Stiftung wie die Fondation Wakef Suisse können nach den kantonalen Regeln von den Schweizer Steuern abgezogen werden. Wir stellen für alle Ihre Spenden Spendenbescheinigungen aus." },
       { "q": "Mein Rechner zeigt « Unter dem Nisab » an, bin ich befreit?", "a": "Liegt Ihr Nettovermögen unter dem Nisab (~CHF 4 600), schulden Sie keine Zakat al-Māl. Sie können jedoch jederzeit freiwillig eine Sadaqah leisten." },
       { "q": "Komplexe Situationen: Unternehmen, Immobilien, Krypto…", "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Schariakomitee beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>." }
     ],
@@ -532,7 +480,6 @@
         "cat": "Stiftung",
         "items": [
           { "q": "Was ist die Fondation Wakef Suisse?", "a": "Die Fondation Wakef Suisse ist eine Stiftung des schweizerischen Privatrechts (Art. 80 ZGB), eingetragen unter CHE-114.901.246 und 2009 gegründet. Sie finanziert islamische Infrastrukturvorhaben in der Schweiz: Moscheen, islamische Zentren, Studienstipendien und muslimische Grabfelder auf Friedhöfen." },
-          { "q": "Ist die Stiftung als gemeinnützig anerkannt?", "a": "Ja. Die Fondation Wakef Suisse ist von den Schweizer Steuerbehörden als gemeinnützig anerkannt. Ihre Spenden sind nach den geltenden kantonalen Regeln steuerlich abzugsfähig." },
           { "q": "Wer kontrolliert die Stiftung?", "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft, sowie über ein Schariakomitee, das die islamische Konformität jedes Projekts bestätigt." },
           { "q": "Wie hoch ist das Stiftungskapital?", "a": "Das anfängliche Stiftungskapital beträgt CHF 50 000, gemäss den 2009 eingetragenen Statuten. Alle gesammelten Mittel kommen zu diesem Kapital hinzu und werden ausschliesslich für die Projekte der Stiftung verwendet." }
         ]
@@ -541,7 +488,6 @@
         "cat": "Spenden",
         "items": [
           { "q": "Wie kann ich spenden?", "a": "Sie können über unser Onlineformular auf der Seite « Spenden » spenden, per Banküberweisung (Angaben auf Anfrage unter info@wakf.ch) oder per Post an unser Kontaktbüro in Biel/Bienne." },
-          { "q": "Sind Spenden in der Schweiz steuerlich abzugsfähig?", "a": "Ja. Als gemeinnützig anerkannte Stiftung sind Ihre Spenden an die Fondation Wakef nach den kantonalen Regeln von Ihrem steuerbaren Einkommen abziehbar. Für jede Spende ab CHF 20 stellen wir eine Spendenbescheinigung aus." },
           { "q": "Kann ich monatlich wiederkehrend spenden?", "a": "Ja. Sie können sich im Formular für eine monatliche Spende entscheiden. Unser Team nimmt mit Ihnen Kontakt auf, um den Dauerauftrag einzurichten." },
           { "q": "Ist die Stiftung in ihrer Führung transparent?", "a": "Ja. Die Fondation Wakef Suisse untersteht dem schweizerischen Zivilrecht (Art. 80 ZGB) und der kantonalen Stiftungsaufsicht des Kantons Waadt. Die Rechnung wird jährlich von einer unabhängigen Revisionsstelle geprüft, und die Finanzberichte sind auf Anfrage unter info@wakf.ch erhältlich." }
         ]
@@ -732,7 +678,7 @@
       "form": { "label": "Rechtsform", "value": "Stiftung des schweizerischen Privatrechts (Art. 80 ZGB)" },
       "year": { "label": "Gegründet im Jahr", "value": "2009" },
       "capital": { "label": "Stiftungskapital", "value": "CHF 50 000" },
-      "recognition": { "label": "Anerkennung", "value": "Gemeinnützigkeit, Steuerbefreiung" },
+      "recognition": { "label": "Rechtsstatus", "value": "Stiftung nach Schweizer Recht, CHE-114.901.246" },
       "head": { "label": "Sitz der Stiftung", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
       "office": { "label": "Kontaktbüro", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
       "email": { "label": "E-Mail" },

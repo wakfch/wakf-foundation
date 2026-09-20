@@ -28,30 +28,22 @@ function CountUp({ target, suffix, active, locale }) {
   return <bdi dir="ltr">{val.toLocaleString(locale)}{suffix}</bdi>;
 }
 
-const TESTIMONIAL_COUNT = 3;
 const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'de-CH' };
 
 export default function Home() {
   const { t, i18n } = useTranslation();
   const numLocale = NUMBER_LOCALES[(i18n.language || 'fr').slice(0, 2)] || 'fr-CH';
-  const testimonials = t('home.testimonials.items', { returnObjects: true });
   const objectives = t('home.about.objectives', { returnObjects: true });
   const values = t('home.about.values', { returnObjects: true });
   const faqItems = t('home.faq.items', { returnObjects: true });
   const [statsVisible, setStatsVisible] = useState(false);
   const statsRef = useRef(null);
-  const [tIdx, setTIdx] = useState(0);
   const revealRefs = useRef([]);
 
   useEffect(() => {
     const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) setStatsVisible(true); }, { threshold: 0.3 });
     if (statsRef.current) obs.observe(statsRef.current);
     return () => obs.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const id = setInterval(() => setTIdx(i => (i + 1) % TESTIMONIAL_COUNT), 6000);
-    return () => clearInterval(id);
   }, []);
 
   useEffect(() => {
@@ -228,37 +220,6 @@ export default function Home() {
           </div>
           <div style={{ textAlign: 'center' }}>
             <Link to="/faq" className="btn btn--outline">{t('home.faq.all')}</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── TÉMOIGNAGES ───────────────────────────────────────── */}
-      <section className="section section--alt">
-        <div className="container" style={{ maxWidth: 700, textAlign: 'center' }}>
-          <span className="section-label">{t('home.testimonials.label')}</span>
-          <h2 className="section-title" style={{ marginInline: 'auto' }}>{t('home.testimonials.title')}</h2>
-          <span className="accent-line" style={{ marginInline: 'auto' }} />
-          <div style={{ position: 'relative', minHeight: 180 }}>
-            {testimonials.map((tm, i) => (
-              <div key={i} style={{
-                position: i === 0 ? 'relative' : 'absolute', top: 0, left: 0, right: 0,
-                opacity: tIdx === i ? 1 : 0, transform: `translateY(${tIdx === i ? 0 : 12}px)`,
-                transition: 'opacity .5s, transform .5s', pointerEvents: tIdx === i ? 'auto' : 'none',
-              }}>
-                <div style={{ fontSize: 36, color: 'var(--gold)', marginBottom: 'var(--space-3)' }}>"</div>
-                <p style={{ fontSize: 17, color: 'var(--text-body)', lineHeight: 1.75, fontStyle: 'italic', marginBottom: 'var(--space-4)', fontWeight: 300 }}>{tm.text}</p>
-                <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, color: 'var(--green)' }}>{tm.name}</p>
-                <p style={{ fontSize: 13, color: 'var(--text-muted)' }}>{tm.role}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ display: 'flex', gap: 8, justifyContent: 'center', marginTop: 'var(--space-6)' }}>
-            {testimonials.map((_, i) => (
-              <button key={i} onClick={() => setTIdx(i)} style={{
-                width: 8, height: 8, borderRadius: '50%', border: 'none', cursor: 'pointer',
-                background: tIdx === i ? 'var(--green)' : 'var(--border)', transition: 'background .3s', padding: 0,
-              }} />
-            ))}
           </div>
         </div>
       </section>
