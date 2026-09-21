@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useLayoutEffect, useRef } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo-mark.png';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -39,6 +39,12 @@ export default function Header() {
   const location = useLocation();
   const dropRef = useRef(null);
   const lastScrollY = useRef(0);
+  // Page avec bandeau vert (repère data-page-hero, posé sur l'accueil) : en-tête transparent jusqu'au premier
+  // défilement. Toutes les autres pages : en-tête blanc dès le chargement. useLayoutEffect évite un flash.
+  const [heroPage, setHeroPage] = useState(false);
+  useLayoutEffect(() => {
+    setHeroPage(!!document.querySelector('[data-page-hero]'));
+  }, [location.pathname]);
 
   useEffect(() => {
     const onScroll = () => {
@@ -65,22 +71,25 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`nav${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
+    <header className={`nav${heroPage ? ' nav--hero' : ''}${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
       <style>{`
         .nav {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
           height: var(--nav-h); display: flex; align-items: center;
           padding-inline: var(--space-6); gap: var(--space-8);
+          background: #FFFFFF; box-shadow: var(--shadow-sm);
           transition: background .3s, box-shadow .3s;
         }
-        .nav--scrolled { background: rgba(255,255,255,.97); box-shadow: var(--shadow-md); backdrop-filter: blur(12px); }
+        .nav--scrolled { background: #FFFFFF; box-shadow: var(--shadow-md); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) { background: rgba(10,20,12,.92); box-shadow: 0 2px 16px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
-        .nav:not(.nav--scrolled):not(.nav--dark):not(.nav--open) { background: transparent; }
-        /* Pages sans bandeau vert (introuvable, chargement) : fond vert plein pour que le menu blanc reste lisible */
-        body:not(:has(.page-hero, [data-page-hero])) .nav:not(.nav--scrolled):not(.nav--open) { background: #2d7a3a; }
-        .nav--open { background: rgba(255,255,255,.97); }
-        .nav__logo { display: flex; align-items: center; gap: var(--space-3); text-decoration: none; flex-shrink: 0; }
-        .nav__logo-img { height: 44px; width: auto; border-radius: 8px; object-fit: contain; }
+        /* Accueil (data-page-hero) : transparent sur le bandeau vert jusqu'au premier défilement */
+        .nav--hero:not(.nav--scrolled):not(.nav--open) { background: transparent; box-shadow: none; }
+        .nav--open { background: #FFFFFF; }
+        .nav__logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+        /* Symbole seul, fond transparent (plus de carré blanc) */
+        .nav__logo-img { height: 42px; width: auto; object-fit: contain; transition: filter .3s; }
+        /* Sur le bandeau vert : symbole éclairci avec un liseré blanc pour rester visible, couleurs conservées */
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-img { filter: brightness(1.5) saturate(1.1) drop-shadow(0 0 1px rgba(255,255,255,.9)); }
         .nav__logo-text { display: flex; flex-direction: column; }
         .nav__logo-name { font-family: var(--font-heading); font-size: 15px; font-weight: 700; color: var(--green); line-height: 1.1; }
         .nav__logo-sub { font-size: 10px; color: var(--text-faint); letter-spacing: .06em; }
@@ -93,13 +102,13 @@ export default function Header() {
         }
         .nav__link:hover, .nav__link--active { color: var(--green); background: var(--green-light); }
         .nav--scrolled .nav__link { color: var(--text-heading); }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: #FFFFFF; background: rgba(0,0,0,.16); }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: #FFFFFF; background: rgba(0,0,0,.16); }
         /* Lien de la page active : texte blanc sur pastille sombre translucide (avant : blanc sur vert très pâle, illisible) */
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link--active,
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link--active:hover { color: #FFFFFF; background: rgba(0,0,0,.28); }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.6); }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link--active,
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link--active:hover { color: #FFFFFF; background: rgba(0,0,0,.28); }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.6); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.12); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
@@ -120,7 +129,7 @@ export default function Header() {
         .nav__donate:hover { background: #b8952f; transform: translateY(-1px); }
         .nav__burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; border-radius: var(--radius-sm); }
         .nav__burger span { display: block; width: 22px; height: 2px; background: var(--text-heading); transition: all .3s; border-radius: 2px; }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__burger span { background: var(--white); }
+        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__burger span { background: var(--white); }
         .nav__mobile { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; background: var(--white); box-shadow: var(--shadow-lg); padding: var(--space-4); border-top: 1px solid var(--border); z-index: 999; max-height: calc(100vh - var(--nav-h)); overflow-y: auto; }
         .nav__mobile.open { display: block; }
         .nav__mobile-link { display: block; padding: 12px 16px; font-size: 15px; font-weight: 500; color: var(--text-heading); border-radius: var(--radius-md); transition: all .2s; }
@@ -135,7 +144,7 @@ export default function Header() {
       `}</style>
 
       <Link to="/" className="nav__logo">
-        <img src={logo} alt={t('common.foundationName')} className="nav__logo-img" />
+        <img src={logo} alt="" aria-hidden="true" className="nav__logo-img" />
         <div className="nav__logo-text">
           <span className="nav__logo-name">{t('common.foundationName')}</span>
           <span className="nav__logo-sub">{t('header.sub')}</span>
