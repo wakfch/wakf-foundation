@@ -139,6 +139,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* Transition de page : fondu et léger glissement à chaque changement de route */
 @keyframes page-enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 .page-transition { animation: page-enter .35s ease backwards; }
+/* Page avec bandeau sous l'en-tête transparent (data-page-hero) : ni fondu ni décalage, sinon le fond blanc du site apparaît au dessus du vert */
+.page-transition:has([data-page-hero]) { animation: none; }
 @media (prefers-reduced-motion: reduce) {
   .page-transition { animation: none; }
   .projet-card--clickable:active { transform: none; }

@@ -42,8 +42,14 @@ export default function Header() {
   // Page avec bandeau vert (repère data-page-hero, posé sur l'accueil) : en-tête transparent jusqu'au premier
   // défilement. Toutes les autres pages : en-tête blanc dès le chargement. useLayoutEffect évite un flash.
   const [heroPage, setHeroPage] = useState(false);
+  // instant : à l'arrivée sur une page, les couleurs de l'en-tête changent sans transition (sinon il reste
+  // blanc puis s'éclaircit vers le transparent sur le bandeau vert). Les transitions reprennent ensuite.
+  const [instant, setInstant] = useState(true);
   useLayoutEffect(() => {
     setHeroPage(!!document.querySelector('[data-page-hero]'));
+    setInstant(true);
+    const id = setTimeout(() => setInstant(false), 200);
+    return () => clearTimeout(id);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -71,7 +77,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`nav${heroPage ? ' nav--hero' : ''}${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
+    <header className={`nav${instant ? ' nav--instant' : ''}${heroPage ? ' nav--hero' : ''}${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
       <style>{`
         .nav {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -81,6 +87,7 @@ export default function Header() {
           transition: background .3s, box-shadow .3s;
         }
         .nav--scrolled { background: #FFFFFF; box-shadow: var(--shadow-md); }
+        .nav--instant, .nav--instant * { transition: none !important; }
         .nav--dark:not(.nav--scrolled):not(.nav--open) { background: rgba(10,20,12,.92); box-shadow: 0 2px 16px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
         /* Accueil (data-page-hero) : transparent sur le bandeau vert jusqu'au premier défilement */
         .nav--hero:not(.nav--scrolled):not(.nav--open) { background: transparent; box-shadow: none; }
