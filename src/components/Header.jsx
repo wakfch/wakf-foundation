@@ -109,7 +109,7 @@ export default function Header() {
         .nav__dropdown-item { display: block; padding: 10px 14px; font-size: 14px; color: var(--text-body); border-radius: var(--radius-sm); transition: all .2s; }
         .nav__dropdown-item:hover { background: var(--green-light); color: var(--green); }
         .nav__actions { display: flex; align-items: center; gap: var(--space-3); flex-shrink: 0; }
-        .nav__donate { background: var(--gold); color: var(--white); padding: 10px 22px; border-radius: var(--radius-md); font-family: var(--font-heading); font-size: 14px; font-weight: 700; transition: all .25s; white-space: nowrap; }
+        .nav__donate { background: var(--gold); color: var(--text-heading); padding: 10px 22px; border-radius: var(--radius-md); font-family: var(--font-heading); font-size: 14px; font-weight: 700; transition: all .25s; white-space: nowrap; }
         .nav__donate:hover { background: #b8952f; transform: translateY(-1px); }
         .nav__burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; border-radius: var(--radius-sm); }
         .nav__burger span { display: block; width: 22px; height: 2px; background: var(--text-heading); transition: all .3s; border-radius: 2px; }

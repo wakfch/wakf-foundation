@@ -151,7 +151,7 @@ export default function About() {
         <section style={{ background: 'var(--green)', padding: 'var(--space-12) 0', textAlign: 'center' }}>
           <div className="container">
             <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>{t('about.ctaTitle')}</h2>
-            <p style={{ fontSize: 15, color: 'rgba(255,255,255,.75)', marginBottom: 'var(--space-8)', fontWeight: 300 }}>{t('about.ctaBody')}</p>
+            <p style={{ fontSize: 15, color: 'rgba(255,255,255,.92)', marginBottom: 'var(--space-8)', fontWeight: 300 }}>{t('about.ctaBody')}</p>
             <div style={{ display: 'flex', gap: 'var(--space-4)', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link to="/don" className="btn btn--gold btn--lg">{t('about.ctaDonate')}</Link>
               <Link to="/statuts" className="btn btn--white btn--lg">{t('about.ctaStatutes')}</Link>

@@ -14,8 +14,8 @@
   --bg-dark: #111827;
   --text-heading: #1a1a1a;
   --text-body: #3d3d3d;
-  --text-muted: #6b7280;
-  --text-faint: #9ca3af;
+  --text-muted: #5c6470;
+  --text-faint: #6b7280;
   --border: #e5e7eb;
   --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
   --shadow-md: 0 4px 12px rgba(0,0,0,.08);
@@ -68,7 +68,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .btn--primary:hover { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(45,122,58,.35); }
 .btn--outline { background: transparent; color: var(--green); border: 2px solid var(--green); }
 .btn--outline:hover { background: var(--green); color: var(--white); }
-.btn--gold { background: var(--gold); color: var(--white); }
+.btn--gold { background: var(--gold); color: var(--text-heading); }
 .btn--gold:hover { background: #b8952f; transform: translateY(-1px); }
 .btn--white { background: var(--white); color: var(--green); }
 .btn--white:hover { background: var(--gold-light); }
@@ -208,7 +208,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .zakat__result-label { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.7); margin-bottom: var(--space-2); }
 .zakat__result-amount { font-family: var(--font-heading); font-size: 48px; font-weight: 800; color: var(--gold); line-height: 1; }
 .zakat__result-note { font-size: 13px; color: rgba(255,255,255,.7); line-height: 1.6; }
-.zakat__result-donate { display: block; text-align: center; padding: 16px; background: var(--gold); color: var(--white); border-radius: var(--radius-md); font-family: var(--font-heading); font-size: 15px; font-weight: 700; transition: all .25s; margin-top: auto; }
+.zakat__result-donate { display: block; text-align: center; padding: 16px; background: var(--gold); color: var(--text-heading); border-radius: var(--radius-md); font-family: var(--font-heading); font-size: 15px; font-weight: 700; transition: all .25s; margin-top: auto; }
 .zakat__result-donate:hover { background: #b8952f; transform: translateY(-1px); }
 .zakat__nisab-info { background: rgba(255,255,255,.12); border-radius: var(--radius-md); padding: var(--space-4); font-size: 13px; color: rgba(255,255,255,.85); line-height: 1.6; }
 .zakat__breakdown { background: rgba(255,255,255,.1); border-radius: var(--radius-md); padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); }
@@ -232,7 +232,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .newsletter__form { display: flex; gap: var(--space-3); max-width: 460px; margin-inline: auto; }
 .newsletter__input { flex: 1; padding: 14px 18px; border-radius: var(--radius-md); border: none; font-family: var(--font-body); font-size: 14px; }
 .newsletter__input:focus { outline: 2px solid var(--gold); }
-.newsletter__btn { padding: 14px 24px; background: var(--gold); color: var(--white); border-radius: var(--radius-md); font-family: var(--font-heading); font-weight: 700; font-size: 14px; cursor: pointer; transition: background .2s; white-space: nowrap; }
+.newsletter__btn { padding: 14px 24px; background: var(--gold); color: var(--text-heading); border-radius: var(--radius-md); font-family: var(--font-heading); font-weight: 700; font-size: 14px; cursor: pointer; transition: background .2s; white-space: nowrap; }
 .newsletter__btn:hover { background: #b8952f; }
 .newsletter__note { font-size: 12px; color: rgba(255,255,255,.55); margin-top: var(--space-4); }
 

@@ -15,7 +15,7 @@ export default function Footer() {
               <img src={logo} alt={t('common.foundationName')} style={{ height: 48, borderRadius: 8, objectFit: 'contain' }} />
               <div>
                 <div style={{ fontFamily: 'var(--font-heading)', fontSize: 16, fontWeight: 700, color: 'var(--white)' }}>{t('common.foundationName')}</div>
-                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.5)', letterSpacing: '.06em' }}>{t('header.sub')}</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.65)', letterSpacing: '.06em' }}>{t('header.sub')}</div>
               </div>
             </Link>
             <p style={{ fontSize: 13, lineHeight: 1.7, fontWeight: 300, marginBottom: 'var(--space-4)' }}>
@@ -66,14 +66,14 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: 'var(--space-5) 0', flexWrap: 'wrap', gap: 'var(--space-3)' }}>
-          <p style={{ fontSize: 12, color: 'rgba(255,255,255,.4)' }}>
+          <p style={{ fontSize: 12, color: 'rgba(255,255,255,.65)' }}>
             {t('footer.copyright', { year: new Date().getFullYear() })}
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-5)' }}>
             {[[t('footer.privacy'), '/confidentialite'], [t('footer.legal'), '/mentions-legales']].map(([label, to]) => (
-              <Link key={to} to={to} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: 'color .2s' }}
+              <Link key={to} to={to} style={{ fontSize: 12, color: 'rgba(255,255,255,.65)', transition: 'color .2s' }}
                 onMouseEnter={e => e.target.style.color = 'rgba(255,255,255,.8)'}
-                onMouseLeave={e => e.target.style.color = 'rgba(255,255,255,.4)'}
+                onMouseLeave={e => e.target.style.color = 'rgba(255,255,255,.65)'}
               >{label}</Link>
             ))}
           </div>

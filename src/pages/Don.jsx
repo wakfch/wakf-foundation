@@ -62,7 +62,7 @@ export default function Don() {
             <div className="don__grid">
               {/* Left: Form */}
               <div>
-                <div className="don-virement">
+                <div className="don-virement" lang="fr" dir="ltr">
                   <style>{`
                     @media (min-width: 901px) { .don__grid { grid-template-columns: 1.5fr 1fr; } }
                     .don-virement { background: #fff; border: 1px solid #E8E8E8; border-radius: 20px; padding: 32px; font-family: var(--font-body); color: #444444; }
@@ -73,7 +73,7 @@ export default function Don() {
                     .don-virement__scan { font-size: 13px; line-height: 1.6; text-align: center; color: #444444; }
                     .don-virement__details { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; min-width: 0; }
                     .don-virement__list { display: flex; flex-direction: column; gap: 14px; margin: 0; }
-                    .don-virement__list dt { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #444444; opacity: .7; margin-bottom: 2px; }
+                    .don-virement__list dt { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: #555555; margin-bottom: 2px; }
                     .don-virement__list dd { margin: 0; font-size: 15px; font-weight: 500; line-height: 1.5; color: #1A1A1A; overflow-wrap: anywhere; }
                     .don-virement__list dd.don-virement__iban { font-weight: 600; letter-spacing: .03em; white-space: nowrap; }
                     .don-virement__copy { display: inline-flex; align-items: center; min-height: 36px; padding: 6px 14px; border: 1px solid #E8E8E8; border-radius: 8px; background: #fff; color: #2d7a3a; font-family: var(--font-body); font-size: 13px; font-weight: 600; cursor: pointer; transition: background .2s, border-color .2s, color .2s; }
@@ -121,7 +121,7 @@ export default function Don() {
                   <p className="don-virement__free">{t('donation.transfer.free')}</p>
                 </div>
 
-                <div className="don-regulier">
+                <div className="don-regulier" lang="fr" dir="ltr">
                   <h3 className="don-regulier__title">{t('donation.regular.title')}</h3>
                   <p className="don-regulier__body">{t('donation.regular.body')}</p>
                 </div>

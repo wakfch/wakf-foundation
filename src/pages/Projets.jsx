@@ -69,7 +69,7 @@ export default function Projets() {
 
             <div style={{ textAlign: 'center', padding: 'var(--space-12)', background: 'var(--green)', borderRadius: 'var(--radius-xl)' }}>
               <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 24, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-4)' }}>{t('projects.supportTitle')}</h3>
-              <p style={{ fontSize: 16, color: 'rgba(255,255,255,.72)', marginBottom: 'var(--space-8)', fontWeight: 300 }}>{t('projects.supportBody')}</p>
+              <p style={{ fontSize: 16, color: 'rgba(255,255,255,.92)', marginBottom: 'var(--space-8)', fontWeight: 300 }}>{t('projects.supportBody')}</p>
               <Link to="/don" className="btn btn--white btn--lg">{t('common.donate')}</Link>
             </div>
           </div>
