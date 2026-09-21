@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <div style={{ marginTop: 'calc(-1 * var(--nav-h))' }}>
       {/* ── HERO ─────────────────────────────────────────────── */}
-      <section style={{
+      <section data-page-hero style={{
         minHeight: '100vh', display: 'flex', alignItems: 'center',
         background: 'linear-gradient(135deg, #0d2b14 0%, #1e5229 50%, #2d7a3a 100%)',
         position: 'relative', overflow: 'hidden',

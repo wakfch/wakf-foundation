@@ -55,7 +55,7 @@ export default function BlogPost() {
 
   return (
     <>
-      <div style={{
+      <div data-page-hero style={{
         height: 360, background: `linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.3)), url(${post.img || `https://picsum.photos/1200/400?grayscale&random=${slug}`}) center/cover`,
         display: 'flex', alignItems: 'flex-end', paddingTop: 'var(--nav-h)',
       }}>

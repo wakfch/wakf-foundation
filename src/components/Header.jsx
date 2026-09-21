@@ -76,6 +76,8 @@ export default function Header() {
         .nav--scrolled { background: rgba(255,255,255,.97); box-shadow: var(--shadow-md); backdrop-filter: blur(12px); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) { background: rgba(10,20,12,.92); box-shadow: 0 2px 16px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
         .nav:not(.nav--scrolled):not(.nav--dark):not(.nav--open) { background: transparent; }
+        /* Pages sans bandeau vert (introuvable, chargement) : fond vert plein pour que le menu blanc reste lisible */
+        body:not(:has(.page-hero, [data-page-hero])) .nav:not(.nav--scrolled):not(.nav--open) { background: #2d7a3a; }
         .nav--open { background: rgba(255,255,255,.97); }
         .nav__logo { display: flex; align-items: center; gap: var(--space-3); text-decoration: none; flex-shrink: 0; }
         .nav__logo-img { height: 44px; width: auto; border-radius: 8px; object-fit: contain; }
@@ -91,11 +93,14 @@ export default function Header() {
         }
         .nav__link:hover, .nav__link--active { color: var(--green); background: var(--green-light); }
         .nav--scrolled .nav__link { color: var(--text-heading); }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link { color: rgba(255,255,255,.9); }
-        .nav:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.15); }
+        .nav:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
+        .nav:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: #FFFFFF; background: rgba(0,0,0,.16); }
+        /* Lien de la page active : texte blanc sur pastille sombre translucide (avant : blanc sur vert très pâle, illisible) */
+        .nav:not(.nav--scrolled):not(.nav--open) .nav__link--active,
+        .nav:not(.nav--scrolled):not(.nav--open) .nav__link--active:hover { color: #FFFFFF; background: rgba(0,0,0,.28); }
         .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
         .nav:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.6); }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link { color: rgba(255,255,255,.9); }
+        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.12); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
         .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.55); }
