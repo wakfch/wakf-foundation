@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Almarai:wght@300;400;700&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -28,7 +28,7 @@
   --radius-2xl: 28px;
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Inter', sans-serif;
-  --font-arabic: 'Noto Sans Arabic', 'Inter', sans-serif;
+  --font-arabic: 'Almarai', 'Inter', sans-serif;
   --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
   --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
   --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
@@ -268,6 +268,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   .don__amounts { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* Arabe : police Noto Sans Arabic sur tout le site (!important pour passer devant les styles inline des titres) */
+/* Arabe : police Almarai sur tout le site (!important pour passer devant les styles inline des titres).
+   Almarai n'existe qu'en 300, 400, 700 et 800 : 300 = léger, 400 et 500 = normal, 600 à 800 = gras (700) */
 html[lang="ar"] body,
 html[lang="ar"] body * { font-family: var(--font-arabic) !important; }

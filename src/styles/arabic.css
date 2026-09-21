@@ -1,8 +1,8 @@
 /*
  * Arabe uniquement (html[lang="ar"]) : lisibilité du texte.
  * L'arabe rend plus petit que le latin à taille égale : chaque taille CSS ou inline
- * inférieure ou égale à 16px est relevée de 2 à 3px, et la graisse 300 (trop fine
- * en arabe) passe à 400. Le français et l'allemand ne sont pas concernés.
+ * inférieure ou égale à 16px est relevée de 2 à 4px. Les graisses ne sont pas modifiées
+ * (police Almarai : 300, 400, 700). Le français, l'allemand et l'anglais ne sont pas concernés.
  */
 
 /* Pas d'espacement de lettres ni de capitales en arabe : cela casse la liaison des lettres */
@@ -30,13 +30,12 @@ html[lang="ar"] [style*="font-size: 13px"] { font-size: 15px !important; }
 html[lang="ar"] [style*="font-size: 14px"] { font-size: 16px !important; }
 html[lang="ar"] [style*="font-size: 15px"] { font-size: 17px !important; }
 html[lang="ar"] [style*="font-size: 16px"] { font-size: 18px !important; }
-html[lang="ar"] [style*="font-weight: 300"] { font-weight: 400 !important; }
 /* Alignements forcés à gauche en inline : inversés en RTL */
 html[lang="ar"] [style*="text-align: left"] { text-align: right !important; }
 
 /* Classes définies dans global.css et dans les blocs <style> des composants */
 html[lang="ar"] .actu-card__date { font-size: 14px !important; }
-html[lang="ar"] .actu-card__excerpt { font-size: 15px !important; font-weight: 400 !important; }
+html[lang="ar"] .actu-card__excerpt { font-size: 15px !important; }
 html[lang="ar"] .actu-card__link { font-size: 15px !important; }
 html[lang="ar"] .actu-card__tag { font-size: 14px !important; }
 html[lang="ar"] .actu-card__title { font-size: 17px !important; }
@@ -46,9 +45,16 @@ html[lang="ar"] .btn { font-size: 16px !important; }
 html[lang="ar"] .btn--lg { font-size: 17px !important; }
 html[lang="ar"] .btn--sm { font-size: 15px !important; }
 html[lang="ar"] .carousel-btn { font-size: 16px !important; }
+html[lang="ar"] .don-regulier__body { font-size: 16px !important; }
+html[lang="ar"] .don-regulier__title { font-size: 18px !important; }
+html[lang="ar"] .don-virement__copy { font-size: 15px !important; }
+html[lang="ar"] .don-virement__free { font-size: 17px !important; }
+html[lang="ar"] .don-virement__list dd { font-size: 17px !important; }
+html[lang="ar"] .don-virement__list dt { font-size: 14px !important; }
+html[lang="ar"] .don-virement__scan { font-size: 15px !important; }
 html[lang="ar"] .don__amount-btn { font-size: 16px !important; }
 html[lang="ar"] .don__tab { font-size: 15px !important; }
-html[lang="ar"] .faq__answer p { font-size: 16px !important; font-weight: 400 !important; }
+html[lang="ar"] .faq__answer p { font-size: 16px !important; }
 html[lang="ar"] .faq__icon { font-size: 18px !important; }
 html[lang="ar"] .faq__question-text { font-size: 17px !important; }
 html[lang="ar"] .form-error { font-size: 14px !important; }
@@ -74,19 +80,18 @@ html[lang="ar"] .nav__mobile-sublabel { font-size: 14px !important; }
 html[lang="ar"] .newsletter__btn { font-size: 16px !important; }
 html[lang="ar"] .newsletter__input { font-size: 16px !important; }
 html[lang="ar"] .newsletter__note { font-size: 14px !important; }
-html[lang="ar"] .newsletter__sub { font-size: 17px !important; font-weight: 400 !important; }
+html[lang="ar"] .newsletter__sub { font-size: 17px !important; }
 html[lang="ar"] .page-hero__label { font-size: 14px !important; }
-html[lang="ar"] .page-hero__sub { font-size: 18px !important; font-weight: 400 !important; }
+html[lang="ar"] .page-hero__sub { font-size: 18px !important; }
 html[lang="ar"] .projet-card__link { font-size: 15px !important; }
 html[lang="ar"] .projet-card__location { font-size: 15px !important; }
 html[lang="ar"] .projet-card__tag { font-size: 14px !important; }
 html[lang="ar"] .section li { font-size: 17px !important; }
-html[lang="ar"] .section-body { font-size: 18px !important; font-weight: 400 !important; }
+html[lang="ar"] .section-body { font-size: 18px !important; }
 html[lang="ar"] .section-label { font-size: 14px !important; }
 html[lang="ar"] .stats__label { font-size: 15px !important; }
 html[lang="ar"] .zakat__breakdown-row { font-size: 15px !important; }
 html[lang="ar"] .zakat__calc-btn { font-size: 17px !important; }
-html[lang="ar"] .zakat__field label span { font-weight: 400 !important; }
 html[lang="ar"] .zakat__field label { font-size: 15px !important; }
 html[lang="ar"] .zakat__input { font-size: 17px !important; }
 html[lang="ar"] .zakat__nisab-info { font-size: 15px !important; }
