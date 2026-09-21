@@ -1,4 +1,4 @@
-import { useState, useEffect, useLayoutEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo-mark.png';
 import { useTranslation } from 'react-i18next';
@@ -33,40 +33,33 @@ export default function Header() {
   const { t } = useTranslation();
   const navLinks = getNavLinks(t);
   const [scrolled, setScrolled] = useState(false);
-  const [scrolledDown, setScrolledDown] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const location = useLocation();
   const dropRef = useRef(null);
-  const lastScrollY = useRef(0);
-  // Page avec bandeau vert (repère data-page-hero, posé sur l'accueil) : en-tête transparent jusqu'au premier
-  // défilement. Toutes les autres pages : en-tête blanc dès le chargement. useLayoutEffect évite un flash.
-  const [heroPage, setHeroPage] = useState(false);
-  // instant : à l'arrivée sur une page, les couleurs de l'en-tête changent sans transition (sinon il reste
-  // blanc puis s'éclaircit vers le transparent sur le bandeau vert). Les transitions reprennent ensuite.
-  const [instant, setInstant] = useState(true);
-  useLayoutEffect(() => {
-    setHeroPage(!!document.querySelector('[data-page-hero]'));
-    setInstant(true);
-    const id = setTimeout(() => setInstant(false), 200);
-    return () => clearTimeout(id);
-  }, [location.pathname]);
-
+  const closeTimer = useRef(null);
+  const lastPointer = useRef('mouse');
   useEffect(() => {
     const onScroll = () => {
       const y = window.scrollY;
       setScrolled(y > 20);
-      setScrolledDown(y > lastScrollY.current && y > 60);
-      lastScrollY.current = y;
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   useEffect(() => {
+    clearTimeout(closeTimer.current);
     setMenuOpen(false);
     setOpenDropdown(null);
   }, [location]);
+
+  useEffect(() => () => clearTimeout(closeTimer.current), []);
+
+  // Sous-menus : ouverts au survol de la souris, refermés 150 ms après sa sortie (le délai évite que le menu
+  // se ferme en traversant l'espace entre le bouton et la liste). Écran tactile : ouverture et fermeture au clic.
+  const openSub = (label) => { clearTimeout(closeTimer.current); setOpenDropdown(label); };
+  const closeSubSoon = () => { clearTimeout(closeTimer.current); closeTimer.current = setTimeout(() => setOpenDropdown(null), 150); };
 
   useEffect(() => {
     const handler = (e) => {
@@ -77,7 +70,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`nav${instant ? ' nav--instant' : ''}${heroPage ? ' nav--hero' : ''}${scrolled ? ' nav--scrolled' : ''}${scrolledDown ? ' nav--dark' : ''}${menuOpen ? ' nav--open' : ''}`}>
+    <header className={`nav${scrolled ? ' nav--scrolled' : ''}${menuOpen ? ' nav--open' : ''}`}>
       <style>{`
         .nav {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -86,17 +79,12 @@ export default function Header() {
           background: #FFFFFF; box-shadow: var(--shadow-sm);
           transition: background .3s, box-shadow .3s;
         }
+        /* En-tête blanc en permanence, sur toutes les pages y compris l'accueil : seule l'ombre s'accentue au défilement */
         .nav--scrolled { background: #FFFFFF; box-shadow: var(--shadow-md); }
-        .nav--instant, .nav--instant * { transition: none !important; }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) { background: rgba(10,20,12,.92); box-shadow: 0 2px 16px rgba(0,0,0,.35); backdrop-filter: blur(8px); }
-        /* Accueil (data-page-hero) : transparent sur le bandeau vert jusqu'au premier défilement */
-        .nav--hero:not(.nav--scrolled):not(.nav--open) { background: transparent; box-shadow: none; }
         .nav--open { background: #FFFFFF; }
         .nav__logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
         /* Symbole seul, fond transparent (plus de carré blanc) */
-        .nav__logo-img { height: 42px; width: auto; object-fit: contain; transition: filter .3s; }
-        /* Sur le bandeau vert : symbole éclairci avec un liseré blanc pour rester visible, couleurs conservées */
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-img { filter: brightness(1.5) saturate(1.1) drop-shadow(0 0 1px rgba(255,255,255,.9)); }
+        .nav__logo-img { height: 42px; width: auto; object-fit: contain; }
         .nav__logo-text { display: flex; flex-direction: column; }
         .nav__logo-name { font-family: var(--font-heading); font-size: 15px; font-weight: 700; color: var(--green); line-height: 1.1; }
         .nav__logo-sub { font-size: 10px; color: var(--text-faint); letter-spacing: .06em; }
@@ -108,26 +96,15 @@ export default function Header() {
           background: none; border: none; font-family: var(--font-body);
         }
         .nav__link:hover, .nav__link--active { color: var(--green); background: var(--green-light); }
-        .nav--scrolled .nav__link { color: var(--text-heading); }
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: #FFFFFF; background: rgba(0,0,0,.16); }
-        /* Lien de la page active : texte blanc sur pastille sombre translucide (avant : blanc sur vert très pâle, illisible) */
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link--active,
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__link--active:hover { color: #FFFFFF; background: rgba(0,0,0,.28); }
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.6); }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link { color: #FFFFFF; }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__link:hover { color: var(--white); background: rgba(255,255,255,.12); }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-name { color: var(--white); }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__logo-sub { color: rgba(255,255,255,.55); }
-        .nav--dark:not(.nav--scrolled):not(.nav--open) .nav__burger span { background: var(--white); }
         .nav__dropdown-wrap { position: relative; }
         .nav__dropdown {
-          position: absolute; top: calc(100% + 8px); left: 0; min-width: 240px;
+          position: absolute; top: calc(100% + 8px); inset-inline-start: 0; min-width: 240px;
           background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg);
           box-shadow: var(--shadow-lg); padding: var(--space-2); z-index: 100;
           animation: dropIn .2s ease;
         }
+        /* Zone invisible entre le bouton et la liste : le pointeur ne quitte pas le menu en la traversant */
+        .nav__dropdown::before { content: ''; position: absolute; top: -10px; left: 0; right: 0; height: 10px; }
         @keyframes dropIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
         .nav__dropdown-item { display: block; padding: 10px 14px; font-size: 14px; color: var(--text-body); border-radius: var(--radius-sm); transition: all .2s; }
         .nav__dropdown-item:hover { background: var(--green-light); color: var(--green); }
@@ -136,7 +113,6 @@ export default function Header() {
         .nav__donate:hover { background: #b8952f; transform: translateY(-1px); }
         .nav__burger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; border-radius: var(--radius-sm); }
         .nav__burger span { display: block; width: 22px; height: 2px; background: var(--text-heading); transition: all .3s; border-radius: 2px; }
-        .nav--hero:not(.nav--scrolled):not(.nav--open) .nav__burger span { background: var(--white); }
         .nav__mobile { display: none; position: fixed; top: var(--nav-h); left: 0; right: 0; background: var(--white); box-shadow: var(--shadow-lg); padding: var(--space-4); border-top: 1px solid var(--border); z-index: 999; max-height: calc(100vh - var(--nav-h)); overflow-y: auto; }
         .nav__mobile.open { display: block; }
         .nav__mobile-link { display: block; padding: 12px 16px; font-size: 15px; font-weight: 500; color: var(--text-heading); border-radius: var(--radius-md); transition: all .2s; }
@@ -161,10 +137,23 @@ export default function Header() {
       <nav className="nav__links" ref={dropRef}>
         {navLinks.map((link) =>
           link.dropdown ? (
-            <div className="nav__dropdown-wrap" key={link.label}>
+            <div
+              className="nav__dropdown-wrap"
+              key={link.label}
+              onPointerEnter={(e) => { if (e.pointerType === 'mouse') openSub(link.label); }}
+              onPointerLeave={(e) => { if (e.pointerType === 'mouse') closeSubSoon(); }}
+              onKeyDown={(e) => { if (e.key === 'Escape') setOpenDropdown(null); }}
+              onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setOpenDropdown(null); }}
+            >
               <button
                 className="nav__link"
-                onClick={() => setOpenDropdown(openDropdown === link.label ? null : link.label)}
+                aria-haspopup="true"
+                aria-expanded={openDropdown === link.label}
+                onPointerDown={(e) => { lastPointer.current = e.pointerType; }}
+                onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') lastPointer.current = 'keyboard'; }}
+                onClick={() => (lastPointer.current === 'mouse'
+                  ? openSub(link.label)
+                  : setOpenDropdown(openDropdown === link.label ? null : link.label))}
               >
                 {link.label} <span style={{ fontSize: 10, transition: 'transform .3s', display: 'inline-block', transform: openDropdown === link.label ? 'rotate(180deg)' : 'none' }}>▾</span>
               </button>
