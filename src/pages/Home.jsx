@@ -75,10 +75,9 @@ export default function Home() {
               {t('home.hero.badge')}
             </span>
           </div>
-          <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(36px,6vw,68px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.1, marginBottom: 'var(--space-6)', maxWidth: 800, marginInline: 'auto' }}>
-            {t('home.hero.title1')}<br />
-            <span style={{ color: 'var(--gold)' }}>{t('home.hero.title2')}</span><br />
-            {t('home.hero.title3')}
+          <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(28px,3.5vw,44px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.2, marginBottom: 'var(--space-6)', maxWidth: 1120, marginInline: 'auto', textWrap: 'balance' }}>
+            <span style={{ display: 'block' }}>{t('home.hero.title1')}</span>
+            <span style={{ display: 'block', color: 'var(--gold)' }}>{t('home.hero.title2')}</span>
           </h1>
           <p style={{ fontSize: 'clamp(15px,2vw,18px)', color: 'rgba(255,255,255,.75)', fontWeight: 300, lineHeight: 1.75, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-10)' }}>
             {t('home.hero.sub')}
