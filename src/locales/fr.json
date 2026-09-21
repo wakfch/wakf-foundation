@@ -416,10 +416,18 @@
       "Fondation de droit suisse enregistrée (CHE-114.901.246)"
     ],
     "questions": "Questions ? Contactez-nous",
+    "intro": "Choisissez le moyen qui vous convient. Dans les deux cas, vous fixez librement le montant.",
+    "twint": {
+      "title": "Avec TWINT",
+      "qrAlt": "QR code TWINT de la Fondation Wakef Suisse",
+      "scan": "Scannez ce code avec l'application TWINT.",
+      "redirect": "Vous serez redirigé vers l'application TWINT.",
+      "button": "Donner avec TWINT"
+    },
     "transfer": {
-      "title": "Faire un don par virement",
+      "title": "Avec votre application bancaire",
       "qrAlt": "QR facture de la Fondation Wakef Suisse, à scanner avec votre application bancaire",
-      "scan": "Scannez ce code avec votre application bancaire. Vous choisissez librement le montant.",
+      "scan": "Scannez ce code avec votre application bancaire, pas avec TWINT.",
       "beneficiary": { "label": "Bénéficiaire", "value": "Fondation WAKEF SUISSE" },
       "iban": { "label": "IBAN", "value": "CH84 0900 0000 1076 1819 4" },
       "bank": { "label": "Banque", "value": "PostFinance AG" },

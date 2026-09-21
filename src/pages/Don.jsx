@@ -62,14 +62,48 @@ export default function Don() {
             <div className="don__grid">
               {/* Left: Form */}
               <div>
-                <div className="don-virement" lang="fr" dir="ltr">
+                <p className="don-intro" lang="fr">{t('donation.intro')}</p>
+                <div className="don-choices" lang="fr" dir="ltr">
+                <section className="don-twint">
+                  <h2 className="don-virement__title">{t('donation.twint.title')}</h2>
+                  <div className="don-twint__qr">
+                    <img className="don-twint__qr-img" src="/images/qr-twint-wakf.png" width="200" height="332" loading="lazy" alt={t('donation.twint.qrAlt')} />
+                    <p className="don-virement__scan">{t('donation.twint.scan')}</p>
+                  </div>
+                  <p className="don-virement__scan don-twint__redirect">{t('donation.twint.redirect')}</p>
+                  <a className="don-twint__btn" href="https://pay.raisenow.io/kqhfc?lng=fr" target="_blank" rel="noopener noreferrer">{t('donation.twint.button')}</a>
+                </section>
+                <div className="don-virement">
                   <style>{`
                     @media (min-width: 901px) { .don__grid { grid-template-columns: 1.5fr 1fr; } }
-                    .don-virement { background: #fff; border: 1px solid #E8E8E8; border-radius: 20px; padding: 32px; font-family: var(--font-body); color: #444444; }
+                    .don-intro { font-size: 15px; line-height: 1.7; color: #444444; margin-bottom: 20px; }
+                    .don-choices { display: grid; grid-template-columns: 1fr; gap: 24px; align-items: stretch; }
+                    @media (min-width: 768px) { .don-choices { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+                    @media (min-width: 901px) and (max-width: 1100px) {
+                      .don-choices .don-twint, .don-choices .don-virement { padding: 24px 12px; }
+                      .don-virement .don-virement__list dd.don-virement__iban { white-space: normal; }
+                    }
+                    .don-twint { display: flex; flex-direction: column; align-items: center; background: #fff; border: 1px solid #1A1A1A; border-radius: 20px; padding: 32px; font-family: var(--font-body); color: #444444; }
+                    .don-twint .don-virement__title { align-self: flex-start; }
+                    .don-twint__qr { display: none; flex-direction: column; align-items: center; gap: 16px; margin-bottom: 24px; }
+                    .don-twint__qr-img { display: block; width: 200px; max-width: 100%; height: auto; }
+                    .don-twint__redirect { margin-bottom: 20px; }
+                    .don-twint__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 24px; border-radius: 10px; background: #1A1A1A; color: #fff; font-family: var(--font-heading); font-size: 15px; font-weight: 600; text-align: center; transition: background .2s; }
+                    .don-twint__btn:hover { background: #000; }
+                    .don-twint__btn:focus-visible { outline: 2px solid #2d7a3a; outline-offset: 2px; }
+                    @media (min-width: 768px) {
+                      .don-twint__qr { display: flex; }
+                      .don-twint__redirect { display: none; }
+                      .don-choices .don-virement__title { min-height: 70px; min-height: 2lh; }
+                    }
+                    @media (min-width: 901px) and (max-width: 1279px) {
+                      .don-choices .don-twint .don-virement__title, .don-choices .don-virement .don-virement__title { min-height: 105px; min-height: 3lh; }
+                    }
+                    .don-virement { display: flex; flex-direction: column; background: #fff; border: 1px solid #2d7a3a; border-radius: 20px; padding: 32px; font-family: var(--font-body); color: #444444; }
                     .don-virement__title { font-family: var(--font-heading); font-size: 22px; font-weight: 700; color: #1A1A1A; margin-bottom: 24px; }
-                    .don-virement__grid { display: grid; grid-template-columns: 240px 1fr; gap: 32px; align-items: start; }
-                    .don-virement__qr { display: flex; flex-direction: column; align-items: center; gap: 16px; width: 240px; max-width: 100%; }
-                    .don-virement__qr-img { display: block; width: 240px; max-width: 100%; height: auto; aspect-ratio: 1; box-sizing: border-box; padding: 10px; background: #fff; border: 1px solid #E8E8E8; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+                    .don-virement__grid { display: grid; grid-template-columns: 1fr; justify-items: center; gap: 24px; align-items: start; }
+                    .don-virement__qr { display: flex; flex-direction: column; align-items: center; gap: 16px; width: 200px; max-width: 100%; }
+                    .don-virement__qr-img { display: block; width: 200px; max-width: 100%; height: auto; aspect-ratio: 1; box-sizing: border-box; padding: 10px; background: #fff; border: 1px solid #E8E8E8; border-radius: 16px; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
                     .don-virement__scan { font-size: 13px; line-height: 1.6; text-align: center; color: #444444; }
                     .don-virement__details { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; min-width: 0; }
                     .don-virement__list { display: flex; flex-direction: column; gap: 14px; margin: 0; }
@@ -85,12 +119,9 @@ export default function Don() {
                     .don-regulier { margin-top: 24px; padding: 20px 24px; background: #fff; border: 1px solid #E8E8E8; border-radius: 14px; }
                     .don-regulier__title { font-family: var(--font-heading); font-size: 16px; font-weight: 700; color: #1A1A1A; margin-bottom: 8px; }
                     .don-regulier__body { font-size: 14px; line-height: 1.7; color: #444444; }
-                    @media (max-width: 1100px) {
-                      .don-virement__grid { grid-template-columns: 1fr; justify-items: center; gap: 24px; }
-                      .don-virement__details { width: 100%; }
-                    }
+                    .don-virement__details { width: 100%; }
                     @media (max-width: 720px) {
-                      .don-virement { padding: 24px 20px; }
+                      .don-virement, .don-twint { padding: 24px 20px; }
                       .don-virement__copy { min-height: 44px; }
                     }
                     @media (prefers-reduced-motion: reduce) { .don-virement__copy { transition: none; } }
@@ -98,7 +129,7 @@ export default function Don() {
                   <h2 className="don-virement__title">{t('donation.transfer.title')}</h2>
                   <div className="don-virement__grid">
                     <div className="don-virement__qr">
-                      <img className="don-virement__qr-img" src="/images/qr-don-wakf.svg" width="240" height="240" alt={t('donation.transfer.qrAlt')} />
+                      <img className="don-virement__qr-img" src="/images/qr-don-wakf.svg" width="200" height="200" alt={t('donation.transfer.qrAlt')} />
                       <p className="don-virement__scan">{t('donation.transfer.scan')}</p>
                     </div>
                     <div className="don-virement__details">
@@ -119,6 +150,7 @@ export default function Don() {
                     </div>
                   </div>
                   <p className="don-virement__free">{t('donation.transfer.free')}</p>
+                </div>
                 </div>
 
                 <div className="don-regulier" lang="fr" dir="ltr">
