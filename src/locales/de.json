@@ -37,6 +37,7 @@
     "albadr": "Al Badr Zentrum Le Locle",
     "annour": "Moschee An-Nour Sitten",
     "bibliotheque": "Mobile Bibliothek",
+    "delalElKhayr": "Delal el Khayr",
     "zakat": "Zakat",
     "faq": "FAQ",
     "contact": "Kontakt",
@@ -696,5 +697,109 @@
     "lawTitle": "Anwendbares Recht und Gerichtsstand",
     "lawBody": "Diese Website und ihre Inhalte unterstehen dem Schweizer Recht. Im Streitfall sind die Gerichte des Kantons Waadt (Schweiz) zuständig, unter Vorbehalt zwingender gesetzlicher Bestimmungen.",
     "back": "← Zurück zur Startseite"
+  },
+  "eldelal": {
+    "breadcrumb": "El Delal",
+    "hero": {
+      "label": "Immobilienprojekt · Le Locle",
+      "subtitle": "Schatten der Nächstenliebe",
+      "mission": "Wir erwerben ein sehr gut erhaltenes Gebäude von 1902, um der muslimischen Gemeinschaft von Le Locle und der Region ein dauerhaftes Zuhause zu geben: einen Ort für Gebet, Begegnung und Wissensvermittlung.",
+      "cta": "Helfen Sie uns, ein Zuhause für unsere Gemeinschaft zu bauen",
+      "ctaBtn": "Jetzt beitragen"
+    },
+    "nav": {
+      "gallery": "Fotos",
+      "figures": "Eckdaten",
+      "contribute": "Beitragen",
+      "contact": "Kontakt",
+      "map": "Standort",
+      "benefits": "Vorteile"
+    },
+    "gallery": {
+      "title": "Das Gebäude in Bildern",
+      "intro": "Entdecken Sie das Gebäude von aussen und von innen. Klicken Sie auf ein Foto, um es zu vergrössern.",
+      "exterior": "Aussenansichten",
+      "interior": "Innenräume",
+      "open": "Foto vergrössern",
+      "items": {
+        "aerienne": "Luftaufnahme des Gebäudes",
+        "facade": "Aussenfassade",
+        "local": "Gewerberaum",
+        "piece": "Helles Zimmer einer Wohnung",
+        "chambre": "Schlafzimmer mit Parkett",
+        "sejour": "Wohnzimmer einer Wohnung",
+        "sdeau": "Badezimmer"
+      }
+    },
+    "figures": {
+      "title": "Wichtige Informationen",
+      "intro": "Ein Renditeobjekt in sehr gutem Zustand, dessen Erwerb der Gemeinschaft ein dauerhaftes Vermögen sichert.",
+      "goalLabel": "Zu sammelnder Betrag",
+      "goalValue": "CHF 550’000",
+      "priceLabel": "Wert des Gebäudes",
+      "priceValue": "CHF 1’250’000",
+      "incomeLabel": "Nettoertrag pro Jahr",
+      "incomeValue": "CHF 49’380",
+      "builtLabel": "Baujahr",
+      "builtValue": "1902",
+      "unitsTitle": "Das Objekt umfasst",
+      "apartments": "Wohnungen",
+      "shop": "Gewerbeeinheit",
+      "parking": "Parkplätze",
+      "plots": "Bauparzellen",
+      "beneficiariesLabel": "Begünstigte",
+      "beneficiariesValue": "Die muslimische Gemeinschaft von Le Locle und der Region"
+    },
+    "contribute": {
+      "title": "Beitragen",
+      "lead": "Helfen Sie uns, ein Zuhause für unsere Gemeinschaft zu bauen",
+      "cotizupText": "Unterstützen Sie unser Projekt online: sicherer und transparenter Vorgang",
+      "cotizupBtn": "Per Cotizup spenden",
+      "qrText": "Oder scannen Sie den QR Code, um direkt per TWINT zu spenden",
+      "twint": "TWINT",
+      "qrAlt": "TWINT QR Code für das Projekt El Delal",
+      "ibanLabel": "IBAN",
+      "note": "Ihre Spenden werden diesem Projekt zugewiesen."
+    },
+    "contact": {
+      "title": "Kontakt und Spenden",
+      "text": "Eine Frage zum Projekt oder zu einer anderen Spendenmöglichkeit? Unser Team antwortet Ihnen gern.",
+      "emailLabel": "E-Mail",
+      "phoneLabel": "Telefon",
+      "foundation": "Fondation Wakef Suisse",
+      "address": "Avenue de la Confrérie 11, 1008 Prilly",
+      "moreWays": "Weitere Spendenmöglichkeiten"
+    },
+    "map": {
+      "title": "Standort",
+      "text": "Das Projekt befindet sich in Le Locle im Kanton Neuenburg in der Schweiz.",
+      "iframeTitle": "Karte der Stadt Le Locle",
+      "open": "In OpenStreetMap öffnen"
+    },
+    "benefits": {
+      "title": "Die Vorteile des Projekts",
+      "items": [
+        {
+          "title": "Ein dauerhafter Ort",
+          "text": "Ein Zuhause für Gebet, Unterricht und Begegnungen, das der Gemeinschaft gehört."
+        },
+        {
+          "title": "Ein solides Gebäude",
+          "text": "Ein Gebäude von 1902 in sehr gutem Zustand, mit sechs Wohnungen, einer Gewerbeeinheit und fünf Parkplätzen."
+        },
+        {
+          "title": "Regelmässige Einnahmen",
+          "text": "Nettoerträge von CHF 49’380 pro Jahr schaffen eine stabile finanzielle Grundlage."
+        },
+        {
+          "title": "Entwicklungspotenzial",
+          "text": "Zwei Bauparzellen erlauben es, die nächste Etappe des Projekts zu planen."
+        },
+        {
+          "title": "Eine Sadaqa Jariya",
+          "text": "Eine Spende, deren Nutzen für die Gemeinschaft Jahr für Jahr fortbesteht."
+        }
+      ]
+    }
   }
 }

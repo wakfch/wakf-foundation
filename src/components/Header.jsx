@@ -24,6 +24,7 @@ const getNavLinks = (t) => [
       { label: t('header.bibliotheque'), to: '/projets/bibliotheque-mobile' },
     ],
   },
+  { label: t('header.delalElKhayr'), to: '/projets/delal-el-khayr' },
   { label: t('header.zakat'), to: '/zakat' },
   { label: t('header.faq'), to: '/faq' },
   { label: t('header.contact'), to: '/contact' },
