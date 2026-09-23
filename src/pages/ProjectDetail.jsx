@@ -127,10 +127,10 @@ export default function ProjectDetail() {
                   <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300 }}>{project.vision}</p>
                 </div>
 
-                <Link to="/" className="btn btn--outline btn--sm">{t('common.backHome')}</Link>
+                <Link to="/" className="btn btn--outline btn--sm project-back project-back--desktop">{t('common.backHome')}</Link>
               </div>
 
-              <div style={{ position: 'sticky', top: 'calc(var(--nav-h) + var(--space-6))' }}>
+              <div className="project-detail-side" style={{ position: 'sticky', top: 'calc(var(--nav-h) + var(--space-6))' }}>
                 <div style={{ background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', overflow: 'hidden', marginBottom: 'var(--space-6)' }}>
                   <div style={{ background: 'var(--green)', padding: 'var(--space-5) var(--space-6)' }}>
                     <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 15, fontWeight: 700, color: 'var(--white)' }}>{t('projects.detail.factsheet')}</h3>
@@ -164,6 +164,8 @@ export default function ProjectDetail() {
                     {t('common.donate')}
                   </Link>
                 </div>
+
+                <Link to="/" className="btn btn--outline btn--sm project-back project-back--mobile">{t('common.backHome')}</Link>
               </div>
 
             </div>
@@ -172,8 +174,12 @@ export default function ProjectDetail() {
       </main>
 
       <style>{`
+        .project-back--mobile { display: none; }
         @media (max-width: 900px) {
           .project-detail-grid { grid-template-columns: 1fr !important; }
+          .project-detail-side { position: static !important; }
+          .project-back--desktop { display: none; }
+          .project-back--mobile { display: inline-flex; margin-top: var(--space-6); }
         }
       `}</style>
 
