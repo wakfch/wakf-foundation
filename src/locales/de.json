@@ -1,26 +1,26 @@
 {
   "common": {
-    "foundationName": "Stiftung Wakef",
-    "foundationSuisse": "Stiftung Wakef Schweiz",
+    "foundationName": "Fondation Wakef",
+    "foundationSuisse": "Fondation Wakef Suisse",
     "home": "Startseite",
-    "breadcrumbLabel": "Pfad",
+    "breadcrumbLabel": "Navigationspfad",
     "learnMore": "Mehr erfahren →",
     "donate": "Spenden →",
     "donateNow": "Jetzt spenden →",
     "all": "Alle",
-    "close": "Schließen",
+    "close": "Schliessen",
     "prevPhoto": "Vorheriges Foto",
     "nextPhoto": "Nächstes Foto",
     "photo": "Foto {{n}}",
-    "photoOf": "Foto von {{title}} {{n}}",
+    "photoOf": "{{title}} Foto {{n}}",
     "loading": "Wird geladen…",
     "email": "E-Mail",
     "phone": "Telefon",
-    "headOffice": "Hauptsitz",
+    "headOffice": "Sitz der Stiftung",
     "contactOffice": "Kontaktbüro",
-    "workingHours48": "Unser Team antwortet innerhalb von 48 Geschäftsstunden.",
-    "supportFoundation": "Unterstützen Sie die Stiftung",
-    "changeLanguage": "Sprache ändern",
+    "workingHours48": "Unser Team antwortet innerhalb von 48 Arbeitsstunden.",
+    "supportFoundation": "Die Stiftung unterstützen",
+    "changeLanguage": "Sprache wechseln",
     "menu": "Menü",
     "backHome": "← Zurück zur Startseite"
   },
@@ -28,251 +28,455 @@
     "sub": "Schweiz · seit 2009",
     "home": "Startseite",
     "about": "Über uns",
-    "aboutFoundation": "Stiftung Wakef",
-    "statutes": "Satzung",
+    "aboutFoundation": "Die Stiftung Wakef",
+    "statutes": "Stiftungsstatuten",
     "projects": "Unsere Projekte",
     "allProjects": "Alle Projekte",
-    "madretsch": "Moschee Madretsch Biel",
+    "madretsch": "Moschee Madretsch Biel/Bienne",
     "aliman": "Al Iman Zentrum Freiburg",
     "albadr": "Al Badr Zentrum Le Locle",
-    "annour": "An-Nour Moschee Sitten",
-    "bibliotheque": "Wanderbücherei",
+    "annour": "Moschee An-Nour Sitten",
+    "bibliotheque": "Mobile Bibliothek",
     "delalElKhayr": "Delal el Khayr",
     "zakat": "Zakat",
-    "faq": "Häufig gestellte Fragen",
+    "faq": "FAQ",
     "contact": "Kontakt",
     "donate": "Spenden →"
   },
   "footer": {
     "droits": "Alle Rechte vorbehalten",
-    "tagline": "Ein bleibendes Erbe für zukünftige Generationen.",
+    "tagline": "Ein bleibendes Werk für künftige Generationen.",
     "navigation": "Navigation",
     "nav": {
       "home": "Startseite",
       "about": "Über uns",
       "projects": "Unsere Projekte",
-      "news": "Nachrichten",
+      "news": "Aktuelles",
       "contact": "Kontakt"
     },
-    "services": "Dienstleistungen",
+    "services": "Angebote",
     "svc": {
-      "zakat": "Zakat-Rechner",
+      "zakat": "Zakatrechner",
       "donate": "Spenden",
-      "faq": "Häufig gestellte Fragen",
-      "statutes": "Satzung"
+      "faq": "FAQ",
+      "statutes": "Statuten"
     },
     "addresses": "Adressen",
-    "headOffice": "Hauptsitz",
+    "headOffice": "Sitz der Stiftung",
     "contactOffice": "Kontaktbüro",
-    "copyright": "© {{year}} Stiftung Wakef Schweiz · CHE-114.901.246",
+    "copyright": "© {{year}} Fondation Wakef Suisse · CHE-114.901.246",
     "privacy": "Datenschutz",
     "legal": "Impressum"
   },
   "cookies": {
-    "text": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie fortfahren, akzeptieren Sie unsere Nutzung von Cookies.",
-    "policy": "Datenschutzrichtlinie",
+    "text": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Wenn Sie fortfahren, stimmen Sie unserer Verwendung von Cookies zu.",
+    "policy": "Datenschutzerklärung",
     "refuse": "Ablehnen",
     "accept": "Alle Cookies akzeptieren"
   },
   "popup": {
     "label": "Sadaqa Jariya",
     "title1": "Helfen Sie uns,",
-    "title2": "andere Projekte zu bauen",
-    "body": "Jede Spende trägt zur Finanzierung von Moscheen, islamischen Zentren und Bildungsprogrammen für die muslimische Gemeinde in der Schweiz bei.",
+    "title2": "weitere Projekte zu bauen",
+    "body": "Jede Spende trägt zur Finanzierung von Moscheen, islamischen Zentren und Bildungsprogrammen für die muslimische Gemeinschaft in der Schweiz bei.",
     "cta": "Jetzt spenden →",
-    "dismiss": "Nein danke, weiter besuchen"
+    "dismiss": "Nein danke, Besuch fortsetzen"
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "text": "Die gesuchte Seite existiert nicht.",
+    "text": "Die von Ihnen gesuchte Seite existiert nicht.",
     "back": "Zurück zur Startseite →"
   },
   "home": {
     "hero": {
-      "badge": "Stiftung Wakef Schweiz",
-      "title1": "Unsere Präsenz im Herzen unserer Gesellschaft:",
-      "title2": "tief verwurzelt, bleibendes Engagement",
-      "sub": "Seit 2009 finanziert die Stiftung Wakef Moscheen, islamische Zentren und Bildungsprogramme für die muslimische Gemeinde in der Schweiz.",
+      "badge": "Fondation Wakef Suisse",
+      "title1": "Unser Beitrag in unserer Gesellschaft:",
+      "title2": "verwurzelte Grundlagen, nachhaltiges Engagement",
+      "sub": "Seit 2009 finanziert die Fondation Wakef Moscheen, islamische Zentren und Bildungsprogramme für die muslimische Gemeinschaft der Schweiz.",
       "ctaDonate": "Spenden →",
       "ctaProjects": "Unsere Projekte"
     },
     "about": {
       "label": "Wer wir sind",
-      "title": "Stiftung Wakef Schweiz",
-      "body": "Gegründet im Jahr 2009, eine Schweizer Privatstiftung (Art. 80 ZGB), die sich der Finanzierung nachhaltiger islamischer Projekte auf Schweizer Territorium widmet.",
+      "title": "Die Fondation Wakef Suisse",
+      "body": "2009 gegründet, eine Stiftung des schweizerischen Privatrechts (Art. 80 ZGB), die der Finanzierung nachhaltiger islamischer Projekte auf Schweizer Boden gewidmet ist.",
       "objectivesTitle": "Ziele",
       "objectivesLead": "Erwerben und fördern:",
       "objectives": [
         "Muslimische Gebetsstätten",
-        "Ausbildung und Integration von Imamen",
-        "Unterricht in arabischer Sprache",
-        "Stipendien",
-        "Wohltätigkeitsaktivitäten",
-        "Muslimische Grabplätze"
+        "Die Ausbildung und Integration der Imame",
+        "Den Arabischunterricht",
+        "Die Studienstipendien",
+        "Die karitativen Tätigkeiten",
+        "Die muslimischen Grabfelder"
       ],
-      "missionTitle": "Mission",
-      "missionBody": "Aufbau eines nachhaltigen islamischen Erbes in der Schweiz durch Finanzierung von Moscheen, islamischen Zentren und Bildungsprogrammen im Einklang mit islamischen Werten und Schweizer Zivilrecht.",
+      "missionTitle": "Auftrag",
+      "missionBody": "Ein bleibendes islamisches Erbe in der Schweiz aufbauen, indem wir Moscheen, islamische Zentren und Bildungsprogramme im Einklang mit den Werten des Islam und dem schweizerischen Zivilrecht finanzieren.",
       "valuesTitle": "Werte",
-      "values": ["Nachhaltigkeit", "Integrität", "Transparenz", "Institutionalität", "Innovation", "Zusammenarbeit"],
+      "values": [
+        "Beständigkeit",
+        "Integrität",
+        "Transparenz",
+        "Institutionelle Verankerung",
+        "Innovation",
+        "Zusammenarbeit"
+      ],
       "more": "Mehr erfahren →"
     },
     "stats": {
       "projects": "Finanzierte Projekte",
       "beneficiaries": "Begünstigte",
-      "capital": "CHF Stiftungsvermögen",
-      "surface": "Bebaute Fläche"
+      "capital": "CHF Stiftungskapital",
+      "surface": "Gebaute Fläche"
     },
     "projects": {
-      "label": "Unsere Erfolge",
-      "title": "Flaggschiff-Projekte",
-      "body": "Drei emblematische Projekte, die unseren Auftrag zum Aufbau nachhaltiger Räume für die muslimische Gemeinde in der Schweiz veranschaulichen.",
+      "label": "Was wir erreicht haben",
+      "title": "Leuchtturmprojekte",
+      "body": "Drei sinnbildliche Projekte, die unseren Auftrag veranschaulichen: dauerhafte Räume für die muslimische Gemeinschaft in der Schweiz zu schaffen.",
       "all": "Alle unsere Projekte →"
     },
     "donCta": {
-      "label": "Unterstützen Sie die Stiftung",
+      "label": "Die Stiftung unterstützen",
       "title": "Ihre Spende zählt",
-      "body": "Ihre Spende trägt direkt zur Finanzierung unserer Waqf-Projekte in der Schweiz bei: Moscheen, islamische Zentren und Unterstützung der muslimischen Gemeinde. Jeder Beitrag ist eine Sadaqa Jariya, ein bleibendes Almosen.",
+      "body": "Ihre Spende fliesst unabhängig von ihrer Höhe direkt in die Finanzierung unserer Projekte im Sinne des Waqf in der Schweiz: Moscheen, islamische Zentren und die Begleitung der muslimischen Gemeinschaft. Jeder Beitrag ist eine Sadaqa Jariya, ein Almosen, das fortwirkt.",
       "btnDonate": "Jetzt spenden →",
       "btnZakat": "Meine Zakat berechnen"
     },
     "zakat": {
       "label": "Säule des Islam",
-      "title": "Zakat-Rechner",
-      "body": "Aktueller Nisab: CHF/€ 4.600 (≈ 85g Gold) · Satz: 2,5% des Nettoeinkommens. Berechnen Sie Ihre jährliche Verpflichtung in Sekunden.",
+      "title": "Zakatrechner",
+      "body": "Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold) · Satz: 2,5% des Nettovermögens. Berechnen Sie Ihre jährliche Pflicht in wenigen Sekunden.",
       "btn": "Rechner öffnen →"
     },
     "faq": {
-      "label": "Häufig gestellte Fragen",
+      "label": "Häufige Fragen",
       "title": "Wir beantworten Ihre Fragen",
       "items": [
-        { "q": "Wie werden Spenden verwendet?", "a": "Jeder eingesammelte Franken wird konkreten Projekten zugewiesen (Moscheen, islamische Zentren, Stipendien). Wir veröffentlichen jährlich einen Bericht über die Verwendung aller Mittel." }
+        {
+          "q": "Wie werden die Spenden verwendet?",
+          "a": "Jeder gesammelte Franken fliesst in konkrete Projekte (Moscheen, islamische Zentren, Stipendien). Wir veröffentlichen einen Jahresbericht, der die Verwendung sämtlicher Mittel im Detail darlegt."
+        }
       ],
       "all": "Alle Fragen →"
     },
     "contact": {
       "title": "Haben Sie eine Frage? Kontaktieren Sie uns",
       "body": "Unser Team antwortet innerhalb von 48 Stunden",
-      "btn": "Kontaktieren Sie uns →"
+      "btn": "Schreiben Sie uns →"
     }
   },
   "projects": {
     "hero": {
-      "label": "Stiftung Wakef Schweiz",
+      "label": "Fondation Wakef Suisse",
       "title": "Unsere Projekte",
-      "sub": "Jedes Projekt schafft ein bleibendes Erbe für die muslimische Gemeinde in der Schweiz. Erkunden Sie unsere abgeschlossenen und laufenden Projekte."
+      "sub": "Jedes Projekt baut ein bleibendes Erbe für die muslimische Gemeinschaft in der Schweiz auf. Entdecken Sie unsere abgeschlossenen und laufenden Vorhaben."
     },
     "breadcrumb": "Unsere Projekte",
-    "filters": { "all": "Alle", "done": "Abgeschlossen", "ongoing": "Laufend" },
-    "empty": "Im Moment keine Projekte in dieser Kategorie.",
-    "supportTitle": "Unterstützen Sie ein Projekt",
-    "supportBody": "Jede Spende trägt zu einem bleibendem Erbe für die muslimische Gemeinde in der Schweiz bei.",
+    "filters": {
+      "all": "Alle",
+      "done": "Abgeschlossen",
+      "ongoing": "Laufend"
+    },
+    "empty": "In dieser Kategorie gibt es zurzeit kein Projekt.",
+    "supportTitle": "Ein Projekt unterstützen",
+    "supportBody": "Jede Spende trägt zu einem bleibenden Erbe für die muslimische Gemeinschaft in der Schweiz bei.",
     "detail": {
       "notFoundTitle": "Projekt nicht gefunden",
       "notFoundText": "Dieses Projekt existiert nicht oder ist nicht mehr verfügbar.",
       "notFoundBtn": "Alle Projekte ansehen →",
-      "introduction": "Einleitung",
-      "objectives": "Projektziele",
+      "introduction": "Einführung",
+      "objectives": "Ziele des Projekts",
       "description": "Beschreibung",
-      "progress": "Fortschritt",
-      "vision": "Zukünftige Vision",
-      "factsheet": "Fact Sheet",
-      "supportTitle": "Unterstützen Sie dieses Projekt",
-      "supportBody": "Ihre Unterstützung ist eine Sadaqa Jariya: ein bleibendes Almosen, das der Gemeinde zugute kommt."
+      "progress": "Stand der Arbeiten",
+      "vision": "Zukunftsvision",
+      "factsheet": "Technisches Datenblatt",
+      "supportTitle": "Dieses Projekt unterstützen",
+      "supportBody": "Ihr Beitrag ist eine Sadaqa Jariya: ein Almosen, das fortwirkt und der Gemeinschaft zugutekommt."
     },
     "items": {
       "madretsch": {
         "title": "Moschee Madretsch",
         "type": "Gebetsstätte",
-        "ville": "Biel, BE",
+        "ville": "Biel/Bienne, BE",
         "surface": "496 m²",
-        "excerptHome": "Konstruktion und Entwicklung der Moschee Madretsch, das erste Großprojekt der Stiftung.",
-        "excerpt": "Das erste Großprojekt der Stiftung Wakef Schweiz: Bau und Entwicklung der Moschee Madretsch in Biel. Ein 496 m² großer Raum, der die muslimische Gemeinde von Madretsch bedient.",
-        "subtitle": "Das erste Großprojekt der Stiftung Wakef Schweiz",
-        "villeDetail": "Biel (Madretsch), BE",
-        "status": "Abgeschlossen",
-        "intro": "Die Moschee Madretsch, 2009 in Biel eröffnet, ist das erste Großprojekt der Stiftung Wakef Schweiz. Mit ihren 496 m² dient sie der muslimischen Gemeinde des Madretsch-Bezirks und bildet die Grundlage, auf der Wakef seine Expertise in der islamischen Finanzierung in der Schweiz aufgebaut hat.",
+        "excerptHome": "Bau und Einrichtung der Moschee Madretsch, das erste grosse Projekt der Fondation Wakef.",
+        "excerpt": "Erstes grosses Projekt der Fondation Wakef: Bau und Einrichtung der Moschee Madretsch in Biel/Bienne. Ein Raum von 496 m² im Dienst der muslimischen Gemeinschaft von Madretsch.",
+        "subtitle": "Erstes grosses Projekt der Fondation Wakef Suisse",
+        "villeDetail": "Biel/Bienne (Madretsch), BE",
+        "status": "Realisiert",
+        "intro": "Die Moschee Madretsch, 2009 in Biel/Bienne eingeweiht, ist das erste grosse Projekt der Fondation Wakef Suisse. Mit ihren 496 m² empfängt sie die muslimische Gemeinschaft des Quartiers Madretsch und bildet das Fundament, auf dem die Stiftung ihre Kompetenz in der islamischen Finanzierung in der Schweiz aufgebaut hat.",
         "objectifs": [
-          "Schaffung eines würdigen Ortes der Anbetung für die muslimische Gemeinde von Madretsch",
-          "Bereitstellung eines Lernrahmens für arabischen Sprachunterricht und islamische Bildung",
-          "Förderung der Integration und des Zusammenlebens in der lokalen Bieler Gemeinde"
+          "Einen würdigen Gebetsraum für die muslimische Gemeinschaft von Madretsch schaffen",
+          "Einen Rahmen für das Erlernen der arabischen Sprache und für islamische Bildung bieten",
+          "Integration und Zusammenleben im lokalen Gefüge von Biel/Bienne fördern"
         ],
         "fiche": [
-          { "label": "Standort", "value": "Biel (Madretsch), Kanton Bern" },
-          { "label": "Jahr", "value": "2009" },
-          { "label": "Gesamtfläche", "value": "496 m²" },
-          { "label": "Typ", "value": "Gebetsstätte" },
-          { "label": "Status", "value": "Abgeschlossen" }
+          {
+            "label": "Standort",
+            "value": "Biel/Bienne (Madretsch), Kanton Bern"
+          },
+          {
+            "label": "Jahr",
+            "value": "2009"
+          },
+          {
+            "label": "Gesamtfläche",
+            "value": "496 m²"
+          },
+          {
+            "label": "Typ",
+            "value": "Gebetsstätte"
+          },
+          {
+            "label": "Status",
+            "value": "Realisiert"
+          }
         ],
-        "description": "Die Moschee Madretsch beweist als erstes Großprojekt der Stiftung Wakef deren Fähigkeit, islamische Infrastrukturprojekte in der Schweiz erfolgreich umzusetzen. Dieses Projekt legte den Grundstein für unser Betriebsmodell: transparente Gemeinschaftsfinanzierung, professionelle Verwaltung und starke lokale Verankerung.",
-        "avancement": "Projekt abgeschlossen und seit 2009 in vollem Betrieb. Die Moschee empfängt die Gemeinde von Madretsch täglich und dient als stabiler Orientierungspunkt für die gesamte Region.",
-        "vision": "Die Moschee Madretsch bleibt ein Referenzmodell: eine in ihre Nachbarschaft gut integrierte Gebetsstätte, die eine vielfältige und vereinte Gemeinde bedient, Symbol der Nachhaltigkeit, die die Stiftung Wakef verkörpern möchte.",
-        "captionsShort": ["Nach Sanierung", "Vor Arbeit", "Fassadendetail", "Vorher Nachher"],
-        "captions": ["Nach Sanierung: restaurierte Fassade", "Vor Arbeit: Straßenansicht (2009)", "Vor Arbeit: Fassadendetail", "Vorher Nachher: Umwandlungsvergleich"]
+        "description": "Als erstes grosses Projekt der Stiftung zeugt die Moschee Madretsch von der Fähigkeit der Fondation Wakef, islamische Infrastrukturvorhaben in der Schweiz erfolgreich umzusetzen. Dieses Projekt hat die Grundlagen unseres Betriebsmodells gelegt: transparente Finanzierung durch die Gemeinschaft, professionelle Führung und starke lokale Verankerung.",
+        "avancement": "Projekt realisiert und seit 2009 vollumfänglich in Betrieb. Die Moschee empfängt täglich die Gemeinschaft von Madretsch und bildet einen festen Bezugspunkt für die ganze Region.",
+        "vision": "Die Moschee Madretsch bleibt ein Referenzmodell: ein gut in sein Quartier eingebundener Gebetsraum im Dienst einer vielfältigen und geeinten Gemeinschaft, Sinnbild der Beständigkeit, die die Fondation Wakef verkörpern möchte.",
+        "captionsShort": [
+          "Nach der Renovation",
+          "Vor den Arbeiten",
+          "Detail der Fassade",
+          "Vorher / Nachher"
+        ],
+        "captions": [
+          "Nach der Renovation: restaurierte Fassade",
+          "Vor den Arbeiten: Strassenansicht (2009)",
+          "Vor den Arbeiten: Detail der Fassade",
+          "Vorher / Nachher: Vergleich der Umgestaltung"
+        ]
       },
       "aliman": {
         "title": "Al Iman Zentrum",
         "type": "Islamisches Zentrum",
         "ville": "Freiburg, FR",
         "surface": "132 m²",
-        "excerptHome": "Islamisches Zentrum offen für alle Nationalitäten: Philosophie der totalen Offenheit im Herzen von Freiburg.",
-        "excerpt": "Islamisches Zentrum, betrieben vom Albanischen Kulturverein (CCA), Philosophie der totalen Offenheit, die Nationalitäten überschreitet, um die gesamte Freiburger muslimische Gemeinde willkommen zu heißen.",
-        "subtitle": "Islamisches Zentrum offen für alle Nationalitäten",
+        "excerptHome": "Islamisches Zentrum, offen für alle Nationalitäten: eine Haltung vollständiger Offenheit im Herzen von Freiburg.",
+        "excerpt": "Islamisches Zentrum, geführt vom Albanischen Kulturverein (CCA), mit einer Haltung vollständiger Offenheit, die Nationalitäten überwindet, um die ganze Freiburger Gemeinschaft zu empfangen.",
+        "subtitle": "Islamisches Zentrum, offen für alle Nationalitäten",
         "villeDetail": "Freiburg, FR",
         "status": "Laufend",
-        "intro": "Das Al Iman Zentrum in Freiburg, betrieben vom Albanischen Kulturverein (CCA), verkörpert eine Philosophie der totalen Offenheit: Überwindung von Nationalitäten, um die gesamte Freiburger muslimische Gemeinde willkommen zu heißen. Erbaut 1997, umfasst es 132 m² im Herzen der Stadt.",
+        "intro": "Das Al Iman Zentrum in Freiburg, geführt vom Albanischen Kulturverein (CCA), verkörpert eine Haltung vollständiger Offenheit: Nationalitäten zu überwinden, um die gesamte muslimische Gemeinschaft Freiburgs zu empfangen. Es wurde 1997 erbaut und umfasst 132 m² im Herzen der Stadt.",
         "objectifs": [
-          "Sanierung und Modernisierung der Infrastruktur für bessere Willkommenskultur",
-          "Bereitstellung eines Ortes der Anbetung, der nationale und kulturelle Grenzen überschreitet",
-          "Stärkung der Verbindung zwischen der muslimischen Gemeinde und der Gesellschaft von Freiburg"
+          "Die Infrastruktur renovieren und modernisieren, um die Gläubigen besser zu empfangen",
+          "Einen Gebetsraum bieten, der nationale und kulturelle Grenzen überschreitet",
+          "Die Verbindung zwischen der muslimischen Gemeinschaft und der Freiburger Gesellschaft stärken"
         ],
         "fiche": [
-          { "label": "Standort", "value": "Freiburg, Kanton Freiburg" },
-          { "label": "Erbaut", "value": "1997" },
-          { "label": "Wakef-Finanzierung", "value": "2018" },
-          { "label": "Fläche", "value": "132 m²" },
-          { "label": "Betreiber", "value": "Albanischer Kulturverein (CCA)" },
-          { "label": "Status", "value": "Laufend" }
+          {
+            "label": "Standort",
+            "value": "Freiburg, Kanton Freiburg"
+          },
+          {
+            "label": "Bau",
+            "value": "1997"
+          },
+          {
+            "label": "Finanzierung durch Wakef",
+            "value": "2018"
+          },
+          {
+            "label": "Fläche",
+            "value": "132 m²"
+          },
+          {
+            "label": "Trägerschaft",
+            "value": "Albanischer Kulturverein (CCA)"
+          },
+          {
+            "label": "Status",
+            "value": "Laufend"
+          }
         ],
-        "description": "Das Al Iman Zentrum zeichnet sich durch seine Philosophie der totalen Offenheit aus: Seine Türen stehen allen Nationalitäten und Kulturen offen, über die Herkunft des Betreibervereins hinaus. Es ist ein Ort der Begegnung, des Lernens und des Gebets für die gesamte Freiburger muslimische Gemeinde, das die Kosmopolitanität der Stadt widerspiegelt.",
-        "avancement": "Sanierungsarbeiten teilweise abgeschlossen. Die Stiftung Wakef begleitet den Verein CCA bei der Fertigstellung der Inneninvestitionen und Optimierung der Räume.",
-        "vision": "Das Al Iman Zentrum zu einem Modell der Integration und Offenheit machen, wo die Vielfalt des Schweizer Islam ihren harmonischsten Ausdruck findet, ein Gemeinschaftszentrum im eigentlichen Sinne.",
-        "captionsShort": ["Gebetsraum", "Gemeinschaftsmahl", "Vortrag, Frauenraum", "Gebet, Frauenraum", "Freitagsgebet", "Außentreffen", "Kinderkurs"],
-        "captions": ["Gebetsraum: Innenansicht", "Gemeinschaftsmahl", "Vortrag, Frauenraum", "Gebet, Frauenraum", "Freitagsgebet", "Außentreffen", "Kinderkurs"]
+        "description": "Das Al Iman Zentrum zeichnet sich durch seine Haltung vollständiger Offenheit aus: Seine Türen stehen allen Nationalitäten und Kulturen offen, über die Herkunft des Trägervereins hinaus. Es ist ein Ort der Begegnung, des Lernens und des Gebets für die gesamte muslimische Gemeinschaft Freiburgs und spiegelt die weltoffene Prägung der Stadt.",
+        "avancement": "Die Renovationsarbeiten sind teilweise ausgeführt. Die Fondation Wakef begleitet den Verein CCA bei der Fertigstellung des Innenausbaus und der Optimierung der Räume.",
+        "vision": "Das Al Iman Zentrum soll zu einem Vorbild für Integration und Offenheit werden, wo die Vielfalt des Schweizer Islam ihren harmonischsten Ausdruck findet: ein Gemeinschaftszentrum im vollen Sinne des Wortes.",
+        "captionsShort": [
+          "Gebetsraum",
+          "Gemeinsames Essen",
+          "Vortrag, Frauenbereich",
+          "Gebet, Frauenbereich",
+          "Grosses Freitagsgebet",
+          "Versammlung im Freien",
+          "Unterricht für Kinder"
+        ],
+        "captions": [
+          "Gebetsraum: Innenansicht",
+          "Gemeinsames Essen",
+          "Vortrag, Frauenbereich",
+          "Gebet, Frauenbereich",
+          "Grosses Freitagsgebet",
+          "Versammlung im Freien",
+          "Unterricht für Kinder"
+        ]
       },
       "albadr": {
         "title": "Al Badr Zentrum",
         "type": "Kulturzentrum",
         "ville": "Le Locle, NE",
-        "surface": "2.029 m²",
-        "excerptHome": "Einzige Moschee an der Schweizer Grenze: Sanierung eines historischen Gebäudes von 1902.",
-        "excerpt": "Einzige Moschee an der Schweizer Grenze: Sanierung eines historischen Gebäudes von 1902 und Erweiterung um 1.400 m² für ein großes islamisches Kulturzentrum.",
-        "subtitle": "Die einzige Moschee an der Schweizer Grenze",
+        "surface": "2 029 m²",
+        "excerptHome": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902.",
+        "excerpt": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902 und Erweiterung um 1 400 m² zu einem grossen islamischen Kulturzentrum.",
+        "subtitle": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich",
         "villeDetail": "Le Locle, NE",
-        "surfaceDetail": "2.029 m² (Landstücke)",
+        "surfaceDetail": "2 029 m² (Grundstück)",
         "typeDetail": "Islamisches Kulturzentrum",
         "status": "Laufend",
-        "intro": "Das Al Badr Zentrum in Le Locle ist ein einzigartiges Großprojekt: Mit einem Grundstück von 2.029 m², 600 m² bereits gebaut und 1.400 m² für die Erweiterung, ist es die einzige Moschee an der Schweizer Grenze. Das bestehende Gebäude, erbaut 1902, ist architektonisch bemerkenswert.",
+        "intro": "Das Al Badr Zentrum in Le Locle ist ein Vorhaben von einzigartiger Tragweite: Auf einem Grundstück von 2 029 m², davon 600 m² bereits überbaut und 1 400 m² für die Erweiterung vorgesehen, ist es die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich. Das bestehende Gebäude aus dem Jahr 1902 ist von bemerkenswertem architektonischem Wert.",
         "objectifs": [
-          "Vollständige Sanierung des historischen Gebäudes von 1902",
-          "Moderne Konstruktion einer 1.400 m² Erweiterung",
-          "Schaffung des einzigen islamischen Kulturzentrums an der Schweizer Grenze"
+          "Vollständige Renovation des historischen Gebäudes von 1902",
+          "Moderner Bau einer Erweiterung von 1 400 m²",
+          "Den einzigen islamischen Kulturpol an der Grenze zwischen der Schweiz und Frankreich schaffen"
         ],
         "fiche": [
-          { "label": "Standort", "value": "Le Locle, Kanton Neuenburg" },
-          { "label": "Wakef-Finanzierung", "value": "2017" },
-          { "label": "Gesamtgrundstück", "value": "2.029 m²" },
-          { "label": "Bebaute Fläche", "value": "600 m²" },
-          { "label": "Geplante Erweiterung", "value": "1.400 m²" },
-          { "label": "Gebetsraum Männer", "value": "70 m²" },
-          { "label": "Gebetsraum Frauen", "value": "60 m²" },
-          { "label": "Historisches Gebäude", "value": "Erbaut 1902" },
-          { "label": "Status", "value": "Laufend" }
+          {
+            "label": "Standort",
+            "value": "Le Locle, Kanton Neuenburg"
+          },
+          {
+            "label": "Finanzierung durch Wakef",
+            "value": "2017"
+          },
+          {
+            "label": "Grundstück gesamt",
+            "value": "2 029 m²"
+          },
+          {
+            "label": "Bestehende bebaute Fläche",
+            "value": "600 m²"
+          },
+          {
+            "label": "Geplante Erweiterung",
+            "value": "1 400 m²"
+          },
+          {
+            "label": "Gebetsraum für Männer",
+            "value": "70 m²"
+          },
+          {
+            "label": "Gebetsraum für Frauen",
+            "value": "60 m²"
+          },
+          {
+            "label": "Historisches Gebäude",
+            "value": "Erbaut 1902"
+          },
+          {
+            "label": "Status",
+            "value": "Laufend"
+          }
         ],
-        "description": "Das Al Badr Zentrum ist das ehrgeizigste Projekt der Stiftung Wakef. Nur wenige Schritte von der französischen Grenze entfernt, bedient es eine einzigartige Grenzgemeinde. Das Projekt verbindet die Bewahrung eines bemerkenswerten architektonischen Erbes (Gebäude 1902) mit einer entschieden modernen Vision für die Erweiterung.",
-        "avancement": "Phase 1 abgeschlossen: Gebetsraum für Männer (70 m²) und Frauen (60 m²) in Betrieb. Phase 2 laufend: Vollständige Sanierung des historischen Gebäudes und Bau der 1.400 m² Erweiterung.",
-        "vision": "Das Al Badr Zentrum zum Referenz-Islamischen Kulturzentrum für die Gemeinden von Le Locle und französische Grenzregionen machen, Erbe und Moderne verbindend, an einem einzigartigen Ort in der Schweiz.",
-        "captionsShort": ["Al Badr Zentrum", "Außenansicht"],
-        "captions": ["Al Badr Zentrum: Hauptansicht", "Außenansicht: April 2023"]
+        "description": "Das Al Badr Zentrum ist das ehrgeizigste Vorhaben der Fondation Wakef. Nur wenige Schritte von der französischen Grenze entfernt, dient es einer einzigartigen grenzüberschreitenden Gemeinschaft. Das Projekt verbindet die Bewahrung eines bemerkenswerten baulichen Erbes (Gebäude von 1902) mit einer entschieden modernen Vision für die Erweiterung.",
+        "avancement": "Etappe 1 ist realisiert: Die Gebetsräume für Männer (70 m²) und für Frauen (60 m²) sind in Betrieb. Etappe 2 läuft: vollständige Renovation des historischen Gebäudes und Bau der Erweiterung von 1 400 m².",
+        "vision": "Das Al Badr Zentrum soll zu einem wegweisenden islamischen Kulturzentrum für die Gemeinschaften von Le Locle und der angrenzenden französischen Regionen werden und Erbe mit Moderne an einem in der Schweiz einzigartigen Ort verbinden.",
+        "captionsShort": [
+          "Al Badr Zentrum",
+          "Aussenansicht"
+        ],
+        "captions": [
+          "Al Badr Zentrum: Hauptansicht",
+          "Aussenansicht: April 2023"
+        ]
+      },
+      "annour": {
+        "title": "Moschee An-Nour",
+        "type": "Gebetsstätte",
+        "ville": "Sitten, VS",
+        "surface": "420 m²",
+        "excerpt": "Erste arabischsprachige Moschee des Kantons Wallis. Etappe 1 (210 m²) abgeschlossen; Etappe 2 (210 m²) läuft, mit einem Kaufversprechen bis Ende 2026.",
+        "subtitle": "Erste arabischsprachige Moschee des Wallis",
+        "villeDetail": "Sitten, VS",
+        "status": "Laufend",
+        "intro": "Die Moschee An-Nour in Sitten ist ein historisches Vorhaben: Als erste arabischsprachige Moschee des Kantons Wallis erfüllt sie die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
+        "objectifs": [
+          "Dem Wallis seine erste würdige und geeignete arabischsprachige Moschee geben",
+          "Die beiden Bauetappen abschliessen (210 m² + 210 m²)",
+          "Die arabischsprachige Gemeinschaft dauerhaft in der Region Sitten verankern"
+        ],
+        "fiche": [
+          {
+            "label": "Standort",
+            "value": "Sitten, Kanton Wallis"
+          },
+          {
+            "label": "Gesamtfläche",
+            "value": "420 m²"
+          },
+          {
+            "label": "Gesamtbudget",
+            "value": "CHF 900 000"
+          },
+          {
+            "label": "Trägerschaft",
+            "value": "Verein An-Nour"
+          },
+          {
+            "label": "Etappe 1",
+            "value": "210 m² abgeschlossen"
+          },
+          {
+            "label": "Etappe 2",
+            "value": "210 m², Kaufversprechen bis Ende 2026"
+          },
+          {
+            "label": "Status",
+            "value": "Laufend"
+          }
+        ],
+        "description": "Das Wallis beherbergt eine bedeutende arabischsprachige muslimische Gemeinschaft, der lange ein angemessener Gebetsort fehlte. Die Moschee An-Nour, getragen vom Verein An-Nour mit Unterstützung der Fondation Wakef, schliesst diese historische Lücke. Etappe 1 mit 210 m² ist bereits in Betrieb.",
+        "avancement": "Etappe 1 (210 m²): abgeschlossen und in Betrieb. Etappe 2 (210 m²): Kaufversprechen unterzeichnet, gültig bis Ende 2026. Die Mittelbeschaffung für den Erwerb und die Bauarbeiten läuft.",
+        "vision": "Die Moschee An-Nour soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen."
+      },
+      "bibliotheque": {
+        "title": "Mobile Bibliothek",
+        "type": "Bildungsprogramm",
+        "ville": "Westschweiz",
+        "surface": "Unterwegs",
+        "excerpt": "« Ponts du Savoir » (Brücken des Wissens): eine mehrsprachige Wanderbibliothek, die den interkulturellen Dialog fördert. Slogan: « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.)",
+        "subtitle": "« Ponts du Savoir »: Wissen verbindet uns",
+        "villeDetail": "Westschweiz",
+        "status": "Laufend",
+        "intro": "Die Mobile Bibliothek « Ponts du Savoir » (Brücken des Wissens) ist ein in der Westschweiz einzigartiges Projekt: eine mehrsprachige Wanderbibliothek für den interkulturellen Dialog. Sie ist an kulturellen Anlässen, im öffentlichen Raum und an Orten des Alltags unterwegs, um den Gemeinschaften dort zu begegnen, wo sie sich befinden.",
+        "objectifs": [
+          "Den interkulturellen Dialog durch das Teilen von Wissen fördern",
+          "Mehrsprachige Ressourcen für alle Gemeinschaften zugänglich machen",
+          "Botschafterinnen und Botschafter des interkulturellen Dialogs in der Westschweiz ausbilden"
+        ],
+        "fiche": [
+          {
+            "label": "Einsatzgebiet",
+            "value": "Westschweiz (unterwegs)"
+          },
+          {
+            "label": "Format",
+            "value": "Mobile Bibliothek"
+          },
+          {
+            "label": "Sprachen",
+            "value": "Mehrsprachig"
+          },
+          {
+            "label": "Zielorte",
+            "value": "Kulturelle Anlässe, öffentlicher Raum"
+          },
+          {
+            "label": "Team",
+            "value": "Botschafterinnen und Botschafter des interkulturellen Dialogs"
+          },
+          {
+            "label": "Konformität",
+            "value": "Konform mit dem DSG"
+          },
+          {
+            "label": "Status",
+            "value": "Laufend"
+          }
+        ],
+        "description": "Unter dem Slogan « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.) ist die Mobile Bibliothek in der ganzen Westschweiz unterwegs, um Brücken zwischen den Gemeinschaften zu bauen. Das Team der Botschafterinnen und Botschafter transportiert nicht nur Bücher, sondern auch Geschichten, Sprachen und den Schwung einer echten Begegnung zwischen Menschen unterschiedlicher Kulturen.",
+        "avancement": "Das Programm ist seit 2023 aktiv. Regelmässige Präsenz an kulturellen Anlässen und im öffentlichen Raum der Westschweiz. Das Netz der Botschafterinnen und Botschafter wächst laufend.",
+        "vision": "Die Mobile Bibliothek « Ponts du Savoir » soll zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung werden, getragen von der universell verbindenden Kraft des Wissens."
       },
       "delal-el-khayr": {
         "title": "Schatten der Barmherzigkeit: Le Locle",
@@ -297,13 +501,46 @@
           "Zwei Bauplätze für zukünftige Expansion"
         ],
         "fiche": [
-          "Kaufpreis: CHF 1'250'000",
-          "Zu sammelnder Betrag: CHF 550'000",
-          "Aktueller jährlicher Nettoertrag: CHF 49'380",
-          "Erbaut: 1902, sehr guter Zustand",
-          "Stockwerke: 5",
-          "Wohnungen: 6 + 1 Gewerbefläche",
-          "Parkplätze: 5 · Bauplätze: 2"
+          {
+            "label": "Standort",
+            "value": "Le Locle, Kanton Neuenburg"
+          },
+          {
+            "label": "Kaufpreis",
+            "value": "CHF 1'250'000"
+          },
+          {
+            "label": "Zu sammelnder Betrag",
+            "value": "CHF 550'000"
+          },
+          {
+            "label": "Jährlicher Nettoertrag",
+            "value": "CHF 49'380"
+          },
+          {
+            "label": "Baujahr",
+            "value": "1902, sehr guter Zustand"
+          },
+          {
+            "label": "Stockwerke",
+            "value": "5"
+          },
+          {
+            "label": "Zusammensetzung",
+            "value": "6 Wohnungen + 1 Gewerbefläche"
+          },
+          {
+            "label": "Parkplätze",
+            "value": "5"
+          },
+          {
+            "label": "Bauplätze",
+            "value": "2"
+          },
+          {
+            "label": "Status",
+            "value": "Spendensammlung läuft"
+          }
         ],
         "description": "Le Locle braucht ein vollständig funktionsfähiges islamisches Zentrum. Diese Akquisition bietet eine einzigartige Lösung: eine Anlageimmobilie, die ihre eigene Entwicklung teilweise durch Mieteinnahmen finanziert.",
         "avancement": "Spendenstufe. Akquisition geplant für 2026-2027.",
@@ -326,300 +563,356 @@
           "Helle Wohnfläche mit multifunktionaler Anpassungsfähigkeit",
           "Badezimmer: guter Zustand, nach Bedarf zu sanieren"
         ]
-      },
-      "annour": {
-        "title": "An-Nour Moschee",
-        "type": "Gebetsstätte",
-        "ville": "Sitten, VS",
-        "surface": "420 m²",
-        "excerpt": "Erste arabischsprachige Moschee im Kanton Wallis. Phase 1 (210 m²) abgeschlossen; Phase 2 (210 m²) läuft mit Kaufsversprechen bis Ende 2026.",
-        "subtitle": "Erste arabischsprachige Moschee im Wallis",
-        "villeDetail": "Sitten, VS",
-        "status": "Laufend",
-        "intro": "Die An-Nour Moschee in Sitten ist ein historisches Projekt: die erste arabischsprachige Moschee im Kanton Wallis, sie antwortet auf die Bedürfnisse einer Gemeinde, die bisher keinen geeigneten Ort der Anbetung hatte. Mit einem Budget von CHF 900'000 und einer Fläche von 420 m² erfolgt dieses Projekt in zwei Phasen unter der Leitung des An-Nour Vereins.",
-        "objectifs": [
-          "Wallis seine erste würdige und angepasste arabischsprachige Moschee bieten",
-          "Fertigstellung der zwei Bauphasen (210 m² + 210 m²)",
-          "Nachhaltige Verankerung der arabischsprachigen Gemeinde in der Region Sitten"
-        ],
-        "fiche": [
-          { "label": "Standort", "value": "Sitten, Kanton Wallis" },
-          { "label": "Gesamtfläche", "value": "420 m²" },
-          { "label": "Gesamtbudget", "value": "CHF 900'000" },
-          { "label": "Betreiber", "value": "An-Nour Verein" },
-          { "label": "Phase 1", "value": "210 m² abgeschlossen" },
-          { "label": "Phase 2", "value": "210 m² Kaufsversprechen bis Ende 2026" },
-          { "label": "Status", "value": "Laufend" }
-        ],
-        "description": "Das Wallis beheimatet eine bedeutende arabischsprachige muslimische Gemeinde, lange Zeit beraubt eines Ortes der Anbetung, der ihren Bedürfnissen entspricht. Die An-Nour Moschee, unter der Leitung des An-Nour Vereins mit Unterstützung der Stiftung Wakef, füllt diese historische Lücke. Phase 1 von 210 m² ist bereits in Betrieb.",
-        "avancement": "Phase 1 (210 m²): abgeschlossen und in Betrieb. Phase 2 (210 m²): unterzeichnetes Kaufsversprechen, gültig bis Ende 2026. Laufende Spendenbeschaffung zur Finalisierung der Akquisition und Arbeiten.",
-        "vision": "Die An-Nour Moschee zum spirituellen Herzen der Walliser arabischsprachigen Gemeinde machen, ein Raum für Gebet, Lernen und Gemeinschaftsleben für gegenwärtige und zukünftige Generationen."
-      },
-      "bibliotheque": {
-        "title": "Wanderbücherei",
-        "type": "Bildungsprogramm",
-        "ville": "Französischsprachige Schweiz",
-        "surface": "Wandernd",
-        "excerpt": "\"Brücken des Wissens\": mehrsprachige wandernde Bücherei zur Förderung des interkulturellen Dialogs. Motto: \"Lernen wir uns kennen. Wissen bringt uns zusammen.\"",
-        "subtitle": "\"Brücken des Wissens\": Wissen bringt uns zusammen",
-        "villeDetail": "Französischsprachige Schweiz",
-        "status": "Laufend",
-        "intro": "Die Wanderbücherei \"Brücken des Wissen\" ist ein einzigartiges Projekt in der französischsprachigen Schweiz: eine mehrsprachige wandernde Bücherei, die sich dem interkulturellen Dialog widmet. Sie reist zu Kulturveranstaltungen, öffentlichen Plätzen und Gemeindezentren, um Gemeinden dort zu treffen, wo sie sind.",
-        "objectifs": [
-          "Förderung des interkulturellen Dialogs durch Wissensaustausch",
-          "Mehrsprachige Ressourcen für alle Gemeinden zugänglich machen",
-          "Ausbildung von Botschaftern des interkulturellen Dialogs in der französischsprachigen Schweiz"
-        ],
-        "fiche": [
-          { "label": "Tätigkeitsbereich", "value": "Französischsprachige Schweiz (wandernd)" },
-          { "label": "Format", "value": "Wanderbücherei" },
-          { "label": "Sprachen", "value": "Mehrsprachig" },
-          { "label": "Ziele", "value": "Kulturveranstaltungen, öffentliche Plätze" },
-          { "label": "Team", "value": "Botschafter des interkulturellen Dialogs" },
-          { "label": "Compliance", "value": "Konform mit FADP" },
-          { "label": "Status", "value": "Laufend" }
-        ],
-        "description": "Unter dem Motto \"Lernen wir uns kennen. Wissen bringt uns zusammen.\" reist die Wanderbücherei durch die französischsprachige Schweiz, um Brücken zwischen Gemeinden zu bauen. Das Team von Botschaftern trägt nicht nur Bücher, sondern Geschichten, Sprachen und den Schwung authentischer Begegnungen zwischen Menschen verschiedener Kulturen.",
-        "avancement": "Aktives Programm seit 2023. Regelmäßige Präsenz bei Kulturveranstaltungen und öffentlichen Plätzen in der französischsprachigen Schweiz. Netzwerk von Botschaftern in kontinuierlicher Entwicklung.",
-        "vision": "Die Wanderbücherei \"Brücken des Wissens\" zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung machen, wobei die universelle Kraft des Wissens genutzt wird, um zu vereinen."
       }
     }
   },
   "about": {
     "hero": {
-      "label": "Stiftung Wakef Schweiz seit 2009",
-      "title": "Über uns",
-      "sub": "Entdecken Sie unsere Geschichte, unsere Mission und die 6 Ziele, die unser Handeln für die muslimische Gemeinde in der Schweiz leiten."
+      "label": "Fondation Wakef Suisse seit 2009",
+      "title": "Über die Stiftung",
+      "sub": "Entdecken Sie unsere Geschichte, unseren Auftrag und die 6 Ziele, die unser Handeln für die muslimische Gemeinschaft in der Schweiz leiten."
     },
     "breadcrumb": "Über uns",
     "historyLabel": "Unsere Geschichte",
-    "historyTitle": "Gegründet 2009, eine nachhaltige Mission",
-    "p1": "Die Stiftung Wakef Schweiz wurde 2009 gemäß Artikel 80 des Schweizer Zivilgesetzbuches gegründet, eingetragen unter CHE-114.901.246. Sie entstand aus einer tiefgreifenden Überzeugung: Die muslimische Gemeinde in der Schweiz verdient nachhaltige, unabhängige Institutionen, die mit Strenge verwaltet werden.",
+    "historyTitle": "2009 gegründet, ein Auftrag von Dauer",
+    "p1": "Die Fondation Wakef Suisse wurde 2009 nach Artikel 80 des Schweizerischen Zivilgesetzbuchs errichtet und ist unter der Nummer CHE-114.901.246 eingetragen. Sie entstand aus einer tiefen Überzeugung: Die muslimische Gemeinschaft der Schweiz verdient dauerhafte, unabhängige und sorgfältig geführte Institutionen.",
     "p2Before": "Ihr Name ",
-    "p2After": " bezieht sich auf das islamische Konzept der dauerhaften Stiftung: Vermögen oder Mittel, die unwiderruflich einem Zweck von öffentlichem Interesse gewidmet sind, dessen Ertrag der Gemeinde Generation für Generation zugute kommt.",
-    "missionLabel": "Unsere Mission:",
-    "missionText": "Förderung der positiven Bürgerschaft durch einen ausgewogenen Lehr- und Religionsrahmen. Unsere Maßnahmen umfassen die Instandhaltung von Gebetsstätten, die Ausbildung von Imamen, die Unterstützung der wissenschaftlichen Forschung und akademische Unterstützung für junge Menschen.",
+    "p2After": " verweist auf das islamische Konzept der ewigen Stiftung: ein Gut oder eine Summe, unwiderruflich einem gemeinnützigen Zweck gewidmet, deren Erträge der Gemeinschaft Generation um Generation dienen.",
+    "missionLabel": "Unser Auftrag:",
+    "missionText": "Eine positive Bürgerschaft durch einen ausgewogenen bildungsbezogenen und religiösen Rahmen fördern. Unsere Tätigkeit umfasst den Unterhalt der Gebetsstätten, die Ausbildung der Imame, die Unterstützung der wissenschaftlichen Forschung und die akademische Begleitung junger Menschen.",
     "visionLabel": "Unsere Vision:",
-    "visionText": "Etablierung institutioneller Governance, die die finanzielle Unabhängigkeit muslimischer Institutionen in der Schweiz garantiert, um ihren Beitrag für zukünftige Generationen zu sichern.",
+    "visionText": "Eine institutionelle Führung aufbauen, welche die finanzielle Unabhängigkeit der muslimischen Institutionen in der Schweiz sichert, damit ihr Beitrag für künftige Generationen Bestand hat.",
     "pillars": [
-      { "title": "① Gebetsstätten", "desc": "Bau, Erwerb und Sanierung von Moscheen und Gebetsstätten in der Schweiz." },
-      { "title": "② Imame und Integration", "desc": "Bereitstellung eines angemessenen Religionsrahmens, Ausbildung von Imamen und Beitrag zu ihrer Integration." },
-      { "title": "③ Arabische Sprache und Kultur", "desc": "Unterstützung von Schulen für Arabischunterricht und muslimische Kultur in der Schweiz." },
-      { "title": "④ Stipendien", "desc": "Bereitstellung von Stipendien für Studierende in der Schweiz, soweit möglich." }
+      {
+        "title": "① Gebetsstätten",
+        "desc": "Moscheen und Kultusstätten in der Schweiz bauen, kaufen und sanieren."
+      },
+      {
+        "title": "② Imame und Integration",
+        "desc": "Einen angemessenen religiösen Rahmen bieten, Imame ausbilden und zu ihrer Integration beitragen."
+      },
+      {
+        "title": "③ Arabische Sprache und Kultur",
+        "desc": "Schulen für arabische Sprache und muslimische Kultur in der Schweiz unterstützen."
+      },
+      {
+        "title": "④ Studienstipendien",
+        "desc": "Studierenden in der Schweiz nach Möglichkeit Stipendien gewähren."
+      }
     ],
     "objectivesCardTitle": "Unsere 6 offiziellen Ziele",
     "objectives": [
-      "Bau, Erwerb und Sanierung von muslimischen Gebetsstätten in der Schweiz.",
-      "Bereitstellung eines angemessenen Religionsrahmens, Ausbildung von Imamen und Beitrag zu ihrer Integration.",
-      "Unterstützung von Schulen für Arabischunterricht und muslimische Kultur in der Schweiz.",
-      "Bereitstellung von Stipendien für Studierende in der Schweiz, soweit möglich.",
-      "Förderung von wohltätigen, pädagogischen, wissenschaftlichen, soziokulturellen und Familienmediationsaktivitäten.",
-      "Unterstützung der Schaffung und Entwicklung muslimischer Grabplätze auf Schweizer Friedhöfen."
+      "Muslimische Gebetsstätten in der Schweiz bauen, kaufen und sanieren.",
+      "Einen angemessenen religiösen Rahmen bieten, Imame ausbilden und zu ihrer Integration beitragen.",
+      "Schulen für arabische Sprache und muslimische Kultur in der Schweiz unterstützen.",
+      "Studierenden in der Schweiz nach Möglichkeit Studienstipendien gewähren.",
+      "Karitative, bildungsbezogene, wissenschaftliche, soziokulturelle und familienvermittelnde Tätigkeiten fördern.",
+      "Die Schaffung und Gestaltung muslimischer Grabfelder auf Schweizer Friedhöfen unterstützen."
     ],
     "foundedYear": "Gründungsjahr",
-    "endowment": "Stiftungsvermögen",
+    "endowment": "Stiftungskapital",
     "govLabel": "Governance",
-    "govTitle": "Unsere innere Struktur",
+    "govTitle": "Unsere interne Organisation",
     "governance": [
-      { "title": "Stiftungsrat", "desc": "Oberste Behörde verantwortlich für Strategie, Aufsicht und Einhaltung der Satzung. Zusammensetzung unabhängiger Mitglieder, gewählt gemäß Art. 80 ZGB. Tritt mindestens einmal pro Jahr zusammen." },
-      { "title": "Verwaltungsrat", "desc": "Sichert die tägliche operative Verwaltung: Projektüberwachung, Partnerbeziehungen, Finanzverwaltung und Kommunikation. Berichtet dem Stiftungsrat mit einem detaillierten jährlichen Tätigkeitsbericht." },
-      { "title": "Revisionsstelle", "desc": "Gemäß Schweizer Gesetzgebung überprüft eine unabhängige Revisionsstelle die Jahresrechnung und stellt jährlich die Einhaltung rechtlicher und satzungsmäßiger Pflichten sicher." },
-      { "title": "Scharia-Ausschuss", "desc": "Ein Ausschuss qualifizierter Gelehrter validiert die Einhaltung jedes Projekts mit islamischen Prinzipien. Alle Mittel werden nach islamischer Finanzierung verwaltet, ohne Zins, in vollständiger Transparenz." }
+      {
+        "title": "Stiftungsrat",
+        "desc": "Oberstes Organ, verantwortlich für die Strategie, die Aufsicht und die Einhaltung der Statuten. Er besteht aus unabhängigen Mitgliedern, die gemäss Art. 80 ZGB gewählt werden. Er tritt mindestens einmal jährlich zusammen."
+      },
+      {
+        "title": "Geschäftsleitung",
+        "desc": "Sie führt die operative Tätigkeit im Alltag: Begleitung der Projekte, Beziehungen zu den Partnern, Finanzverwaltung und Kommunikation. Sie erstattet dem Stiftungsrat mit einem ausführlichen jährlichen Tätigkeitsbericht Rechenschaft."
+      },
+      {
+        "title": "Revisionsstelle",
+        "desc": "Gemäss Schweizer Gesetzgebung prüft eine unabhängige Revisionsstelle jährlich die Rechnung und stellt die Einhaltung der gesetzlichen und statutarischen Pflichten sicher."
+      },
+      {
+        "title": "Schariakomitee",
+        "desc": "Ein Komitee qualifizierter Gelehrter bestätigt die Übereinstimmung jedes Projekts mit den islamischen Grundsätzen. Alle Mittel werden nach den Regeln der islamischen Finanz verwaltet, zinsfrei und in vollständiger Transparenz."
+      }
     ],
     "legalLabel": "Rechtliches",
-    "legalTitle": "Rechtliche Informationen und Status",
-    "legalBoxTitle": "Amtliche Kennzeichnung der Stiftung",
+    "legalTitle": "Impressum und Rechtsform",
+    "legalBoxTitle": "Offizielle Identifikation der Stiftung",
     "legal": {
-      "name": { "label": "Amtlicher Name", "value": "STIFTUNG WAKEF Schweiz" },
-      "ide": { "label": "Identifikationsnummer", "value": "CHE-114.901.246" },
-      "form": { "label": "Rechtsform", "value": "Schweizer Privatstiftung" },
-      "basis": { "label": "Rechtliche Grundlage", "value": "Art. 80 ff. Schweizer Zivilgesetzbuch (ZGB)" },
-      "head": { "label": "Hauptsitz", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
-      "office": { "label": "Kontaktbüro", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
-      "year": { "label": "Gründungsjahr", "value": "2009" },
-      "capital": { "label": "Stiftungsvermögen", "value": "CHF 50'000" },
-      "recognition": { "label": "Rechtsstatus", "value": "Schweizer Stiftung, im Handelsregister eingetragen" },
-      "supervision": { "label": "Aufsicht", "value": "Stiftungsaufsichtsbehörde des Bundes" },
-      "email": { "label": "E-Mail" },
-      "phone": { "label": "Telefon" }
+      "name": {
+        "label": "Offizielle Bezeichnung",
+        "value": "Fondation WAKEF SUISSE"
+      },
+      "ide": {
+        "label": "Identifikationsnummer",
+        "value": "CHE-114.901.246"
+      },
+      "form": {
+        "label": "Rechtsform",
+        "value": "Stiftung des schweizerischen Privatrechts"
+      },
+      "basis": {
+        "label": "Rechtsgrundlage",
+        "value": "Art. 80 ss des Schweizerischen Zivilgesetzbuchs (ZGB)"
+      },
+      "head": {
+        "label": "Sitz der Stiftung",
+        "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)"
+      },
+      "office": {
+        "label": "Kontaktbüro",
+        "value": "Rue de Mardertsch 64, 2503 Bienne (BE)"
+      },
+      "year": {
+        "label": "Gründungsjahr",
+        "value": "2009"
+      },
+      "capital": {
+        "label": "Stiftungskapital",
+        "value": "CHF 50 000"
+      },
+      "recognition": {
+        "label": "Rechtsstatus",
+        "value": "Stiftung nach Schweizer Recht, im Handelsregister eingetragen"
+      },
+      "supervision": {
+        "label": "Aufsicht",
+        "value": "Eidgenössische Stiftungsaufsicht"
+      },
+      "email": {
+        "label": "E-Mail"
+      },
+      "phone": {
+        "label": "Telefon"
+      }
     },
-    "ctaTitle": "Unterstützen Sie die Stiftung",
-    "ctaBody": "Ihre Spende trägt zu einem bleibendem Erbe für die muslimische Gemeinde in der Schweiz bei.",
+    "ctaTitle": "Die Stiftung unterstützen",
+    "ctaBody": "Ihre Spende trägt zu einem bleibenden Erbe für die muslimische Gemeinschaft in der Schweiz bei.",
     "ctaDonate": "Spenden →",
-    "ctaStatutes": "Satzung ansehen"
+    "ctaStatutes": "Die Statuten ansehen"
   },
   "donation": {
     "hero": {
-      "label": "Unterstützen Sie die Stiftung",
+      "label": "Die Stiftung unterstützen",
       "title": "Spenden",
-      "sub": "Ihre Großzügigkeit baut Moscheen, finanziert Stipendien und schafft Räume für zukünftige Generationen. Jeder Franken zählt."
+      "sub": "Ihre Grosszügigkeit baut Moscheen, finanziert Studienstipendien und schafft Räume für künftige Generationen. Jeder Franken zählt."
     },
     "breadcrumb": "Spenden",
-    "impactTitle": "Auswirkung Ihrer Spende",
+    "impactTitle": "Die Wirkung Ihrer Spende",
     "impact": [
-      "Finanziert einen Tag arabischsprachigen Unterrichts für ein Kind",
-      "Trägt zu Schulmaterial für einen Studierenden für ein Jahr bei",
-      "Finanziert einen Tag Arbeit in einem islamischen Zentrum",
-      "Hilft, liturgische Möbel für eine Moschee zu erwerben",
-      "Trägt erheblich zu einem muslimischen Grabplatz bei"
+      "Finanziert einem Kind einen Tag Arabischunterricht",
+      "Trägt zum Schulmaterial eines Kindes für ein Jahr bei",
+      "Finanziert einen Arbeitstag in einem islamischen Zentrum",
+      "Hilft beim Erwerb von liturgischem Mobiliar für eine Moschee",
+      "Trägt massgeblich zu einem muslimischen Grabfeld bei"
     ],
     "guaranteesTitle": "Unsere Garantien",
     "guarantees": [
-      "Scharia-Konformität: zinslos",
-      "Jährlicher Bericht über Mittelverwendung",
-      "Schweizer Stiftung eingetragen (CHE-114.901.246)"
+      "Konform mit der Scharia: zinsfrei",
+      "Jahresbericht über die Verwendung der Mittel",
+      "Eingetragene Stiftung nach Schweizer Recht (CHE-114.901.246)"
     ],
-    "questions": "Fragen? Kontaktieren Sie uns",
-    "intro": "Wählen Sie die Methode, die zu Ihnen passt. In beiden Fällen legen Sie den Betrag frei fest.",
-    "twint": {
-      "title": "Mit TWINT",
-      "qrAlt": "TWINT QR-Code der Stiftung Wakef Schweiz",
-      "scan": "Scannen Sie diesen Code mit der TWINT-App.",
-      "redirect": "Sie werden zur TWINT-App weitergeleitet.",
-      "button": "Mit TWINT spenden"
-    },
-    "transfer": {
-      "title": "Mit Ihrer Banking-App",
-      "qrAlt": "QR-Rechnung der Stiftung Wakef Schweiz, mit Ihrer Banking-App zu scannen",
-      "scan": "Scannen Sie diesen Code mit Ihrer Banking-App, nicht mit TWINT.",
-      "beneficiary": { "label": "Empfänger", "value": "STIFTUNG WAKEF Schweiz" },
-      "iban": { "label": "IBAN", "value": "CH84 0900 0000 1076 1819 4" },
-      "bank": { "label": "Bank", "value": "PostFinance AG" },
-      "address": { "label": "Adresse", "value": "Avenue de la Confrérie 11, 1008 Prilly" },
-      "copy": "IBAN kopieren",
-      "copied": "IBAN kopiert",
-      "free": "100% Ihrer Spende erreichen die Stiftung, ohne Transaktionsgebühren."
-    },
-    "regular": {
-      "title": "Regelmäßige Spende",
-      "body": "Sie können auch einen monatlichen Dauerauftrag aus Ihrem E-Banking einrichten, mit der gleichen IBAN. Dies ist der effektivste Weg, um unsere Projekte langfristig zu unterstützen."
-    }
+    "questions": "Fragen? Kontaktieren Sie uns"
   },
   "zakat": {
     "hero": {
       "label": "Säule des Islam",
-      "title": "Zakat-Rechner",
-      "sub": "Berechnen Sie Ihre jährliche Zakat-Verpflichtung nach Scharia-Regeln. Aktueller Nisab: CHF/€ 4.600 (≈ 85g Gold)."
+      "title": "Zakatrechner",
+      "sub": "Berechnen Sie Ihre jährliche Zakat nach den Regeln der Scharia. Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold)."
     },
     "breadcrumb": "Zakat",
     "toolLabel": "Islamisches Werkzeug",
-    "toolTitle": "Zakat-Rechner",
-    "toolBody": "Geben Sie den Wert Ihres Vermögens in CHF oder Euro ein. Zakat ist fällig, wenn Ihr Nettovermögen den Nisab für ein vollständiges Mondjahr (Hawl) übersteigt.",
-    "formTitle": "Ihre Vermögensgesamtheit",
+    "toolTitle": "Zakatrechner",
+    "toolBody": "Geben Sie den Wert Ihrer Vermögenswerte in CHF oder Euro ein. Die Zakat ist geschuldet, wenn Ihr Nettovermögen den Nisab seit einem vollen Mondjahr (Hawl) übersteigt.",
+    "formTitle": "Ihre Vermögenswerte",
     "fields": {
-      "or": { "label": "Besessenes Gold", "hint": "(Wert in CHF/€)" },
-      "argent": { "label": "Besessenes Silber", "hint": "(Wert in CHF/€)" },
-      "liquid": { "label": "Flüssige Vermögenswerte", "hint": "(Bankkonten, Bargeld)" },
-      "invest": { "label": "Investitionen", "hint": "(Aktien, Ersparnisse)" },
-      "dettes": { "label": "Kurzfristige Schulden", "hint": "(zum Abzug)" }
+      "or": {
+        "label": "Gold im Besitz",
+        "hint": "(Wert in CHF/€)"
+      },
+      "argent": {
+        "label": "Silber im Besitz",
+        "hint": "(Wert in CHF/€)"
+      },
+      "liquid": {
+        "label": "Flüssige Mittel",
+        "hint": "(Bankkonten, Bargeld)"
+      },
+      "invest": {
+        "label": "Anlagen",
+        "hint": "(Aktien, Ersparnisse)"
+      },
+      "dettes": {
+        "label": "Kurzfristige Schulden",
+        "hint": "(in Abzug zu bringen)"
+      }
     },
     "calcBtn": "Meine Zakat berechnen →",
     "estimated": "Ihre geschätzte Zakat",
-    "totalAssets": "Gesamtvermögen",
-    "debtsDeducted": "Schulden abgezogen",
-    "taxable": "Steuerpflichtiger Nettowert",
-    "rate": "Zakat-Satz",
-    "belowNisab": "ℹ️ Ihr Nettovermögen liegt unter dem Nisab (CHF {{nisab}}). Sie sind nicht verpflichtet, in diesem Jahr Zakat al-Māl zu zahlen.",
-    "nisabInfo": "ℹ️ Der Nisab wird auf den Wert von 85g Gold (~CHF 4.600) festgelegt. Zakat ist fällig, wenn Ihr Nettovermögen diesen Betrag für ein vollständiges Mondjahr (Hawl) übersteigt.",
-    "rateNoteBefore": "Angewendeter Satz: ",
-    "rateNoteAfter": " des steuerpflichtigen Nettovermögens.",
-    "estimateNote": "Diese Berechnung ist eine ungefähre Schätzung.",
-    "donateZakat": "Geben Sie meine Zakat jetzt →",
+    "totalAssets": "Summe der Vermögenswerte",
+    "debtsDeducted": "Abgezogene Schulden",
+    "taxable": "Bemessungsgrundlage",
+    "rate": "Zakatsatz",
+    "belowNisab": "ℹ️ Ihr Nettovermögen liegt unter dem Nisab (CHF {{nisab}}). Sie schulden dieses Jahr keine Zakat al-Māl.",
+    "nisabInfo": "ℹ️ Der Nisab entspricht dem Wert von 85g Gold (~CHF 4 600). Die Zakat ist geschuldet, wenn Ihr Nettovermögen diese Schwelle seit einem vollen Mondjahr (Hawl) übersteigt.",
+    "rateNoteBefore": "Angewandter Satz: ",
+    "rateNoteAfter": " des steuerbaren Nettovermögens.",
+    "estimateNote": "Diese Berechnung ist eine unverbindliche Schätzung.",
+    "donateZakat": "Meine Zakat jetzt spenden →",
     "explainLabel": "Verstehen",
     "explainTitle": "Nisab, Hawl und Zakat",
     "explain": [
-      { "title": "Der Nisab النصاب", "desc": "Der Nisab ist die Mindestmögen-Schwelle. Sie ist auf den Wert von 85g Gold (oder 595g Silber nach Schulen) festgelegt. Im Jahr 2025 entspricht dies ungefähr <strong>CHF 4.600</strong>. Dieser Betrag wird nach dem Goldpreis neubewertetet." },
-      { "title": "Der Hawl الحول", "desc": "Der Hawl ist die Dauer-Bedingung: Ihr Vermögen muss den Nisab für ein vollständiges Mondjahr (ca. 354 Tage) übersteigen, damit Zakat obligatorisch wird." },
-      { "title": "Der Satz 2.5%", "desc": "Der Zakat-Satz auf Geldvermögen (Zakat al-Māl) beträgt <strong>2.5%</strong> des steuerpflichtigen Nettovermögens, insgesamt Ihre Vermögenswerte minus Ihre kurzfristigen Schulden." },
-      { "title": "Was ist zakatpflichtig", "desc": "Zakatpflichtig: physisches Gold und Silber, Bargeld, Bankkonten, Aktien (Marktwert), Ersparnisse und Halal-Investitionen. Nicht zakatpflichtig: Hauptwohnstätte, Privatfahrzeug, persönliche Gegenstände." }
+      {
+        "title": "Der Nisab النصاب",
+        "desc": "Der Nisab ist die Mindestschwelle des Vermögens. Er entspricht dem Wert von 85g Gold (oder 595g Silber, je nach Rechtsschule). Im Jahr 2025 entspricht dies etwa <strong>CHF 4 600</strong>. Dieser Betrag wird gemäss dem Goldkurs neu bewertet."
+      },
+      {
+        "title": "Der Hawl الحول",
+        "desc": "Der Hawl ist die zeitliche Bedingung: Ihr Vermögen muss während eines vollen Mondjahres (rund 354 Tage) über dem Nisab liegen, damit die Zakat verpflichtend wird."
+      },
+      {
+        "title": "Der Satz von 2,5%",
+        "desc": "Der Zakatsatz auf Geldvermögen (Zakat al-Māl) beträgt <strong>2,5%</strong> des steuerbaren Nettovermögens, also der Summe Ihrer Vermögenswerte abzüglich Ihrer kurzfristigen Schulden."
+      },
+      {
+        "title": "Was zakatpflichtig ist",
+        "desc": "Zakatpflichtig sind: physisches Gold und Silber, Bargeld, Bankkonten, Aktien (Marktwert), Ersparnisse und halalkonforme Anlagen. Nicht zakatpflichtig sind: die selbst bewohnte Liegenschaft, das private Fahrzeug und Gegenstände des persönlichen Gebrauchs."
+      }
     ],
-    "faqLabel": "Häufig gestellte Fragen",
-    "faqTitle": "Zakat FAQ",
+    "faqLabel": "Häufige Fragen",
+    "faqTitle": "FAQ Zakat",
     "faq": [
-      { "q": "Kann ich meine Zakat in Raten zahlen?", "a": "Ja, Zakat kann während des Mondjahrs in Raten gezahlt werden, sofern der Gesamtbetrag bis zum Jahrestag (Hawl) bezahlt ist. Es ist jedoch vorzuziehen, alles auf einmal zu zahlen, um einen Termin nicht zu verpassen." },
-      { "q": "Zakat auf Gehältern, wie man es berechnet?", "a": "Für Arbeitnehmer wird Zakat auf die über ein Jahr angesammelten Nettoersparnisse berechnet, nicht auf das Bruttoeinkommen. Berechnen Sie Ihre verbleibenden Ersparnisse (Einkommen minus notwendige Ausgaben) nach einem vollständigen Mondjahr. Wenn diese Ersparnisse den Nisab übersteigen, schulden Sie 2.5% davon." },
-      { "q": "Der Rechner zeigt \"Unter Nisab\", bin ich befreit?", "a": "Wenn Ihr Nettovermögen unter dem Nisab (~CHF 4.600) liegt, sind Sie nicht verpflichtet, Zakat al-Māl zu zahlen. Sie können aber jederzeit freiwillige Sadaqah leisten." },
-      { "q": "Komplexe Situationen: Unternehmer, Gewerbeimmobilie, Kryptowährung…", "a": "Für Unternehmer, Inhaber von Gewerbeimmobilien, Investoren oder komplexe Vermögenssituationen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Scharia-Komitee zu konsultieren. Kontaktieren Sie uns unter <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>." }
+      {
+        "q": "Kann ich meine Zakat in mehreren Teilbeträgen bezahlen?",
+        "a": "Ja, die Zakat kann im Verlauf des Mondjahres in mehreren Teilbeträgen entrichtet werden, solange der Gesamtbetrag vor dem Jahrestag (Hawl) beglichen ist. Es ist jedoch vorzuziehen, sie auf einmal zu bezahlen, um keine Frist zu vergessen."
+      },
+      {
+        "q": "Wie berechnet man die Zakat auf den Lohn?",
+        "a": "Bei Angestellten wird die Zakat auf den seit einem Jahr angesparten Nettobetrag berechnet, nicht auf den Bruttolohn. Ermitteln Sie nach Ablauf eines Mondjahres Ihre verbleibenden Ersparnisse (Einkommen abzüglich der notwendigen Ausgaben). Übersteigen diese Ersparnisse den Nisab, schulden Sie darauf 2,5%."
+      },
+      {
+        "q": "Mein Rechner zeigt « Unter dem Nisab » an, bin ich befreit?",
+        "a": "Liegt Ihr Nettovermögen unter dem Nisab (~CHF 4 600), schulden Sie keine Zakat al-Māl. Sie können jedoch jederzeit freiwillig eine Sadaqah leisten."
+      },
+      {
+        "q": "Komplexe Situationen: Unternehmen, Immobilien, Krypto…",
+        "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Schariakomitee beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+      }
     ],
     "noteTitle": "Für komplexe Situationen",
-    "noteBody": "Unser Rechner umfasst Standardfälle. Für Unternehmer, Inhaber von Gewerbeimmobilien, Investoren oder atypische Vermögenssituationen kann Ihnen unser Scharia-Ausschuss weiterhelfen.",
-    "noteBtn": "Scharia-Komitee kontaktieren →"
+    "noteBody": "Unser Rechner deckt die üblichen Fälle ab. Für Unternehmerinnen und Unternehmer, Eigentümer von Geschäftsliegenschaften, Anlegerinnen und Anleger oder aussergewöhnliche Vermögenslagen kann Ihnen unser Schariakomitee weiterhelfen.",
+    "noteBtn": "Unser Schariakomitee kontaktieren →"
   },
   "faq": {
     "hero": {
-      "label": "Stiftung Wakef Schweiz",
-      "title": "Häufig gestellte Fragen",
-      "sub": "Alle Antworten zur Stiftung, Spenden, Zakat und unseren Projekten. Keine Antwort auf Ihre Frage? Schreiben Sie uns."
+      "label": "Fondation Wakef Suisse",
+      "title": "Häufige Fragen",
+      "sub": "Alle Antworten zur Stiftung, zu den Spenden, zur Zakat und zu unseren Projekten. Eine Frage ohne Antwort? Schreiben Sie uns."
     },
-    "breadcrumb": "Häufig gestellte Fragen",
+    "breadcrumb": "FAQ",
     "groups": [
       {
         "cat": "Stiftung",
         "items": [
-          { "q": "Was ist die Stiftung Wakef Schweiz?", "a": "Die Stiftung Wakef Schweiz ist eine Schweizer Privatstiftung (Art. 80 ZGB), eingetragen unter CHE-114.901.246, gegründet 2009. Sie finanziert islamische Infrastrukturprojekte in der Schweiz: Moscheen, islamische Zentren, Stipendien und muslimische Grabplätze auf Friedhöfen." },
-          { "q": "Wer beaufsichtigt die Stiftung?", "a": "Die Stiftung wird von der Stiftungsaufsichtsbehörde des Bundes beaufsichtigt. Sie hat eine unabhängige Revisionsstelle, die die Rechnungen jährlich überprüft, und einen Scharia-Ausschuss, der die islamische Konformität jedes Projekts validiert." },
-          { "q": "Was ist das Stiftungsvermögen?", "a": "Das ursprüngliche Stiftungsvermögen beträgt CHF 50'000, gemäß der 2009 eingetragenen Satzung. Alle gesammelten Mittel werden zu diesem Vermögen hinzugefügt und ausschließlich für die Projekte der Stiftung verwendet." }
+          {
+            "q": "Was ist die Fondation Wakef Suisse?",
+            "a": "Die Fondation Wakef Suisse ist eine Stiftung des schweizerischen Privatrechts (Art. 80 ZGB), eingetragen unter CHE-114.901.246 und 2009 gegründet. Sie finanziert islamische Infrastrukturvorhaben in der Schweiz: Moscheen, islamische Zentren, Studienstipendien und muslimische Grabfelder auf Friedhöfen."
+          },
+          {
+            "q": "Wer kontrolliert die Stiftung?",
+            "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft, sowie über ein Schariakomitee, das die islamische Konformität jedes Projekts bestätigt."
+          },
+          {
+            "q": "Wie hoch ist das Stiftungskapital?",
+            "a": "Das anfängliche Stiftungskapital beträgt CHF 50 000, gemäss den 2009 eingetragenen Statuten. Alle gesammelten Mittel kommen zu diesem Kapital hinzu und werden ausschliesslich für die Projekte der Stiftung verwendet."
+          }
         ]
       },
       {
         "cat": "Spenden",
         "items": [
-          { "q": "Wie kann ich spenden?", "a": "Sie können über unser Online-Formular auf der Seite \"Spenden\" spenden, per Banküberweisung (Angaben auf Anfrage unter info@wakf.ch) oder per Post an unser Kontaktbüro in Biel." },
-          { "q": "Kann ich eine regelmäßige Spende (monatlich) tätigen?", "a": "Ja. Sie können eine monatliche Spende wählen, indem Sie Ihren Wunsch im Formular angeben. Unser Team wird Sie kontaktieren, um die automatische Überweisung einzurichten." },
-          { "q": "Ist die Stiftung transparent in ihrer Verwaltung?", "a": "Ja. Die Stiftung Wakef Schweiz unterliegt dem Schweizer Zivilgesetzbuch (Art. 80 ZGB) und wird von der Stiftungsaufsichtsbehörde des Kantons Waadt beaufsichtigt. Rechnungen werden jährlich von einer unabhängigen Revisionsstelle geprüft und Finanzberichte sind auf Anfrage unter info@wakf.ch verfügbar." }
+          {
+            "q": "Wie kann ich spenden?",
+            "a": "Sie können über unser Onlineformular auf der Seite « Spenden » spenden, per Banküberweisung (Angaben auf Anfrage unter info@wakf.ch) oder per Post an unser Kontaktbüro in Biel/Bienne."
+          },
+          {
+            "q": "Kann ich monatlich wiederkehrend spenden?",
+            "a": "Ja. Sie können sich im Formular für eine monatliche Spende entscheiden. Unser Team nimmt mit Ihnen Kontakt auf, um den Dauerauftrag einzurichten."
+          },
+          {
+            "q": "Ist die Stiftung in ihrer Führung transparent?",
+            "a": "Ja. Die Fondation Wakef Suisse untersteht dem schweizerischen Zivilrecht (Art. 80 ZGB) und der kantonalen Stiftungsaufsicht des Kantons Waadt. Die Rechnung wird jährlich von einer unabhängigen Revisionsstelle geprüft, und die Finanzberichte sind auf Anfrage unter info@wakf.ch erhältlich."
+          }
         ]
       },
       {
         "cat": "Zakat",
         "items": [
-          { "q": "Kann ich meine Spende einem bestimmten Projekt widmen?", "a": "Ja. Bei der Spende können Sie angeben, welches Projekt Sie unter unseren fünf Projekten unterstützen möchten: Moschee Madretsch (Biel), Al Iman Zentrum (Freiburg), Al Badr Zentrum (Le Locle), An-Nour Moschee (Sitten) und Wanderbücherei \"Brücken des Wissens\". Ist das Projekt bereits finanziert, werden die Mittel dem dringendsten laufenden Projekt zugeteilt." },
-          { "q": "Wie berechne ich meine Zakat?", "a": "Nutzen Sie unseren Zakat-Rechner auf der Seite /zakat. Geben Sie Ihr Vermögen (Gold, Silber, flüssige Mittel, Investitionen) und kurzfristige Schulden ein. Übersteigt Ihr Nettovermögen den Nisab (CHF/€ 4.600) für ein vollständiges Mondjahr, schulden Sie 2.5% dieses Betrags." },
-          { "q": "Was ist der Nisab?", "a": "Der Nisab ist die Mindestmögen-Schwelle. Sie ist auf den Wert von 85g Gold, ungefähr CHF 4.600 im Jahr 2025, festgelegt. Ist Ihr Nettovermögen unter dieser Grenze, sind Sie nicht verpflichtet, Zakat al-Māl zu zahlen." },
-          { "q": "Ist Zakat al-Fitr unterschiedlich?", "a": "Ja. Zakat al-Fitr ist eine obligatorische Steuer am Ende des Ramadan, unabhängig von Ihrem Vermögen. Der Betrag wird jährlich von islamischen Gelehrten festgelegt (normalerweise zwischen CHF 10 und 20 pro Person)." }
+          {
+            "q": "Kann ich für ein bestimmtes Projekt spenden?",
+            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches unserer fünf Projekte Sie unterstützen möchten: Moschee Madretsch (Biel/Bienne), Al Iman Zentrum (Freiburg), Al Badr Zentrum (Le Locle), Moschee An-Nour (Sitten) und Mobile Bibliothek « Ponts du Savoir ». Ist das Projekt vollständig finanziert, fliessen die Mittel in das laufende vorrangige Projekt."
+          },
+          {
+            "q": "Wie berechne ich meine Zakat?",
+            "a": "Nutzen Sie unseren Zakatrechner auf der Seite /zakat. Geben Sie Ihre Vermögenswerte (Gold, Silber, flüssige Mittel, Anlagen) und Ihre kurzfristigen Schulden ein. Übersteigt Ihr Nettovermögen seit einem Mondjahr den Nisab (CHF/€ 4 600), schulden Sie 2,5% dieses Betrags."
+          },
+          {
+            "q": "Was ist der Nisab?",
+            "a": "Der Nisab ist die Mindestschwelle des Vermögens. Er entspricht dem Wert von 85g Gold, also rund CHF 4 600 im Jahr 2025. Liegt Ihr Nettovermögen unter dieser Schwelle, schulden Sie keine Zakat al-Māl."
+          },
+          {
+            "q": "Ist die Zakat al-Fitr etwas anderes?",
+            "a": "Ja. Die Zakat al-Fitr ist ein verpflichtendes Almosen, das am Ende des Ramadan entrichtet wird, unabhängig von Ihrem Vermögen. Ihr Betrag wird jedes Jahr von den islamischen Gelehrten festgelegt (in der Regel zwischen CHF 10 und 20 pro Person)."
+          }
         ]
       },
       {
         "cat": "Projekte",
         "items": [
-          { "q": "Was sind die aktuellen Projekte?", "a": "Die Stiftung Wakef finanziert fünf Projekte: Moschee Madretsch in Biel (abgeschlossen, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), Al Badr Zentrum in Le Locle (laufend, 2.029 m²), An-Nour Moschee in Sitten (laufend, 420 m²) und Wanderbücherei \"Brücken des Wissens\" in der französischsprachigen Schweiz. Siehe Projektseite für vollständige Details." },
-          { "q": "Wie werden Mittel zugewiesen?", "a": "Jede Spende wird einem allgemeinen Fonds oder einem bestimmten Projekt zugewiesen, je nach Ihrer Wahl. Der Stiftungsrat validiert die Mittelvergabe, und ein Jahresbericht erläutert die Verwendung jedes Frankens, der gesammelt wurde." },
-          { "q": "Kann ich meine Spende einem bestimmten Projekt widmen?", "a": "Ja. Bei der Spende können Sie angeben, welches Projekt Sie unterstützen möchten (Moschee Madretsch, Al Iman Zentrum oder Al Badr Zentrum). Ist das Projekt bereits finanziert, werden die Mittel dem dringendsten Projekt zugeteilt." }
+          {
+            "q": "Welches sind die aktuellen Projekte?",
+            "a": "Die Fondation Wakef finanziert fünf Projekte: Moschee Madretsch in Biel/Bienne (realisiert, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), Al Badr Zentrum in Le Locle (laufend, 2 029 m²), Moschee An-Nour in Sitten (laufend, 420 m²) und die Mobile Bibliothek « Ponts du Savoir » in der Westschweiz. Alle Einzelheiten finden Sie auf der Seite Projekte."
+          },
+          {
+            "q": "Wie werden die Mittel zugeteilt?",
+            "a": "Jede Spende fliesst nach Ihrer Wahl in einen allgemeinen Fonds oder in ein bestimmtes Projekt. Der Stiftungsrat genehmigt die Zuteilung der Mittel, und ein Jahresbericht legt die Verwendung jedes gesammelten Frankens dar."
+          },
+          {
+            "q": "Kann ich meine Spende einem bestimmten Projekt widmen?",
+            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches Projekt Sie unterstützen möchten (Moschee Madretsch, Al Iman Zentrum oder Al Badr Zentrum). Ist das Projekt bereits finanziert, fliessen die Mittel in das dringendste Projekt."
+          }
         ]
       }
     ],
-    "ctaTitle": "Haben Sie Ihre Antwort nicht gefunden?",
-    "ctaBody": "Unser Team antwortet innerhalb von 48 Geschäftsstunden.",
+    "ctaTitle": "Sie haben Ihre Antwort nicht gefunden?",
+    "ctaBody": "Unser Team antwortet innerhalb von 48 Arbeitsstunden.",
     "ctaContact": "Kontaktieren Sie uns →"
   },
   "contact": {
     "hero": {
-      "label": "Stiftung Wakef Schweiz",
+      "label": "Fondation Wakef Suisse",
       "title": "Kontaktieren Sie uns",
-      "sub": "Unser Team antwortet innerhalb von 48 Geschäftsstunden. Für Notfälle: +41 79 379 96 46."
+      "sub": "Unser Team antwortet innerhalb von 48 Arbeitsstunden. In dringenden Fällen rufen Sie +41 79 379 96 46 an."
     },
-    "breadcrumb": "Kontaktieren Sie uns",
-    "infoLabel": "Kontaktieren Sie uns",
-    "infoTitle": "Bleiben Sie in Verbindung",
-    "infoBody": "Egal ob Sie Fragen zu unseren Projekten haben, spenden möchten oder Informationen zur Zakat benötigen, unser Team hilft gerne.",
-    "ideLabel": "Identifikationsnummer:",
-    "legalBasisLabel": "Rechtliche Grundlage:",
+    "breadcrumb": "Kontakt",
+    "infoLabel": "Schreiben Sie uns",
+    "infoTitle": "Bleiben wir in Kontakt",
+    "infoBody": "Ob Sie Fragen zu unseren Projekten haben, spenden möchten oder Auskünfte zur Zakat suchen: Unser Team steht Ihnen gerne zur Verfügung.",
+    "ideLabel": "UID Nummer:",
+    "legalBasisLabel": "Rechtsgrundlage:",
     "legalBasisValue": "Art. 80 ZGB · Gegründet 2009",
     "supervisionLabel": "Aufsicht:",
-    "supervisionValue": "Stiftungsaufsichtsbehörde des Bundes",
-    "formTitle": "Senden Sie eine Nachricht",
-    "sentTitle": "Danke, Ihre Nachricht wurde empfangen!",
-    "sentText": "Wir antworten innerhalb von 48 Geschäftsstunden.",
+    "supervisionValue": "Eidgenössische Stiftungsaufsicht",
+    "formTitle": "Nachricht senden",
+    "sentTitle": "Danke, wir haben Ihre Nachricht erhalten!",
+    "sentText": "Wir antworten Ihnen innerhalb von 48 Arbeitsstunden.",
     "fullName": "Vollständiger Name *",
     "emailLabel": "E-Mail *",
     "subjectLabel": "Betreff *",
-    "subjectPlaceholder": "Wählen Sie ein Thema…",
+    "subjectPlaceholder": "Betreff wählen…",
     "subjects": {
       "Faire un don": "Spenden",
       "Zakat & Sadaqah": "Zakat und Sadaqah",
       "Nos projets": "Unsere Projekte",
-      "Comité Charia": "Scharia-Komitee",
+      "Comité Charia": "Schariakomitee",
       "Partenariat": "Partnerschaft",
-      "Autre": "Sonstiges"
+      "Autre": "Anderes"
     },
     "messageLabel": "Nachricht *",
     "messagePlaceholder": "Ihre Nachricht…",
@@ -628,19 +921,19 @@
   },
   "blog": {
     "hero": {
-      "label": "Stiftung Wakef Schweiz",
-      "title": "Nachrichten",
-      "sub": "Bleiben Sie über die Fortschritte unserer Projekte, unsere Feldaktivitäten und Gemeinde-Nachrichten informiert."
+      "label": "Fondation Wakef Suisse",
+      "title": "Aktuelles",
+      "sub": "Bleiben Sie über den Fortschritt unserer Projekte, unsere Arbeit vor Ort und die Neuigkeiten aus der Gemeinschaft auf dem Laufenden."
     },
-    "breadcrumb": "Nachrichten",
-    "loadingNews": "Nachrichten werden geladen…",
-    "readMore": "Mehr lesen →",
-    "defaultTag": "Nachrichten",
-    "notFound": "Artikel nicht gefunden.",
-    "back": "← Zurück zu Nachrichten",
-    "support": "Unterstützen Sie die Stiftung →",
+    "breadcrumb": "Aktuelles",
+    "loadingNews": "Aktuelles wird geladen…",
+    "readMore": "Weiterlesen →",
+    "defaultTag": "Neuigkeit",
+    "notFound": "Beitrag nicht gefunden.",
+    "back": "← Zurück zu Aktuelles",
+    "support": "Die Stiftung unterstützen →",
     "tags": {
-      "centre": "Kulturzentrum",
+      "centre": "Kultusstätte",
       "education": "Bildung",
       "report": "Bericht",
       "zakat": "Zakat",
@@ -650,143 +943,266 @@
     "posts": {
       "inauguration-centre-cultuel": {
         "date": "15. April 2025",
-        "title": "Eröffnung neuer Räumlichkeiten für das Kulturzentrum",
-        "excerpt": "Dank Ihrer Beiträge wurde ein neues Kulturzentrum in der Schweiz eröffnet, das einen würdigen und willkommenen Raum für die lokale muslimische Gemeinde bietet.",
-        "content": "<p>Dank der Beiträge unserer Spender wurde ein neues Kulturzentrum in der Schweiz eröffnet, das einen würdigen und willkommenen Raum für die lokale muslimische Gemeinde bietet.</p><p>Dieser über 500 m² große Raum umfasst einen Gebetsraum für 300 Gläubige, Klassenzimmer für Arabischunterricht und eine islamische Bibliothek. Ein wahrer Erbschaft für zukünftige Generationen.</p><h3>Ein Gemeinschaftsprojekt</h3><p>Dieses Projekt wurde durch die Spenden von Hunderten von Gemeindemitgliedern und die harte Arbeit des Verwaltungsrats der Stiftung Wakef möglich.</p>"
+        "title": "Einweihung neuer Räumlichkeiten für das Kultuszentrum",
+        "excerpt": "Dank Ihrer Beiträge wurde in der Schweiz ein neues Kultuszentrum eingeweiht, das der lokalen muslimischen Gemeinschaft einen würdigen und einladenden Raum bietet.",
+        "content": "<p>Dank der Beiträge unserer Spenderinnen und Spender wurde in der Schweiz ein neues Kultuszentrum eingeweiht, das der lokalen muslimischen Gemeinschaft einen würdigen und einladenden Raum bietet.</p><p>Dieser Raum von über 500 m² umfasst einen Gebetssaal für 300 Gläubige, Unterrichtsräume für den Arabischunterricht und eine islamische Bibliothek. Ein echtes Erbe für künftige Generationen.</p><h3>Ein gemeinsames Projekt</h3><p>Möglich wurde dieses Projekt dank der Spenden von Hunderten Mitgliedern der Gemeinschaft und der unermüdlichen Arbeit der Geschäftsleitung der Fondation Wakef.</p>"
       },
       "bourses-2026": {
         "date": "2. März 2025",
-        "title": "Stipendienprogramm 2026: Bewerbungen jetzt offen",
-        "excerpt": "Die Stiftung Wakef Schweiz öffnet die Bewerbungen für ihr Stipendienprogramm 2026. Muslimische Studierende, die in der Schweiz leben, werden eingeladen, ihre Bewerbungen bis 30. Juni 2025 einzureichen."
+        "title": "Stipendienprogramm 2026: die Bewerbungen sind eröffnet",
+        "excerpt": "Die Fondation Wakef Suisse eröffnet die Bewerbungen für ihr Stipendienprogramm 2026. Muslimische Studierende mit Wohnsitz in der Schweiz sind eingeladen, sich bis zum 30. Juni 2025 zu bewerben."
       },
       "rapport-annuel-2025": {
         "date": "1. Januar 2025",
-        "title": "Jahresbericht: Zusammenfassung der Aktivitäten 2025",
-        "excerpt": "Unser Jahresbericht erläutert die Verwendung jedes eingesammelten Frankens, die in der Schweiz abgeschlossenen Projekte und unsere Ziele für 2026. Vollständige Transparenz, in Übereinstimmung mit unserer Charta.",
-        "content": "<p>Unser Jahresbericht 2025 erläutert die Verwendung jedes eingesammelten Frankens. Wir haben 3 Großprojekte für insgesamt CHF 1'350'000 in die Schweizer muslimische Gemeinde investiert.</p><h3>Höhepunkte 2025</h3><ul><li>Al Badr Zentrum, Le Locle: 65% finanziert (CHF 552'500 gesammelt)</li><li>Al Iman Zentrum, Freiburg: 90% finanziert (CHF 108'000 gesammelt)</li><li>Moschee Madretsch, Biel: 100% abgeschlossen</li></ul><p>Danke an alle unsere Spender für Ihr Vertrauen und Ihre Großzügigkeit.</p>"
+        "title": "Jahresbericht: Bilanz der Tätigkeiten 2025",
+        "excerpt": "Unser Jahresbericht legt die Verwendung jedes gesammelten Frankens dar, ebenso die in der Schweiz realisierten Projekte und unsere Ziele für 2026. Vollständige Transparenz, gemäss unserer Charta.",
+        "content": "<p>Unser Jahresbericht 2025 legt die Verwendung jedes gesammelten Frankens dar. Wir haben 3 grosse Projekte finanziert und insgesamt CHF 1 350 000 in die muslimische Gemeinschaft der Schweiz investiert.</p><h3>Höhepunkte 2025</h3><ul><li>Al Badr Zentrum, Le Locle: zu 65% finanziert (CHF 552 500 gesammelt)</li><li>Al Iman Zentrum, Freiburg: zu 90% finanziert (CHF 108 000 gesammelt)</li><li>Moschee Madretsch, Biel/Bienne: zu 100% abgeschlossen</li></ul><p>Danke an alle unsere Spenderinnen und Spender für ihr Vertrauen und ihre Grosszügigkeit.</p>"
       },
       "zakat-al-mal": {
         "date": "10. November 2024",
-        "title": "Erinnerung: Zakat al-Māl, berechnen und erfüllen Sie Ihre Verpflichtung",
-        "excerpt": "Mit dem Ende des Mondjahrs nähert, erinnern wir unsere Gemeinde an die Wichtigkeit der Erfüllung der Zakat. Unser Online-Rechner steht kostenlos zur Verfügung."
+        "title": "Erinnerung: die Zakat al-Māl berechnen und entrichten",
+        "excerpt": "Da sich das Ende des Mondjahres nähert, erinnern wir unsere Gemeinschaft daran, wie wichtig die Entrichtung der Zakat ist. Unser Rechner im Internet steht kostenlos zur Verfügung."
       },
       "partenariat-islamic-relief": {
         "date": "5. September 2024",
-        "title": "Stärkung unseres Partnernetzwerks",
-        "excerpt": "Die Stiftung Wakef Schweiz stärkt ihr Netzwerk, um bessere Koordination islamischer Projekte in der Schweiz zu erreichen."
+        "title": "Ausbau unseres Partnernetzes",
+        "excerpt": "Die Fondation Wakef Suisse baut ihr Netzwerk aus, um die islamischen Projekte in der Schweiz besser zu koordinieren."
       },
       "carre-musulman-berne": {
         "date": "20. Juli 2024",
-        "title": "Projekt muslimischer Grabplatz in Bern: Aufruf zu Spenden",
-        "excerpt": "Wir starten eine Kampagne zur Schaffung eines muslimischen Grabplatzes auf einem Berner Friedhof, damit die muslimische Gemeinde nach islamischen Riten beerdigt werden kann."
+        "title": "Projekt eines muslimischen Grabfelds in Bern: Aufruf zu Beiträgen",
+        "excerpt": "Wir lancieren eine Kampagne für die Schaffung eines muslimischen Grabfelds auf einem Berner Friedhof, damit die muslimische Gemeinschaft nach islamischem Ritus bestattet werden kann."
       }
     }
   },
   "statutes": {
     "hero": {
-      "label": "Amtliche Dokumente",
-      "title": "Satzung",
-      "sub": "Die amtliche Satzung der Stiftung Wakef Schweiz, eingetragen unter CHE-114.901.246 gemäß Art. 80 ZGB. Angenommen am 5. Juni 2009, geändert am 13. April 2018."
+      "label": "Offizielle Dokumente",
+      "title": "Stiftungsstatuten",
+      "sub": "Die offiziellen Statuten der Fondation Wakef Suisse, eingetragen unter CHE-114.901.246 nach Art. 80 ZGB. Angenommen am 5. Juni 2009, geändert am 13. April 2018."
     },
-    "breadcrumb": "Satzung",
+    "breadcrumb": "Statuten",
     "aboutBreadcrumb": "Über uns",
-    "cardTitle": "STIFTUNG WAKEF Schweiz",
-    "cardLine1": "Identifikationsnummer: CHE-114.901.246",
-    "cardLine2": "Gegründet 5. Juni 2009 · Geändert 13. April 2018",
-    "cardLine3": "Art. 80 ff. Schweizer Zivilgesetzbuch · Hauptsitz: Prilly (VD)",
-    "signatories": "Unterzeichner",
+    "cardTitle": "Fondation WAKEF SUISSE",
+    "cardLine1": "UID Nummer: CHE-114.901.246",
+    "cardLine2": "Gegründet am 5. Juni 2009 · Geändert am 13. April 2018",
+    "cardLine3": "Art. 80 ss Schweizerisches Zivilgesetzbuch · Sitz: Prilly (VD)",
+    "signatories": "Unterzeichnende",
     "articleTitle": "Art. {{num}}: {{titre}}",
     "back": "← Zurück zu Über uns",
     "articles": [
-      { "titre": "Name und Dauer", "contenu": "Hiermit wird unter dem Namen \"STIFTUNG WAKEF Schweiz\" (nachfolgend \"die Stiftung\") eine Privatstiftung im Sinne der Artikel 80 und folgende des Schweizer Zivilgesetzbuches gegründet. Die Dauer der Stiftung ist unbegrenzt." },
-      { "titre": "Sitz", "contenu": "Der Sitz der Stiftung ist in Prilly, Kanton Waadt (Schweiz)." },
-      { "titre": "Zweck", "contenu": "Die Stiftung zielt darauf ab, Projekte von religiöser, pädagogischer, sozialer und humanitärer Natur zu unterstützen und zu finanzieren, im Einklang mit islamischen Werten und in Übereinstimmung mit Schweizer Recht. Die Stiftung agiert ausschließlich in der Schweiz. Sie verfolgt insbesondere folgende Ziele: (1) Bau, Erwerb und Sanierung muslimischer Gebetsstätten; (2) Beitrag zur Ausbildung von Imamen und ihrer Integration in die Schweizer Gesellschaft; (3) Unterstützung von Schulen für Arabischunterricht und muslimische Kultur; (4) Bereitstellung von Stipendien für muslimische Studierende; (5) Förderung wohltätiger, pädagogischer, wissenschaftlicher und soziokultureller Aktivitäten; (6) Unterstützung der Schaffung muslimischer Grabplätze auf Schweizer Friedhöfen." },
-      { "titre": "Stiftungsvermögen", "contenu": "Das Stiftungsvermögen ist auf CHF 50'000 (fünfzigtausend Schweizer Franken) in bar festgelegt. Die Stiftung verwaltet dieses Vermögen nach Grundsätzen der Liquidität, Sicherheit, Rendite und Risikoverteilung. Dieses Vermögen ist unveräußerlich und ausschließlich den Stiftungszwecken gewidmet." },
-      { "titre": "Mittel", "contenu": "Die Mittel der Stiftung stammen aus dem Stiftungsvermögen und seinen Renditen, Spenden und Vermächtnissen von natürlichen oder juristischen Personen, Zuwendungen öffentlicher oder privater Organisationen und allen anderen Einnahmen, die mit dem Stiftungszweck vereinbar sind." },
-      { "titre": "Haftung der Verwaltungsorgane", "contenu": "Mitglieder der Verwaltungsorgane der Stiftung haften für Schäden, die sie vorsätzlich oder fahrlässig bei der Erfüllung ihrer Aufgaben verursachen, gemäß den Bestimmungen des Schweizer Obligationenrechts." },
-      { "titre": "Verwaltungsorgane", "contenu": "Die Verwaltungsorgane der Stiftung sind: der Stiftungsrat (SR), der Verwaltungsrat (VR), auch Vorstand genannt, die Arbeitsgruppe (AG) und die Revisionsstelle." },
-      { "titre": "Stiftungsrat", "contenu": "Der Stiftungsrat besteht aus 7 bis 10 Mitgliedern, alle muslimischen Glaubens. Mindestens drei Viertel der Mitglieder müssen in der Schweiz domiziliert sein. Mitglieder werden durch Kooptation mit einer Zweidrittelmehrheit der Mitglieder bestellt. Mitglieder erfüllen ihre Aufgaben auf freiwilliger Basis." },
-      { "titre": "Befugnisse des Stiftungsrats", "contenu": "Der Stiftungsrat ist das oberste Organ der Stiftung. Er ist befugt, die strategische Ausrichtung der Stiftung zu definieren, Unterzeichnungsvollmachten im Namen der Stiftung zu erteilen, Mitglieder des Verwaltungsrats zu ernennen und abzuberufen, das jährliche Budget und die Rechnungslegung zu genehmigen, interne Regeln zu erlassen und andere Entscheidungen zu treffen, die dieser Satzung dem SR vorbehalten sind." },
-      { "titre": "Sitzungen des Stiftungsrats", "contenu": "Der Stiftungsrat tagt mindestens einmal jährlich. Die Tagesordnung wird den Mitgliedern mindestens 30 Tage vor der Sitzung mitgeteilt. Ein Quorum ist erreicht, wenn die Mehrheit der Mitglieder anwesend ist, einschließlich des Präsidenten oder Vizepräsidenten. Entscheidungen werden mit einfacher Mehrheit der anwesenden Mitglieder getroffen." },
-      { "titre": "Verwaltungsrat", "contenu": "Der Verwaltungsrat besteht aus dem Präsidenten, dem Vizepräsidenten und dem Sekretär. Die Mitglieder des Verwaltungsrats werden vom Stiftungsrat für eine Amtszeit von fünf Jahren, verlängerbar, gewählt." },
-      { "titre": "Befugnisse des Verwaltungsrats", "contenu": "Der Verwaltungsrat führt die Entscheidungen des Stiftungsrats aus und vertritt die Stiftung in Kontakten mit Dritten durch gemeinsame Unterzeichnung. Er erstellt das jährliche Budget und die Stiftungsbilanz und verwaltet laufende Angelegenheiten." },
-      { "titre": "Sitzungen des Verwaltungsrats", "contenu": "Der Verwaltungsrat tagt mindestens viermal pro Jahr, um laufende Angelegenheiten zu bearbeiten und laufende Projekte zu überwachen." },
-      { "titre": "Einspruch", "contenu": "Jedes Mitglied des Stiftungsrats kann innerhalb von 30 Tagen gegen einen Beschluss des Verwaltungsrats Einspruch erheben. Der Einspruch hat aufschiebende Wirkung und der angefochtene Beschluss wird dem Stiftungsrat unterbreitet." },
-      { "titre": "Revisionsstelle", "contenu": "Die Revisionsstelle ist extern und unabhängig von der Stiftung. Sie wird vom Stiftungsrat für einen Zeitraum von einem Jahr, verlängerbar, ernannt. Sie überprüft die Jahresrechnungen und berichtet dem Stiftungsrat und der Aufsichtsbehörde." },
-      { "titre": "Rechnungslegung", "contenu": "Das Rechnungsjahr erstreckt sich vom 1. Januar bis 31. Dezember. Der jährliche Rechnungsabschluss wird innerhalb von sechs Monaten nach Abschluss des Rechnungsjahres dem Stiftungsrat zur Genehmigung eingereicht." },
-      { "titre": "Änderung der Satzung", "contenu": "Diese Satzung kann durch einen Beschluss des Stiftungsrats mit einer Zweidrittelmehrheit seiner Mitglieder geändert werden. Der Stiftungszweck ist unveränderbar und kann nicht geändert werden." },
-      { "titre": "Auflösung", "contenu": "Die Auflösung der Stiftung wird durch die Artikel 88 und 89 des Schweizer Zivilgesetzbuches geregelt. Sie wird von der zuständigen Aufsichtsbehörde entschieden." },
-      { "titre": "Unentziehbarkeit der Vermögenswerte", "contenu": "Bei Auflösung werden die Vermögenswerte der Stiftung an eine oder mehrere Schweizer Institutionen des öffentlichen Rechts oder anerkannte Organisationen von öffentlichem Interesse übertragen, die einen analogen Zweck verfolgen und steuerbegünstigt sind. Diese Klausel ist unveränderbar. Die Stifter verzichten unwiderruflich auf alle Rechte an den Vermögenswerten der Stiftung." },
-      { "titre": "Aufsichtsbehörde", "contenu": "Die Stiftung unterliegt der Beaufsichtigung durch die zuständige Behörde gemäß Artikel 84 des Schweizer Zivilgesetzbuches und Artikel 96 der Handelsregisterverordnung (HRV). Die Stiftung kann gemäß Artikel 87 ZGB um Befreiung von der Aufsicht ersuchen." },
-      { "titre": "Handelsregister", "contenu": "Die Stiftung ist im Handelsregister des Kantons Waadt eingetragen." }
+      {
+        "titre": "Name und Dauer",
+        "contenu": "Unter dem Namen « Fondation WAKEF SUISSE » (nachfolgend « die Stiftung ») wird eine Stiftung des schweizerischen Privatrechts im Sinne der Artikel 80 und folgende des Schweizerischen Zivilgesetzbuchs errichtet. Die Dauer der Stiftung ist unbeschränkt."
+      },
+      {
+        "titre": "Sitz",
+        "contenu": "Der Sitz der Stiftung befindet sich in Prilly, im Kanton Waadt (Schweiz)."
+      },
+      {
+        "titre": "Zweck",
+        "contenu": "Die Stiftung bezweckt die Unterstützung und Finanzierung von Vorhaben religiöser, bildungsbezogener, sozialer und humanitärer Art, im Einklang mit den Werten des Islam und unter Beachtung der Schweizer Gesetze. Die Stiftung ist ausschliesslich in der Schweiz tätig. Sie verfolgt insbesondere folgende Ziele: (1) muslimische Gebetsstätten bauen, kaufen und sanieren; (2) zur Ausbildung der Imame und zu ihrer Integration in die Schweizer Gesellschaft beitragen; (3) Schulen für arabische Sprache und muslimische Kultur unterstützen; (4) muslimischen Studierenden Studienstipendien gewähren; (5) karitative, bildungsbezogene, wissenschaftliche und soziokulturelle Tätigkeiten fördern; (6) die Schaffung muslimischer Grabfelder auf Schweizer Friedhöfen unterstützen."
+      },
+      {
+        "titre": "Stiftungskapital",
+        "contenu": "Das Stiftungskapital beträgt CHF 50 000 (fünfzigtausend Schweizer Franken) in bar. Die Stiftung verwaltet dieses Kapital nach den Grundsätzen der Liquidität, der Sicherheit, der Rendite und der Risikoverteilung. Dieses Kapital ist unveräusserlich und ausschliesslich den Zwecken der Stiftung gewidmet."
+      },
+      {
+        "titre": "Mittel",
+        "contenu": "Die Mittel der Stiftung stammen aus dem Stiftungskapital und dessen Erträgen, aus Spenden und Vermächtnissen natürlicher oder juristischer Personen, aus Beiträgen öffentlicher oder privater Stellen sowie aus allen weiteren Einkünften, die mit dem Zweck der Stiftung vereinbar sind."
+      },
+      {
+        "titre": "Verantwortlichkeit der Organe",
+        "contenu": "Die Mitglieder der Organe der Stiftung haften für Schäden, die sie in Ausübung ihrer Funktionen absichtlich oder fahrlässig verursachen, gemäss den Bestimmungen des Schweizerischen Obligationenrechts."
+      },
+      {
+        "titre": "Organe",
+        "contenu": "Die Organe der Stiftung sind: der Stiftungsrat (SR), die Geschäftsleitung (GL), auch Büro genannt, die Arbeitsgruppe (AG) sowie die Revisionsstelle."
+      },
+      {
+        "titre": "Stiftungsrat",
+        "contenu": "Der Stiftungsrat besteht aus 7 bis 10 Mitgliedern, die alle muslimischen Glaubens sind. Mindestens drei Viertel der Mitglieder müssen Wohnsitz in der Schweiz haben. Die Mitglieder werden mit einer Mehrheit von zwei Dritteln der amtierenden Mitglieder kooptiert. Die Mitglieder üben ihr Amt ehrenamtlich aus."
+      },
+      {
+        "titre": "Befugnisse des Stiftungsrats",
+        "contenu": "Der Stiftungsrat ist das oberste Organ der Stiftung. Er ist zuständig für: die Festlegung der strategischen Ausrichtung der Stiftung, die Erteilung der Zeichnungsberechtigung im Namen der Stiftung, die Wahl und die Abberufung der Mitglieder der Geschäftsleitung, die Genehmigung des Jahresbudgets und der Jahresrechnung, den Erlass der internen Reglemente sowie alle weiteren Entscheide, die ihm die vorliegenden Statuten vorbehalten."
+      },
+      {
+        "titre": "Sitzungen des Stiftungsrats",
+        "contenu": "Der Stiftungsrat tritt mindestens einmal jährlich zusammen. Die Traktandenliste wird den Mitgliedern spätestens 30 Tage vor der Sitzung zugestellt. Das Quorum ist erreicht, wenn die Mehrheit der Mitglieder anwesend ist, darunter zwingend der Präsident oder der Vizepräsident. Die Entscheide werden mit einfachem Mehr der anwesenden Mitglieder gefasst."
+      },
+      {
+        "titre": "Geschäftsleitung",
+        "contenu": "Die Geschäftsleitung (Büro) besteht aus dem Präsidenten, dem Vizepräsidenten und dem Sekretär. Die Mitglieder der Geschäftsleitung werden vom Stiftungsrat für eine Dauer von fünf Jahren gewählt; eine Wiederwahl ist möglich."
+      },
+      {
+        "titre": "Aufgaben der Geschäftsleitung",
+        "contenu": "Die Geschäftsleitung führt die Beschlüsse des Stiftungsrats aus und vertritt die Stiftung gegenüber Dritten durch Kollektivunterschrift zu zweien. Sie erstellt das Jahresbudget und die Bilanz der Stiftung und führt die laufenden Geschäfte."
+      },
+      {
+        "titre": "Sitzungen der Geschäftsleitung",
+        "contenu": "Die Geschäftsleitung tritt mindestens viermal jährlich zusammen, um die laufenden Geschäfte zu behandeln und die Begleitung der laufenden Projekte sicherzustellen."
+      },
+      {
+        "titre": "Einsprache",
+        "contenu": "Jedes Mitglied des Stiftungsrats kann innert 30 Tagen gegen einen Beschluss der Geschäftsleitung Einsprache erheben. Die Einsprache hat aufschiebende Wirkung, und der angefochtene Beschluss wird dem Stiftungsrat unterbreitet."
+      },
+      {
+        "titre": "Revisionsstelle",
+        "contenu": "Die Revisionsstelle ist extern und von der Stiftung unabhängig. Sie wird vom Stiftungsrat für die Dauer eines Jahres bestimmt; eine Wiederwahl ist möglich. Sie prüft die Jahresrechnung und erstattet dem Stiftungsrat sowie der Aufsichtsbehörde Bericht."
+      },
+      {
+        "titre": "Rechnungslegung",
+        "contenu": "Das Geschäftsjahr dauert vom 1. Januar bis zum 31. Dezember. Die Jahresrechnung wird dem Stiftungsrat innert sechs Monaten nach Abschluss des Geschäftsjahres zur Genehmigung unterbreitet."
+      },
+      {
+        "titre": "Änderung der Statuten",
+        "contenu": "Die vorliegenden Statuten können durch Beschluss des Stiftungsrats mit einer Mehrheit von zwei Dritteln der amtierenden Mitglieder geändert werden. Der Zweck der Stiftung ist unantastbar und kann nicht geändert werden."
+      },
+      {
+        "titre": "Auflösung",
+        "contenu": "Die Auflösung der Stiftung richtet sich nach den Artikeln 88 und 89 des Schweizerischen Zivilgesetzbuchs. Sie wird von der zuständigen Aufsichtsbehörde verfügt."
+      },
+      {
+        "titre": "Unwiderruflichkeit des Vermögens",
+        "contenu": "Im Fall der Auflösung geht das Vermögen der Stiftung an eine oder mehrere Schweizer Institutionen des öffentlichen Rechts oder an als gemeinnützig anerkannte Institutionen über, die einen gleichartigen Zweck verfolgen und steuerbefreit sind. Diese Bestimmung ist unantastbar. Die Stifter verzichten unwiderruflich auf jeden Anspruch am Vermögen der Stiftung."
+      },
+      {
+        "titre": "Aufsichtsbehörde",
+        "contenu": "Die Stiftung untersteht der Aufsicht der zuständigen Behörde gemäss Artikel 84 des Schweizerischen Zivilgesetzbuchs und Artikel 96 der Handelsregisterverordnung (HRegV). Die Stiftung kann gemäss Artikel 87 ZGB eine Befreiung von der Aufsicht beantragen."
+      },
+      {
+        "titre": "Register",
+        "contenu": "Die Stiftung ist im Handelsregister des Kantons Waadt eingetragen."
+      }
     ]
   },
   "privacy": {
     "hero": {
       "label": "Datenschutz",
       "title": "Datenschutzerklärung",
-      "sub": "Stiftung Wakef Schweiz · CHE-114.901.246 · Compliance mit GDPR und Schweizer Datenschutzgesetz"
+      "sub": "Fondation Wakef Suisse · CHE-114.901.246 · Konform mit der DSGVO und dem Schweizer DSG"
     },
     "breadcrumb": "Datenschutz",
     "sections": [
-      { "title": "1. Verantwortlicher", "content": "Die Stiftung Wakef Schweiz (CHE-114.901.246), Avenue de la Confrérie 11, 1008 Prilly (VD), ist verantwortlich für die Verarbeitung Ihrer persönlichen Daten im Sinne der Europäischen Datenschutz-Grundverordnung (GDPR) und des Schweizer Bundesdatenschutzgesetzes (BDSG)." },
-      { "title": "2. Erfasste Daten", "content": "Wir erfassen nur notwendige Daten: Vorname und Nachname, E-Mail-Adresse, Telefonnummer (falls angegeben), Spendenbetrag und -typ sowie alle Informationen, die Sie über das Kontaktformular bereitstellen." },
-      { "title": "3. Verarbeitungszwecke", "content": "Ihre Daten werden verwendet für: Verarbeitung Ihrer Spende und Ausstellung einer Steuerbescheinigung, Beantwortung Ihrer Kontaktanfragen, Versand unseres Newsletters (mit Ihrer Zustimmung) und Erfüllung unserer gesetzlichen Verpflichtungen (Steuern, Rechnungswesen)." },
-      { "title": "4. Rechtsgrundlagen", "content": "Die Verarbeitung basiert auf: Ihrer Zustimmung (Newsletter), Vertragserfüllung (Spenden), unseren gesetzlichen Verpflichtungen (Steuerbescheinigungen, Rechnungswesen) und unserem berechtigten Interesse (Sicherheit und Verbesserung der Dienstleistung)." },
-      { "title": "5. Datenspeicherung", "content": "Ihre Spendendaten werden 10 Jahre lang gespeichert (Schweizer Rechtspflicht). Kontaktdaten werden auf Anfrage oder nach 3 Jahren Inaktivität gelöscht. Newsletter-Daten werden beim Abmelden gelöscht." },
-      { "title": "6. Datenweitergabe", "content": "Ihre Daten werden nicht verkauft. Sie können weitergegeben werden an: Formspree (Formularverarbeitung), Mailchimp (Newsletter) und Schweizer Steuerbehörden (nur Steuerbescheinigungen)." },
-      { "title": "7. Ihre Rechte", "content": "Gemäß GDPR und BDSG haben Sie das Recht auf Zugang, Berichtigung, Löschung, Portabilität und Widerspruch. Um diese Rechte auszuüben, kontaktieren Sie uns unter info@wakf.ch." },
-      { "title": "8. Cookies", "content": "Unsere Website verwendet nur technische Cookies, die für den Betrieb notwendig sind (keine Werbe- oder Tracking-Cookies von Drittanbietern). Sie können Cookies in Ihrem Browser deaktivieren." },
-      { "title": "9. Kontakt und Beschwerden", "content": "Für Fragen kontaktieren Sie: info@wakf.ch · +41 79 379 96 46. Sie können auch eine Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) einreichen." }
+      {
+        "title": "1. Verantwortlich für die Bearbeitung",
+        "content": "Die Fondation Wakef Suisse (CHE-114.901.246), Avenue de la Confrérie 11, 1008 Prilly (VD), ist verantwortlich für die Bearbeitung Ihrer Personendaten im Sinne der Datenschutzgrundverordnung (DSGVO) und des Bundesgesetzes über den Datenschutz (DSG)."
+      },
+      {
+        "title": "2. Erhobene Daten",
+        "content": "Wir erheben ausschliesslich die notwendigen Daten: Name und Vorname, E-Mail, Telefonnummer (falls angegeben), Betrag und Art der Spende sowie alle Angaben, die Sie uns über das Kontaktformular übermitteln."
+      },
+      {
+        "title": "3. Zwecke der Bearbeitung",
+        "content": "Ihre Daten werden verwendet, um Ihre Spende zu bearbeiten und eine Spendenbescheinigung auszustellen, um Ihre Kontaktanfragen zu beantworten, um unseren Newsletter zu versenden (mit Ihrer Einwilligung) und um unsere gesetzlichen Pflichten (Steuern, Buchhaltung) zu erfüllen."
+      },
+      {
+        "title": "4. Rechtsgrundlagen",
+        "content": "Die Bearbeitung stützt sich auf: Ihre Einwilligung (Newsletter), die Erfüllung eines Vertrags (Spenden), unsere gesetzlichen Pflichten (Spendenbescheinigungen, Buchhaltung) sowie unser berechtigtes Interesse (Sicherheit und Verbesserung des Angebots)."
+      },
+      {
+        "title": "5. Aufbewahrungsdauer",
+        "content": "Ihre Spendendaten werden 10 Jahre aufbewahrt (gesetzliche Pflicht in der Schweiz). Kontaktdaten werden auf Anfrage oder nach 3 Jahren ohne Aktivität gelöscht. Die Daten für den Newsletter werden bei der Abmeldung gelöscht."
+      },
+      {
+        "title": "6. Weitergabe der Daten",
+        "content": "Ihre Daten werden niemals verkauft. Sie können weitergegeben werden an: Formspree (Bearbeitung der Formulare), Mailchimp (Newsletter) und die Schweizer Steuerbehörden (ausschliesslich für Spendenbescheinigungen)."
+      },
+      {
+        "title": "7. Ihre Rechte",
+        "content": "Gemäss DSGVO und DSG haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Datenübertragbarkeit und Widerspruch. Um diese Rechte auszuüben, schreiben Sie uns an info@wakf.ch."
+      },
+      {
+        "title": "8. Cookies",
+        "content": "Unsere Website verwendet ausschliesslich technisch notwendige Cookies (keine Werbecookies und keine Cookies zur Nachverfolgung durch Dritte). Sie können Cookies in Ihrem Browser deaktivieren."
+      },
+      {
+        "title": "9. Kontakt und Beschwerden",
+        "content": "Bei Fragen wenden Sie sich an: info@wakf.ch · +41 79 379 96 46. Sie können zudem beim Eidgenössischen Datenschutz und Öffentlichkeitsbeauftragten (EDÖB) eine Beschwerde einreichen."
+      }
     ],
-    "updated": "Zuletzt aktualisiert: Januar 2025 · Kontakt: "
+    "updated": "Letzte Aktualisierung: Januar 2025 · Kontakt: "
   },
   "legalNotice": {
     "hero": {
       "label": "Rechtliche Informationen",
       "title": "Impressum",
-      "sub": "Stiftung Wakef Schweiz · CHE-114.901.246 · Art. 80 Schweizer Zivilgesetzbuch"
+      "sub": "Fondation Wakef Suisse · CHE-114.901.246 · Art. 80 Schweizerisches Zivilgesetzbuch"
     },
     "breadcrumb": "Impressum",
-    "idTitle": "Angaben zum Verantwortlichen",
+    "idTitle": "Identifikation des Herausgebers",
     "rows": {
-      "name": { "label": "Amtlicher Name", "value": "STIFTUNG WAKEF Schweiz" },
-      "ide": { "label": "Identifikationsnummer", "value": "CHE-114.901.246" },
-      "form": { "label": "Rechtsform", "value": "Schweizer Privatstiftung (Art. 80 ZGB)" },
-      "year": { "label": "Gegründet", "value": "2009" },
-      "capital": { "label": "Stiftungsvermögen", "value": "CHF 50'000" },
-      "recognition": { "label": "Rechtsstatus", "value": "Schweizer Stiftung, CHE-114.901.246" },
-      "head": { "label": "Hauptsitz", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
-      "office": { "label": "Kontaktbüro", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
-      "email": { "label": "E-Mail" },
-      "phone": { "label": "Telefon" },
-      "supervision": { "label": "Aufsicht", "value": "Stiftungsaufsichtsbehörde des Bundes (FSA)" },
-      "web": { "label": "Website" }
+      "name": {
+        "label": "Offizielle Bezeichnung",
+        "value": "Fondation WAKEF SUISSE"
+      },
+      "ide": {
+        "label": "UID Nummer",
+        "value": "CHE-114.901.246"
+      },
+      "form": {
+        "label": "Rechtsform",
+        "value": "Stiftung des schweizerischen Privatrechts (Art. 80 ZGB)"
+      },
+      "year": {
+        "label": "Gegründet im Jahr",
+        "value": "2009"
+      },
+      "capital": {
+        "label": "Stiftungskapital",
+        "value": "CHF 50 000"
+      },
+      "recognition": {
+        "label": "Rechtsstatus",
+        "value": "Stiftung nach Schweizer Recht, CHE-114.901.246"
+      },
+      "head": {
+        "label": "Sitz der Stiftung",
+        "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)"
+      },
+      "office": {
+        "label": "Kontaktbüro",
+        "value": "Rue de Mardertsch 64, 2503 Bienne (BE)"
+      },
+      "email": {
+        "label": "E-Mail"
+      },
+      "phone": {
+        "label": "Telefon"
+      },
+      "supervision": {
+        "label": "Aufsicht",
+        "value": "Eidgenössische Stiftungsaufsicht (ESA)"
+      },
+      "web": {
+        "label": "Website"
+      }
     },
     "hostingTitle": "Hosting",
     "hostingP1": "Diese Website wird gehostet von ",
-    "hostingP2": ". Die WordPress-Version wird gehostet von ",
-    "hostingP3": ". Besucherdaten unterliegen diesen Rechtsbedingungen und unserer Datenschutzerklärung.",
+    "hostingP2": ". Die WordPress Version wird gehostet von ",
+    "hostingP3": ". Für die Daten der Besucherinnen und Besucher gelten weiterhin das vorliegende Impressum und unsere Datenschutzerklärung.",
     "ipTitle": "Geistiges Eigentum",
-    "ipBody": "Alle Inhalte auf dieser Website (Text, Bilder, Logo, Design) sind Eigentum der Stiftung Wakef Schweiz oder werden mit notwendigen Genehmigungen verwendet. Jede Vervielfältigung, auch teilweise, ohne vorherige schriftliche Genehmigung ist verboten.",
-    "liabilityTitle": "Haftungsbegrenzung",
-    "liabilityBody": "Die Stiftung Wakef Schweiz bemüht sich um Genauigkeit der auf dieser Website veröffentlichten Informationen. Sie kann jedoch Vollständigkeit, Genauigkeit oder Aktualität der Informationen nicht garantieren. Zakat-Berechnungen unseres Werkzeugs sind ungefähre Schätzungen: Konsultieren Sie einen qualifizierten islamischen Gelehrten für komplexe Situationen.",
+    "ipBody": "Alle Inhalte dieser Website (Texte, Bilder, Logo, Gestaltung) sind ausschliessliches Eigentum der Fondation Wakef Suisse oder werden mit den erforderlichen Genehmigungen verwendet. Jede Vervielfältigung, auch auszugsweise, ohne vorgängige schriftliche Genehmigung ist untersagt.",
+    "liabilityTitle": "Haftungsbeschränkung",
+    "liabilityBody": "Die Fondation Wakef Suisse bemüht sich, die Richtigkeit der auf dieser Website veröffentlichten Informationen sicherzustellen. Sie kann jedoch weder die Vollständigkeit noch die Richtigkeit oder die Aktualität der Informationen gewährleisten. Die von unserem Werkzeug gelieferten Zakatberechnungen sind unverbindliche Schätzungen: Ziehen Sie bei komplexen Situationen einen qualifizierten islamischen Gelehrten bei.",
     "lawTitle": "Anwendbares Recht und Gerichtsstand",
-    "lawBody": "Diese Website und ihre Inhalte unterliegen Schweizer Recht. Im Streitfall sind die zuständigen Gerichte diejenigen des Kantons Waadt (Schweiz), vorbehaltlich der geltenden zwingenden Rechtsvorschriften.",
+    "lawBody": "Diese Website und ihre Inhalte unterstehen dem Schweizer Recht. Im Streitfall sind die Gerichte des Kantons Waadt (Schweiz) zuständig, unter Vorbehalt zwingender gesetzlicher Bestimmungen.",
     "back": "← Zurück zur Startseite"
   },
   "eldelal": {
-    "breadcrumb": "Delal",
+    "breadcrumb": "El Delal",
     "hero": {
       "label": "Immobilienprojekt · Le Locle",
-      "subtitle": "Schatten der Barmherzigkeit",
-      "mission": "Erwerben Sie ein Gebäude von 1902 in ausgezeichnetem Zustand, um der muslimischen Gemeinde von Le Locle und der Region ein nachhaltiges Zuhause zu bieten: einen Ort zum Beten, Treffen und Weitergabe.",
-      "cta": "Helfen Sie uns, ein Zuhause für unsere Gemeinde zu bauen",
+      "subtitle": "Schatten der Nächstenliebe",
+      "mission": "Wir erwerben ein sehr gut erhaltenes Gebäude von 1902, um der muslimischen Gemeinschaft von Le Locle und der Region ein dauerhaftes Zuhause zu geben: einen Ort für Gebet, Begegnung und Wissensvermittlung.",
+      "cta": "Helfen Sie uns, ein Zuhause für unsere Gemeinschaft zu bauen",
       "ctaBtn": "Jetzt beitragen"
     },
     "nav": {
       "gallery": "Fotos",
-      "figures": "Schlüsselfiguren",
+      "figures": "Eckdaten",
       "contribute": "Beitragen",
       "contact": "Kontakt",
       "map": "Standort",
@@ -794,87 +1210,87 @@
     },
     "gallery": {
       "title": "Das Gebäude in Bildern",
-      "intro": "Entdecken Sie das Gebäude von innen und außen. Klicken Sie auf ein Foto, um es zu vergrößern.",
-      "exterior": "Außenseite",
-      "interior": "Innenseite",
-      "open": "Foto vergrößern",
+      "intro": "Entdecken Sie das Gebäude von aussen und von innen. Klicken Sie auf ein Foto, um es zu vergrössern.",
+      "exterior": "Aussenansichten",
+      "interior": "Innenräume",
+      "open": "Foto vergrössern",
       "items": {
         "aerienne": "Luftaufnahme des Gebäudes",
-        "facade": "Außenfassade",
-        "local": "Gewerbefläche",
-        "piece": "Helles Zimmer in einer Wohnung",
+        "facade": "Aussenfassade",
+        "local": "Gewerberaum",
+        "piece": "Helles Zimmer einer Wohnung",
         "chambre": "Schlafzimmer mit Parkett",
-        "sejour": "Wohnzimmer in einer Wohnung",
+        "sejour": "Wohnzimmer einer Wohnung",
         "sdeau": "Badezimmer"
       }
     },
     "figures": {
-      "title": "Schlüsselinformationen",
-      "intro": "Eine Anlageimmobilie in ausgezeichnetem Zustand, deren Erwerb der Gemeinde einen nachhaltigen Erbschaft sichert.",
-      "goalLabel": "Ziel einzunehmen",
-      "goalValue": "550'000 CHF",
-      "priceLabel": "Immobilienwert",
-      "priceValue": "1'250'000 CHF",
-      "incomeLabel": "Jährlicher Nettoertrag",
-      "incomeValue": "49'380 CHF",
+      "title": "Wichtige Informationen",
+      "intro": "Ein Renditeobjekt in sehr gutem Zustand, dessen Erwerb der Gemeinschaft ein dauerhaftes Vermögen sichert.",
+      "goalLabel": "Zu sammelnder Betrag",
+      "goalValue": "CHF 550’000",
+      "priceLabel": "Wert des Gebäudes",
+      "priceValue": "CHF 1’250’000",
+      "incomeLabel": "Nettoertrag pro Jahr",
+      "incomeValue": "CHF 49’380",
       "builtLabel": "Baujahr",
       "builtValue": "1902",
-      "unitsTitle": "Immobilienzusammensetzung",
+      "unitsTitle": "Das Objekt umfasst",
       "apartments": "Wohnungen",
-      "shop": "Gewerbe",
+      "shop": "Gewerbeeinheit",
       "parking": "Parkplätze",
-      "plots": "Bauplätze",
+      "plots": "Bauparzellen",
       "beneficiariesLabel": "Begünstigte",
-      "beneficiariesValue": "Die muslimische Gemeinde von Le Locle und der Region"
+      "beneficiariesValue": "Die muslimische Gemeinschaft von Le Locle und der Region"
     },
     "contribute": {
       "title": "Beitragen",
-      "lead": "Helfen Sie uns, ein Zuhause für unsere Gemeinde zu bauen",
-      "cotizupText": "Unterstützen Sie unser Projekt online: sicherer und transparenter Prozess",
-      "cotizupBtn": "über Cotizup spenden",
-      "qrText": "Oder scannen Sie den QR-Code, um direkt über TWINT zu spenden",
+      "lead": "Helfen Sie uns, ein Zuhause für unsere Gemeinschaft zu bauen",
+      "cotizupText": "Unterstützen Sie unser Projekt online: sicherer und transparenter Vorgang",
+      "cotizupBtn": "Per Cotizup spenden",
+      "qrText": "Oder scannen Sie den QR Code, um direkt per TWINT zu spenden",
       "twint": "TWINT",
-      "qrAlt": "TWINT QR-Code für das Projekt Schatten der Barmherzigkeit",
+      "qrAlt": "TWINT QR Code für das Projekt El Delal",
       "ibanLabel": "IBAN",
-      "note": "Ihre Spenden sind diesem Projekt gewidmet."
+      "note": "Ihre Spenden werden diesem Projekt zugewiesen."
     },
     "contact": {
       "title": "Kontakt und Spenden",
-      "text": "Fragen zum Projekt oder ein anderer Weg zu spenden? Unser Team ist hier, um zu helfen.",
+      "text": "Eine Frage zum Projekt oder zu einer anderen Spendenmöglichkeit? Unser Team antwortet Ihnen gern.",
       "emailLabel": "E-Mail",
       "phoneLabel": "Telefon",
-      "foundation": "Stiftung Wakef Schweiz",
+      "foundation": "Fondation Wakef Suisse",
       "address": "Avenue de la Confrérie 11, 1008 Prilly",
-      "moreWays": "Andere Möglichkeiten zu spenden"
+      "moreWays": "Weitere Spendenmöglichkeiten"
     },
     "map": {
       "title": "Standort",
-      "text": "Das Projekt befindet sich in Le Locle, im Kanton Neuenburg, Schweiz.",
-      "iframeTitle": "Karte von Le Locle",
+      "text": "Das Projekt befindet sich in Le Locle im Kanton Neuenburg in der Schweiz.",
+      "iframeTitle": "Karte der Stadt Le Locle",
       "open": "In OpenStreetMap öffnen"
     },
     "benefits": {
-      "title": "Projektvorteile",
+      "title": "Die Vorteile des Projekts",
       "items": [
         {
-          "title": "Ein nachhaltiger Standort",
-          "text": "Ein Zuhause zum Beten, Unterrichten und Versammeln, Eigentum der Gemeinde."
+          "title": "Ein dauerhafter Ort",
+          "text": "Ein Zuhause für Gebet, Unterricht und Begegnungen, das der Gemeinschaft gehört."
         },
         {
-          "title": "Ein stabiles Gebäude",
-          "text": "Ein Gebäude von 1902 in ausgezeichnetem Zustand, mit sechs Wohnungen, einer Gewerbefläche und fünf Parkplätzen."
+          "title": "Ein solides Gebäude",
+          "text": "Ein Gebäude von 1902 in sehr gutem Zustand, mit sechs Wohnungen, einer Gewerbeeinheit und fünf Parkplätzen."
         },
         {
-          "title": "Regelmäßiges Einkommen",
-          "text": "Der jährliche Nettoertrag von CHF 49'380 bietet eine stabile finanzielle Grundlage."
+          "title": "Regelmässige Einnahmen",
+          "text": "Nettoerträge von CHF 49’380 pro Jahr schaffen eine stabile finanzielle Grundlage."
         },
         {
           "title": "Entwicklungspotenzial",
-          "text": "Zwei Bauplätze ermöglichen zukünftige Projektexpansion."
+          "text": "Zwei Bauparzellen erlauben es, die nächste Etappe des Projekts zu planen."
         },
         {
           "title": "Eine Sadaqa Jariya",
-          "text": "Eine Spende, deren Nutzen die Gemeinde Jahr um Jahr fortsetzt."
+          "text": "Eine Spende, deren Nutzen für die Gemeinschaft Jahr für Jahr fortbesteht."
         }
       ]
     }

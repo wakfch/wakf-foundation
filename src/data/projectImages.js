@@ -18,13 +18,14 @@ export const IMAGE_SRCS = {
     '/images/aliman/IMG-20250331-WA0008.jpg',
     '/images/aliman/IMG-20250331-WA0013.jpg',
     '/images/aliman/IMG-20250413-WA0056.jpg',
-  ],delal: [
-  '/images/el-delal/aerienne.jpg',
-  '/images/el-delal/facade.jpg',
-  '/images/el-delal/local-commercial.jpg',
-  '/images/el-delal/piece-vide.jpg',
-  '/images/el-delal/chambre.jpg',
-  '/images/el-delal/sejour.jpg',
-  '/images/el-delal/salle-d-eau.jpg',
-],
+  ],
+  delal: [
+    '/images/el-delal/aerienne.jpg',
+    '/images/el-delal/facade.jpg',
+    '/images/el-delal/local-commercial.jpg',
+    '/images/el-delal/piece-vide.jpg',
+    '/images/el-delal/chambre.jpg',
+    '/images/el-delal/sejour.jpg',
+    '/images/el-delal/salle-d-eau.jpg',
+  ],
 };

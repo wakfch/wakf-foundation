@@ -45,24 +45,25 @@ export const PROJECTS = [
     status: 'en-cours',
     fallbackImage: 'https://picsum.photos/600/320?grayscale&random=4',
     heroImage: 'https://picsum.photos/1200/500?grayscale&random=4',
-  },{
-  id: 'delal-el-khayr',
-  slug: 'delal-el-khayr',
-  legacySlugs: ['el-delal'],
-  year: '2026',
-  status: 'en-cours',
-  featured: true,
-  images: IMAGE_SRCS.delal,
-  heroImage: '/images/el-delal/aerienne.jpg',
-  contribute: {
-    cotizupUrl: 'https://www.cotizup.com/@fondationwakef/mosquee-al-badr-le-locle-notre-nouvelle-maison',
-    qr: [
-      { id: 'postfinance', image: '/images/qr-don-wakf.svg', iban: 'CH84 0900 0000 1076 1819 4' },
-      { id: 'twint', image: '/images/qr-twint-wakf.png', iban: 'CH84 0900 0000 1076 1819 4' },
-    ],
   },
-  fallbackImage: '/images/el-delal/facade.jpg',
-},
+  {
+    id: 'delal-el-khayr',
+    slug: 'delal-el-khayr',
+    legacySlugs: ['el-delal'],
+    year: '2026',
+    status: 'en-cours',
+    featured: true,
+    images: IMAGE_SRCS.delal,
+    heroImage: '/images/el-delal/aerienne.jpg',
+    fallbackImage: '/images/el-delal/facade.jpg',
+    contribute: {
+      cotizupUrl: 'https://www.cotizup.com/@fondationwakef/mosquee-al-badr-le-locle-notre-nouvelle-maison',
+      qr: [
+        { id: 'postfinance', image: '/images/qr-don-wakf.svg', iban: 'CH84 0900 0000 1076 1819 4' },
+        { id: 'twint', image: '/images/qr-twint-wakf.png', iban: 'CH84 0900 0000 1076 1819 4' },
+      ],
+    },
+  },
   {
     id: 'bibliotheque',
     slug: 'bibliotheque-mobile',
