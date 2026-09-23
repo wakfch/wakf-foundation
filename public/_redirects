@@ -1,3 +1,0 @@
-# Cloudflare Pages : équivalent de la redirection de netlify.toml
-# Toutes les pages sont servies par index.html (l'application React gère les routes), code 200 (réécriture, pas de redirection visible).
-/*    /index.html    200

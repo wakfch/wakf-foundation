@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers : site statique uniquement (pas de code Worker, pas de "main").
+  "name": "wakf-foundation",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./dist",
+    // Les routes React (/projets/..., /don, etc.) sont servies par index.html
+    "not_found_handling": "single-page-application"
+  }
+}
