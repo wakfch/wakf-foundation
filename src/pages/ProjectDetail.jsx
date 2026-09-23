@@ -145,6 +145,15 @@ export default function ProjectDetail() {
                   </div>
                 </div>
 
+                {base.contribute?.cotizupUrl && (
+                  <div style={{ marginBottom: 'var(--space-6)', background: 'var(--white)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-6)', textAlign: 'center' }}>
+                    <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 15, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-4)' }}>{t('projects.detail.contribute.title')}</h3>
+                    <a href={base.contribute.cotizupUrl} className="btn btn--primary" target="_blank" rel="noopener noreferrer" style={{ display: 'block', textAlign: 'center' }}>
+                      {t('projects.detail.contribute.cotizup')}
+                    </a>
+                  </div>
+                )}
+
                 <div style={{ background: 'linear-gradient(135deg, var(--green-dark), var(--green))', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', textAlign: 'center' }}>
                   <div style={{ fontSize: 32, marginBottom: 'var(--space-3)' }}>🤝</div>
                   <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: 17, fontWeight: 700, color: 'var(--white)', marginBottom: 'var(--space-3)' }}>{t('projects.detail.supportTitle')}</h3>

@@ -37,7 +37,7 @@
     "albadr": "Al Badr Zentrum Le Locle",
     "annour": "Moschee An-Nour Sitten",
     "bibliotheque": "Mobile Bibliothek",
-    "delalElKhayr": "Delal el Khayr",
+    "delalElKhayr": "Projekt Dilal Al Khair",
     "zakat": "Zakat",
     "faq": "FAQ",
     "contact": "Kontakt",
@@ -191,7 +191,11 @@
       "vision": "Zukunftsvision",
       "factsheet": "Technisches Datenblatt",
       "supportTitle": "Dieses Projekt unterstützen",
-      "supportBody": "Ihr Beitrag ist eine Sadaqa Jariya: ein Almosen, das fortwirkt und der Gemeinschaft zugutekommt."
+      "supportBody": "Ihr Beitrag ist eine Sadaqa Jariya: ein Almosen, das fortwirkt und der Gemeinschaft zugutekommt.",
+      "contribute": {
+        "title": "Beitragen",
+        "cotizup": "Per Cotizup spenden"
+      }
     },
     "items": {
       "madretsch": {
@@ -479,20 +483,20 @@
         "vision": "Die Mobile Bibliothek « Ponts du Savoir » soll zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung werden, getragen von der universell verbindenden Kraft des Wissens."
       },
       "delal-el-khayr": {
-        "title": "Schatten der Barmherzigkeit: Le Locle",
+        "title": "Projekt Dilal Al Khair",
         "type": "Anlageimmobilie",
         "ville": "Le Locle, Neuenburg",
         "surface": "5 Stockwerke, 6 Wohnungen",
-        "excerptHome": "Kauf einer Anlageimmobilie zur Umwandlung in ein multifunktionales islamisches Zentrum in Le Locle",
-        "excerpt": "Wir sammeln Mittel, um eine Anlageimmobilie in Le Locle zu kaufen und zu sanieren, die ein umfassendes islamisches Zentrum werden wird: Moschee, Schulungsräume, Wohneinheiten und Gewerbefläche.",
+        "excerptHome": "Sicherung einer Anlageimmobilie zur Umwandlung in ein multifunktionales islamisches Zentrum in Le Locle",
+        "excerpt": "Wir sammeln Mittel, um eine Anlageimmobilie in Le Locle zu sichern und zu sanieren, die ein umfassendes islamisches Zentrum werden wird: Moschee, Schulungsräume, Wohneinheiten und Gewerbefläche.",
         "subtitle": "Multifunktionales islamisches Zentrum",
         "villeDetail": "Le Locle, Neuenburg, Schweiz",
         "surfaceDetail": "5 Stockwerke · 6 Wohnungen · 1 Gewerbefläche · 5 Parkplätze · 2 Bauplätze",
         "typeDetail": "Anlageimmobilie, erbaut 1902",
         "status": "Spendensammlung läuft",
-        "intro": "Die Stiftung Wakef Schweiz arbeitet an der Akquisition einer Anlageimmobilie in Le Locle und transformiert ein bestehendes Gebäude in ein umfassendes islamisches Zentrum: Moschee, Schulungsräume, Wohnflächen, Gewerbefläche und entwickelbares Land.",
+        "intro": "Die Fondation Wakef Suisse setzt sich dafür ein, eine Anlageimmobilie in Le Locle zu sichern und ein bestehendes Gebäude in ein umfassendes islamisches Zentrum zu verwandeln: Moschee, Schulungsräume, Wohnflächen, Gewerbefläche und entwickelbares Land.",
         "objectifs": [
-          "Gebäudekauf: CHF 1'250'000 (CHF 550'000 zu sammeln)",
+          "Die Mittel für die Sicherung des Gebäudes zusammentragen: CHF 1'250'000 (CHF 550'000 zu sammeln)",
           "Sanierung und Anpassung für mehrere Nutzungen",
           "Schaffung einer Moschee und eines Gebetsraums",
           "Schulungs- und Unterrichtsräume",
@@ -506,7 +510,7 @@
             "value": "Le Locle, Kanton Neuenburg"
           },
           {
-            "label": "Kaufpreis",
+            "label": "Wert der Immobilie",
             "value": "CHF 1'250'000"
           },
           {
@@ -542,8 +546,8 @@
             "value": "Spendensammlung läuft"
           }
         ],
-        "description": "Le Locle braucht ein vollständig funktionsfähiges islamisches Zentrum. Diese Akquisition bietet eine einzigartige Lösung: eine Anlageimmobilie, die ihre eigene Entwicklung teilweise durch Mieteinnahmen finanziert.",
-        "avancement": "Spendenstufe. Akquisition geplant für 2026-2027.",
+        "description": "Le Locle braucht ein vollständig funktionsfähiges islamisches Zentrum. Dieses Projekt bietet eine einzigartige Lösung: eine Anlageimmobilie, die ihre eigene Entwicklung teilweise durch Mieteinnahmen finanziert.",
+        "avancement": "Spendenstufe. Sicherung des Gebäudes geplant für 2026-2027.",
         "vision": "Ein einladendes islamisches Zentrum: Moschee, Bildung, Wohneinheiten, Gewerbe, mit stabilem Einkommensstrom für die Stiftung und Service für Le Locle Gemeinde.",
         "captionsShort": [
           "Luftaufnahme des Gebäudes",

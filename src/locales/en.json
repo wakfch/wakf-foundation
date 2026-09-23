@@ -37,7 +37,7 @@
     "albadr": "Al Badr Centre Le Locle",
     "annour": "An-Nour Mosque Sion",
     "bibliotheque": "Mobile Library",
-    "delalElKhayr": "Delal el Khayr",
+    "delalElKhayr": "Project Dilal Al Khair",
     "zakat": "Zakat",
     "faq": "FAQ",
     "contact": "Contact",
@@ -191,7 +191,11 @@
       "vision": "Future vision",
       "factsheet": "Factsheet",
       "supportTitle": "Support this project",
-      "supportBody": "Your contribution is a Sadaqa Jariya: an act of charity that endures and benefits the community."
+      "supportBody": "Your contribution is a Sadaqa Jariya: an act of charity that endures and benefits the community.",
+      "contribute": {
+        "title": "Contribute",
+        "cotizup": "Donate via Cotizup"
+      }
     },
     "items": {
       "madretsch": {
@@ -479,20 +483,20 @@
         "vision": "To make the Mobile Library “Ponts du Savoir” a national reference for intercultural dialogue through education, drawing on the universal power of knowledge to bring people together."
       },
       "delal-el-khayr": {
-        "title": "Shades of Charity, Le Locle",
+        "title": "Project Dilal Al Khair",
         "type": "Investment property",
         "ville": "Le Locle, Neuchâtel",
         "surface": "5 storeys, 6 apartments",
-        "excerptHome": "Acquisition of an investment property to transform into a multifunctional Islamic Centre in Le Locle",
-        "excerpt": "We are raising funds to acquire and renovate an investment property in Le Locle, which will become a comprehensive Islamic centre offering: mosque, training halls, residential units, and commercial space.",
+        "excerptHome": "Securing an investment property to transform into a multifunctional Islamic Centre in Le Locle",
+        "excerpt": "We are raising funds to secure and renovate an investment property in Le Locle, which will become a comprehensive Islamic centre offering: mosque, training halls, residential units, and commercial space.",
         "subtitle": "Multifunctional Islamic Centre",
         "villeDetail": "Le Locle, Neuchâtel, Switzerland",
         "surfaceDetail": "5 storeys · 6 apartments · 1 commercial unit · 5 parking spaces · 2 buildable plots",
         "typeDetail": "Investment property, Built 1902",
         "status": "Fundraising in progress",
-        "intro": "Wakef Switzerland Foundation is working to acquire an investment property in Le Locle, transforming an existing building into a comprehensive Islamic Centre: mosque, teaching halls, residential spaces, commercial unit, and developable land.",
+        "intro": "Fondation Wakef Suisse is working to obtain an investment property in Le Locle, transforming an existing building into a comprehensive Islamic Centre: mosque, teaching halls, residential spaces, commercial unit, and developable land.",
         "objectifs": [
-          "Building acquisition: CHF 1'250'000 (CHF 550'000 to raise)",
+          "Gather the funds to obtain the building: CHF 1'250'000 (CHF 550'000 to raise)",
           "Renovation and adaptation for multiple uses",
           "Creation of a mosque and prayer space",
           "Training and educational halls",
@@ -506,7 +510,7 @@
             "value": "Le Locle, Neuchâtel"
           },
           {
-            "label": "Purchase price",
+            "label": "Property value",
             "value": "CHF 1'250'000"
           },
           {
@@ -542,8 +546,8 @@
             "value": "Fundraising in progress"
           }
         ],
-        "description": "Le Locle needs a fully functional Islamic centre. This acquisition offers a unique solution: an investment property that partially finances its own development through rental income.",
-        "avancement": "Fundraising phase. Acquisition planned for 2026-2027.",
+        "description": "Le Locle needs a fully functional Islamic centre. This project offers a unique solution: an investment property that partially finances its own development through rental income.",
+        "avancement": "Fundraising phase. Obtaining the building is planned for 2026-2027.",
         "vision": "A welcoming Islamic centre: mosque, education, residential units, commerce, generating stable revenue for the Foundation and serving the Le Locle community.",
         "captionsShort": [
           "Aerial view of the building",

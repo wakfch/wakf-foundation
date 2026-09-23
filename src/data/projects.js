@@ -58,10 +58,6 @@ export const PROJECTS = [
     fallbackImage: '/images/el-delal/facade.jpg',
     contribute: {
       cotizupUrl: 'https://www.cotizup.com/@fondationwakef/mosquee-al-badr-le-locle-notre-nouvelle-maison',
-      qr: [
-        { id: 'postfinance', image: '/images/qr-don-wakf.svg', iban: 'CH84 0900 0000 1076 1819 4' },
-        { id: 'twint', image: '/images/qr-twint-wakf.png', iban: 'CH84 0900 0000 1076 1819 4' },
-      ],
     },
   },
   {
