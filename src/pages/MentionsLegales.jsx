@@ -56,7 +56,7 @@ export default function MentionsLegales() {
               <div className="legal-box">
                 <div className="legal-box__title">{t('legalNotice.hostingTitle')}</div>
                 <p style={{ fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.7 }}>
-                  {t('legalNotice.hostingP1')}<strong>Netlify, Inc.</strong>, 512 2nd Street, Suite 200, San Francisco, CA 94107, USA
+                  {t('legalNotice.hostingP1')}<strong>Cloudflare, Inc.</strong>, 101 Townsend Street, San Francisco, CA 94107, {t('legalNotice.hostingCountry')}
                   {t('legalNotice.hostingP2')}<strong>Hostinger</strong>{t('legalNotice.hostingP3')}
                 </p>
               </div>
