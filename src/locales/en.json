@@ -1,7 +1,7 @@
 {
   "common": {
-    "foundationName": "Fondation Wakef",
-    "foundationSuisse": "Fondation Wakef Suisse",
+    "foundationName": "Wakef Foundation",
+    "foundationSuisse": "Wakef Switzerland Foundation",
     "home": "Home",
     "breadcrumbLabel": "Breadcrumb",
     "learnMore": "Learn more →",
@@ -18,7 +18,7 @@
     "phone": "Phone",
     "headOffice": "Head office",
     "contactOffice": "Contact office",
-    "workingHours48": "Our team replies within 48 working hours.",
+    "workingHours48": "Our team responds within 48 business hours.",
     "supportFoundation": "Support the Foundation",
     "changeLanguage": "Change language",
     "menu": "Menu",
@@ -28,11 +28,11 @@
     "sub": "Switzerland · since 2009",
     "home": "Home",
     "about": "About",
-    "aboutFoundation": "The Fondation Wakef",
-    "statutes": "Statutes of the Foundation",
+    "aboutFoundation": "Wakef Foundation",
+    "statutes": "Foundation Statutes",
     "projects": "Our Projects",
     "allProjects": "All projects",
-    "madretsch": "Madretsch Mosque Biel/Bienne",
+    "madretsch": "Madretsch Mosque Bienne",
     "aliman": "Al Iman Centre Fribourg",
     "albadr": "Al Badr Centre Le Locle",
     "annour": "An-Nour Mosque Sion",
@@ -45,7 +45,7 @@
   },
   "footer": {
     "droits": "All rights reserved",
-    "tagline": "A lasting work for future generations.",
+    "tagline": "A lasting legacy for future generations.",
     "navigation": "Navigation",
     "nav": {
       "home": "Home",
@@ -56,7 +56,7 @@
     },
     "services": "Services",
     "svc": {
-      "zakat": "Zakat calculator",
+      "zakat": "Zakat Calculator",
       "donate": "Donate",
       "faq": "FAQ",
       "statutes": "Statutes"
@@ -64,23 +64,23 @@
     "addresses": "Addresses",
     "headOffice": "Head office",
     "contactOffice": "Contact office",
-    "copyright": "© {{year}} Fondation Wakef Suisse · CHE-114.901.246",
+    "copyright": "© {{year}} Wakef Switzerland Foundation · CHE-114.901.246",
     "privacy": "Privacy",
     "legal": "Legal notice"
   },
   "cookies": {
     "text": "We use cookies to improve your experience. By continuing, you accept our use of cookies.",
-    "policy": "Privacy policy",
-    "refuse": "Decline",
+    "policy": "Privacy Policy",
+    "refuse": "Refuse",
     "accept": "Accept all cookies"
   },
   "popup": {
     "label": "Sadaqa Jariya",
     "title1": "Help us build",
-    "title2": "further projects",
-    "body": "Every donation helps to fund mosques, Islamic centres and educational programmes for the Muslim community in Switzerland.",
+    "title2": "other projects",
+    "body": "Every donation contributes to funding mosques, Islamic centres and educational programs for the Muslim community in Switzerland.",
     "cta": "Donate now →",
-    "dismiss": "No thank you, continue browsing"
+    "dismiss": "No thanks, continue visiting"
   },
   "notFound": {
     "title": "Page not found",
@@ -89,352 +89,429 @@
   },
   "home": {
     "hero": {
-      "badge": "Fondation Wakef Suisse",
-      "title1": "Our mark in our community:",
-      "title2": "deep roots, lasting commitment",
-      "sub": "Since 2009, Fondation Wakef has funded mosques, Islamic centres and educational programmes for the Muslim community of Switzerland.",
+      "badge": "Wakef Switzerland Foundation",
+      "title1": "Our footprint at the heart of our society:",
+      "title2": "deeply rooted, lasting commitment",
+      "sub": "Since 2009, Wakef Foundation has financed mosques, Islamic centres and educational programs for the Muslim community in Switzerland.",
       "ctaDonate": "Donate →",
       "ctaProjects": "Our projects"
     },
     "about": {
       "label": "Who we are",
-      "title": "The Fondation Wakef Suisse",
-      "body": "Founded in 2009, a foundation under Swiss private law (Art. 80 CC) devoted to funding lasting Islamic projects on Swiss soil.",
+      "title": "Wakef Switzerland Foundation",
+      "body": "Founded in 2009, a Swiss private foundation (art. 80 CC) dedicated to financing sustainable Islamic projects on Swiss territory.",
       "objectivesTitle": "Objectives",
-      "objectivesLead": "To acquire and promote:",
+      "objectivesLead": "Acquire and promote:",
       "objectives": [
         "Muslim places of worship",
-        "The training and integration of imams",
-        "The teaching of Arabic",
+        "Training and integration of imams",
+        "Arabic language teaching",
         "Scholarships",
         "Charitable activities",
-        "Muslim burial sections"
+        "Muslim burial plots"
       ],
       "missionTitle": "Mission",
-      "missionBody": "To build a lasting Islamic legacy in Switzerland by funding mosques, Islamic centres and educational programmes in keeping with the values of Islam and with Swiss civil law.",
+      "missionBody": "Build a sustainable Islamic heritage in Switzerland by financing mosques, Islamic centres and educational programs in compliance with Islamic values and Swiss civil law.",
       "valuesTitle": "Values",
-      "values": ["Permanence", "Integrity", "Transparency", "Institutional strength", "Innovation", "Cooperation"],
+      "values": ["Sustainability", "Integrity", "Transparency", "Institutionalism", "Innovation", "Cooperation"],
       "more": "Learn more →"
     },
     "stats": {
-      "projects": "Projects funded",
+      "projects": "Funded projects",
       "beneficiaries": "Beneficiaries",
       "capital": "CHF endowment capital",
-      "surface": "Built area"
+      "surface": "Built surface"
     },
     "projects": {
-      "label": "What we have achieved",
+      "label": "Our achievements",
       "title": "Flagship projects",
-      "body": "Three emblematic projects that illustrate our mission: creating lasting spaces for the Muslim community in Switzerland.",
+      "body": "Three emblematic projects that illustrate our mission to build sustainable spaces for the Muslim community in Switzerland.",
       "all": "All our projects →"
     },
     "donCta": {
       "label": "Support the Foundation",
-      "title": "Your donation counts",
-      "body": "Whatever its size, your donation goes directly towards funding our Waqf projects in Switzerland: mosques, Islamic centres and support for the Muslim community. Every contribution is a Sadaqa Jariya, an act of charity that endures.",
+      "title": "Your donation matters",
+      "body": "Your donation, regardless of the amount, directly contributes to funding our Waqf projects in Switzerland: mosques, Islamic centres and support for the Muslim community. Every contribution is a Sadaqa Jariya, a lasting charity.",
       "btnDonate": "Donate now →",
       "btnZakat": "Calculate my Zakat"
     },
     "zakat": {
       "label": "Pillar of Islam",
       "title": "Zakat Calculator",
-      "body": "Current Nisab: CHF/€ 4,600 (≈ 85g of gold) · Rate: 2.5% of net wealth. Work out your annual obligation in seconds.",
-      "btn": "Open the calculator →"
+      "body": "Current Nisab: CHF/€ 4,600 (≈ 85g of gold) · Rate: 2.5% of net wealth. Calculate your annual obligation in seconds.",
+      "btn": "Open calculator →"
     },
     "faq": {
       "label": "Frequently asked questions",
       "title": "We answer your questions",
       "items": [
-        { "q": "How are donations used?", "a": "Every franc collected goes to concrete projects (mosques, Islamic centres, scholarships). We publish an annual report setting out in detail how all the funds are used." }
+        { "q": "How are donations used?", "a": "Every franc collected is allocated to concrete projects (mosques, Islamic centres, scholarships). We publish an annual report detailing the use of all funds." }
       ],
-      "all": "All the questions →"
+      "all": "All questions →"
     },
     "contact": {
       "title": "Have a question? Contact us",
-      "body": "Our team replies within 48 hours",
-      "btn": "Write to us →"
+      "body": "Our team responds within 48 hours",
+      "btn": "Contact us →"
     }
   },
   "projects": {
     "hero": {
-      "label": "Fondation Wakef Suisse",
+      "label": "Wakef Switzerland Foundation",
       "title": "Our Projects",
-      "sub": "Every project builds a lasting legacy for the Muslim community in Switzerland. Explore what we have completed and what is under way."
+      "sub": "Each project builds a lasting legacy for the Muslim community in Switzerland. Explore our past and ongoing projects."
     },
     "breadcrumb": "Our Projects",
     "filters": { "all": "All", "done": "Completed", "ongoing": "Ongoing" },
-    "empty": "There is no project in this category at present.",
+    "empty": "No projects in this category at the moment.",
     "supportTitle": "Support a project",
     "supportBody": "Every donation contributes to a lasting legacy for the Muslim community in Switzerland.",
     "detail": {
       "notFoundTitle": "Project not found",
       "notFoundText": "This project does not exist or is no longer available.",
-      "notFoundBtn": "See all the projects →",
+      "notFoundBtn": "See all projects →",
       "introduction": "Introduction",
-      "objectives": "Objectives of the project",
+      "objectives": "Project objectives",
       "description": "Description",
       "progress": "Progress",
       "vision": "Future vision",
-      "factsheet": "Factsheet",
+      "factsheet": "Fact sheet",
       "supportTitle": "Support this project",
-      "supportBody": "Your contribution is a Sadaqa Jariya: an act of charity that endures and benefits the community."
+      "supportBody": "Your contribution is a Sadaqa Jariya: a lasting charity that benefits the community."
     },
     "items": {
       "madretsch": {
         "title": "Madretsch Mosque",
         "type": "Place of worship",
-        "ville": "Biel/Bienne, BE",
+        "ville": "Bienne, BE",
         "surface": "496 m²",
-        "excerptHome": "Construction and fitting out of the Madretsch Mosque, the first major project of Fondation Wakef.",
-        "excerpt": "The first major project of Fondation Wakef: construction and fitting out of the Madretsch Mosque in Biel/Bienne. A space of 496 m² serving the Muslim community of Madretsch.",
-        "subtitle": "The first major project of Fondation Wakef Suisse",
-        "villeDetail": "Biel/Bienne (Madretsch), BE",
+        "excerptHome": "Construction and development of the Madretsch Mosque, the Foundation's first major project.",
+        "excerpt": "Wakef Foundation's first major project: construction and development of the Madretsch Mosque in Bienne. A 496 m² space serving the Muslim community of Madretsch.",
+        "subtitle": "Wakef Switzerland Foundation's first major project",
+        "villeDetail": "Bienne (Madretsch), BE",
         "status": "Completed",
-        "intro": "The Madretsch Mosque, opened in 2009 in Biel/Bienne, is the first major project of Fondation Wakef Suisse. With its 496 m², it welcomes the Muslim community of the Madretsch district and forms the ground on which the Foundation built its expertise in Islamic funding in Switzerland.",
+        "intro": "The Madretsch Mosque, inaugurated in 2009 in Bienne, is Wakef Switzerland Foundation's first major project. With its 496 m², it welcomes the Muslim community of the Madretsch district and forms the foundation on which Wakef built its expertise in Islamic financing in Switzerland.",
         "objectifs": [
           "Create a dignified place of worship for the Muslim community of Madretsch",
-          "Provide a setting for learning the Arabic language and for Islamic education",
-          "Foster integration and shared community life within the local fabric of Biel/Bienne"
+          "Provide a learning framework for Arabic language and Islamic education",
+          "Foster integration and coexistence in the local Bienne community"
         ],
         "fiche": [
-          { "label": "Location", "value": "Biel/Bienne (Madretsch), canton of Bern" },
+          { "label": "Location", "value": "Bienne (Madretsch), canton of Berne" },
           { "label": "Year", "value": "2009" },
-          { "label": "Total area", "value": "496 m²" },
+          { "label": "Total surface", "value": "496 m²" },
           { "label": "Type", "value": "Place of worship" },
           { "label": "Status", "value": "Completed" }
         ],
-        "description": "As the first major project of the Foundation, the Madretsch Mosque shows the ability of Fondation Wakef to carry Islamic infrastructure projects in Switzerland through to completion. It laid the foundations of our operating model: transparent community funding, professional management and strong local roots.",
-        "avancement": "Project completed and fully in use since 2009. The mosque welcomes the Madretsch community every day and is a steady landmark for the whole region.",
-        "vision": "The Madretsch Mosque remains a reference model: a place of worship well settled in its district, serving a diverse and united community, a symbol of the permanence that Fondation Wakef seeks to embody.",
-        "captionsShort": ["After renovation", "Before the works", "Facade detail", "Before / After"],
-        "captions": ["After renovation: restored facade", "Before the works: street view (2009)", "Before the works: facade detail", "Before / After: comparing the transformation"]
+        "description": "As Wakef Foundation's first major project, the Madretsch Mosque testifies to the Foundation's capacity to successfully implement Islamic infrastructure projects in Switzerland. This project laid the foundation for our operational model: transparent community funding, professional management and strong local anchoring.",
+        "avancement": "Project completed and fully operational since 2009. The mosque welcomes the Madretsch community daily and serves as a stable landmark for the entire region.",
+        "vision": "The Madretsch Mosque remains a reference model: a place of worship well integrated in its neighborhood, serving a diverse and united community, symbol of the sustainability that Wakef Foundation seeks to embody.",
+        "captionsShort": ["After renovation", "Before work", "Facade detail", "Before / After"],
+        "captions": ["After renovation: restored facade", "Before work: street view (2009)", "Before work: facade detail", "Before / After: transformation comparison"]
       },
       "aliman": {
         "title": "Al Iman Centre",
         "type": "Islamic centre",
         "ville": "Fribourg, FR",
         "surface": "132 m²",
-        "excerptHome": "An Islamic centre open to all nationalities: a spirit of complete openness in the heart of Fribourg.",
-        "excerpt": "An Islamic centre run by the Albanian Cultural Association (CCA), with a spirit of complete openness that rises above nationalities to welcome the whole Fribourg community.",
-        "subtitle": "An Islamic centre open to all nationalities",
+        "excerptHome": "Islamic centre open to all nationalities: philosophy of total openness in the heart of Fribourg.",
+        "excerpt": "Islamic centre operated by the Albanian Cultural Association (CCA), philosophy of total openness, transcending nationalities to welcome the entire Fribourg Muslim community.",
+        "subtitle": "Islamic centre open to all nationalities",
         "villeDetail": "Fribourg, FR",
         "status": "Ongoing",
-        "intro": "The Al Iman Centre in Fribourg, run by the Albanian Cultural Association (CCA), embodies a spirit of complete openness: rising above nationalities to welcome the whole Muslim community of Fribourg. Built in 1997, it covers 132 m² in the heart of the city.",
+        "intro": "The Al Iman Centre in Fribourg, operated by the Albanian Cultural Association (CCA), embodies a philosophy of total openness: transcending nationalities to welcome the entire Fribourg Muslim community. Built in 1997, it covers 132 m² in the heart of the city.",
         "objectifs": [
-          "Renovate and modernise the premises to welcome worshippers better",
-          "Offer a place of worship that reaches beyond national and cultural boundaries",
-          "Strengthen the bond between the Muslim community and Fribourg society"
+          "Renovate and modernize infrastructure to better welcome worshippers",
+          "Provide a place of worship transcending national and cultural boundaries",
+          "Strengthen the link between the Muslim community and Fribourg society"
         ],
         "fiche": [
           { "label": "Location", "value": "Fribourg, canton of Fribourg" },
-          { "label": "Construction", "value": "1997" },
+          { "label": "Built", "value": "1997" },
           { "label": "Wakef funding", "value": "2018" },
-          { "label": "Area", "value": "132 m²" },
+          { "label": "Surface", "value": "132 m²" },
           { "label": "Operator", "value": "Albanian Cultural Association (CCA)" },
           { "label": "Status", "value": "Ongoing" }
         ],
-        "description": "The Al Iman Centre stands out for its spirit of complete openness: its doors are open to all nationalities and cultures, beyond the origins of the association that runs it. It is a place of meeting, learning and prayer for the whole Muslim community of Fribourg, reflecting the cosmopolitan character of the city.",
-        "avancement": "Renovation works partly completed. Fondation Wakef is supporting the CCA association in finishing the interior fittings and making the best use of the spaces.",
-        "vision": "To make the Al Iman Centre a model of integration and openness, where the diversity of Swiss Islam finds its most harmonious expression: a community centre in the fullest sense of the word.",
-        "captionsShort": ["Prayer hall", "Community meal", "Lecture, women's area", "Prayer, women's area", "Friday congregational prayer", "Outdoor gathering", "Classes for children"],
-        "captions": ["Prayer hall: interior", "Community meal", "Lecture, women's area", "Prayer, women's area", "Friday congregational prayer", "Outdoor gathering", "Classes for children"]
+        "description": "The Al Iman Centre stands out for its philosophy of total openness: its doors are open to all nationalities and cultures, beyond the origins of the managing association. It is a place of meeting, learning and prayer for the entire Fribourg Muslim community, reflecting the city's cosmopolitanism.",
+        "avancement": "Renovation work partially completed. Wakef Foundation accompanies the CCA Association in completing interior improvements and optimizing spaces.",
+        "vision": "Make the Al Iman Centre a model of integration and openness, where the diversity of Swiss Islam finds its most harmonious expression, a community centre in the full sense of the term.",
+        "captionsShort": ["Prayer room", "Community meal", "Conference, women's space", "Prayer, women's space", "Friday prayer", "Outdoor gathering", "Children's class"],
+        "captions": ["Prayer room: interior", "Community meal", "Conference, women's space", "Prayer, women's space", "Friday prayer", "Outdoor gathering", "Children's class"]
       },
       "albadr": {
         "title": "Al Badr Centre",
         "type": "Cultural centre",
         "ville": "Le Locle, NE",
         "surface": "2,029 m²",
-        "excerptHome": "The only mosque on the border between Switzerland and France: renovation of a historic building from 1902.",
-        "excerpt": "The only mosque on the border between Switzerland and France: renovation of a historic building from 1902 and an extension of 1,400 m² for a large Islamic cultural centre.",
-        "subtitle": "The only mosque on the border between Switzerland and France",
+        "excerptHome": "Only mosque on the Franco-Swiss border: renovation of a historic 1902 building.",
+        "excerpt": "Only mosque on the Franco-Swiss border: renovation of a historic 1902 building and 1,400 m² extension for a large Islamic cultural centre.",
+        "subtitle": "The only mosque on the Franco-Swiss border",
         "villeDetail": "Le Locle, NE",
         "surfaceDetail": "2,029 m² (land)",
         "typeDetail": "Islamic cultural centre",
         "status": "Ongoing",
-        "intro": "The Al Badr Centre in Le Locle is a project of singular scale: on a plot of 2,029 m², of which 600 m² are already built and 1,400 m² are set aside for the extension, it is the only mosque on the border between Switzerland and France. The existing building, put up in 1902, is of remarkable architectural interest.",
+        "intro": "The Al Badr Centre in Le Locle is a unique large-scale project: with land of 2,029 m², 600 m² already built and 1,400 m² for expansion, it is the only mosque on the Franco-Swiss border. The existing building, built in 1902, is remarkable for its architectural interest.",
         "objectifs": [
-          "Complete renovation of the historic building from 1902",
-          "Modern construction of an extension of 1,400 m²",
-          "Create the only Islamic cultural hub on the border between Switzerland and France"
+          "Complete renovation of the historic 1902 building",
+          "Modern construction of a 1,400 m² extension",
+          "Create the only Islamic cultural hub on the Franco-Swiss border"
         ],
         "fiche": [
           { "label": "Location", "value": "Le Locle, canton of Neuchâtel" },
           { "label": "Wakef funding", "value": "2017" },
-          { "label": "Total plot", "value": "2,029 m²" },
-          { "label": "Existing built area", "value": "600 m²" },
+          { "label": "Total land", "value": "2,029 m²" },
+          { "label": "Existing built surface", "value": "600 m²" },
           { "label": "Planned extension", "value": "1,400 m²" },
           { "label": "Men's prayer hall", "value": "70 m²" },
           { "label": "Women's prayer hall", "value": "60 m²" },
           { "label": "Historic building", "value": "Built in 1902" },
           { "label": "Status", "value": "Ongoing" }
         ],
-        "description": "The Al Badr Centre is the most ambitious project of Fondation Wakef. A few steps from the French border, it serves a community unlike any other, living on both sides of that border. The project combines the preservation of a remarkable architectural heritage (the building of 1902) with a resolutely modern vision for its extension.",
-        "avancement": "Phase 1 completed: the men's prayer hall (70 m²) and the women's prayer hall (60 m²) are in use. Phase 2 under way: complete renovation of the historic building and construction of the extension of 1,400 m².",
-        "vision": "To make the Al Badr Centre a leading Islamic cultural centre for the communities of Le Locle and the neighbouring French regions, bringing heritage and modernity together in a place that is unique in Switzerland.",
+        "description": "The Al Badr Centre is Wakef Foundation's most ambitious project. Located a few steps from the French border, it serves a unique cross-border community. The project integrates the preservation of a remarkable architectural heritage (1902 building) with a resolutely modern vision for its extension.",
+        "avancement": "Phase 1 completed: prayer hall for men (70 m²) and women (60 m²) operational. Phase 2 ongoing: complete renovation of the historic building and construction of the 1,400 m² extension.",
+        "vision": "Make the Al Badr Centre a reference Islamic cultural centre for the communities of Le Locle and French border regions, combining heritage and modernity, in a unique location in Switzerland.",
         "captionsShort": ["Al Badr Centre", "Exterior view"],
         "captions": ["Al Badr Centre: main view", "Exterior view: April 2023"]
+      },
+      "delal-el-khayr": {
+        "title": "Shades of Charity - Le Locle",
+        "type": "Investment property",
+        "ville": "Le Locle, Neuchâtel",
+        "surface": "5 storeys, 6 apartments",
+        "excerptHome": "Acquisition of an investment property to transform into a multifunctional Islamic Centre in Le Locle",
+        "excerpt": "We are raising funds to acquire and renovate an investment property in Le Locle, which will become a comprehensive Islamic centre offering: mosque, training halls, residential units, and commercial space.",
+        "subtitle": "Multifunctional Islamic Centre",
+        "villeDetail": "Le Locle, Neuchâtel, Switzerland",
+        "surfaceDetail": "5 storeys · 6 apartments · 1 commercial unit · 5 parking spaces · 2 buildable plots",
+        "typeDetail": "Investment property, Built 1902",
+        "status": "Fundraising in progress",
+        "intro": "Wakef Switzerland Foundation is working to acquire an investment property in Le Locle, transforming an existing building into a comprehensive Islamic Centre: mosque, teaching halls, residential spaces, commercial unit, and developable land.",
+        "objectifs": [
+          "Building acquisition: CHF 1'250'000 (CHF 550'000 to raise)",
+          "Renovation and adaptation for multiple uses",
+          "Creation of a mosque and prayer space",
+          "Training and educational halls",
+          "Residential spaces for caretaker and volunteers",
+          "Commercial unit generating income: CHF 49'380 annual net revenue",
+          "Two buildable plots for future expansion"
+        ],
+        "fiche": [
+          "Purchase price: CHF 1'250'000",
+          "Amount to raise: CHF 550'000",
+          "Current annual net revenue: CHF 49'380",
+          "Built: 1902, very good condition",
+          "Storeys: 5",
+          "Apartments: 6 + 1 commercial unit",
+          "Parking spaces: 5 · Buildable plots: 2"
+        ],
+        "description": "Le Locle needs a fully functional Islamic centre. This acquisition offers a unique solution: an investment property that partially finances its own development through rental income.",
+        "avancement": "Fundraising phase. Acquisition planned for 2026-2027.",
+        "vision": "A welcoming Islamic centre: mosque, education, residential units, commerce, generating stable revenue for the Foundation and serving the Le Locle community.",
+        "captionsShort": [
+          "Aerial view of the building",
+          "Main facade - 1902",
+          "Available commercial space",
+          "Room to adapt",
+          "Residential bedroom",
+          "Bright living area",
+          "Bathroom"
+        ],
+        "captions": [
+          "Aerial view of the Le Locle building - Neuchâtel",
+          "Main facade of the building built in 1902",
+          "Commercial unit on ground floor - revenue potential",
+          "Room to adapt according to project needs",
+          "Residential bedroom for volunteers or caretaker",
+          "Bright living room with multifunctional adaptation potential",
+          "Bathroom - Good condition, to be renovated as needed"
+        ]
       },
       "annour": {
         "title": "An-Nour Mosque",
         "type": "Place of worship",
         "ville": "Sion, VS",
         "surface": "420 m²",
-        "excerpt": "The first Arabic speaking mosque in the canton of Valais. Phase 1 (210 m²) completed; Phase 2 (210 m²) under way, with a promise of sale valid until the end of 2026.",
-        "subtitle": "The first Arabic speaking mosque in Valais",
+        "excerpt": "First Arabic-speaking mosque in the Valais canton. Phase 1 (210 m²) completed; Phase 2 (210 m²) ongoing with promise of sale until end of 2026.",
+        "subtitle": "First Arabic-speaking mosque in Valais",
         "villeDetail": "Sion, VS",
         "status": "Ongoing",
-        "intro": "The An-Nour Mosque in Sion is a landmark project: as the first Arabic speaking mosque in the canton of Valais, it meets the needs of a community that until now had no suitable place of worship. With a budget of CHF 900,000 and an area of 420 m², the project is being carried out in two phases by the An-Nour Association.",
+        "intro": "The An-Nour Mosque in Sion is a historic project: the first Arabic-speaking mosque in the canton of Valais, it responds to the needs of a community that previously had no suitable place of worship. With a budget of CHF 900,000 and an area of 420 m², this project unfolds in two phases led by the An-Nour Association.",
         "objectifs": [
-          "Give Valais its first Arabic speaking mosque, dignified and fit for purpose",
-          "Complete both construction phases (210 m² + 210 m²)",
-          "Root the Arabic speaking community lastingly in the Sion region"
+          "Offer Valais its first dignified and suitable Arabic-speaking mosque",
+          "Complete the two construction phases (210 m² + 210 m²)",
+          "Sustainably anchor the Arabic-speaking community in the Sion region"
         ],
         "fiche": [
           { "label": "Location", "value": "Sion, canton of Valais" },
-          { "label": "Total area", "value": "420 m²" },
+          { "label": "Total surface", "value": "420 m²" },
           { "label": "Total budget", "value": "CHF 900,000" },
           { "label": "Operator", "value": "An-Nour Association" },
           { "label": "Phase 1", "value": "210 m² completed" },
-          { "label": "Phase 2", "value": "210 m², promise of sale until the end of 2026" },
+          { "label": "Phase 2", "value": "210 m² promise of sale until end of 2026" },
           { "label": "Status", "value": "Ongoing" }
         ],
-        "description": "Valais is home to a large Arabic speaking Muslim community that long went without a place of worship to match. The An-Nour Mosque, led by the An-Nour Association with the support of Fondation Wakef, fills this historic gap. Phase 1, covering 210 m², is already in use.",
-        "avancement": "Phase 1 (210 m²): completed and in use. Phase 2 (210 m²): promise of sale signed, valid until the end of 2026. Fundraising is under way to complete the purchase and the works.",
-        "vision": "To make the An-Nour Mosque the spiritual heart of the Arabic speaking community of Valais: a place of prayer, learning and community life for present and future generations."
+        "description": "Valais is home to a significant Arabic-speaking Muslim community, long deprived of a place of worship commensurate with its needs. The An-Nour Mosque, led by the An-Nour Association with support from Wakef Foundation, fills this historic gap. Phase 1 of 210 m² is already operational.",
+        "avancement": "Phase 1 (210 m²): completed and operational. Phase 2 (210 m²): signed promise of sale, valid until end of 2026. Ongoing fundraising to finalize acquisition and works.",
+        "vision": "Make the An-Nour Mosque the spiritual heart of the Valais Arabic-speaking community, a space for prayer, learning and community life for present and future generations."
       },
       "bibliotheque": {
         "title": "Mobile Library",
-        "type": "Educational programme",
-        "ville": "Romandy",
-        "surface": "Travelling",
-        "excerpt": "“Ponts du Savoir” (Bridges of Knowledge): a multilingual travelling library that fosters intercultural dialogue. Slogan: “Let us get to know one another. Knowledge brings us together.”",
-        "subtitle": "“Ponts du Savoir” (Bridges of Knowledge): knowledge brings us together",
-        "villeDetail": "Romandy",
+        "type": "Educational program",
+        "ville": "French-speaking Switzerland",
+        "surface": "Itinerant",
+        "excerpt": "\"Bridges of Knowledge\": multilingual itinerant library promoting intercultural dialogue. Slogan: \"Let's get to know each other. Knowledge brings us together.\"",
+        "subtitle": "\"Bridges of Knowledge\": knowledge brings us together",
+        "villeDetail": "French-speaking Switzerland",
         "status": "Ongoing",
-        "intro": "The Mobile Library “Ponts du Savoir” (Bridges of Knowledge) is a project unlike any other in Romandy (French speaking Switzerland): a multilingual travelling library devoted to intercultural dialogue. It moves between cultural events, public spaces and everyday meeting places to reach communities where they are.",
+        "intro": "The Mobile Library \"Bridges of Knowledge\" is a unique project in French-speaking Switzerland: a multilingual itinerant library dedicated to intercultural dialogue. It travels to cultural events, public spaces and community venues to meet communities where they are.",
         "objectifs": [
-          "Foster intercultural dialogue through the sharing of knowledge",
-          "Make multilingual resources available to every community",
-          "Train ambassadors of intercultural dialogue in Romandy"
+          "Promote intercultural dialogue through knowledge sharing",
+          "Make multilingual resources accessible to all communities",
+          "Train ambassadors of intercultural dialogue in French-speaking Switzerland"
         ],
         "fiche": [
-          { "label": "Area of activity", "value": "Romandy (travelling)" },
+          { "label": "Area of action", "value": "French-speaking Switzerland (itinerant)" },
           { "label": "Format", "value": "Mobile library" },
           { "label": "Languages", "value": "Multilingual" },
-          { "label": "Destinations", "value": "Cultural events, public spaces" },
+          { "label": "Targets", "value": "Cultural events, public spaces" },
           { "label": "Team", "value": "Ambassadors of intercultural dialogue" },
-          { "label": "Compliance", "value": "Compliant with the FADP" },
+          { "label": "Compliance", "value": "Compliant with FADP" },
           { "label": "Status", "value": "Ongoing" }
         ],
-        "description": "Under the slogan “Let us get to know one another. Knowledge brings us together.”, the Mobile Library travels across Romandy to build bridges between communities. The team of ambassadors carries not only books, but also stories, languages and the impulse of a genuine encounter between people of different cultures.",
-        "avancement": "The programme has been running since 2023. It is regularly present at cultural events and in public spaces across Romandy. The network of ambassadors keeps growing.",
-        "vision": "To make the Mobile Library “Ponts du Savoir” a national reference for intercultural dialogue through education, drawing on the universal power of knowledge to bring people together."
+        "description": "Under the slogan \"Let's get to know each other. Knowledge brings us together.\", the Mobile Library travels through French-speaking Switzerland to build bridges between communities. The team of ambassadors carries not just books, but stories, languages, and the momentum of authentic encounters between people of different cultures.",
+        "avancement": "Active program since 2023. Regular presence at cultural events and public spaces in French-speaking Switzerland. Network of ambassadors in continuous development.",
+        "vision": "Make the Mobile Library \"Bridges of Knowledge\" a national reference for intercultural dialogue through education, leveraging the universal power of knowledge to unite."
       }
     }
   },
   "about": {
     "hero": {
-      "label": "Fondation Wakef Suisse since 2009",
+      "label": "Wakef Switzerland Foundation since 2009",
       "title": "About the Foundation",
-      "sub": "Discover our history, our mission and the 6 objectives that guide our work for the Muslim community in Switzerland."
+      "sub": "Discover our history, our mission and the 6 objectives that guide our action for the Muslim community in Switzerland."
     },
     "breadcrumb": "About",
     "historyLabel": "Our history",
-    "historyTitle": "Founded in 2009, a lasting mission",
-    "p1": "The Fondation Wakef Suisse was established in 2009 under article 80 of the Swiss Civil Code and is registered under the number CHE-114.901.246. It was born of a deep conviction: the Muslim community of Switzerland deserves institutions that are enduring, independent and rigorously governed.",
+    "historyTitle": "Founded in 2009, a sustainable mission",
+    "p1": "Wakef Switzerland Foundation was created in 2009 under article 80 of the Swiss Civil Code, registered under number CHE-114.901.246. It was born from a deep conviction: the Muslim community in Switzerland deserves sustainable, independent institutions governed with rigor.",
     "p2Before": "Its name ",
-    "p2After": " refers to the Islamic concept of a perpetual endowment: an asset or a sum irrevocably devoted to a cause of public benefit, whose income serves the community generation after generation.",
+    "p2After": " refers to the Islamic concept of perpetual endowment: property or funds irrevocably dedicated to a cause of public interest, whose revenues serve the community generation after generation.",
     "missionLabel": "Our mission:",
-    "missionText": "To promote positive citizenship through a balanced educational and religious framework. Our work covers the upkeep of places of worship, the training of imams, support for scientific research and academic guidance for young people.",
+    "missionText": "Promote positive citizenship through a balanced educational and religious framework. Our actions cover the maintenance of places of worship, training of imams, support for scientific research and academic support for young people.",
     "visionLabel": "Our vision:",
-    "visionText": "To establish institutional governance that secures the financial independence of Muslim institutions in Switzerland, so that their contribution endures for future generations.",
+    "visionText": "Establish institutional governance guaranteeing the financial independence of Muslim institutions in Switzerland, to perpetuate their contribution for future generations.",
     "pillars": [
-      { "title": "① Places of worship", "desc": "Build, buy and renovate mosques and places of worship in Switzerland." },
-      { "title": "② Imams and integration", "desc": "Provide a suitable religious framework, train imams and contribute to their integration." },
+      { "title": "① Places of worship", "desc": "Build, purchase and renovate mosques and places of worship in Switzerland." },
+      { "title": "② Imams and integration", "desc": "Provide an appropriate religious framework, train imams and contribute to their integration." },
       { "title": "③ Arabic language and culture", "desc": "Support schools of Arabic language and Muslim culture in Switzerland." },
-      { "title": "④ Scholarships", "desc": "Award scholarships to students in Switzerland wherever possible." }
+      { "title": "④ Scholarships", "desc": "Provide scholarships to students in Switzerland as much as possible." }
     ],
     "objectivesCardTitle": "Our 6 official objectives",
     "objectives": [
-      "Build, buy and renovate Muslim places of worship in Switzerland.",
-      "Provide a suitable religious framework, train imams and contribute to their integration.",
+      "Build, purchase and renovate Muslim places of worship in Switzerland.",
+      "Provide an appropriate religious framework, train imams and contribute to their integration.",
       "Support schools of Arabic language and Muslim culture in Switzerland.",
-      "Award scholarships to students in Switzerland wherever possible.",
-      "Encourage charitable, educational, scientific and sociocultural activities as well as family mediation.",
-      "Support the creation and layout of Muslim burial sections in Swiss cemeteries."
+      "Provide scholarships to students in Switzerland as much as possible.",
+      "Encourage charitable, educational, scientific, sociocultural and family mediation activities.",
+      "Support the creation and development of Muslim burial plots in Swiss cemeteries."
     ],
-    "foundedYear": "Year founded",
+    "foundedYear": "Year of foundation",
     "endowment": "Endowment capital",
     "govLabel": "Governance",
-    "govTitle": "Our internal organisation",
+    "govTitle": "Our internal organization",
     "governance": [
-      { "title": "Foundation Board", "desc": "The supreme body, responsible for strategy, oversight and compliance with the statutes. It is made up of independent members elected in accordance with Art. 80 CC. It meets at least once a year." },
-      { "title": "Executive Committee", "desc": "Handles day to day operational management: project monitoring, partner relations, financial management and communication. It reports to the Foundation Board with a detailed annual activity report." },
-      { "title": "Auditors", "desc": "In accordance with Swiss law, independent auditors examine the accounts every year and make sure that legal and statutory obligations are met." },
-      { "title": "Sharia Committee", "desc": "A committee of qualified scholars confirms that every project complies with Islamic principles. All funds are managed according to Islamic finance, without interest, in complete transparency." }
+      { "title": "Foundation Council", "desc": "Supreme body responsible for strategy, oversight and compliance with statutes. Composed of independent members elected in accordance with art. 80 CC. It meets at least once a year." },
+      { "title": "Management Committee", "desc": "Ensures daily operational management: project monitoring, partner relations, financial management and communications. Reports to the Foundation Council with a detailed annual activity report." },
+      { "title": "Audit body", "desc": "In accordance with Swiss legislation, an independent audit body annually verifies the accounts and ensures compliance with legal and statutory obligations." },
+      { "title": "Sharia Committee", "desc": "A committee of qualified scholars validates the compliance of each project with Islamic principles. All funds are managed according to Islamic finance, without interest, in complete transparency." }
     ],
     "legalLabel": "Legal",
-    "legalTitle": "Legal notice and status",
+    "legalTitle": "Legal information and status",
     "legalBoxTitle": "Official identification of the Foundation",
     "legal": {
-      "name": { "label": "Official name", "value": "Fondation WAKEF SUISSE" },
+      "name": { "label": "Official name", "value": "WAKEF SWITZERLAND Foundation" },
       "ide": { "label": "Identification number", "value": "CHE-114.901.246" },
-      "form": { "label": "Legal form", "value": "Foundation under Swiss private law" },
-      "basis": { "label": "Legal basis", "value": "Art. 80 ss of the Swiss Civil Code (CC)" },
+      "form": { "label": "Legal form", "value": "Swiss private foundation" },
+      "basis": { "label": "Legal basis", "value": "Art. 80 et seq. Swiss Civil Code (CC)" },
       "head": { "label": "Head office", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
       "office": { "label": "Contact office", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
-      "year": { "label": "Year founded", "value": "2009" },
+      "year": { "label": "Year of foundation", "value": "2009" },
       "capital": { "label": "Endowment capital", "value": "CHF 50,000" },
-      "recognition": { "label": "Legal status", "value": "Foundation under Swiss law, entered in the Commercial Register" },
-      "supervision": { "label": "Supervision", "value": "Federal Supervisory Authority for Foundations" },
+      "recognition": { "label": "Legal status", "value": "Swiss foundation, registered in the commercial register" },
+      "supervision": { "label": "Supervision", "value": "Federal foundation supervision authority" },
       "email": { "label": "Email" },
       "phone": { "label": "Phone" }
     },
     "ctaTitle": "Support the Foundation",
     "ctaBody": "Your donation contributes to a lasting legacy for the Muslim community in Switzerland.",
     "ctaDonate": "Donate →",
-    "ctaStatutes": "Read the statutes"
+    "ctaStatutes": "View statutes"
   },
   "donation": {
     "hero": {
       "label": "Support the Foundation",
       "title": "Make a Donation",
-      "sub": "Your generosity builds mosques, funds scholarships and creates spaces for future generations. Every franc counts."
+      "sub": "Your generosity builds mosques, finances scholarships and creates spaces for future generations. Every franc counts."
     },
-    "breadcrumb": "Donate",
+    "breadcrumb": "Make a donation",
     "impactTitle": "The impact of your donation",
     "impact": [
-      "Funds a day of Arabic language school for a child",
-      "Contributes to a pupil's school supplies for a year",
-      "Funds a day of works in an Islamic centre",
-      "Helps with the purchase of furnishings for worship in a mosque",
-      "Makes a significant contribution to a Muslim burial section"
+      "Finances one day of Arabic language school for a child",
+      "Contributes to school supplies for one student for a year",
+      "Finances one day of work in an Islamic centre",
+      "Helps acquire liturgical furniture for a mosque",
+      "Significantly contributes to a Muslim burial plot"
     ],
     "guaranteesTitle": "Our guarantees",
     "guarantees": [
-      "Sharia compliance: no interest",
-      "Annual report on the use of the funds",
-      "Registered foundation under Swiss law (CHE-114.901.246)"
+      "Sharia compliance: interest-free",
+      "Annual report on fund usage",
+      "Swiss registered foundation (CHE-114.901.246)"
     ],
-    "questions": "Questions? Contact us"
+    "questions": "Questions? Contact us",
+    "intro": "Choose the method that suits you. In both cases, you set the amount freely.",
+    "twint": {
+      "title": "With TWINT",
+      "qrAlt": "TWINT QR code of Wakef Switzerland Foundation",
+      "scan": "Scan this code with the TWINT app.",
+      "redirect": "You will be redirected to the TWINT app.",
+      "button": "Donate with TWINT"
+    },
+    "transfer": {
+      "title": "With your bank app",
+      "qrAlt": "QR invoice of Wakef Switzerland Foundation, to scan with your bank app",
+      "scan": "Scan this code with your bank app, not with TWINT.",
+      "beneficiary": { "label": "Beneficiary", "value": "WAKEF SWITZERLAND Foundation" },
+      "iban": { "label": "IBAN", "value": "CH84 0900 0000 1076 1819 4" },
+      "bank": { "label": "Bank", "value": "PostFinance AG" },
+      "address": { "label": "Address", "value": "Avenue de la Confrérie 11, 1008 Prilly" },
+      "copy": "Copy IBAN",
+      "copied": "IBAN copied",
+      "free": "100% of your donation reaches the foundation, with no transaction fees."
+    },
+    "regular": {
+      "title": "Regular donation",
+      "body": "You can also set up a monthly standing order from your e-banking, using the same IBAN. This is the most effective way to support our projects in the long term."
+    }
   },
   "zakat": {
     "hero": {
       "label": "Pillar of Islam",
       "title": "Zakat Calculator",
-      "sub": "Work out your annual Zakat obligation according to the rules of Sharia. Current Nisab: CHF/€ 4,600 (≈ 85g of gold)."
+      "sub": "Calculate your annual Zakat obligation according to Sharia rules. Current Nisab: CHF/€ 4,600 (≈ 85g of gold)."
     },
     "breadcrumb": "Zakat",
     "toolLabel": "Islamic tool",
     "toolTitle": "Zakat Calculator",
-    "toolBody": "Enter the value of your assets in Swiss francs or in euros. Zakat is due if your net wealth has exceeded the Nisab for a full lunar year (Hawl).",
+    "toolBody": "Enter the value of your assets in CHF or euros. Zakat is due if your net wealth exceeds the Nisab for one complete lunar year (Hawl).",
     "formTitle": "Your assets",
     "fields": {
-      "or": { "label": "Gold held", "hint": "(value in CHF/€)" },
-      "argent": { "label": "Silver held", "hint": "(value in CHF/€)" },
+      "or": { "label": "Gold owned", "hint": "(value in CHF/€)" },
+      "argent": { "label": "Silver owned", "hint": "(value in CHF/€)" },
       "liquid": { "label": "Liquid assets", "hint": "(bank accounts, cash)" },
-      "invest": { "label": "Investments", "hint": "(shares, savings)" },
-      "dettes": { "label": "Short term debts", "hint": "(to be deducted)" }
+      "invest": { "label": "Investments", "hint": "(stocks, savings)" },
+      "dettes": { "label": "Short-term debts", "hint": "(to deduct)" }
     },
     "calcBtn": "Calculate my Zakat →",
     "estimated": "Your estimated Zakat",
@@ -442,96 +519,96 @@
     "debtsDeducted": "Debts deducted",
     "taxable": "Taxable base",
     "rate": "Zakat rate",
-    "belowNisab": "ℹ️ Your net wealth is below the Nisab (CHF {{nisab}}). You do not owe Zakat al-Māl this year.",
-    "nisabInfo": "ℹ️ The Nisab is set at the value of 85g of gold (~CHF 4,600). Zakat is due if your net wealth has exceeded this threshold for a full lunar year (Hawl).",
+    "belowNisab": "ℹ️ Your net wealth is below the Nisab (CHF {{nisab}}). You are not obliged to pay Zakat al-Māl this year.",
+    "nisabInfo": "ℹ️ The Nisab is set at the value of 85g of gold (~CHF 4,600). Zakat is due if your net wealth exceeds this threshold for one complete lunar year (Hawl).",
     "rateNoteBefore": "Rate applied: ",
     "rateNoteAfter": " of taxable net wealth.",
     "estimateNote": "This calculation is an indicative estimate.",
     "donateZakat": "Give my Zakat now →",
-    "explainLabel": "Understanding",
+    "explainLabel": "Understand",
     "explainTitle": "Nisab, Hawl and Zakat",
     "explain": [
-      { "title": "The Nisab النصاب", "desc": "The Nisab is the minimum threshold of wealth. It is set at the value of 85g of gold (or 595g of silver, depending on the school of law). In 2025 this corresponds to about <strong>CHF 4,600</strong>. The amount is revised in line with the price of gold." },
-      { "title": "The Hawl الحول", "desc": "The Hawl is the condition of duration: your wealth must remain above the Nisab for a full lunar year (about 354 days) for Zakat to become obligatory." },
-      { "title": "The rate of 2.5%", "desc": "The rate of Zakat on monetary wealth (Zakat al-Māl) is <strong>2.5%</strong> of taxable net wealth, that is the total of your assets less your short term debts." },
-      { "title": "What is subject to Zakat", "desc": "Subject to Zakat: physical gold and silver, cash, bank accounts, shares (market value), savings and halal investments. Not subject to Zakat: your main residence, your personal vehicle and goods for personal use." }
+      { "title": "The Nisab النصاب", "desc": "The Nisab is the minimum wealth threshold. It is set at the value of 85g of gold (or 595g of silver according to schools). In 2025, this amounts to approximately <strong>CHF 4,600</strong>. This amount is revaluated according to the gold price." },
+      { "title": "The Hawl الحول", "desc": "The Hawl is the duration condition: your wealth must exceed the Nisab for one complete lunar year (approximately 354 days) for Zakat to be mandatory." },
+      { "title": "The 2.5% rate", "desc": "The Zakat rate on monetary wealth (Zakat al-Māl) is <strong>2.5%</strong> of taxable net wealth, the total of your assets minus your short-term debts." },
+      { "title": "What is zakatable", "desc": "Zakatable: physical gold and silver, cash, bank accounts, stocks (market value), savings and Halal investments. Not zakatable: primary residence, personal vehicle, personal goods." }
     ],
     "faqLabel": "Frequently asked questions",
     "faqTitle": "Zakat FAQ",
     "faq": [
-      { "q": "Can I pay my Zakat in several instalments?", "a": "Yes, Zakat may be paid in several instalments over the course of the lunar year, as long as the full amount is settled before the anniversary date (Hawl). It is nevertheless better to pay it in one go, so that no deadline is forgotten." },
-      { "q": "How do I calculate Zakat on a salary?", "a": "For employees, Zakat is calculated on the net savings built up over the year, not on the gross salary. Work out the savings you still hold (income less necessary spending) at the end of a lunar year. If those savings exceed the Nisab, you owe 2.5% on them." },
-      { "q": "My calculator says “Below the Nisab”: am I exempt?", "a": "If your net wealth is below the Nisab (~CHF 4,600), you do not owe Zakat al-Māl. You may still give a voluntary Sadaqah at any time." },
-      { "q": "Complex situations: entrepreneurs, property, crypto…", "a": "For entrepreneurs, property held for resale, cryptocurrencies or complex financial situations, we recommend consulting a qualified Islamic scholar or our Sharia Committee. Write to us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>." }
+      { "q": "Can I pay my Zakat in installments?", "a": "Yes, Zakat can be paid in installments throughout the lunar year, provided the total is paid by the anniversary date (Hawl). However, it is preferable to pay it all at once to avoid missing a deadline." },
+      { "q": "Zakat on salaries, how to calculate it?", "a": "For employees, Zakat is calculated on net savings accumulated over a year, not gross salary. Calculate your remaining savings (income minus necessary expenses) after one lunar year. If these savings exceed the Nisab, you owe 2.5% of it." },
+      { "q": "My calculator shows \"Below Nisab\", am I exempt?", "a": "If your net wealth is below the Nisab (~CHF 4,600), you are not obliged to pay Zakat al-Māl. You can still make a voluntary Sadaqah at any time." },
+      { "q": "Complex situations: entrepreneur, real estate, crypto…", "a": "For entrepreneurs, owners of commercial real estate, investors or complex wealth situations, we recommend consulting a qualified Islamic scholar or our Sharia Committee. Contact us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>." }
     ],
     "noteTitle": "For complex situations",
-    "noteBody": "Our calculator covers standard cases. For entrepreneurs, owners of commercial property, investors or unusual financial situations, our Sharia Committee can guide you.",
+    "noteBody": "Our calculator covers standard cases. For entrepreneurs, commercial property owners, investors or atypical wealth situations, our Sharia Committee can guide you.",
     "noteBtn": "Contact our Sharia Committee →"
   },
   "faq": {
     "hero": {
-      "label": "Fondation Wakef Suisse",
-      "title": "Frequently asked questions",
-      "sub": "All the answers about the Foundation, donations, Zakat and our projects. A question still unanswered? Write to us."
+      "label": "Wakef Switzerland Foundation",
+      "title": "Frequently Asked Questions",
+      "sub": "All the answers about the Foundation, donations, Zakat and our projects. No answer to your question? Write to us."
     },
     "breadcrumb": "FAQ",
     "groups": [
       {
         "cat": "Foundation",
         "items": [
-          { "q": "What is the Fondation Wakef Suisse?", "a": "The Fondation Wakef Suisse is a foundation under Swiss private law (Art. 80 CC), registered under CHE-114.901.246 and founded in 2009. It funds Islamic infrastructure projects in Switzerland: mosques, Islamic centres, scholarships and Muslim burial sections in cemeteries." },
-          { "q": "Who oversees the Foundation?", "a": "The Foundation is supervised by the Federal Supervisory Authority for Foundations. It has independent auditors who examine the accounts every year, and a Sharia Committee that confirms the Islamic compliance of every project." },
-          { "q": "How large is the endowment capital?", "a": "The initial endowment capital is CHF 50,000, in accordance with the statutes registered in 2009. All the funds collected are added to this capital and are used exclusively for the projects of the Foundation." }
+          { "q": "What is Wakef Switzerland Foundation?", "a": "Wakef Switzerland Foundation is a Swiss private foundation (art. 80 CC), registered under CHE-114.901.246, founded in 2009. It finances Islamic infrastructure projects in Switzerland: mosques, Islamic centres, scholarships and Muslim burial plots in cemeteries." },
+          { "q": "Who oversees the Foundation?", "a": "The Foundation is supervised by the Federal foundation supervision authority. It has an independent audit body that annually verifies the accounts and a Sharia Committee that validates the Islamic compliance of each project." },
+          { "q": "What is the endowment capital?", "a": "The initial endowment capital is CHF 50,000, in accordance with the statutes registered in 2009. All funds collected are added to this capital and used exclusively for the Foundation's projects." }
         ]
       },
       {
         "cat": "Donations",
         "items": [
-          { "q": "How do I make a donation?", "a": "You can donate through our online form on the “Donate” page, by bank transfer (details available on request at info@wakf.ch), or by post to our contact office in Biel/Bienne." },
-          { "q": "Can I make a recurring (monthly) donation?", "a": "Yes. You can choose a monthly donation by saying so on the form. Our team will then contact you to set up the standing order." },
-          { "q": "Is the Foundation transparent in the way it is run?", "a": "Yes. The Fondation Wakef Suisse is subject to Swiss civil law (Art. 80 CC) and supervised by the cantonal supervisory authority for foundations of the canton of Vaud. The accounts are examined every year by independent auditors and the financial reports are available on request at info@wakf.ch." }
+          { "q": "How can I donate?", "a": "You can donate via our online form on the \"Make a Donation\" page, by bank transfer (coordinates available upon request at info@wakf.ch), or by mail to our contact office in Bienne." },
+          { "q": "Can I make a recurring donation (monthly)?", "a": "Yes. You can choose a monthly donation by specifying your wish in the form. Our team will contact you to set up the automatic transfer." },
+          { "q": "Is the Foundation transparent in its management?", "a": "Yes. Wakef Switzerland Foundation is subject to Swiss civil law (art. 80 CC) and supervised by the cantonal foundation supervision authority of the canton of Vaud. Accounts are audited annually by an independent audit body and financial reports are available upon request at info@wakf.ch." }
         ]
       },
       {
         "cat": "Zakat",
         "items": [
-          { "q": "Can I make a donation dedicated to a specific project?", "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), Al Badr Centre (Le Locle), An-Nour Mosque (Sion) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way." },
-          { "q": "How do I calculate my Zakat?", "a": "Use our Zakat calculator on the /zakat page. Enter your assets (gold, silver, liquid assets, investments) and your short term debts. If your net wealth has exceeded the Nisab (CHF/€ 4,600) for a lunar year, you owe 2.5% of that amount." },
-          { "q": "What is the Nisab?", "a": "The Nisab is the minimum threshold of wealth. It is set at the value of 85g of gold, about CHF 4,600 in 2025. If your net wealth is below this threshold, you do not owe Zakat al-Māl." },
-          { "q": "Is Zakat al-Fitr different?", "a": "Yes. Zakat al-Fitr is an obligatory act of charity paid at the end of Ramadan, whatever your wealth. Its amount is set each year by Islamic scholars (usually between CHF 10 and 20 per person)." }
+          { "q": "Can I make a donation dedicated to a specific project?", "a": "Yes. When you donate, you can specify which project you wish to support among our five projects: Madretsch Mosque (Bienne), Al Iman Centre (Fribourg), Al Badr Centre (Le Locle), An-Nour Mosque (Sion) and Mobile Library \"Bridges of Knowledge\". If the project is fully funded, funds will be allocated to the priority project in progress." },
+          { "q": "How do I calculate my Zakat?", "a": "Use our Zakat calculator available on the /zakat page. Enter your assets (gold, silver, liquid funds, investments) and short-term debts. If your net wealth exceeds the Nisab (CHF/€ 4,600) for one lunar year, you owe 2.5% of that amount." },
+          { "q": "What is the Nisab?", "a": "The Nisab is the minimum wealth threshold. It is set at the value of 85g of gold, approximately CHF 4,600 in 2025. If your net wealth is below this threshold, you are not obliged to pay Zakat al-Māl." },
+          { "q": "Is Zakat al-Fitr different?", "a": "Yes. Zakat al-Fitr is a mandatory charity given at the end of Ramadan, regardless of your wealth. Its amount is set each year by Islamic scholars (usually between CHF 10 and 20 per person)." }
         ]
       },
       {
         "cat": "Projects",
         "items": [
-          { "q": "What are the current projects?", "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), Al Badr Centre in Le Locle (ongoing, 2,029 m²), An-Nour Mosque in Sion (ongoing, 420 m²) and the Mobile Library “Ponts du Savoir” in Romandy. See the Projects page for full details." },
-          { "q": "How are the funds allocated?", "a": "Each donation goes to a general fund or to a specific project, according to your choice. The Foundation Board approves the allocation of the funds, and an annual report sets out the use of every franc collected." },
-          { "q": "Can I dedicate my donation to a specific project?", "a": "Yes. When you donate, you can name the project you wish to support (Madretsch Mosque, Al Iman Centre or Al Badr Centre). If that project is already funded, the money will go to the most urgent project." }
+          { "q": "What are the current projects?", "a": "Wakef Foundation finances five projects: Madretsch Mosque in Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), Al Badr Centre in Le Locle (ongoing, 2,029 m²), An-Nour Mosque in Sion (ongoing, 420 m²) and Mobile Library \"Bridges of Knowledge\" in French-speaking Switzerland. See the Projects page for full details." },
+          { "q": "How are funds allocated?", "a": "Each donation is allocated to a general fund or a specific project according to your choice. The Foundation Council validates the allocation of funds, and an annual report details the use of every franc collected." },
+          { "q": "Can I dedicate my donation to a specific project?", "a": "Yes. When you donate, you can specify which project you wish to support (Madretsch Mosque, Al Iman Centre or Al Badr Centre). If the project is already funded, funds will be allocated to the most urgent project." }
         ]
       }
     ],
-    "ctaTitle": "Have you not found your answer?",
-    "ctaBody": "Our team replies within 48 working hours.",
+    "ctaTitle": "Haven't found your answer?",
+    "ctaBody": "Our team responds within 48 business hours.",
     "ctaContact": "Contact us →"
   },
   "contact": {
     "hero": {
-      "label": "Fondation Wakef Suisse",
-      "title": "Contact us",
-      "sub": "Our team replies within 48 working hours. In urgent cases, please call +41 79 379 96 46."
+      "label": "Wakef Switzerland Foundation",
+      "title": "Contact Us",
+      "sub": "Our team responds within 48 business hours. For emergencies, call +41 79 379 96 46."
     },
     "breadcrumb": "Contact",
-    "infoLabel": "Write to us",
-    "infoTitle": "Let us stay in touch",
-    "infoBody": "Whether you have questions about our projects, wish to make a donation or are looking for information on Zakat, our team is here for you.",
-    "ideLabel": "UID number:",
+    "infoLabel": "Contact us",
+    "infoTitle": "Stay in touch",
+    "infoBody": "Whether you have questions about our projects, want to donate or need information about Zakat, our team is here to help.",
+    "ideLabel": "Identification number:",
     "legalBasisLabel": "Legal basis:",
     "legalBasisValue": "Art. 80 CC · Founded in 2009",
     "supervisionLabel": "Supervision:",
-    "supervisionValue": "Federal Authority for Foundations",
+    "supervisionValue": "Federal foundation supervision authority",
     "formTitle": "Send a message",
-    "sentTitle": "Thank you, your message has reached us!",
-    "sentText": "We will reply within 48 working hours.",
+    "sentTitle": "Thank you, your message has been received!",
+    "sentText": "We will reply within 48 business hours.",
     "fullName": "Full name *",
     "emailLabel": "Email *",
     "subjectLabel": "Subject *",
@@ -546,24 +623,24 @@
     },
     "messageLabel": "Message *",
     "messagePlaceholder": "Your message…",
-    "send": "Send the message →",
+    "send": "Send message →",
     "privacy": "Your data is protected and will never be shared."
   },
   "blog": {
     "hero": {
-      "label": "Fondation Wakef Suisse",
+      "label": "Wakef Switzerland Foundation",
       "title": "News",
-      "sub": "Keep up with the progress of our projects, our work on the ground and the news of the community."
+      "sub": "Stay informed about our projects' progress, our field activities and community news."
     },
     "breadcrumb": "News",
-    "loadingNews": "Loading the news…",
+    "loadingNews": "Loading news…",
     "readMore": "Read more →",
     "defaultTag": "News",
     "notFound": "Article not found.",
-    "back": "← Back to the news",
+    "back": "← Back to news",
     "support": "Support the Foundation →",
     "tags": {
-      "centre": "Place of worship",
+      "centre": "Cultural centre",
       "education": "Education",
       "report": "Report",
       "zakat": "Zakat",
@@ -572,138 +649,138 @@
     },
     "posts": {
       "inauguration-centre-cultuel": {
-        "date": "15 April 2025",
-        "title": "Opening of new premises for the centre of worship",
-        "excerpt": "Thanks to your contributions, a new centre of worship has opened in Switzerland, offering a dignified and welcoming space for the local Muslim community.",
-        "content": "<p>Thanks to the contributions of our donors, a new centre of worship has opened in Switzerland, offering a dignified and welcoming space for the local Muslim community.</p><p>This space of more than 500 m² includes a prayer hall for 300 worshippers, classrooms for the teaching of Arabic and an Islamic library. A true legacy for future generations.</p><h3>A collective project</h3><p>The project was made possible by the donations of hundreds of members of the community and by the tireless work of the Executive Committee of Fondation Wakef.</p>"
+        "date": "April 15, 2025",
+        "title": "Inauguration of new premises for the cultural centre",
+        "excerpt": "Thanks to your contributions, a new cultural centre was inaugurated in Switzerland, offering a dignified and welcoming space for the local Muslim community.",
+        "content": "<p>Thanks to the contributions of our donors, a new cultural centre was inaugurated in Switzerland, offering a dignified and welcoming space for the local Muslim community.</p><p>This space of over 500 m² includes a prayer hall for 300 worshippers, classrooms for Arabic language teaching and an Islamic library. A true legacy for future generations.</p><h3>A collective project</h3><p>This project was made possible thanks to the donations of hundreds of community members and the hard work of Wakef Foundation's Management Committee.</p>"
       },
       "bourses-2026": {
-        "date": "2 March 2025",
-        "title": "Scholarship programme 2026: applications are open",
-        "excerpt": "The Fondation Wakef Suisse is opening applications for its 2026 scholarship programme. Muslim students living in Switzerland are invited to apply before 30 June 2025."
+        "date": "March 2, 2025",
+        "title": "2026 Scholarship Program: applications now open",
+        "excerpt": "Wakef Switzerland Foundation is opening applications for its 2026 scholarship program. Muslim students living in Switzerland are invited to apply before June 30, 2025."
       },
       "rapport-annuel-2025": {
-        "date": "1 January 2025",
-        "title": "Annual report: a review of our work in 2025",
-        "excerpt": "Our annual report sets out the use of every franc collected, the projects completed in Switzerland and our objectives for 2026. Complete transparency, in keeping with our charter.",
-        "content": "<p>Our 2025 annual report sets out the use of every franc collected. We funded 3 major projects, for a total of CHF 1,350,000 invested in the Swiss Muslim community.</p><h3>Highlights of 2025</h3><ul><li>Al Badr Centre, Le Locle: 65% funded (CHF 552,500 collected)</li><li>Al Iman Centre, Fribourg: 90% funded (CHF 108,000 collected)</li><li>Madretsch Mosque, Biel/Bienne: 100% complete</li></ul><p>Thank you to all our donors for their trust and their generosity.</p>"
+        "date": "January 1, 2025",
+        "title": "Annual report: summary of 2025 activities",
+        "excerpt": "Our annual report details the use of every franc collected, the projects completed in Switzerland and our objectives for 2026. Complete transparency, in accordance with our charter.",
+        "content": "<p>Our 2025 annual report details the use of every franc collected. We funded 3 major projects for a total of CHF 1,350,000 invested in the Swiss Muslim community.</p><h3>2025 highlights</h3><ul><li>Al Badr Centre, Le Locle: 65% funded (CHF 552,500 collected)</li><li>Al Iman Centre, Fribourg: 90% funded (CHF 108,000 collected)</li><li>Madretsch Mosque, Bienne: 100% completed</li></ul><p>Thank you to all our donors for your trust and generosity.</p>"
       },
       "zakat-al-mal": {
-        "date": "10 November 2024",
-        "title": "A reminder: calculate and pay your Zakat al-Māl",
-        "excerpt": "As the end of the lunar year approaches, we remind our community how important it is to pay Zakat. Our calculator is available online, free of charge."
+        "date": "November 10, 2024",
+        "title": "Reminder: Zakat al-Māl, calculate and fulfill your obligation",
+        "excerpt": "As the end of the lunar year approaches, we remind our community of the importance of fulfilling Zakat. Our online calculator is available for free."
       },
       "partenariat-islamic-relief": {
-        "date": "5 September 2024",
-        "title": "Strengthening our network of partners",
-        "excerpt": "The Fondation Wakef Suisse is strengthening its network in order to coordinate Islamic projects in Switzerland more effectively."
+        "date": "September 5, 2024",
+        "title": "Strengthening our partner network",
+        "excerpt": "Wakef Switzerland Foundation strengthens its network to better coordinate Islamic projects in Switzerland."
       },
       "carre-musulman-berne": {
-        "date": "20 July 2024",
-        "title": "A Muslim burial section in Bern: a call for contributions",
-        "excerpt": "We are launching a campaign for the creation of a Muslim burial section in a Bern cemetery, so that the Muslim community can be buried according to Islamic rites."
+        "date": "July 20, 2024",
+        "title": "Muslim burial plot project in Berne: call for contributions",
+        "excerpt": "We are launching a campaign to create a Muslim burial plot in a Berne cemetery so that the Muslim community can be buried according to Islamic rites."
       }
     }
   },
   "statutes": {
     "hero": {
       "label": "Official documents",
-      "title": "Statutes of the Foundation",
-      "sub": "The official statutes of the Fondation Wakef Suisse, registered under CHE-114.901.246 pursuant to Art. 80 CC. Adopted on 5 June 2009, amended on 13 April 2018."
+      "title": "Foundation Statutes",
+      "sub": "The official statutes of Wakef Switzerland Foundation, registered under CHE-114.901.246 pursuant to art. 80 CC. Adopted on June 5, 2009, amended on April 13, 2018."
     },
     "breadcrumb": "Statutes",
     "aboutBreadcrumb": "About",
-    "cardTitle": "Fondation WAKEF SUISSE",
-    "cardLine1": "UID number: CHE-114.901.246",
-    "cardLine2": "Founded on 5 June 2009 · Amended on 13 April 2018",
-    "cardLine3": "Art. 80 ss Swiss Civil Code · Registered office: Prilly (VD)",
+    "cardTitle": "WAKEF SWITZERLAND Foundation",
+    "cardLine1": "Identification number: CHE-114.901.246",
+    "cardLine2": "Founded June 5, 2009 · Amended April 13, 2018",
+    "cardLine3": "Art. 80 et seq. Swiss Civil Code · Head office: Prilly (VD)",
     "signatories": "Signatories",
     "articleTitle": "Art. {{num}}: {{titre}}",
     "back": "← Back to About",
     "articles": [
-      { "titre": "Name and duration", "contenu": "Under the name “Fondation WAKEF SUISSE” (hereinafter “the Foundation”), a foundation under Swiss private law is established within the meaning of articles 80 and following of the Swiss Civil Code. The duration of the Foundation is unlimited." },
-      { "titre": "Registered office", "contenu": "The registered office of the Foundation is in Prilly, in the canton of Vaud (Switzerland)." },
-      { "titre": "Purpose", "contenu": "The purpose of the Foundation is to support and fund projects of a religious, educational, social and humanitarian nature, in keeping with the values of Islam and in compliance with Swiss law. The Foundation carries out its activities exclusively in Switzerland. It pursues in particular the following objectives: (1) to build, buy and renovate Muslim places of worship; (2) to contribute to the training of imams and to their integration into Swiss society; (3) to support schools of Arabic language and Muslim culture; (4) to award scholarships to Muslim students; (5) to encourage charitable, educational, scientific and sociocultural activities; (6) to support the creation of Muslim burial sections in Swiss cemeteries." },
-      { "titre": "Endowment capital", "contenu": "The endowment capital is set at CHF 50,000 (fifty thousand Swiss francs) in cash. The Foundation manages this capital according to the principles of liquidity, security, return and risk spreading. This capital is inalienable and is devoted exclusively to the purposes of the Foundation." },
-      { "titre": "Resources", "contenu": "The resources of the Foundation come from the endowment capital and its income, from gifts and legacies of natural or legal persons, from grants awarded by public or private bodies, and from any other income compatible with the purpose of the Foundation." },
-      { "titre": "Liability of the governing bodies", "contenu": "The members of the governing bodies of the Foundation are liable for the damage they cause intentionally or through negligence in the exercise of their functions, in accordance with the provisions of the Swiss Code of Obligations." },
-      { "titre": "Governing bodies", "contenu": "The governing bodies of the Foundation are: the Foundation Board (FB), the Executive Committee (EC), also called the Bureau, the Working Group (WG), and the Auditors." },
-      { "titre": "Foundation Board", "contenu": "The Foundation Board is made up of 7 to 10 members, all of the Muslim faith. At least three quarters of the members must be resident in Switzerland. Members are appointed by cooptation with a two thirds majority of the serving members. Members carry out their duties on a voluntary basis." },
-      { "titre": "Powers of the Foundation Board", "contenu": "The Foundation Board is the supreme body of the Foundation. It is competent to: define the strategic direction of the Foundation, grant signing authority on behalf of the Foundation, appoint and remove the members of the Executive Committee, approve the annual budget and the accounts, issue the internal regulations, and take any other decision reserved to the FB by these statutes." },
-      { "titre": "Meetings of the Foundation Board", "contenu": "The Foundation Board meets at least once a year. The agenda is sent to the members at least 30 days before the meeting. The quorum is reached when the majority of the members is present, necessarily including the President or the Vice President. Decisions are taken by a simple majority of the members present." },
-      { "titre": "Executive Committee", "contenu": "The Executive Committee (the Bureau) is made up of the President, the Vice President and the Secretary. The members of the Executive Committee are elected by the Foundation Board for a term of five years, which may be renewed." },
-      { "titre": "Duties of the Executive Committee", "contenu": "The Executive Committee carries out the decisions of the Foundation Board and represents the Foundation towards third parties by the joint signature of two of its members. It draws up the annual budget and the balance sheet of the Foundation, and manages current business." },
-      { "titre": "Meetings of the Executive Committee", "contenu": "The Executive Committee meets at least four times a year to deal with current business and to follow the progress of the projects under way." },
-      { "titre": "Objection", "contenu": "Any member of the Foundation Board may object to a decision of the Executive Committee within 30 days. The objection has suspensive effect and the contested decision is submitted to the Foundation Board." },
-      { "titre": "Auditors", "contenu": "The Auditors are external to and independent of the Foundation. They are appointed by the Foundation Board for a term of one year, which may be renewed. They examine the annual accounts and draw up a report for the Foundation Board and for the supervisory authority." },
-      { "titre": "Accounting", "contenu": "The financial year runs from 1 January to 31 December. The annual financial statements are submitted for approval to the Foundation Board within six months of the close of the financial year." },
-      { "titre": "Amendment of the statutes", "contenu": "These statutes may be amended by a decision of the Foundation Board taken with a two thirds majority of the serving members. The purpose of the Foundation is inviolable and may not be amended." },
-      { "titre": "Dissolution", "contenu": "The dissolution of the Foundation is governed by articles 88 and 89 of the Swiss Civil Code. It is ordered by the competent supervisory authority." },
-      { "titre": "Irrevocability of the assets", "contenu": "In the event of dissolution, the assets of the Foundation are transferred to one or more Swiss institutions under public law, or recognised as serving the public benefit, that pursue a similar purpose and are exempt from tax. This clause is inviolable. The founders irrevocably waive any right over the assets of the Foundation." },
-      { "titre": "Supervisory authority", "contenu": "The Foundation is subject to the supervision of the competent authority in accordance with article 84 of the Swiss Civil Code and article 96 of the Commercial Register Ordinance (CRO). The Foundation may request an exemption from supervision in accordance with article 87 CC." },
-      { "titre": "Register", "contenu": "The Foundation is entered in the Commercial Register of the canton of Vaud." }
+      { "titre": "Name and duration", "contenu": "There is hereby constituted under the name \"WAKEF SWITZERLAND Foundation\" (hereinafter \"the Foundation\") a private foundation within the meaning of articles 80 and following of the Swiss Civil Code. The duration of the Foundation is unlimited." },
+      { "titre": "Head office", "contenu": "The head office of the Foundation is in Prilly, in the canton of Vaud (Switzerland)." },
+      { "titre": "Purpose", "contenu": "The Foundation aims to support and finance projects of a religious, educational, social and humanitarian nature, in accordance with Islamic values and in compliance with Swiss law. The Foundation operates exclusively in Switzerland. It pursues in particular the following objectives: (1) Build, purchase and renovate Muslim places of worship; (2) Contribute to the training of imams and their integration into Swiss society; (3) Support schools of Arabic language and Muslim culture; (4) Provide scholarships to Muslim students; (5) Encourage charitable, educational, scientific and sociocultural activities; (6) Support the creation of Muslim burial plots in Swiss cemeteries." },
+      { "titre": "Endowment capital", "contenu": "The endowment capital is fixed at CHF 50,000 (fifty thousand Swiss francs) in cash. The Foundation manages this capital according to principles of liquidity, security, return and risk distribution. This capital is inalienable and dedicated exclusively to the Foundation's purposes." },
+      { "titre": "Resources", "contenu": "The Foundation's resources come from the endowment capital and its returns, donations and bequests from individuals or legal entities, subsidies granted by public or private organizations, and any other income compatible with the Foundation's purpose." },
+      { "titre": "Liability of governing bodies", "contenu": "Members of the Foundation's governing bodies are liable for damages they cause intentionally or negligently in the exercise of their duties, in accordance with the provisions of the Swiss Code of Obligations." },
+      { "titre": "Governing bodies", "contenu": "The Foundation's governing bodies are: the Foundation Council (FC), the Management Committee (MC), also called the Board, the Working Group (WG), and the audit body." },
+      { "titre": "Foundation Council", "contenu": "The Foundation Council is composed of 7 to 10 members, all of Muslim faith. At least three quarters of members must be domiciled in Switzerland. Members are coopted by a two-thirds majority of serving members. Members exercise their duties on a voluntary basis." },
+      { "titre": "Powers of the Foundation Council", "contenu": "The Foundation Council is the Foundation's supreme body. It is empowered to: define the Foundation's strategic direction, authorize acts of signature on behalf of the Foundation, appoint and remove members of the Management Committee, approve the annual budget and accounts, enact internal regulations, and any other decision reserved to the FC by these statutes." },
+      { "titre": "Foundation Council meetings", "contenu": "The Foundation Council meets at least once a year. The agenda is communicated to members at least 30 days before the meeting. A quorum is reached when a majority of members is present, including the President or Vice-President. Decisions are made by a simple majority of members present." },
+      { "titre": "Management Committee", "contenu": "The Management Committee (Board) is composed of the President, Vice-President and Secretary. Management Committee members are elected by the Foundation Council for a term of five years, renewable." },
+      { "titre": "Powers of the Management Committee", "contenu": "The Management Committee executes Foundation Council decisions and represents the Foundation in dealings with third parties by joint signature. It prepares the annual budget and Foundation balance sheet, and manages current affairs." },
+      { "titre": "Management Committee meetings", "contenu": "The Management Committee meets at least four times a year to handle current affairs and monitor ongoing projects." },
+      { "titre": "Opposition", "contenu": "Any Foundation Council member may oppose a Management Committee decision within 30 days. Opposition has a suspensory effect and the contested decision is submitted to the Foundation Council." },
+      { "titre": "Audit body", "contenu": "The audit body is external and independent of the Foundation. It is appointed by the Foundation Council for a term of one year, renewable. It verifies the annual accounts and reports to the Foundation Council and the supervision authority." },
+      { "titre": "Accounting", "contenu": "The accounting year covers the period from January 1 to December 31. Annual financial statements are submitted for approval by the Foundation Council within six months following the close of the accounting year." },
+      { "titre": "Amendment of statutes", "contenu": "These statutes may be amended by Foundation Council decision made by a two-thirds majority of serving members. The Foundation's purpose is immutable and cannot be amended." },
+      { "titre": "Dissolution", "contenu": "The dissolution of the Foundation is governed by articles 88 and 89 of the Swiss Civil Code. It is decided by the competent supervision authority." },
+      { "titre": "Inalienability of assets", "contenu": "Upon dissolution, the Foundation's assets are transferred to one or more Swiss public law institutions or recognized public-interest organizations, pursuing an analogous purpose and tax-exempt. This clause is immutable. The founders irrevocably renounce any rights over the Foundation's assets." },
+      { "titre": "Supervision authority", "contenu": "The Foundation is subject to supervision by the competent authority in accordance with articles 84 of the Swiss Civil Code and 96 of the Commercial Register Ordinance (CRO). The Foundation may request an exemption from supervision in accordance with article 87 CC." },
+      { "titre": "Register", "contenu": "The Foundation is registered in the commercial register of the canton of Vaud." }
     ]
   },
   "privacy": {
     "hero": {
       "label": "Data protection",
-      "title": "Privacy policy",
-      "sub": "Fondation Wakef Suisse · CHE-114.901.246 · Compliance with the GDPR and the Swiss FADP"
+      "title": "Privacy Policy",
+      "sub": "Wakef Switzerland Foundation · CHE-114.901.246 · GDPR and Swiss Federal Data Protection Act compliance"
     },
     "breadcrumb": "Privacy",
     "sections": [
-      { "title": "1. Data controller", "content": "The Fondation Wakef Suisse (CHE-114.901.246), Avenue de la Confrérie 11, 1008 Prilly (VD), is the controller of your personal data within the meaning of the General Data Protection Regulation (GDPR) and of the Federal Act on Data Protection (FADP)." },
-      { "title": "2. Data collected", "content": "We collect only the data we need: surname and first name, email address, telephone number (if provided), amount and type of donation, and any information you send us through the contact form." },
-      { "title": "3. Purposes of the processing", "content": "Your data is used to: process your donation and issue a tax receipt, answer your enquiries, send our newsletter (with your consent), and meet our legal obligations (tax and accounting)." },
-      { "title": "4. Legal bases", "content": "The processing is based on: your consent (newsletter), the performance of a contract (donations), our legal obligations (tax receipts, accounting), and our legitimate interest (security and improvement of the service)." },
-      { "title": "5. Retention period", "content": "Your donation data is kept for 10 years (a Swiss legal obligation). Contact data is deleted on request or after 3 years without activity. Newsletter data is deleted as soon as you unsubscribe." },
-      { "title": "6. Sharing of the data", "content": "Your data is never sold. It may be shared with: Formspree (processing of the forms), Mailchimp (newsletter), and the Swiss tax authorities (for tax receipts only)." },
-      { "title": "7. Your rights", "content": "Under the GDPR and the FADP, you have the right of access, rectification, erasure, portability and objection. To exercise these rights, write to us at info@wakf.ch." },
-      { "title": "8. Cookies", "content": "Our site uses only the technical cookies needed for it to work (no advertising cookies and no third party tracking). You can disable cookies in your browser." },
-      { "title": "9. Contact and complaints", "content": "For any question, please write to: info@wakf.ch · +41 79 379 96 46. You may also lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC)." }
+      { "title": "1. Data controller", "content": "Wakef Switzerland Foundation (CHE-114.901.246), Avenue de la Confrérie 11, 1008 Prilly (VD), is responsible for processing your personal data within the meaning of the General Data Protection Regulation (GDPR) and the Swiss Federal Data Protection Act (FADP)." },
+      { "title": "2. Data collected", "content": "We collect only necessary data: first and last name, email address, phone number (if provided), donation amount and type, and any information you provide via the contact form." },
+      { "title": "3. Processing purposes", "content": "Your data is used to: process your donation and issue a tax receipt, respond to your contact requests, send our newsletter (with your consent), and fulfill our legal obligations (tax, accounting)." },
+      { "title": "4. Legal bases", "content": "Processing is based on: your consent (newsletter), contract execution (donations), our legal obligations (tax receipts, accounting), and our legitimate interest (security and service improvement)." },
+      { "title": "5. Data retention", "content": "Your donation data is retained for 10 years (Swiss legal requirement). Contact data is deleted upon request or after 3 years of inactivity. Newsletter data is deleted upon unsubscription." },
+      { "title": "6. Data sharing", "content": "Your data is never sold. It may be shared with: Formspree (form processing), Mailchimp (newsletter), and Swiss tax authorities (tax receipts only)." },
+      { "title": "7. Your rights", "content": "In accordance with GDPR and FADP, you have the right to access, correction, deletion, portability and opposition. To exercise these rights, contact us at info@wakf.ch." },
+      { "title": "8. Cookies", "content": "Our site uses only technical cookies necessary for operation (no advertising or third-party tracking cookies). You can disable cookies in your browser." },
+      { "title": "9. Contact and complaints", "content": "For questions, contact: info@wakf.ch · +41 79 379 96 46. You may also file a complaint with the Federal Data Protection Commissioner (FDPC)." }
     ],
     "updated": "Last updated: January 2025 · Contact: "
   },
   "legalNotice": {
     "hero": {
       "label": "Legal information",
-      "title": "Legal notice",
-      "sub": "Fondation Wakef Suisse · CHE-114.901.246 · Art. 80 Swiss Civil Code"
+      "title": "Legal Notice",
+      "sub": "Wakef Switzerland Foundation · CHE-114.901.246 · Art. 80 Swiss Civil Code"
     },
     "breadcrumb": "Legal notice",
-    "idTitle": "Identification of the publisher",
+    "idTitle": "Publisher identification",
     "rows": {
-      "name": { "label": "Official name", "value": "Fondation WAKEF SUISSE" },
-      "ide": { "label": "UID number", "value": "CHE-114.901.246" },
-      "form": { "label": "Legal form", "value": "Foundation under Swiss private law (Art. 80 CC)" },
-      "year": { "label": "Founded in", "value": "2009" },
+      "name": { "label": "Official name", "value": "WAKEF SWITZERLAND Foundation" },
+      "ide": { "label": "Identification number", "value": "CHE-114.901.246" },
+      "form": { "label": "Legal form", "value": "Swiss private foundation (Art. 80 CC)" },
+      "year": { "label": "Founded", "value": "2009" },
       "capital": { "label": "Endowment capital", "value": "CHF 50,000" },
-      "recognition": { "label": "Legal status", "value": "Foundation under Swiss law, CHE-114.901.246" },
+      "recognition": { "label": "Legal status", "value": "Swiss foundation, CHE-114.901.246" },
       "head": { "label": "Head office", "value": "Avenue de la Confrérie 11, 1008 Prilly (VD)" },
       "office": { "label": "Contact office", "value": "Rue de Mardertsch 64, 2503 Bienne (BE)" },
       "email": { "label": "Email" },
       "phone": { "label": "Phone" },
-      "supervision": { "label": "Supervision", "value": "Federal Supervisory Authority for Foundations (FSA)" },
+      "supervision": { "label": "Supervision", "value": "Federal foundation supervision authority (FSA)" },
       "web": { "label": "Website" }
     },
     "hostingTitle": "Hosting",
     "hostingP1": "This site is hosted by ",
     "hostingP2": ". The WordPress version is hosted by ",
-    "hostingP3": ". Visitors' data remains subject to this legal notice and to our privacy policy.",
+    "hostingP3": ". Visitor data remains subject to these legal terms and our privacy policy.",
     "ipTitle": "Intellectual property",
-    "ipBody": "All the content of this site (texts, images, logo, design) is the exclusive property of the Fondation Wakef Suisse or is used with the necessary permissions. Any reproduction, even partial, without prior written permission is prohibited.",
+    "ipBody": "All content on this site (text, images, logo, design) is the exclusive property of Wakef Switzerland Foundation or used with necessary permissions. Any reproduction, even partial, without prior written permission is prohibited.",
     "liabilityTitle": "Limitation of liability",
-    "liabilityBody": "The Fondation Wakef Suisse endeavours to ensure the accuracy of the information published on this site. It cannot, however, guarantee that the information is complete, accurate or current. The Zakat calculations provided by our tool are indicative estimates: please consult a qualified Islamic scholar for complex situations.",
+    "liabilityBody": "Wakef Switzerland Foundation strives to ensure the accuracy of information published on this site. However, it cannot guarantee the completeness, accuracy or currency of the information. Zakat calculations provided by our tool are indicative estimates: consult a qualified Islamic scholar for complex situations.",
     "lawTitle": "Applicable law and jurisdiction",
-    "lawBody": "This site and its content are subject to Swiss law. In the event of a dispute, the competent courts are those of the canton of Vaud (Switzerland), subject to any mandatory legal provisions that apply.",
+    "lawBody": "This site and its content are subject to Swiss law. In case of dispute, the competent courts are those of the canton of Vaud (Switzerland), subject to mandatory legal provisions applicable.",
     "back": "← Back to home"
   },
   "eldelal": {
     "breadcrumb": "El Delal",
     "hero": {
-      "label": "Property project · Le Locle",
+      "label": "Real estate project · Le Locle",
       "subtitle": "Shades of Charity",
-      "mission": "Acquire a well maintained building from 1902 to give the Muslim community of Le Locle and the surrounding region a lasting home: a place for prayer, meeting and learning.",
+      "mission": "Acquire a 1902 building in excellent condition to offer the Muslim community of Le Locle and the region a sustainable home: a place of prayer, meeting and transmission.",
       "cta": "Help us build a home for our community",
       "ctaBtn": "Contribute now"
     },
@@ -716,37 +793,37 @@
       "benefits": "Benefits"
     },
     "gallery": {
-      "title": "The building in pictures",
-      "intro": "Discover the building, inside and out. Click a photo to enlarge it.",
-      "exterior": "Exterior",
-      "interior": "Interior",
+      "title": "The building in images",
+      "intro": "Discover the building, inside and out. Click on a photo to enlarge it.",
+      "exterior": "Exteriors",
+      "interior": "Interiors",
       "open": "Enlarge photo",
       "items": {
         "aerienne": "Aerial view of the building",
         "facade": "Exterior facade",
         "local": "Commercial space",
         "piece": "Bright room in an apartment",
-        "chambre": "Bedroom with parquet floor",
-        "sejour": "Living room of an apartment",
+        "chambre": "Bedroom with parquet",
+        "sejour": "Living room in an apartment",
         "sdeau": "Bathroom"
       }
     },
     "figures": {
       "title": "Key information",
-      "intro": "An income producing building in very good condition, whose purchase secures a lasting asset for the community.",
-      "goalLabel": "Amount to raise",
-      "goalValue": "CHF 550,000",
-      "priceLabel": "Value of the building",
-      "priceValue": "CHF 1,250,000",
-      "incomeLabel": "Net income per year",
-      "incomeValue": "CHF 49,380",
+      "intro": "An investment property in excellent condition, whose acquisition ensures the community a sustainable legacy.",
+      "goalLabel": "Target to raise",
+      "goalValue": "550,000 CHF",
+      "priceLabel": "Property value",
+      "priceValue": "1,250,000 CHF",
+      "incomeLabel": "Annual net revenue",
+      "incomeValue": "49,380 CHF",
       "builtLabel": "Year built",
       "builtValue": "1902",
-      "unitsTitle": "What the property includes",
+      "unitsTitle": "Property composition",
       "apartments": "apartments",
-      "shop": "commercial unit",
+      "shop": "commerce",
       "parking": "parking spaces",
-      "plots": "building plots",
+      "plots": "buildable plots",
       "beneficiariesLabel": "Beneficiaries",
       "beneficiariesValue": "The Muslim community of Le Locle and the region"
     },
@@ -759,45 +836,45 @@
       "twint": "TWINT",
       "qrAlt": "TWINT QR code dedicated to the El Delal project",
       "ibanLabel": "IBAN",
-      "note": "Your donations are assigned to this project."
+      "note": "Your donations are dedicated to this project."
     },
     "contact": {
       "title": "Contact and donations",
-      "text": "A question about the project or about another way to give? Our team will answer you.",
+      "text": "Questions about the project or another way to donate? Our team is here to help.",
       "emailLabel": "Email",
       "phoneLabel": "Phone",
-      "foundation": "Fondation Wakef Suisse",
+      "foundation": "Wakef Switzerland Foundation",
       "address": "Avenue de la Confrérie 11, 1008 Prilly",
-      "moreWays": "Other ways to give"
+      "moreWays": "Other ways to donate"
     },
     "map": {
       "title": "Location",
       "text": "The project is located in Le Locle, in the canton of Neuchâtel, Switzerland.",
-      "iframeTitle": "Map of the town of Le Locle",
+      "iframeTitle": "Map of Le Locle",
       "open": "Open in OpenStreetMap"
     },
     "benefits": {
-      "title": "Benefits of the project",
+      "title": "Project benefits",
       "items": [
         {
-          "title": "A lasting place",
-          "text": "A home for prayer, teaching and gatherings that belongs to the community."
+          "title": "A sustainable location",
+          "text": "A home for prayer, teaching and gatherings, owned by the community."
         },
         {
           "title": "A solid building",
-          "text": "A building from 1902 in very good condition, with six apartments, a commercial unit and five parking spaces."
+          "text": "A 1902 building in excellent condition, with six apartments, a commercial space and five parking spaces."
         },
         {
           "title": "Regular income",
-          "text": "Net income of CHF 49,380 per year provides a stable financial base."
+          "text": "Annual net revenue of CHF 49,380 provides a stable financial foundation."
         },
         {
-          "title": "Room to grow",
-          "text": "Two building plots make it possible to plan the next stage of the project."
+          "title": "Development potential",
+          "text": "Two buildable plots allow for future project expansion."
         },
         {
           "title": "A Sadaqa Jariya",
-          "text": "A gift whose benefit continues for the community, year after year."
+          "text": "A donation whose benefit continues for the community, year after year."
         }
       ]
     }

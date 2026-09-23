@@ -90,7 +90,7 @@
   "home": {
     "hero": {
       "badge": "Fondation Wakef Suisse",
-      "title1": "Notre empreinte au cœur de notre société :",
+      "title1": "Notre empreinte au cœur de notre société :",
       "title2": "des racines ancrées, un engagement durable",
       "sub": "Depuis 2009, la Fondation Wakef finance des mosquées, des centres islamiques et des programmes éducatifs pour la communauté musulmane de Suisse.",
       "ctaDonate": "Faire un don →",
@@ -273,6 +273,62 @@
         "vision": "Faire du Centre Al Badr un centre culturel islamique de référence pour les communautés du Locle et des régions frontalières françaises, alliant patrimoine et modernité, en un lieu unique en Suisse.",
         "captionsShort": ["Centre Al Badr", "Vue extérieure"],
         "captions": ["Centre Al Badr : vue principale", "Vue extérieure : avril 2023"]
+      },
+      "delal-el-khayr": {
+        "title": "Ombres de Charité - Le Locle",
+        "type": "Immeuble de rapport",
+        "ville": "Le Locle, NE",
+        "surface": "5 étages, 6 appartements",
+        "excerptHome": "Acquisition d'un immeuble de rapport pour le transformer en centre islamique multifonctionnel au Locle.",
+        "excerpt": "Nous levons les fonds pour acquérir et rénover un immeuble de rapport au Locle, qui deviendra un centre islamique proposant : mosquée, salles de formation, logements et espace commercial.",
+        "subtitle": "Centre islamique multifonctionnel",
+        "villeDetail": "Le Locle, Neuchâtel",
+        "surfaceDetail": "5 étages · 6 appartements · 1 local commercial · 5 places de parc · 2 parcelles constructibles",
+        "typeDetail": "Immeuble de rapport, construit en 1902",
+        "status": "Levée de fonds en cours",
+        "intro": "La Fondation Wakef Suisse travaille à acquérir un immeuble de rapport au Locle, afin de transformer un bâtiment existant en centre islamique complet : mosquée, salles d'enseignement, espaces résidentiels, local commercial et terrain à développer.",
+        "objectifs": [
+          "Acquérir l'immeuble : CHF 1'250'000, dont CHF 550'000 à lever",
+          "Rénover et aménager le bâtiment pour des usages multiples",
+          "Créer une mosquée et un espace de prière",
+          "Aménager des salles de formation et d'enseignement",
+          "Offrir des logements pour le gardien et les bénévoles",
+          "Conserver un local commercial générant CHF 49'380 de revenus nets annuels",
+          "Valoriser deux parcelles constructibles pour une expansion future"
+        ],
+        "fiche": [
+          { "label": "Localisation", "value": "Le Locle, canton de Neuchâtel" },
+          { "label": "Prix d'achat", "value": "CHF 1'250'000" },
+          { "label": "Montant à lever", "value": "CHF 550'000" },
+          { "label": "Revenus nets annuels", "value": "CHF 49'380" },
+          { "label": "Construction", "value": "1902, très bon état" },
+          { "label": "Étages", "value": "5" },
+          { "label": "Composition", "value": "6 appartements + 1 local commercial" },
+          { "label": "Places de parc", "value": "5" },
+          { "label": "Parcelles constructibles", "value": "2" },
+          { "label": "Statut", "value": "Levée de fonds en cours" }
+        ],
+        "description": "Le Locle a besoin d'un centre islamique entièrement fonctionnel. Cette acquisition offre une solution unique : un immeuble de rapport qui finance en partie son propre développement grâce aux loyers.",
+        "avancement": "Phase de collecte de fonds. Acquisition prévue en 2026-2027.",
+        "vision": "Un centre islamique accueillant, réunissant mosquée, enseignement, logements et commerce, qui génère des revenus stables pour la Fondation au cœur de la communauté du Locle.",
+        "captionsShort": [
+          "Vue aérienne du bâtiment",
+          "Façade principale, 1902",
+          "Local commercial",
+          "Pièce à aménager",
+          "Chambre résidentielle",
+          "Séjour lumineux",
+          "Salle d'eau"
+        ],
+        "captions": [
+          "Vue aérienne du bâtiment, Le Locle (NE)",
+          "Façade principale de l'immeuble construit en 1902",
+          "Local commercial au rez-de-chaussée : source de revenus",
+          "Pièce à aménager selon les besoins du projet",
+          "Chambre résidentielle pour bénévoles ou gardien",
+          "Séjour lumineux, aménageable en espace multifonctionnel",
+          "Salle d'eau en bon état, à rénover selon les besoins"
+        ]
       },
       "annour": {
         "title": "Mosquée An-Nour",
@@ -759,11 +815,11 @@
       "title": "Informations clés",
       "intro": "Un immeuble de rendement en très bon état, dont l'acquisition assure à la communauté un patrimoine durable.",
       "goalLabel": "Objectif à réunir",
-      "goalValue": "550 000 CHF",
+      "goalValue": "550 000 CHF",
       "priceLabel": "Valeur de l'immeuble",
-      "priceValue": "1 250 000 CHF",
+      "priceValue": "1 250 000 CHF",
       "incomeLabel": "Revenus nets par an",
-      "incomeValue": "49 380 CHF",
+      "incomeValue": "49 380 CHF",
       "builtLabel": "Année de construction",
       "builtValue": "1902",
       "unitsTitle": "Composition du bien",
@@ -813,7 +869,7 @@
         },
         {
           "title": "Des revenus réguliers",
-          "text": "Les revenus nets de 49 380 CHF par an apportent une base financière stable."
+          "text": "Les revenus nets de 49 380 CHF par an apportent une base financière stable."
         },
         {
           "title": "Un potentiel de développement",
