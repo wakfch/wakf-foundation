@@ -2,7 +2,8 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRtl = i18n.dir() === 'rtl';
   const [idx, setIdx] = useState(initialIndex);
   const touchStartX = useRef(null);
   const total = images.length;
@@ -17,8 +18,9 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
   useEffect(() => {
     const onKey = (e) => {
       if (e.key === 'Escape') onClose();
-      if (e.key === 'ArrowLeft') prev();
-      if (e.key === 'ArrowRight') next();
+      // Le clavier suit la position des flèches à l'écran : en arabe, la suivante est à gauche
+      if (e.key === 'ArrowLeft') (isRtl ? next : prev)();
+      if (e.key === 'ArrowRight') (isRtl ? prev : next)();
     };
     window.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
@@ -26,13 +28,15 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
       window.removeEventListener('keydown', onKey);
       document.body.style.overflow = '';
     };
-  }, [onClose, prev, next]);
+  }, [onClose, prev, next, isRtl]);
 
   const onTouchStart = (e) => { touchStartX.current = e.touches[0].clientX; };
   const onTouchEnd = (e) => {
     if (touchStartX.current === null) return;
     const diff = touchStartX.current - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 40) diff > 0 ? next() : prev();
+    // Glisser vers la gauche avance, sauf en arabe où le sens est inversé (la suivante est à gauche)
+    const forward = isRtl ? diff < 0 : diff > 0;
+    if (Math.abs(diff) > 40) forward ? next() : prev();
     touchStartX.current = null;
   };
 
@@ -59,6 +63,12 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
         .lb-btn:hover { background: rgba(255,255,255,.25); }
         .lb-btn.lb-prev { left: 20px; }
         .lb-btn.lb-next { right: 20px; }
+        /* Arabe (dir="rtl") : la flèche précédente passe à droite, la suivante à gauche, et les chevrons sont retournés.
+           direction: ltr empêche le navigateur de retourner lui-même ‹ et › (caractères « miroir »), sinon le retournement s'annulerait. */
+        .lb-btn { direction: ltr; }
+        html[dir="rtl"] .lb-btn { transform: translateY(-50%) scaleX(-1); }
+        html[dir="rtl"] .lb-btn.lb-prev { left: auto; right: 20px; }
+        html[dir="rtl"] .lb-btn.lb-next { right: auto; left: 20px; }
         .lb-close { position: absolute; top: 16px; right: 16px; z-index: 10000; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,.12); color: #fff; border: 1.5px solid rgba(255,255,255,.25); font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background .2s; backdrop-filter: blur(4px); }
         .lb-close:hover { background: rgba(255,255,255,.3); }
         .lb-dots { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 8px; z-index: 10000; }
