@@ -487,14 +487,14 @@
         "type": "Cultural centre",
         "ville": "Le Locle, Neuchâtel",
         "surface": "Building of 5 storeys",
-        "excerptHome": "Raising the funds for an income producing building in Le Locle, to create a cultural centre there.",
-        "excerpt": "We are raising the funds for an income producing building in Le Locle, to create a cultural centre dedicated to knowledge, encounter and transmission.",
+        "excerptHome": "Raising the funds for a rental building in Le Locle, to create a cultural centre there.",
+        "excerpt": "We are raising the funds for a rental building in Le Locle, to create a cultural centre dedicated to knowledge, encounter and transmission.",
         "subtitle": "A cultural centre in Le Locle, dedicated to knowledge, encounter and transmission",
         "villeDetail": "Le Locle, canton of Neuchâtel",
         "surfaceDetail": "5 storeys · 6 apartments · 1 commercial unit · 5 parking spaces · 2 buildable plots",
         "typeDetail": "Investment property, Built 1902",
         "status": "Fundraising in progress",
-        "intro": "The Dilal Al Khair project was born from a simple idea: to offer Le Locle a lasting place devoted to culture, knowledge and encounter. By raising the funds for an income producing building, Fondation Wakef wants to give this initiative a stable foundation, without depending on rented premises, and to remain transparent at every step.",
+        "intro": "The Dilal Al Khair project was born from a simple idea: to offer Le Locle a lasting place devoted to culture, knowledge and encounter. By raising the funds for a rental building, Fondation Wakef wants to give this initiative a stable foundation, without depending on rented premises, and to remain transparent at every step.",
         "objectifs": [
           "Raise the funds for the building: CHF 1'250'000, of which CHF 550'000 remain to be raised",
           "Arrange the centre's spaces for a variety of uses",
@@ -1182,109 +1182,5 @@
     "lawTitle": "Applicable law and jurisdiction",
     "lawBody": "This site and its content are subject to Swiss law. In the event of a dispute, the competent courts are those of the canton of Vaud (Switzerland), subject to any mandatory legal provisions that apply.",
     "back": "← Back to home"
-  },
-  "eldelal": {
-    "breadcrumb": "El Delal",
-    "hero": {
-      "label": "Property project · Le Locle",
-      "subtitle": "Shades of Charity",
-      "mission": "Acquire a well maintained building from 1902 to give the Muslim community of Le Locle and the surrounding region a lasting home: a place for prayer, meeting and learning.",
-      "cta": "Help us build a home for our community",
-      "ctaBtn": "Contribute now"
-    },
-    "nav": {
-      "gallery": "Photos",
-      "figures": "Key figures",
-      "contribute": "Contribute",
-      "contact": "Contact",
-      "map": "Location",
-      "benefits": "Benefits"
-    },
-    "gallery": {
-      "title": "The building in pictures",
-      "intro": "Discover the building, inside and out. Click a photo to enlarge it.",
-      "exterior": "Exterior",
-      "interior": "Interior",
-      "open": "Enlarge photo",
-      "items": {
-        "aerienne": "Aerial view of the building",
-        "facade": "Exterior facade",
-        "local": "Commercial space",
-        "piece": "Bright room in an apartment",
-        "chambre": "Bedroom with parquet floor",
-        "sejour": "Living room of an apartment",
-        "sdeau": "Bathroom"
-      }
-    },
-    "figures": {
-      "title": "Key information",
-      "intro": "An income producing building in very good condition, whose purchase secures a lasting asset for the community.",
-      "goalLabel": "Amount to raise",
-      "goalValue": "CHF 550,000",
-      "priceLabel": "Value of the building",
-      "priceValue": "CHF 1,250,000",
-      "incomeLabel": "Net income per year",
-      "incomeValue": "CHF 49,380",
-      "builtLabel": "Year built",
-      "builtValue": "1902",
-      "unitsTitle": "What the property includes",
-      "apartments": "apartments",
-      "shop": "commercial unit",
-      "parking": "parking spaces",
-      "plots": "building plots",
-      "beneficiariesLabel": "Beneficiaries",
-      "beneficiariesValue": "The Muslim community of Le Locle and the region"
-    },
-    "contribute": {
-      "title": "Contribute",
-      "lead": "Help us build a home for our community",
-      "cotizupText": "Support our project online: secure and transparent process",
-      "cotizupBtn": "Donate via Cotizup",
-      "qrText": "Or scan the QR code to donate directly via TWINT",
-      "twint": "TWINT",
-      "qrAlt": "TWINT QR code dedicated to the El Delal project",
-      "ibanLabel": "IBAN",
-      "note": "Your donations are assigned to this project."
-    },
-    "contact": {
-      "title": "Contact and donations",
-      "text": "A question about the project or about another way to give? Our team will answer you.",
-      "emailLabel": "Email",
-      "phoneLabel": "Phone",
-      "foundation": "Fondation Wakef Suisse",
-      "address": "Avenue de la Confrérie 11, 1008 Prilly",
-      "moreWays": "Other ways to give"
-    },
-    "map": {
-      "title": "Location",
-      "text": "The project is located in Le Locle, in the canton of Neuchâtel, Switzerland.",
-      "iframeTitle": "Map of the town of Le Locle",
-      "open": "Open in OpenStreetMap"
-    },
-    "benefits": {
-      "title": "Benefits of the project",
-      "items": [
-        {
-          "title": "A lasting place",
-          "text": "A home for prayer, teaching and gatherings that belongs to the community."
-        },
-        {
-          "title": "A solid building",
-          "text": "A building from 1902 in very good condition, with six apartments, a commercial unit and five parking spaces."
-        },
-        {
-          "title": "Regular income",
-          "text": "Net income of CHF 49,380 per year provides a stable financial base."
-        },
-        {
-          "title": "Room to grow",
-          "text": "Two building plots make it possible to plan the next stage of the project."
-        },
-        {
-          "title": "A Sadaqa Jariya",
-          "text": "A gift whose benefit continues for the community, year after year."
-        }
-      ]
-    }
   }
 }
