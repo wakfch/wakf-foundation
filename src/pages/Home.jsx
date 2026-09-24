@@ -7,7 +7,7 @@ import { PROJECTS } from '../data/projects';
 const STATS = [
   { num: 5, suffix: '', key: 'projects', gold: false },
   { num: 800, suffix: '+', key: 'beneficiaries', gold: true },
-  { num: 50, suffix: 'k', key: 'capital', gold: false },
+  { num: 38, suffix: 'k', key: 'capital', gold: false },
   { num: 2657, suffix: ' m²', key: 'surface', gold: false },
 ];
 

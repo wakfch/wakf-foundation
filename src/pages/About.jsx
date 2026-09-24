@@ -83,7 +83,7 @@ export default function About() {
                     <div style={{ fontSize: 12, color: 'rgba(255,255,255,.65)' }}>{t('about.foundedYear')}</div>
                   </div>
                   <div>
-                    <div style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 800, color: 'var(--gold)' }}>CHF 50k</div>
+                    <div style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 800, color: 'var(--gold)' }}>CHF 38k</div>
                     <div style={{ fontSize: 12, color: 'rgba(255,255,255,.65)' }}>{t('about.endowment')}</div>
                   </div>
                 </div>
