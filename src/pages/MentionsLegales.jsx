@@ -40,7 +40,7 @@ export default function MentionsLegales() {
                       : key === 'phone'
                         ? <a href="tel:+41793799646" style={{ color: 'var(--green)' }}>+41 79 379 96 46</a>
                         : key === 'web'
-                          ? <a href="https://www.wakef.ch" style={{ color: 'var(--green)' }}>www.wakef.ch</a>
+                          ? <a href="https://wakf.ch" style={{ color: 'var(--green)' }}>wakf.ch</a>
                           : t(`legalNotice.rows.${key}.value`);
                     return (
                       <div key={key}>
