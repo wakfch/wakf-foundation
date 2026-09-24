@@ -2,7 +2,8 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function ImageCarousel({ images, title = '', height = 280, showNav = true, autoplay = false, onImageClick, imageCursor = 'zoom-in' }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRtl = i18n.dir() === 'rtl';
   const [idx, setIdx] = useState(0);
   const [animating, setAnimating] = useState(false);
   const touchStartX = useRef(null);
@@ -29,7 +30,9 @@ export default function ImageCarousel({ images, title = '', height = 280, showNa
   const onTouchEnd = (e) => {
     if (touchStartX.current === null) return;
     const diff = touchStartX.current - e.changedTouches[0].clientX;
-    if (Math.abs(diff) > 40) diff > 0 ? next() : prev();
+    // Glisser vers la gauche avance, sauf en arabe où le sens est inversé (la suivante est à gauche)
+    const forward = isRtl ? diff < 0 : diff > 0;
+    if (Math.abs(diff) > 40) forward ? next() : prev();
     touchStartX.current = null;
   };
 
