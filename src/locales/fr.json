@@ -484,31 +484,26 @@
       },
       "delal-el-khayr": {
         "title": "Projet Dilal Al Khair",
-        "type": "Immeuble de rapport",
+        "type": "Centre culturel",
         "ville": "Le Locle, NE",
-        "surface": "5 étages, 6 appartements",
-        "excerptHome": "Obtention d'un immeuble de rapport pour le transformer en centre islamique multifonctionnel au Locle.",
-        "excerpt": "Nous levons les fonds pour obtenir et rénover un immeuble de rapport au Locle, qui deviendra un centre islamique proposant : mosquée, salles de formation, logements et espace commercial.",
-        "subtitle": "Un bienfait qui se renouvelle, une maison qui nous rassemble",
-        "villeDetail": "Le Locle, Neuchâtel",
+        "surface": "Immeuble de 5 étages",
+        "excerptHome": "Réunir les fonds pour un immeuble de rendement au Locle et y créer un centre culturel.",
+        "excerpt": "Nous réunissons les fonds pour un immeuble de rendement au Locle, afin d'y créer un centre culturel dédié au savoir, à la rencontre et à la transmission.",
+        "subtitle": "Un centre culturel au Locle, dédié au savoir, à la rencontre et à la transmission",
+        "villeDetail": "Le Locle, canton de Neuchâtel",
         "surfaceDetail": "5 étages · 6 appartements · 1 local commercial · 5 places de parc · 2 parcelles constructibles",
         "typeDetail": "Immeuble de rapport, construit en 1902",
         "status": "Levée de fonds en cours",
-        "intro": "La Fondation Wakef Suisse œuvre à obtenir un immeuble de rapport au Locle, afin de transformer un bâtiment existant en centre islamique complet : mosquée, salles d'enseignement, espaces résidentiels, local commercial et terrain à développer.",
+        "intro": "Le projet Dilal Al Khair est né d'une idée simple : offrir au Locle un lieu durable consacré à la culture, au savoir et à la rencontre. En réunissant les fonds pour un immeuble de rendement, la Fondation Wakef veut donner à cette initiative une base stable, sans dépendre de locaux loués, et rester transparente à chaque étape.",
         "objectifs": [
-          "Réunir les fonds pour obtenir l'immeuble : CHF 1'250'000, dont CHF 550'000 à lever",
-          "Rénover et aménager le bâtiment pour des usages multiples",
-          "Créer une mosquée et un espace de prière",
-          "Aménager des salles de formation et d'enseignement",
-          "Offrir des logements pour le gardien et les bénévoles",
-          "Conserver un local commercial générant CHF 49'380 de revenus nets annuels",
-          "Valoriser deux parcelles constructibles pour une expansion future"
+          "Réunir les fonds pour l'immeuble : CHF 1'250'000, dont CHF 550'000 à lever",
+          "Aménager les espaces du centre pour des usages variés",
+          "Créer un lieu de culture, de rencontre et de transmission du savoir, avec un espace de recueillement",
+          "Proposer des salles de formation et d'enseignement",
+          "Maintenir les six appartements et le local commercial en location : leurs revenus nets, CHF 49'380 par an, financent uniquement le fonctionnement du centre culturel",
+          "Préserver le potentiel de deux parcelles constructibles pour les besoins futurs du centre"
         ],
         "fiche": [
-          {
-            "label": "Localisation",
-            "value": "Le Locle, canton de Neuchâtel"
-          },
           {
             "label": "Valeur de l'immeuble",
             "value": "CHF 1'250'000"
@@ -518,54 +513,46 @@
             "value": "CHF 550'000"
           },
           {
-            "label": "Revenus nets annuels",
-            "value": "CHF 49'380"
-          },
-          {
-            "label": "Construction",
-            "value": "1902, très bon état"
-          },
-          {
-            "label": "Étages",
-            "value": "5"
+            "label": "Revenus locatifs nets",
+            "value": "CHF 49'380 par an"
           },
           {
             "label": "Composition",
-            "value": "6 appartements + 1 local commercial"
+            "value": "6 appartements, 1 local commercial, 5 places de parc"
           },
           {
-            "label": "Places de parc",
-            "value": "5"
+            "label": "Terrain",
+            "value": "2 parcelles constructibles"
           },
           {
-            "label": "Parcelles constructibles",
-            "value": "2"
+            "label": "Construction",
+            "value": "1902, 5 étages, très bon état"
           },
           {
-            "label": "Statut",
-            "value": "Levée de fonds en cours"
+            "label": "Localisation",
+            "value": "Le Locle, Neuchâtel"
           }
         ],
-        "description": "Ensemble, obtenons ce foyer, pour qu'il devienne un waqf durable et un centre spirituel et culturel pour les musulmans du Locle et des régions voisines.",
-        "avancement": "Phase de collecte de fonds. Obtention de l'immeuble prévue en 2026-2027.",
-        "vision": "Un centre islamique accueillant, réunissant mosquée, enseignement, logements et commerce, qui génère des revenus stables pour la Fondation au cœur de la communauté du Locle.",
+        "description": "Situé au cœur du Locle, troisième ville du canton de Neuchâtel et point de passage vers la France voisine, l'immeuble date de 1902 et se trouve en très bon état. Il comprend six appartements, un local commercial et cinq places de parc, à proximité des commodités, des écoles et des transports publics. Les loyers assurent un revenu régulier, entièrement consacré au centre culturel. Deux parcelles constructibles complètent le bien et laissent la place à un développement futur, comme des places de parc supplémentaires, une extension ou une nouvelle construction. Le centre s'adresse aux familles, aux jeunes et à tous les habitants du Locle et de la région.",
+        "avancement": "Le projet est en phase de collecte. Le dossier de l'immeuble est prêt et présenté aux donateurs. Chaque contribution nous rapproche de l'objectif de CHF 550'000, et les prochaines étapes seront communiquées ici au fil de l'avancement.",
+        "vision": "À terme, Dilal Al Khair veut être un lieu où le savoir se transmet, où les cultures dialoguent et où chacun se sent accueilli, au service des habitants du Locle et de la région, aujourd'hui et pour les générations à venir. Chaque contribution est une sadaqa jariya, un bienfait qui continue de porter ses fruits, offert pour soi, pour ses parents et pour ceux que l'on aime.",
         "captionsShort": [
-          "Vue aérienne du bâtiment",
-          "Façade principale, 1902",
+          "Vue aérienne",
+          "L'immeuble",
           "Local commercial",
-          "Pièce à aménager",
-          "Chambre résidentielle",
-          "Séjour lumineux",
+          "Espace intérieur",
+          "Pièce à parquet",
+          "Pièce lumineuse",
           "Salle d'eau"
         ],
         "captions": [
-          "Vue aérienne du bâtiment, Le Locle (NE)",
-          "Façade principale de l'immeuble construit en 1902",
-          "Local commercial au rez-de-chaussée : source de revenus",
-          "Pièce à aménager selon les besoins du projet",
-          "Chambre résidentielle pour bénévoles ou gardien",
-          "Séjour lumineux, aménageable en espace multifonctionnel",
-          "Salle d'eau en bon état, à rénover selon les besoins"
+          "Vue aérienne",
+          "L'immeuble",
+          "Local commercial",
+          "Espace intérieur",
+          "Pièce à parquet",
+          "Pièce lumineuse",
+          "Salle d'eau"
         ]
       }
     }

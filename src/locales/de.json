@@ -484,31 +484,26 @@
       },
       "delal-el-khayr": {
         "title": "Projekt Dilal Al Khair",
-        "type": "Anlageimmobilie",
+        "type": "Kulturzentrum",
         "ville": "Le Locle, Neuenburg",
-        "surface": "5 Stockwerke, 6 Wohnungen",
-        "excerptHome": "Sicherung einer Anlageimmobilie zur Umwandlung in ein multifunktionales islamisches Zentrum in Le Locle",
-        "excerpt": "Wir sammeln Mittel, um eine Anlageimmobilie in Le Locle zu sichern und zu sanieren, die ein umfassendes islamisches Zentrum werden wird: Moschee, Schulungsräume, Wohneinheiten und Gewerbefläche.",
-        "subtitle": "Ein Segen, der sich erneuert, ein Zuhause, das uns vereint",
-        "villeDetail": "Le Locle, Neuenburg, Schweiz",
+        "surface": "Gebäude mit 5 Stockwerken",
+        "excerptHome": "Die Mittel für ein Renditegebäude in Le Locle zusammentragen und dort ein Kulturzentrum schaffen.",
+        "excerpt": "Wir tragen die Mittel für ein Renditegebäude in Le Locle zusammen, um dort ein Kulturzentrum zu schaffen, das dem Wissen, der Begegnung und der Weitergabe gewidmet ist.",
+        "subtitle": "Ein Kulturzentrum in Le Locle, gewidmet dem Wissen, der Begegnung und der Weitergabe",
+        "villeDetail": "Le Locle, Kanton Neuenburg",
         "surfaceDetail": "5 Stockwerke · 6 Wohnungen · 1 Gewerbefläche · 5 Parkplätze · 2 Bauplätze",
         "typeDetail": "Anlageimmobilie, erbaut 1902",
         "status": "Spendensammlung läuft",
-        "intro": "Die Fondation Wakef Suisse setzt sich dafür ein, eine Anlageimmobilie in Le Locle zu sichern und ein bestehendes Gebäude in ein umfassendes islamisches Zentrum zu verwandeln: Moschee, Schulungsräume, Wohnflächen, Gewerbefläche und entwickelbares Land.",
+        "intro": "Das Projekt Dilal Al Khair ist aus einer einfachen Idee entstanden: Le Locle einen dauerhaften Ort zu schenken, der der Kultur, dem Wissen und der Begegnung gewidmet ist. Indem sie die Mittel für ein Renditegebäude zusammenträgt, möchte die Fondation Wakef dieser Initiative eine stabile Grundlage geben, ohne von gemieteten Räumen abhängig zu sein, und in jedem Schritt transparent bleiben.",
         "objectifs": [
-          "Die Mittel für die Sicherung des Gebäudes zusammentragen: CHF 1'250'000 (CHF 550'000 zu sammeln)",
-          "Sanierung und Anpassung für mehrere Nutzungen",
-          "Schaffung einer Moschee und eines Gebetsraums",
-          "Schulungs- und Unterrichtsräume",
-          "Wohnflächen für Hausmeister und Freiwillige",
-          "Gewerbefläche mit Einkommensgenerierung: CHF 49'380 jährlicher Nettoertrag",
-          "Zwei Bauplätze für zukünftige Expansion"
+          "Die Mittel für das Gebäude zusammentragen: CHF 1'250'000, davon CHF 550'000 noch zu sammeln",
+          "Die Räume des Zentrums für vielfältige Nutzungen einrichten",
+          "Einen Ort der Kultur, der Begegnung und der Weitergabe von Wissen schaffen, mit einem Raum der Besinnung",
+          "Schulungsräume und Unterrichtsräume anbieten",
+          "Die sechs Wohnungen und die Gewerbefläche weiterhin vermieten: Ihre Nettoerträge von CHF 49'380 pro Jahr finanzieren ausschliesslich den Betrieb des Kulturzentrums",
+          "Das Potenzial von zwei Bauparzellen für die künftigen Bedürfnisse des Zentrums bewahren"
         ],
         "fiche": [
-          {
-            "label": "Standort",
-            "value": "Le Locle, Kanton Neuenburg"
-          },
           {
             "label": "Wert der Immobilie",
             "value": "CHF 1'250'000"
@@ -518,54 +513,46 @@
             "value": "CHF 550'000"
           },
           {
-            "label": "Jährlicher Nettoertrag",
-            "value": "CHF 49'380"
-          },
-          {
-            "label": "Baujahr",
-            "value": "1902, sehr guter Zustand"
-          },
-          {
-            "label": "Stockwerke",
-            "value": "5"
+            "label": "Nettomieterträge",
+            "value": "CHF 49'380 pro Jahr"
           },
           {
             "label": "Zusammensetzung",
-            "value": "6 Wohnungen + 1 Gewerbefläche"
+            "value": "6 Wohnungen, 1 Gewerbefläche, 5 Parkplätze"
           },
           {
-            "label": "Parkplätze",
-            "value": "5"
+            "label": "Grundstück",
+            "value": "2 Bauparzellen"
           },
           {
-            "label": "Bauplätze",
-            "value": "2"
+            "label": "Bau",
+            "value": "1902, 5 Stockwerke, sehr guter Zustand"
           },
           {
-            "label": "Status",
-            "value": "Spendensammlung läuft"
+            "label": "Standort",
+            "value": "Le Locle, Neuenburg"
           }
         ],
-        "description": "Gemeinsam sichern wir diesen Ort, damit er zu einem dauerhaften Waqf und einem spirituellen und kulturellen Zentrum für die Muslime in Le Locle und der Umgebung wird.",
-        "avancement": "Spendenstufe. Sicherung des Gebäudes geplant für 2026-2027.",
-        "vision": "Ein einladendes islamisches Zentrum: Moschee, Bildung, Wohneinheiten, Gewerbe, mit stabilem Einkommensstrom für die Stiftung und Service für Le Locle Gemeinde.",
+        "description": "Im Herzen von Le Locle gelegen, der drittgrössten Stadt des Kantons Neuenburg und einem Durchgangsort nach Frankreich, stammt das Gebäude aus dem Jahr 1902 und befindet sich in einem sehr guten Zustand. Es umfasst sechs Wohnungen, eine Gewerbefläche und fünf Parkplätze, in der Nähe von Einkaufsmöglichkeiten, Schulen und öffentlichem Verkehr. Die Mieten sichern ein regelmässiges Einkommen, das vollständig dem Kulturzentrum zugutekommt. Zwei Bauparzellen ergänzen die Liegenschaft und lassen Raum für eine künftige Entwicklung, etwa zusätzliche Parkplätze, eine Erweiterung oder einen Neubau. Das Zentrum richtet sich an Familien, junge Menschen und alle Einwohnerinnen und Einwohner von Le Locle und der Region.",
+        "avancement": "Das Projekt befindet sich in der Sammelphase. Die Unterlagen zum Gebäude sind bereit und werden den Spenderinnen und Spendern vorgestellt. Jeder Beitrag bringt uns dem Ziel von CHF 550'000 näher, und die nächsten Schritte werden hier im Verlauf des Projekts mitgeteilt.",
+        "vision": "Langfristig möchte Dilal Al Khair ein Ort sein, an dem Wissen weitergegeben wird, Kulturen miteinander ins Gespräch kommen und sich jeder Mensch willkommen fühlt, im Dienst der Einwohnerinnen und Einwohner von Le Locle und der Region, heute und für kommende Generationen. Jeder Beitrag ist eine Sadaqa Jariya, eine Wohltat, die weiterhin Früchte trägt, gegeben für sich selbst, für die Eltern und für die Menschen, die man liebt.",
         "captionsShort": [
-          "Luftaufnahme des Gebäudes",
-          "Hauptfassade: 1902",
-          "Verfügbare Gewerbefläche",
-          "Raum zur Anpassung",
-          "Wohnschlafzimmer",
-          "Helle Wohnfläche",
+          "Luftaufnahme",
+          "Das Gebäude",
+          "Gewerbefläche",
+          "Innenraum",
+          "Zimmer mit Parkett",
+          "Helles Zimmer",
           "Badezimmer"
         ],
         "captions": [
-          "Luftaufnahme des Le Locle Gebäudes: Neuenburg",
-          "Hauptfassade des 1902 erbauten Gebäudes",
-          "Gewerbefläche im Erdgeschoss: Ertragspotenzial",
-          "Raum zur Anpassung an Projektbedarf",
-          "Wohnschlafzimmer für Freiwillige oder Hausmeister",
-          "Helle Wohnfläche mit multifunktionaler Anpassungsfähigkeit",
-          "Badezimmer: guter Zustand, nach Bedarf zu sanieren"
+          "Luftaufnahme",
+          "Das Gebäude",
+          "Gewerbefläche",
+          "Innenraum",
+          "Zimmer mit Parkett",
+          "Helles Zimmer",
+          "Badezimmer"
         ]
       }
     }
