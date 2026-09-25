@@ -19,6 +19,14 @@ export const IMAGE_SRCS = {
     '/images/aliman/IMG-20250331-WA0013.jpg',
     '/images/aliman/IMG-20250413-WA0056.jpg',
   ],
+  annour: [
+    '/images/mosquee-annour/IMG-20250407-WA0009.jpg',
+    '/images/mosquee-annour/IMG-20250407-WA0027.jpg',
+    '/images/mosquee-annour/IMG-20250407-WA0034.jpg',
+    '/images/mosquee-annour/IMG-20250407-WA0048.jpg',
+    '/images/mosquee-annour/IMG-20260221-WA0029%20(3).jpg',
+    '/images/mosquee-annour/IMG-20260331-WA0022%20(3).jpg',
+  ],
   delal: [
     '/images/el-delal/aerienne.jpg',
     '/images/el-delal/facade.jpg',

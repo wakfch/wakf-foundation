@@ -35,7 +35,7 @@
     "madretsch": "Moschee Madretsch Biel/Bienne",
     "aliman": "Al Iman Zentrum Freiburg",
     "albadr": "Al Badr Zentrum Le Locle",
-    "annour": "Moschee An-Nour Sitten",
+    "annour": "An-Nour Zentrum Sitten",
     "bibliotheque": "Mobile Bibliothek",
     "delalElKhayr": "Projekt Dilal Al Khair",
     "zakat": "Zakat",
@@ -385,7 +385,7 @@
         ]
       },
       "annour": {
-        "title": "Moschee An-Nour",
+        "title": "An-Nour Zentrum",
         "type": "Gebetsstätte",
         "ville": "Sitten, VS",
         "surface": "420 m²",
@@ -393,7 +393,7 @@
         "subtitle": "Erste arabischsprachige Moschee des Wallis",
         "villeDetail": "Sitten, VS",
         "status": "Laufend",
-        "intro": "Die Moschee An-Nour in Sitten ist ein historisches Vorhaben: Als erste arabischsprachige Moschee des Kantons Wallis erfüllt sie die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
+        "intro": "Das An-Nour Zentrum in Sitten ist ein historisches Vorhaben: Als erste arabischsprachige Moschee des Kantons Wallis erfüllt es die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
         "objectifs": [
           "Dem Wallis seine erste würdige und geeignete arabischsprachige Moschee geben",
           "Die beiden Bauetappen abschliessen (210 m² + 210 m²)",
@@ -429,9 +429,9 @@
             "value": "Laufend"
           }
         ],
-        "description": "Das Wallis beherbergt eine bedeutende arabischsprachige muslimische Gemeinschaft, der lange ein angemessener Gebetsort fehlte. Die Moschee An-Nour, getragen vom Verein An-Nour mit Unterstützung der Fondation Wakef, schliesst diese historische Lücke. Etappe 1 mit 210 m² ist bereits in Betrieb.",
+        "description": "Das Wallis beherbergt eine bedeutende arabischsprachige muslimische Gemeinschaft, der lange ein angemessener Gebetsort fehlte. Das An-Nour Zentrum, getragen vom Verein An-Nour mit Unterstützung der Fondation Wakef, schliesst diese historische Lücke. Etappe 1 mit 210 m² ist bereits in Betrieb.",
         "avancement": "Etappe 1 (210 m²): abgeschlossen und in Betrieb. Etappe 2 (210 m²): Kaufversprechen unterzeichnet, gültig bis Ende 2026. Die Mittelbeschaffung für den Erwerb und die Bauarbeiten läuft.",
-        "vision": "Die Moschee An-Nour soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen."
+        "vision": "Das An-Nour Zentrum soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen."
       },
       "bibliotheque": {
         "title": "Mobile Bibliothek",
@@ -837,7 +837,7 @@
         "items": [
           {
             "q": "Kann ich für ein bestimmtes Projekt spenden?",
-            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches unserer fünf Projekte Sie unterstützen möchten: Moschee Madretsch (Biel/Bienne), Al Iman Zentrum (Freiburg), Al Badr Zentrum (Le Locle), Moschee An-Nour (Sitten) und Mobile Bibliothek « Ponts du Savoir ». Ist das Projekt vollständig finanziert, fliessen die Mittel in das laufende vorrangige Projekt."
+            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches unserer fünf Projekte Sie unterstützen möchten: Moschee Madretsch (Biel/Bienne), Al Iman Zentrum (Freiburg), Al Badr Zentrum (Le Locle), An-Nour Zentrum (Sitten) und Mobile Bibliothek « Ponts du Savoir ». Ist das Projekt vollständig finanziert, fliessen die Mittel in das laufende vorrangige Projekt."
           },
           {
             "q": "Wie berechne ich meine Zakat?",
@@ -858,7 +858,7 @@
         "items": [
           {
             "q": "Welches sind die aktuellen Projekte?",
-            "a": "Die Fondation Wakef finanziert fünf Projekte: Moschee Madretsch in Biel/Bienne (realisiert, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), Al Badr Zentrum in Le Locle (laufend, 2 029 m²), Moschee An-Nour in Sitten (laufend, 420 m²) und die Mobile Bibliothek « Ponts du Savoir » in der Westschweiz. Alle Einzelheiten finden Sie auf der Seite Projekte."
+            "a": "Die Fondation Wakef finanziert fünf Projekte: Moschee Madretsch in Biel/Bienne (realisiert, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), Al Badr Zentrum in Le Locle (laufend, 2 029 m²), An-Nour Zentrum in Sitten (laufend, 420 m²) und die Mobile Bibliothek « Ponts du Savoir » in der Westschweiz. Alle Einzelheiten finden Sie auf der Seite Projekte."
           },
           {
             "q": "Wie werden die Mittel zugeteilt?",

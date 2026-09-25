@@ -43,6 +43,7 @@ export const PROJECTS = [
     legacySlugs: ['annour'],
     year: '2024',
     status: 'en-cours',
+    images: IMAGE_SRCS.annour,
     fallbackImage: 'https://picsum.photos/600/320?grayscale&random=4',
     heroImage: 'https://picsum.photos/1200/500?grayscale&random=4',
   },

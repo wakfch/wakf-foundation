@@ -35,7 +35,7 @@
     "madretsch": "Mosquée Madretsch Bienne",
     "aliman": "Centre Al Iman Fribourg",
     "albadr": "Centre Al Badr Le Locle",
-    "annour": "Mosquée An-Nour Sion",
+    "annour": "Centre An-Nour Sion",
     "bibliotheque": "Bibliothèque Mobile",
     "delalElKhayr": "Projet Dilal Al Khair",
     "zakat": "Zakat",
@@ -385,7 +385,7 @@
         ]
       },
       "annour": {
-        "title": "Mosquée An-Nour",
+        "title": "Centre An-Nour",
         "type": "Lieu de culte",
         "ville": "Sion, VS",
         "surface": "420 m²",
@@ -393,7 +393,7 @@
         "subtitle": "Première mosquée arabophone du Valais",
         "villeDetail": "Sion, VS",
         "status": "En cours",
-        "intro": "La Mosquée An-Nour à Sion est un projet historique : première mosquée arabophone du canton du Valais, elle répond aux besoins d'une communauté jusqu'alors sans espace de culte adapté. Avec un budget de CHF 900 000 et une surface de 420 m², ce projet se déploie en deux phases portées par l'Association An-Nour.",
+        "intro": "Le Centre An-Nour à Sion est un projet historique : première mosquée arabophone du canton du Valais, il répond aux besoins d'une communauté jusqu'alors sans espace de culte adapté. Avec un budget de CHF 900 000 et une surface de 420 m², ce projet se déploie en deux phases portées par l'Association An-Nour.",
         "objectifs": [
           "Offrir au Valais sa première mosquée arabophone digne et adaptée",
           "Finaliser les deux phases de construction (210 m² + 210 m²)",
@@ -429,9 +429,11 @@
             "value": "En cours"
           }
         ],
-        "description": "Le Valais accueille une communauté musulmane arabophone importante, longtemps privée d'un lieu de culte à sa mesure. La Mosquée An-Nour, portée par l'Association An-Nour avec le soutien de la Fondation Wakef, comble ce vide historique. La Phase 1 de 210 m² est d'ores et déjà opérationnelle.",
+        "description": "Le Valais accueille une communauté musulmane arabophone importante, longtemps privée d'un lieu de culte à sa mesure. Le Centre An-Nour, porté par l'Association An-Nour avec le soutien de la Fondation Wakef, comble ce vide historique. La Phase 1 de 210 m² est d'ores et déjà opérationnelle.",
         "avancement": "Phase 1 (210 m²) : finalisée et opérationnelle. Phase 2 (210 m²) : promesse de vente signée, valable jusqu'à fin 2026. Collecte de fonds en cours pour finaliser l'acquisition et les travaux.",
-        "vision": "Faire de la Mosquée An-Nour le cœur spirituel de la communauté arabophone valaisanne, un espace de prière, d'apprentissage et de vie communautaire pour les générations présentes et futures."
+        "vision": "Faire du Centre An-Nour le cœur spirituel de la communauté arabophone valaisanne, un espace de prière, d'apprentissage et de vie communautaire pour les générations présentes et futures.",
+        "captionsShort": ["Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour"],
+        "captions": ["Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion"]
       },
       "bibliotheque": {
         "title": "Bibliothèque Mobile",
@@ -873,7 +875,7 @@
         "items": [
           {
             "q": "Puis-je faire un don dédié à un projet spécifique ?",
-            "a": "Oui. Lors de votre don, vous pouvez préciser le projet que vous souhaitez soutenir parmi nos cinq projets : Mosquée Madretsch (Bienne), Centre Al Iman (Fribourg), Centre Al Badr (Le Locle), Mosquée An-Nour (Sion) et Bibliothèque Mobile « Ponts du Savoir ». Si le projet est intégralement financé, les fonds seront affectés au projet prioritaire en cours."
+            "a": "Oui. Lors de votre don, vous pouvez préciser le projet que vous souhaitez soutenir parmi nos cinq projets : Mosquée Madretsch (Bienne), Centre Al Iman (Fribourg), Centre Al Badr (Le Locle), Centre An-Nour (Sion) et Bibliothèque Mobile « Ponts du Savoir ». Si le projet est intégralement financé, les fonds seront affectés au projet prioritaire en cours."
           },
           {
             "q": "Comment calculer ma Zakat ?",
@@ -894,7 +896,7 @@
         "items": [
           {
             "q": "Quels sont les projets actuels ?",
-            "a": "La Fondation Wakef finance cinq projets : Mosquée Madretsch à Bienne (réalisé, 496 m²), Centre Al Iman à Fribourg (en cours, 132 m²), Centre Al Badr au Locle (en cours, 2 029 m²), Mosquée An-Nour à Sion (en cours, 420 m²) et la Bibliothèque Mobile « Ponts du Savoir » en Suisse romande. Consultez la page Projets pour le détail complet."
+            "a": "La Fondation Wakef finance cinq projets : Mosquée Madretsch à Bienne (réalisé, 496 m²), Centre Al Iman à Fribourg (en cours, 132 m²), Centre Al Badr au Locle (en cours, 2 029 m²), Centre An-Nour à Sion (en cours, 420 m²) et la Bibliothèque Mobile « Ponts du Savoir » en Suisse romande. Consultez la page Projets pour le détail complet."
           },
           {
             "q": "Comment les fonds sont-ils alloués ?",

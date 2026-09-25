@@ -35,7 +35,7 @@
     "madretsch": "Madretsch Mosque Biel/Bienne",
     "aliman": "Al Iman Centre Fribourg",
     "albadr": "Al Badr Centre Le Locle",
-    "annour": "An-Nour Mosque Sion",
+    "annour": "An-Nour Centre Sion",
     "bibliotheque": "Mobile Library",
     "delalElKhayr": "Project Dilal Al Khair",
     "zakat": "Zakat",
@@ -385,7 +385,7 @@
         ]
       },
       "annour": {
-        "title": "An-Nour Mosque",
+        "title": "An-Nour Centre",
         "type": "Place of worship",
         "ville": "Sion, VS",
         "surface": "420 m²",
@@ -393,7 +393,7 @@
         "subtitle": "The first Arabic speaking mosque in Valais",
         "villeDetail": "Sion, VS",
         "status": "Ongoing",
-        "intro": "The An-Nour Mosque in Sion is a landmark project: as the first Arabic speaking mosque in the canton of Valais, it meets the needs of a community that until now had no suitable place of worship. With a budget of CHF 900,000 and an area of 420 m², the project is being carried out in two phases by the An-Nour Association.",
+        "intro": "The An-Nour Centre in Sion is a landmark project: as the first Arabic speaking mosque in the canton of Valais, it meets the needs of a community that until now had no suitable place of worship. With a budget of CHF 900,000 and an area of 420 m², the project is being carried out in two phases by the An-Nour Association.",
         "objectifs": [
           "Give Valais its first Arabic speaking mosque, dignified and fit for purpose",
           "Complete both construction phases (210 m² + 210 m²)",
@@ -429,9 +429,9 @@
             "value": "Ongoing"
           }
         ],
-        "description": "Valais is home to a large Arabic speaking Muslim community that long went without a place of worship to match. The An-Nour Mosque, led by the An-Nour Association with the support of Fondation Wakef, fills this historic gap. Phase 1, covering 210 m², is already in use.",
+        "description": "Valais is home to a large Arabic speaking Muslim community that long went without a place of worship to match. The An-Nour Centre, led by the An-Nour Association with the support of Fondation Wakef, fills this historic gap. Phase 1, covering 210 m², is already in use.",
         "avancement": "Phase 1 (210 m²): completed and in use. Phase 2 (210 m²): promise of sale signed, valid until the end of 2026. Fundraising is under way to complete the purchase and the works.",
-        "vision": "To make the An-Nour Mosque the spiritual heart of the Arabic speaking community of Valais: a place of prayer, learning and community life for present and future generations."
+        "vision": "To make the An-Nour Centre the spiritual heart of the Arabic speaking community of Valais: a place of prayer, learning and community life for present and future generations."
       },
       "bibliotheque": {
         "title": "Mobile Library",
@@ -837,7 +837,7 @@
         "items": [
           {
             "q": "Can I make a donation dedicated to a specific project?",
-            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), Al Badr Centre (Le Locle), An-Nour Mosque (Sion) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
+            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), Al Badr Centre (Le Locle), An-Nour Centre (Sion) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
           },
           {
             "q": "How do I calculate my Zakat?",
@@ -858,7 +858,7 @@
         "items": [
           {
             "q": "What are the current projects?",
-            "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), Al Badr Centre in Le Locle (ongoing, 2,029 m²), An-Nour Mosque in Sion (ongoing, 420 m²) and the Mobile Library “Ponts du Savoir” in Romandy. See the Projects page for full details."
+            "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), Al Badr Centre in Le Locle (ongoing, 2,029 m²), An-Nour Centre in Sion (ongoing, 420 m²) and the Mobile Library “Ponts du Savoir” in Romandy. See the Projects page for full details."
           },
           {
             "q": "How are the funds allocated?",
