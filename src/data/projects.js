@@ -67,6 +67,7 @@ export const PROJECTS = [
     legacySlugs: [],
     year: '2023',
     status: 'en-cours',
+    images: IMAGE_SRCS.bibliotheque,
     fallbackImage: 'https://picsum.photos/600/320?grayscale&random=5',
     heroImage: 'https://picsum.photos/1200/500?grayscale&random=5',
   },

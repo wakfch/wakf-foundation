@@ -482,7 +482,9 @@
         ],
         "description": "Sous le slogan « Faisons connaissance. Le savoir nous rassemble. », la Bibliothèque Mobile sillonne la Suisse romande pour créer des ponts entre les communautés. L'équipe d'ambassadeurs ne transporte pas seulement des livres, elle transporte des histoires, des langues, et l'élan d'une rencontre authentique entre des personnes de cultures différentes.",
         "avancement": "Programme actif depuis 2023. Présence régulière dans les événements culturels et espaces publics de Suisse romande. Réseau d'ambassadeurs en développement continu.",
-        "vision": "Faire de la Bibliothèque Mobile « Ponts du Savoir » une référence nationale pour le dialogue interculturel par l'éducation, en s'appuyant sur le pouvoir rassembleur universel de la connaissance."
+        "vision": "Faire de la Bibliothèque Mobile « Ponts du Savoir » une référence nationale pour le dialogue interculturel par l'éducation, en s'appuyant sur le pouvoir rassembleur universel de la connaissance.",
+        "captionsShort": ["Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile"],
+        "captions": ["La Bibliothèque Mobile « Ponts du Savoir »", "La camionnette de la Bibliothèque Mobile", "Ouvrages en français sur les rayonnages", "Traductions du Coran en plusieurs langues", "L'intérieur de la Bibliothèque Mobile", "Les rayonnages vus depuis l'arrière"]
       },
       "delal-el-khayr": {
         "title": "Projet Dilal Al Khair",

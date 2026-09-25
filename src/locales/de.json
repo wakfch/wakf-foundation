@@ -482,7 +482,9 @@
         ],
         "description": "Unter dem Slogan « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.) ist die Mobile Bibliothek in der ganzen Westschweiz unterwegs, um Brücken zwischen den Gemeinschaften zu bauen. Das Team der Botschafterinnen und Botschafter transportiert nicht nur Bücher, sondern auch Geschichten, Sprachen und den Schwung einer echten Begegnung zwischen Menschen unterschiedlicher Kulturen.",
         "avancement": "Das Programm ist seit 2023 aktiv. Regelmässige Präsenz an kulturellen Anlässen und im öffentlichen Raum der Westschweiz. Das Netz der Botschafterinnen und Botschafter wächst laufend.",
-        "vision": "Die Mobile Bibliothek « Ponts du Savoir » soll zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung werden, getragen von der universell verbindenden Kraft des Wissens."
+        "vision": "Die Mobile Bibliothek « Ponts du Savoir » soll zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung werden, getragen von der universell verbindenden Kraft des Wissens.",
+        "captionsShort": ["Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek"],
+        "captions": ["Die Mobile Bibliothek « Ponts du Savoir »", "Der Lieferwagen der Mobilen Bibliothek", "Französischsprachige Bücher in den Regalen", "Koranübersetzungen in mehreren Sprachen", "Das Innere der Mobilen Bibliothek", "Die Regale von hinten gesehen"]
       },
       "delal-el-khayr": {
         "title": "Projekt Dilal Al Khair",

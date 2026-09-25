@@ -27,6 +27,14 @@ export const IMAGE_SRCS = {
     '/images/mosquee-annour/IMG-20260221-WA0029%20(3).jpg',
     '/images/mosquee-annour/IMG-20260331-WA0022%20(3).jpg',
   ],
+  bibliotheque: [
+    '/images/bibliotheque/IMG_0264.jpg',
+    '/images/bibliotheque/IMG_0275.jpg',
+    '/images/bibliotheque/IMG_0299.jpg',
+    '/images/bibliotheque/IMG_0302.jpg',
+    '/images/bibliotheque/IMG_0313.jpg',
+    '/images/bibliotheque/IMG_0317.jpg',
+  ],
   delal: [
     '/images/el-delal/aerienne.jpg',
     '/images/el-delal/facade.jpg',

@@ -482,7 +482,9 @@
         ],
         "description": "Under the slogan “Let us get to know one another. Knowledge brings us together.”, the Mobile Library travels across Romandy to build bridges between communities. The team of ambassadors carries not only books, but also stories, languages and the impulse of a genuine encounter between people of different cultures.",
         "avancement": "The programme has been running since 2023. It is regularly present at cultural events and in public spaces across Romandy. The network of ambassadors keeps growing.",
-        "vision": "To make the Mobile Library “Ponts du Savoir” a national reference for intercultural dialogue through education, drawing on the universal power of knowledge to bring people together."
+        "vision": "To make the Mobile Library “Ponts du Savoir” a national reference for intercultural dialogue through education, drawing on the universal power of knowledge to bring people together.",
+        "captionsShort": ["Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library"],
+        "captions": ["The Mobile Library “Ponts du Savoir”", "The Mobile Library van", "Books in French on the shelves", "Translations of the Quran in several languages", "Inside the Mobile Library", "The shelves seen from the back"]
       },
       "delal-el-khayr": {
         "title": "Project Dilal Al Khair",
