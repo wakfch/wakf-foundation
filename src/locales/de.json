@@ -618,7 +618,7 @@
         "desc": "Gemäss Schweizer Gesetzgebung prüft eine unabhängige Revisionsstelle jährlich die Rechnung und stellt die Einhaltung der gesetzlichen und statutarischen Pflichten sicher."
       },
       {
-        "title": "Schariakomitee",
+        "title": "Konformitätskomitee",
         "desc": "Ein Komitee qualifizierter Gelehrter bestätigt die Übereinstimmung jedes Projekts mit den islamischen Grundsätzen. Alle Mittel werden nach den Regeln der islamischen Finanz verwaltet, zinsfrei und in vollständiger Transparenz."
       }
     ],
@@ -695,7 +695,7 @@
     ],
     "guaranteesTitle": "Unsere Garantien",
     "guarantees": [
-      "Konform mit der Scharia: zinsfrei",
+      "Konformität: zinsfrei",
       "Jahresbericht über die Verwendung der Mittel",
       "Eingetragene Stiftung nach Schweizer Recht (CHE-114.901.246)"
     ],
@@ -705,7 +705,7 @@
     "hero": {
       "label": "Säule des Islam",
       "title": "Zakatrechner",
-      "sub": "Berechnen Sie Ihre jährliche Zakat nach den Regeln der Scharia. Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold)."
+      "sub": "Berechnen Sie Ihre jährliche Zakat gemäss unseren Konformitätsprinzipien. Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold)."
     },
     "breadcrumb": "Zakat",
     "toolLabel": "Islamisches Werkzeug",
@@ -783,12 +783,12 @@
       },
       {
         "q": "Komplexe Situationen: Unternehmen, Immobilien, Krypto…",
-        "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Schariakomitee beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Konformitätskomitee beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "Für komplexe Situationen",
-    "noteBody": "Unser Rechner deckt die üblichen Fälle ab. Für Unternehmerinnen und Unternehmer, Eigentümer von Geschäftsliegenschaften, Anlegerinnen und Anleger oder aussergewöhnliche Vermögenslagen kann Ihnen unser Schariakomitee weiterhelfen.",
-    "noteBtn": "Unser Schariakomitee kontaktieren →"
+    "noteBody": "Unser Rechner deckt die üblichen Fälle ab. Für Unternehmerinnen und Unternehmer, Eigentümer von Geschäftsliegenschaften, Anlegerinnen und Anleger oder aussergewöhnliche Vermögenslagen kann Ihnen unser Konformitätskomitee weiterhelfen.",
+    "noteBtn": "Unser Konformitätskomitee kontaktieren →"
   },
   "faq": {
     "hero": {
@@ -807,7 +807,7 @@
           },
           {
             "q": "Wer kontrolliert die Stiftung?",
-            "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft, sowie über ein Schariakomitee, das die islamische Konformität jedes Projekts bestätigt."
+            "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft, sowie über ein Konformitätskomitee, das die islamische Konformität jedes Projekts bestätigt."
           },
           {
             "q": "Wie hoch ist das Stiftungskapital?",
@@ -901,7 +901,7 @@
       "Faire un don": "Spenden",
       "Zakat & Sadaqah": "Zakat und Sadaqah",
       "Nos projets": "Unsere Projekte",
-      "Comité Charia": "Schariakomitee",
+      "Comité de conformité": "Konformitätskomitee",
       "Partenariat": "Partnerschaft",
       "Autre": "Anderes"
     },

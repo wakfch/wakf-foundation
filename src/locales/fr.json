@@ -618,7 +618,7 @@
         "desc": "Conformément à la législation suisse, un organe de révision indépendant vérifie annuellement les comptes et s'assure du respect des obligations légales et statutaires."
       },
       {
-        "title": "Comité Charia",
+        "title": "Comité de conformité",
         "desc": "Un comité de savants qualifiés valide la conformité de chaque projet avec les principes islamiques. Tous les fonds sont gérés selon la finance islamique, sans intérêt, dans la transparence totale."
       }
     ],
@@ -695,7 +695,7 @@
     ],
     "guaranteesTitle": "Nos garanties",
     "guarantees": [
-      "Conformité Charia : sans intérêt",
+      "Conformité : sans intérêt",
       "Rapport annuel d'utilisation des fonds",
       "Fondation de droit suisse enregistrée (CHE-114.901.246)"
     ],
@@ -741,7 +741,7 @@
     "hero": {
       "label": "Pilier de l'Islam",
       "title": "Évaluateur de Zakat",
-      "sub": "Calculez votre obligation annuelle de Zakat selon les règles de la Charia. Nisab actuel : CHF/€ 4 600 (≈ 85g d'or)."
+      "sub": "Calculez votre obligation annuelle de Zakat selon nos principes de conformité. Nisab actuel : CHF/€ 4 600 (≈ 85g d'or)."
     },
     "breadcrumb": "Zakat",
     "toolLabel": "Outil islamique",
@@ -819,12 +819,12 @@
       },
       {
         "q": "Situations complexes : entrepreneur, immobilier, crypto…",
-        "a": "Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre comité Charia. Contactez-nous à <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre comité de conformité. Contactez-nous à <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "Pour les situations complexes",
-    "noteBody": "Notre calculateur couvre les cas standard. Pour les entrepreneurs, détenteurs d'immobilier commercial, investisseurs ou situations patrimoniales atypiques, notre comité Charia peut vous orienter.",
-    "noteBtn": "Contacter notre comité Charia →"
+    "noteBody": "Notre calculateur couvre les cas standard. Pour les entrepreneurs, détenteurs d'immobilier commercial, investisseurs ou situations patrimoniales atypiques, notre comité de conformité peut vous orienter.",
+    "noteBtn": "Contacter notre comité de conformité →"
   },
   "faq": {
     "hero": {
@@ -843,7 +843,7 @@
           },
           {
             "q": "Qui contrôle la Fondation ?",
-            "a": "La Fondation est supervisée par l'Autorité fédérale de surveillance des fondations. Elle dispose d'un organe de révision indépendant qui vérifie annuellement les comptes et d'un comité Charia qui valide la conformité islamique de chaque projet."
+            "a": "La Fondation est supervisée par l'Autorité fédérale de surveillance des fondations. Elle dispose d'un organe de révision indépendant qui vérifie annuellement les comptes et d'un comité de conformité qui valide la conformité islamique de chaque projet."
           },
           {
             "q": "Quel est le capital de dotation ?",
@@ -937,7 +937,7 @@
       "Faire un don": "Faire un don",
       "Zakat & Sadaqah": "Zakat et Sadaqah",
       "Nos projets": "Nos projets",
-      "Comité Charia": "Comité Charia",
+      "Comité de conformité": "Comité de conformité",
       "Partenariat": "Partenariat",
       "Autre": "Autre"
     },

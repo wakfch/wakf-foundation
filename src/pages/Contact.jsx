@@ -98,7 +98,7 @@ export default function Contact() {
                       <label className="form-label">{t('contact.subjectLabel')}</label>
                       <select required name="sujet" className="form-select" defaultValue="">
                         <option value="" disabled>{t('contact.subjectPlaceholder')}</option>
-                        {['Faire un don', 'Zakat & Sadaqah', 'Nos projets', 'Comité Charia', 'Partenariat', 'Autre'].map((subj) => (
+                        {['Faire un don', 'Zakat & Sadaqah', 'Nos projets', 'Comité de conformité', 'Partenariat', 'Autre'].map((subj) => (
                           <option key={subj} value={subj}>{t(`contact.subjects.${subj}`)}</option>
                         ))}
                       </select>

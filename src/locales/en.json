@@ -618,7 +618,7 @@
         "desc": "In accordance with Swiss law, independent auditors examine the accounts every year and make sure that legal and statutory obligations are met."
       },
       {
-        "title": "Sharia Committee",
+        "title": "Compliance Committee",
         "desc": "A committee of qualified scholars confirms that every project complies with Islamic principles. All funds are managed according to Islamic finance, without interest, in complete transparency."
       }
     ],
@@ -695,7 +695,7 @@
     ],
     "guaranteesTitle": "Our guarantees",
     "guarantees": [
-      "Sharia compliance: no interest",
+      "Compliance: no interest",
       "Annual report on the use of the funds",
       "Registered foundation under Swiss law (CHE-114.901.246)"
     ],
@@ -705,7 +705,7 @@
     "hero": {
       "label": "Pillar of Islam",
       "title": "Zakat Calculator",
-      "sub": "Work out your annual Zakat obligation according to the rules of Sharia. Current Nisab: CHF/€ 4,600 (≈ 85g of gold)."
+      "sub": "Work out your annual Zakat obligation according to our compliance principles. Current Nisab: CHF/€ 4,600 (≈ 85g of gold)."
     },
     "breadcrumb": "Zakat",
     "toolLabel": "Islamic tool",
@@ -783,12 +783,12 @@
       },
       {
         "q": "Complex situations: entrepreneurs, property, crypto…",
-        "a": "For entrepreneurs, property held for resale, cryptocurrencies or complex financial situations, we recommend consulting a qualified Islamic scholar or our Sharia Committee. Write to us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "For entrepreneurs, property held for resale, cryptocurrencies or complex financial situations, we recommend consulting a qualified Islamic scholar or our Compliance Committee. Write to us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "For complex situations",
-    "noteBody": "Our calculator covers standard cases. For entrepreneurs, owners of commercial property, investors or unusual financial situations, our Sharia Committee can guide you.",
-    "noteBtn": "Contact our Sharia Committee →"
+    "noteBody": "Our calculator covers standard cases. For entrepreneurs, owners of commercial property, investors or unusual financial situations, our Compliance Committee can guide you.",
+    "noteBtn": "Contact our Compliance Committee →"
   },
   "faq": {
     "hero": {
@@ -807,7 +807,7 @@
           },
           {
             "q": "Who oversees the Foundation?",
-            "a": "The Foundation is supervised by the Federal Supervisory Authority for Foundations. It has independent auditors who examine the accounts every year, and a Sharia Committee that confirms the Islamic compliance of every project."
+            "a": "The Foundation is supervised by the Federal Supervisory Authority for Foundations. It has independent auditors who examine the accounts every year, and a Compliance Committee that confirms the Islamic compliance of every project."
           },
           {
             "q": "How large is the endowment capital?",
@@ -901,7 +901,7 @@
       "Faire un don": "Make a donation",
       "Zakat & Sadaqah": "Zakat and Sadaqah",
       "Nos projets": "Our projects",
-      "Comité Charia": "Sharia Committee",
+      "Comité de conformité": "Compliance Committee",
       "Partenariat": "Partnership",
       "Autre": "Other"
     },
