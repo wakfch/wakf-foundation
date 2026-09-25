@@ -39,8 +39,8 @@ export const PROJECTS = [
   },
   {
     id: 'annour',
-    slug: 'mosquee-an-nour',
-    legacySlugs: ['annour'],
+    slug: 'centre-an-nour',
+    legacySlugs: ['annour', 'mosquee-an-nour'],
     year: '2024',
     status: 'en-cours',
     images: IMAGE_SRCS.annour,

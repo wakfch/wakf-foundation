@@ -21,7 +21,7 @@ const getNavLinks = (t) => [
       { label: t('header.aliman'), to: '/projets/centre-al-iman' },
       { label: t('header.albadr'), to: '/projets/centre-al-badr' },
       { label: t('header.delalElKhayr'), to: '/projets/delal-el-khayr' },
-      { label: t('header.annour'), to: '/projets/mosquee-an-nour' },
+      { label: t('header.annour'), to: '/projets/centre-an-nour' },
       { label: t('header.bibliotheque'), to: '/projets/bibliotheque-mobile' },
     ],
   },

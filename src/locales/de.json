@@ -386,16 +386,16 @@
       },
       "annour": {
         "title": "An-Nour Zentrum",
-        "type": "Gebetsstätte",
+        "type": "Islamisches Kulturzentrum",
         "ville": "Sitten, VS",
         "surface": "420 m²",
-        "excerpt": "Erste arabischsprachige Moschee des Kantons Wallis. Etappe 1 (210 m²) abgeschlossen; Etappe 2 (210 m²) läuft, mit einem Kaufversprechen bis Ende 2026.",
-        "subtitle": "Erste arabischsprachige Moschee des Wallis",
+        "excerpt": "Erstes arabischsprachiges Kulturzentrum des Kantons Wallis. Etappe 1 (210 m²) abgeschlossen; Etappe 2 (210 m²) läuft, mit einem Kaufversprechen bis Ende 2026.",
+        "subtitle": "Erstes arabischsprachiges Kulturzentrum des Wallis",
         "villeDetail": "Sitten, VS",
         "status": "Laufend",
-        "intro": "Das An-Nour Zentrum in Sitten ist ein historisches Vorhaben: Als erste arabischsprachige Moschee des Kantons Wallis erfüllt es die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
+        "intro": "Das An-Nour Zentrum in Sitten ist ein historisches Vorhaben: Als erstes arabischsprachiges Kulturzentrum des Kantons Wallis erfüllt es die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
         "objectifs": [
-          "Dem Wallis seine erste würdige und geeignete arabischsprachige Moschee geben",
+          "Dem Wallis sein erstes würdiges und geeignetes arabischsprachiges Kulturzentrum geben",
           "Die beiden Bauetappen abschliessen (210 m² + 210 m²)",
           "Die arabischsprachige Gemeinschaft dauerhaft in der Region Sitten verankern"
         ],
@@ -431,7 +431,9 @@
         ],
         "description": "Das Wallis beherbergt eine bedeutende arabischsprachige muslimische Gemeinschaft, der lange ein angemessener Gebetsort fehlte. Das An-Nour Zentrum, getragen vom Verein An-Nour mit Unterstützung der Fondation Wakef, schliesst diese historische Lücke. Etappe 1 mit 210 m² ist bereits in Betrieb.",
         "avancement": "Etappe 1 (210 m²): abgeschlossen und in Betrieb. Etappe 2 (210 m²): Kaufversprechen unterzeichnet, gültig bis Ende 2026. Die Mittelbeschaffung für den Erwerb und die Bauarbeiten läuft.",
-        "vision": "Das An-Nour Zentrum soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen."
+        "vision": "Das An-Nour Zentrum soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen.",
+        "captionsShort": ["An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum"],
+        "captions": ["An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten"]
       },
       "bibliotheque": {
         "title": "Mobile Bibliothek",
