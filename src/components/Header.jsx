@@ -120,7 +120,7 @@ export default function Header() {
         .nav__mobile-link:hover { background: var(--green-light); color: var(--green); }
         .nav__mobile-sub { padding-left: var(--space-4); }
         .nav__mobile-sublabel { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-faint); padding: 8px 16px; }
-        @media (max-width: 900px) {
+        @media (max-width: 1100px) {
           .nav__links { display: none; }
           .nav__burger { display: flex; }
           .nav__actions .nav__donate { display: none; }
