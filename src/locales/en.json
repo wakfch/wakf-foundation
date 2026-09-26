@@ -518,12 +518,32 @@
         ],
         "fiche": [
           {
-            "label": "Location",
-            "value": "Le Locle, canton of Neuchâtel"
+            "label": "Property value",
+            "value": "CHF 1'250'000"
           },
           {
-            "label": "Required budget",
+            "label": "Amount to raise",
             "value": "CHF 550'000"
+          },
+          {
+            "label": "Net rental income",
+            "value": "CHF 49'380 per year"
+          },
+          {
+            "label": "Composition",
+            "value": "6 apartments, 1 commercial unit, 5 parking spaces"
+          },
+          {
+            "label": "Land",
+            "value": "2 building plots"
+          },
+          {
+            "label": "Construction",
+            "value": "1902, 5 storeys, very good condition"
+          },
+          {
+            "label": "Location",
+            "value": "Le Locle, Neuchâtel"
           }
         ],
         "avancement": [

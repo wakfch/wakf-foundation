@@ -518,12 +518,32 @@
         ],
         "fiche": [
           {
-            "label": "Ort",
-            "value": "Le Locle, Kanton Neuenburg"
+            "label": "Wert der Immobilie",
+            "value": "CHF 1'250'000"
           },
           {
-            "label": "Benötigtes Budget",
+            "label": "Zu sammelnder Betrag",
             "value": "CHF 550'000"
+          },
+          {
+            "label": "Nettomieterträge",
+            "value": "CHF 49'380 pro Jahr"
+          },
+          {
+            "label": "Zusammensetzung",
+            "value": "6 Wohnungen, 1 Gewerbefläche, 5 Parkplätze"
+          },
+          {
+            "label": "Grundstück",
+            "value": "2 Bauparzellen"
+          },
+          {
+            "label": "Bau",
+            "value": "1902, 5 Stockwerke, sehr guter Zustand"
+          },
+          {
+            "label": "Standort",
+            "value": "Le Locle, Neuenburg"
           }
         ],
         "avancement": [

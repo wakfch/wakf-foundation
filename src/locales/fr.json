@@ -518,12 +518,32 @@
         ],
         "fiche": [
           {
-            "label": "Lieu",
-            "value": "Le Locle, canton de Neuchâtel"
+            "label": "Valeur de l'immeuble",
+            "value": "CHF 1'250'000"
           },
           {
-            "label": "Budget nécessaire",
+            "label": "Montant à lever",
             "value": "CHF 550'000"
+          },
+          {
+            "label": "Revenus locatifs nets",
+            "value": "CHF 49'380 par an"
+          },
+          {
+            "label": "Composition",
+            "value": "6 appartements, 1 local commercial, 5 places de parc"
+          },
+          {
+            "label": "Terrain",
+            "value": "2 parcelles constructibles"
+          },
+          {
+            "label": "Construction",
+            "value": "1902, 5 étages, très bon état"
+          },
+          {
+            "label": "Localisation",
+            "value": "Le Locle, Neuchâtel"
           }
         ],
         "avancement": [
