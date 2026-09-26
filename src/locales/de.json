@@ -186,6 +186,7 @@
       "notFoundBtn": "Alle Projekte ansehen →",
       "introduction": "Einführung",
       "objectives": "Ziele des Projekts",
+      "strengths": "Stärken des Projekts",
       "description": "Beschreibung",
       "progress": "Stand der Arbeiten",
       "vision": "Zukunftsvision",
@@ -488,58 +489,48 @@
       },
       "delal-el-khayr": {
         "title": "Projekt Dilal Al Khair",
-        "type": "Kulturzentrum",
-        "ville": "Le Locle, Neuenburg",
-        "surface": "Gebäude mit 5 Stockwerken",
-        "excerptHome": "Die Mittel für ein Renditegebäude in Le Locle zusammentragen und dort ein Kulturzentrum schaffen.",
-        "excerpt": "Wir tragen die Mittel für ein Renditegebäude in Le Locle zusammen, um dort ein Kulturzentrum zu schaffen, das dem Wissen, der Begegnung und der Weitergabe gewidmet ist.",
-        "subtitle": "Ein Kulturzentrum in Le Locle, gewidmet dem Wissen, der Begegnung und der Weitergabe",
+        "type": "Waqf-Projekt",
+        "ville": "Le Locle, Kanton Neuenburg",
+        "excerpt": "Von der Last der Miete zur Sicherheit eines dauerhaften Waqf",
+        "subtitle": "Von der Last der Miete zur Sicherheit eines dauerhaften Waqf",
         "villeDetail": "Le Locle, Kanton Neuenburg",
-        "surfaceDetail": "5 Stockwerke · 6 Wohnungen · 1 Gewerbefläche · 5 Parkplätze · 2 Bauplätze",
-        "typeDetail": "Anlageimmobilie, erbaut 1902",
-        "status": "Spendensammlung läuft",
-        "intro": "Das Projekt Dilal Al Khair ist aus einer einfachen Idee entstanden: Le Locle einen dauerhaften Ort zu schenken, der der Kultur, dem Wissen und der Begegnung gewidmet ist. Indem sie die Mittel für ein Renditegebäude zusammenträgt, möchte die Fondation Wakef dieser Initiative eine stabile Grundlage geben, ohne von gemieteten Räumen abhängig zu sein, und in jedem Schritt transparent bleiben.",
+        "headings": {
+          "intro": "«Dilal Al Khair» in Le Locle: ein Waqf, dessen Segen über Grenzen hinausreicht",
+          "objectives": "Ziele des Projekts",
+          "strengths": "Stärken des Projekts: eine nachhaltige Vision und eine Wirkung über Grenzen hinweg",
+          "progress": "Stand des Projekts",
+          "vision": "Unsere Vision"
+        },
+        "intro": [
+          "Im Herzen von Le Locle im Kanton Neuenburg, im lebendigen und strategisch gelegenen Grenzgebiet zwischen der Schweiz und Frankreich, will das Projekt «Dilal Al Khair» weit mehr sein als ein Gebetsort: Es ist der einzige Anlaufpunkt der Region, der eine Brücke des Glaubens und der Gemeinschaft zwischen Musliminnen und Muslimen und Grenzgängern schlägt.",
+          "Dieses Waqf-Projekt setzt den jahrelangen, zermürbenden Mietverhältnissen ein endgültiges Ende und führt unsere Anstrengungen von verstreuten, vorübergehenden Kosten zu dauerhafter Stabilität."
+        ],
         "objectifs": [
-          "Die Mittel für das Gebäude zusammentragen: CHF 1'250'000, davon CHF 550'000 noch zu sammeln",
-          "Die Räume des Zentrums für vielfältige Nutzungen einrichten",
-          "Einen Ort der Kultur, der Begegnung und der Weitergabe von Wissen schaffen, mit einem Raum der Besinnung",
-          "Schulungsräume und Unterrichtsräume anbieten",
-          "Die sechs Wohnungen und die Gewerbefläche weiterhin vermieten: Ihre Nettoerträge von CHF 49'380 pro Jahr finanzieren ausschliesslich den Betrieb des Kulturzentrums",
-          "Das Potenzial von zwei Bauparzellen für die künftigen Bedürfnisse des Zentrums bewahren"
+          "Unser spirituelles Ziel: den einzigen Gebetsort der Region schaffen, einen Ort der Andacht und der Ruhe.",
+          "Unser nachhaltiges Ziel: das Projekt durch regelmässige Einnahmen finanziell unabhängig machen und die Last der Miete beenden.",
+          "Unser soziales Ziel: eine Brücke zwischen den beiden Gemeinschaften an der schweizerisch-französischen Grenze bauen, im Dienst der jungen Generationen."
+        ],
+        "strengths": [
+          "Die einzige Moschee der Stadt, an der Grenze zweier Länder (Schweiz und Frankreich).",
+          "Finanzielle Nachhaltigkeit und Selbstfinanzierung, ohne die Last der Miete.",
+          "Ein strategischer Standort mit grenzüberschreitender Wirkung, am Treffpunkt der beiden Gemeinschaften.",
+          "Ein dauerhafter Waqf: vervielfachter Segen und fortwährender Lohn. Ihre Spende von heute wird zu einem beständigen Gut, das sich selbst finanziert und Ihren Brüdern und Schwestern in der Grenzregion für immer dient."
         ],
         "fiche": [
           {
-            "label": "Wert der Immobilie",
-            "value": "CHF 1'250'000"
+            "label": "Ort",
+            "value": "Le Locle, Kanton Neuenburg"
           },
           {
-            "label": "Zu sammelnder Betrag",
+            "label": "Benötigtes Budget",
             "value": "CHF 550'000"
-          },
-          {
-            "label": "Nettomieterträge",
-            "value": "CHF 49'380 pro Jahr"
-          },
-          {
-            "label": "Zusammensetzung",
-            "value": "6 Wohnungen, 1 Gewerbefläche, 5 Parkplätze"
-          },
-          {
-            "label": "Grundstück",
-            "value": "2 Bauparzellen"
-          },
-          {
-            "label": "Bau",
-            "value": "1902, 5 Stockwerke, sehr guter Zustand"
-          },
-          {
-            "label": "Standort",
-            "value": "Le Locle, Neuenburg"
           }
         ],
-        "description": "Im Herzen von Le Locle gelegen, der drittgrössten Stadt des Kantons Neuenburg und einem Durchgangsort nach Frankreich, stammt das Gebäude aus dem Jahr 1902 und befindet sich in einem sehr guten Zustand. Es umfasst sechs Wohnungen, eine Gewerbefläche und fünf Parkplätze, in der Nähe von Einkaufsmöglichkeiten, Schulen und öffentlichem Verkehr. Die Mieten sichern ein regelmässiges Einkommen, das vollständig dem Kulturzentrum zugutekommt. Zwei Bauparzellen ergänzen die Liegenschaft und lassen Raum für eine künftige Entwicklung, etwa zusätzliche Parkplätze, eine Erweiterung oder einen Neubau. Das Zentrum richtet sich an Familien, junge Menschen und alle Einwohnerinnen und Einwohner von Le Locle und der Region.",
-        "avancement": "Das Projekt befindet sich in der Sammelphase. Die Unterlagen zum Gebäude sind bereit und werden den Spenderinnen und Spendern vorgestellt. Jeder Beitrag bringt uns dem Ziel von CHF 550'000 näher, und die nächsten Schritte werden hier im Verlauf des Projekts mitgeteilt.",
-        "vision": "Langfristig möchte Dilal Al Khair ein Ort sein, an dem Wissen weitergegeben wird, Kulturen miteinander ins Gespräch kommen und sich jeder Mensch willkommen fühlt, im Dienst der Einwohnerinnen und Einwohner von Le Locle und der Region, heute und für kommende Generationen. Jeder Beitrag ist eine Sadaqa Jariya, eine Wohltat, die weiterhin Früchte trägt, gegeben für sich selbst, für die Eltern und für die Menschen, die man liebt.",
+        "avancement": [
+          "Jeder Tag zählt: Wir sammeln Spenden, um das benötigte Budget von CHF 550'000 zu erreichen. Jede Gabe bringt uns einen Schritt näher an diesen gesegneten Waqf, ein spirituelles Zentrum und ein Ort des Wissens für die Musliminnen und Muslime von Le Locle und Umgebung.",
+          "Ihre Spende von heute: eine Saat des Guten, deren Früchte unseren künftigen Generationen zugutekommen."
+        ],
+        "vision": "«Dilal Al Khair» ist nicht nur ein Gebäude oder ein Gebetsort: Es ist die Gründung eines beständigen islamischen Waqf an einem einzigartigen Ort, an dem die Spende von heute zu einem Anteil an einem ewigen Werk wird, das sich selbst finanziert und den kommenden Generationen an der schweizerisch-französischen Grenze für immer dient.",
         "captionsShort": [
           "Luftaufnahme",
           "Das Gebäude",

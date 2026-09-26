@@ -86,7 +86,7 @@ export const getProjectText = (t, project) => {
     title: t(k('title')),
     category: t(k('type')),
     location: t(k('ville')),
-    surface: t(k('surface')),
+    surface: t(k('surface'), { defaultValue: '' }),
     excerpt: t(k('excerpt')),
     excerptHome: t(k('excerptHome'), { defaultValue: t(k('excerpt')) }),
     learnMore: t('common.learnMore'),

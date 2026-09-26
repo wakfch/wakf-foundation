@@ -186,6 +186,7 @@
       "notFoundBtn": "Voir tous les projets →",
       "introduction": "Introduction",
       "objectives": "Objectifs du projet",
+      "strengths": "Atouts du projet",
       "description": "Description",
       "progress": "État d'avancement",
       "vision": "Vision future",
@@ -488,58 +489,48 @@
       },
       "delal-el-khayr": {
         "title": "Projet Dilal Al Khair",
-        "type": "Centre culturel",
-        "ville": "Le Locle, NE",
-        "surface": "Immeuble de 5 étages",
-        "excerptHome": "Réunir les fonds pour un immeuble de rendement au Locle et y créer un centre culturel.",
-        "excerpt": "Nous réunissons les fonds pour un immeuble de rendement au Locle, afin d'y créer un centre culturel dédié au savoir, à la rencontre et à la transmission.",
-        "subtitle": "Un centre culturel au Locle, dédié au savoir, à la rencontre et à la transmission",
+        "type": "Projet de waqf",
+        "ville": "Le Locle, canton de Neuchâtel",
+        "excerpt": "Du poids du loyer à la sérénité d'un waqf durable",
+        "subtitle": "Du poids du loyer à la sérénité d'un waqf durable",
         "villeDetail": "Le Locle, canton de Neuchâtel",
-        "surfaceDetail": "5 étages · 6 appartements · 1 local commercial · 5 places de parc · 2 parcelles constructibles",
-        "typeDetail": "Immeuble de rapport, construit en 1902",
-        "status": "Levée de fonds en cours",
-        "intro": "Le projet Dilal Al Khair est né d'une idée simple : offrir au Locle un lieu durable consacré à la culture, au savoir et à la rencontre. En réunissant les fonds pour un immeuble de rendement, la Fondation Wakef veut donner à cette initiative une base stable, sans dépendre de locaux loués, et rester transparente à chaque étape.",
+        "headings": {
+          "intro": "« Dilal Al Khair » au Locle : un bienfait en waqf qui dépasse les frontières",
+          "objectives": "Objectifs du projet",
+          "strengths": "Atouts du projet : une vision durable et un impact au-delà des frontières",
+          "progress": "État d'avancement",
+          "vision": "Notre vision"
+        },
+        "intro": [
+          "Au cœur de la ville du Locle, dans le canton de Neuchâtel, sur la bande frontalière stratégique et pleine de vie entre la Suisse et la France, le projet « Dilal Al Khair » veut être bien plus qu'un simple lieu de prière : c'est le seul repère de la région qui forme un pont de foi et de vie communautaire entre les musulmans et les travailleurs frontaliers.",
+          "Ce projet de waqf vient mettre un terme définitif à des années de location épuisantes, et fait passer nos efforts de coûts temporaires et dispersés à une stabilité durable."
+        ],
         "objectifs": [
-          "Réunir les fonds pour l'immeuble : CHF 1'250'000, dont CHF 550'000 à lever",
-          "Aménager les espaces du centre pour des usages variés",
-          "Créer un lieu de culture, de rencontre et de transmission du savoir, avec un espace de recueillement",
-          "Proposer des salles de formation et d'enseignement",
-          "Maintenir les six appartements et le local commercial en location : leurs revenus nets, CHF 49'380 par an, financent uniquement le fonctionnement du centre culturel",
-          "Préserver le potentiel de deux parcelles constructibles pour les besoins futurs du centre"
+          "Notre objectif spirituel : offrir le seul lieu de prière de la région, un repère de recueillement et de sérénité.",
+          "Notre objectif durable : rendre le projet financièrement autonome grâce à des revenus réguliers, et mettre fin au poids du loyer.",
+          "Notre objectif social : créer un pont entre les deux communautés, de part et d'autre de la frontière franco-suisse, au service des jeunes générations."
+        ],
+        "strengths": [
+          "La seule mosquée de la ville, à la frontière de deux pays (Suisse et France).",
+          "L'autonomie financière et l'autofinancement, sans le poids du loyer.",
+          "Un emplacement stratégique et un impact transfrontalier, au point de rencontre des deux communautés.",
+          "Un waqf durable : un bienfait multiplié et une récompense continue. Votre don d'aujourd'hui devient un bien stable, qui se finance lui-même et sert vos frères et sœurs de la région frontalière, pour toujours."
         ],
         "fiche": [
           {
-            "label": "Valeur de l'immeuble",
-            "value": "CHF 1'250'000"
+            "label": "Lieu",
+            "value": "Le Locle, canton de Neuchâtel"
           },
           {
-            "label": "Montant à lever",
+            "label": "Budget nécessaire",
             "value": "CHF 550'000"
-          },
-          {
-            "label": "Revenus locatifs nets",
-            "value": "CHF 49'380 par an"
-          },
-          {
-            "label": "Composition",
-            "value": "6 appartements, 1 local commercial, 5 places de parc"
-          },
-          {
-            "label": "Terrain",
-            "value": "2 parcelles constructibles"
-          },
-          {
-            "label": "Construction",
-            "value": "1902, 5 étages, très bon état"
-          },
-          {
-            "label": "Localisation",
-            "value": "Le Locle, Neuchâtel"
           }
         ],
-        "description": "Situé au cœur du Locle, troisième ville du canton de Neuchâtel et point de passage vers la France voisine, l'immeuble date de 1902 et se trouve en très bon état. Il comprend six appartements, un local commercial et cinq places de parc, à proximité des commodités, des écoles et des transports publics. Les loyers assurent un revenu régulier, entièrement consacré au centre culturel. Deux parcelles constructibles complètent le bien et laissent la place à un développement futur, comme des places de parc supplémentaires, une extension ou une nouvelle construction. Le centre s'adresse aux familles, aux jeunes et à tous les habitants du Locle et de la région.",
-        "avancement": "Le projet est en phase de collecte. Le dossier de l'immeuble est prêt et présenté aux donateurs. Chaque contribution nous rapproche de l'objectif de CHF 550'000, et les prochaines étapes seront communiquées ici au fil de l'avancement.",
-        "vision": "À terme, Dilal Al Khair veut être un lieu où le savoir se transmet, où les cultures dialoguent et où chacun se sent accueilli, au service des habitants du Locle et de la région, aujourd'hui et pour les générations à venir. Chaque contribution est une sadaqa jariya, un bienfait qui continue de porter ses fruits, offert pour soi, pour ses parents et pour ceux que l'on aime.",
+        "avancement": [
+          "Chaque jour compte : nous rassemblons les dons pour atteindre le budget nécessaire de CHF 550'000. Chaque don nous rapproche de ce waqf béni, appelé à devenir un lieu spirituel et de savoir qui rassemble les musulmans du Locle et des environs.",
+          "Votre don d'aujourd'hui : une graine de bien dont les fruits profiteront à nos générations futures."
+        ],
+        "vision": "Le projet « Dilal Al Khair » n'est pas seulement un immeuble ou un lieu de prière : c'est la création d'un bien islamique en waqf, stable, dans un lieu unique. Le don d'aujourd'hui y devient une part dans une œuvre éternelle, qui se finance elle-même et servira les générations successives, de part et d'autre de la frontière franco-suisse, pour toujours.",
         "captionsShort": [
           "Vue aérienne",
           "L'immeuble",

@@ -41,11 +41,11 @@ export default function ProjectCard({ project, variant = 'list' }) {
           <Link to={path} className="projet-card__stretched">{text.title}</Link>
         </h3>
         {variant === 'home' ? (
-          <p className="projet-card__location">📍 {text.location} · 📅 {project.year} · {text.surface}</p>
+          <p className="projet-card__location">📍 {text.location} · 📅 {project.year}{text.surface && ` · ${text.surface}`}</p>
         ) : (
           <>
             <p className="projet-card__location">📍 {text.location}</p>
-            <p className="projet-card__location" style={{ color: 'var(--text-faint)' }}>📅 {project.year} · {text.surface}</p>
+            <p className="projet-card__location" style={{ color: 'var(--text-faint)' }}>📅 {project.year}{text.surface && ` · ${text.surface}`}</p>
           </>
         )}
         <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6, fontWeight: variant === 'home' ? undefined : 300 }}>
