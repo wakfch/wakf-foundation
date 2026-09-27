@@ -256,20 +256,21 @@
         ]
       },
       "aliman": {
-        "title": "Centre Al Iman",
-        "type": "Centre islamique",
+        "title": "Centre culturel islamique Al Iman (Fribourg)",
+        "type": "Centre culturel islamique",
         "ville": "Fribourg, FR",
         "surface": "132 m²",
-        "excerptHome": "Centre islamique ouvert à toutes les nationalités : philosophie d'ouverture totale au cœur de Fribourg.",
-        "excerpt": "Centre islamique opéré par l'Association Culturelle Albanaise (CCA), philosophie d'ouverture totale, transcendant les nationalités pour accueillir toute la communauté fribourgeoise.",
-        "subtitle": "Centre islamique ouvert à toutes les nationalités",
+        "excerpt": "Un symbole d'ouverture et de diversité",
+        "subtitle": "Un symbole d'ouverture et de diversité",
         "villeDetail": "Fribourg, FR",
         "status": "En cours",
-        "intro": "Le Centre Al Iman à Fribourg, opéré par l'Association Culturelle Albanaise (CCA), incarne une philosophie d'ouverture totale : transcender les nationalités pour accueillir l'ensemble de la communauté musulmane fribourgeoise. Construit en 1997, il couvre 132 m² au cœur de la ville.",
+        "intro": "La fondation du « Centre Al Iman » en 2018 n'a pas été un simple ajout immobilier, mais l'incarnation d'une philosophie de waqf qui dépasse les murs pour ancrer un impact humain durable. Un foyer fédérateur qui efface les différences ethniques et de genre, et un symbole vivant d'unité et de complémentarité au service du bien commun des musulmans.",
         "objectifs": [
-          "Rénover et moderniser les infrastructures pour mieux accueillir les fidèles",
-          "Offrir un espace de culte dépassant les frontières nationales et culturelles",
-          "Renforcer le lien entre la communauté musulmane et la société fribourgeoise"
+          "Préserver l'identité islamique et prendre soin de la spécificité culturelle de la minorité albanaise et des générations montantes.",
+          "Activer le principe du « corps unique » au service de l'ensemble des musulmans et renforcer une diversité positive au sein de la société.",
+          "Offrir un système intégré et compétent couvrant les aspects cultuels, éducatifs et sociaux.",
+          "Faire vivre le waqf moderne à travers un partenariat stratégique exemplaire avec l'Association Culturelle Albanaise (CCA).",
+          "Faire du waqf une plateforme de solidarité communautaire et ancrer l'unité de l'impact humain et de l'action commune."
         ],
         "fiche": [
           {
@@ -297,9 +298,20 @@
             "value": "En cours"
           }
         ],
-        "description": "Le Centre Al Iman se distingue par sa philosophie d'ouverture totale : ses portes sont ouvertes à toutes les nationalités et cultures, au-delà des origines de l'association gestionnaire. C'est un lieu de rencontre, d'apprentissage et de prière pour toute la communauté musulmane fribourgeoise, reflet du cosmopolitisme de la ville.",
-        "avancement": "Travaux de rénovation partiellement réalisés. La Fondation Wakef accompagne l'Association CCA dans la finalisation des aménagements intérieurs et l'optimisation des espaces.",
-        "vision": "Faire du Centre Al Iman un modèle d'intégration et d'ouverture, où la diversité de l'islam suisse trouve son expression la plus harmonieuse, un centre communautaire au sens plein du terme.",
+        "avancement": "Conformément à la vision de pérennité de la fondation du waqf, les opérations quotidiennes et les activités de sensibilisation sont gérées par l'Association Culturelle Albanaise (CCA), un partenaire qui garantit l'activation du waqf dans toute sa capacité et son ancrage dans les besoins réels de la communauté locale.",
+        "vision": "Un modèle de waqf pionnier qui dépasse le bâti pour construire un partenariat civilisationnel ; il préserve l'identité de la jeunesse, reflète l'essence ouverte de l'islam, et propose des solutions durables qui renforcent notre présence positive au sein de la société.",
+        "headings": {
+          "intro": "Préambule : une vision qui dépasse le bâti",
+          "objectives": "Objectifs du projet",
+          "strengths": "L'importance stratégique du Centre Al Iman",
+          "progress": "Le partenariat opérationnel",
+          "vision": "Vision future"
+        },
+        "strengths": [
+          "Un foyer identitaire : il ancre les valeurs spirituelles et culturelles de la minorité albanaise à Fribourg, et préserve l'identité des générations montantes.",
+          "Des ponts d'ouverture : il étend ses services et son accompagnement à l'ensemble des musulmans de la ville, consacrant le principe de solidarité et de corps unique.",
+          "Compétence et complémentarité : il propose un système global (cultuel, éducatif et social) avec une grande efficacité, prouvant que le rayonnement ne se mesure pas à la superficie des lieux."
+        ],
         "captionsShort": [
           "Salle de prière",
           "Repas communautaire",

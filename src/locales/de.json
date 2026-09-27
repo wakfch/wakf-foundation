@@ -256,20 +256,21 @@
         ]
       },
       "aliman": {
-        "title": "Al Iman Zentrum",
-        "type": "Islamisches Zentrum",
+        "title": "Islamisches Kulturzentrum Al Iman (Freiburg)",
+        "type": "Islamisches Kulturzentrum",
         "ville": "Freiburg, FR",
         "surface": "132 m²",
-        "excerptHome": "Islamisches Zentrum, offen für alle Nationalitäten: eine Haltung vollständiger Offenheit im Herzen von Freiburg.",
-        "excerpt": "Islamisches Zentrum, geführt vom Albanischen Kulturverein (CCA), mit einer Haltung vollständiger Offenheit, die Nationalitäten überwindet, um die ganze Freiburger Gemeinschaft zu empfangen.",
-        "subtitle": "Islamisches Zentrum, offen für alle Nationalitäten",
+        "excerpt": "Ein Symbol für Offenheit und Vielfalt",
+        "subtitle": "Ein Symbol für Offenheit und Vielfalt",
         "villeDetail": "Freiburg, FR",
         "status": "Laufend",
-        "intro": "Das Al Iman Zentrum in Freiburg, geführt vom Albanischen Kulturverein (CCA), verkörpert eine Haltung vollständiger Offenheit: Nationalitäten zu überwinden, um die gesamte muslimische Gemeinschaft Freiburgs zu empfangen. Es wurde 1997 erbaut und umfasst 132 m² im Herzen der Stadt.",
+        "intro": "Die Gründung des «Al Iman Zentrums» im Jahr 2018 war nicht nur eine Immobilienerweiterung, sondern die Verkörperung einer Philosophie des Waqf, die über die Mauern hinausgeht, um eine nachhaltige menschliche Wirkung zu verankern. Eine vereinende Heimstätte, die ethnische und geschlechtliche Unterschiede aufhebt, und ein lebendiges Symbol für Einheit und Ergänzung im Dienst des Gemeinwohls der Muslime.",
         "objectifs": [
-          "Die Infrastruktur renovieren und modernisieren, um die Gläubigen besser zu empfangen",
-          "Einen Gebetsraum bieten, der nationale und kulturelle Grenzen überschreitet",
-          "Die Verbindung zwischen der muslimischen Gemeinschaft und der Freiburger Gesellschaft stärken"
+          "Bewahrung der islamischen Identität und Pflege der kulturellen Eigenheit der albanischen Minderheit und der heranwachsenden Generationen.",
+          "Umsetzung des Prinzips des «einen Körpers» im Dienst aller Muslime und Förderung einer positiven Vielfalt in der Gesellschaft.",
+          "Bereitstellung eines integrierten, kompetenten Systems, das religiöse, pädagogische und soziale Aspekte abdeckt.",
+          "Belebung des modernen Waqf durch eine beispielhafte strategische Partnerschaft mit dem Albanischen Kulturverein (CCA).",
+          "Den Waqf zu einer Plattform für gesellschaftliche Solidarität machen und die Einheit von menschlicher Wirkung und gemeinsamem Handeln verankern."
         ],
         "fiche": [
           {
@@ -297,9 +298,20 @@
             "value": "Laufend"
           }
         ],
-        "description": "Das Al Iman Zentrum zeichnet sich durch seine Haltung vollständiger Offenheit aus: Seine Türen stehen allen Nationalitäten und Kulturen offen, über die Herkunft des Trägervereins hinaus. Es ist ein Ort der Begegnung, des Lernens und des Gebets für die gesamte muslimische Gemeinschaft Freiburgs und spiegelt die weltoffene Prägung der Stadt.",
-        "avancement": "Die Renovationsarbeiten sind teilweise ausgeführt. Die Fondation Wakef begleitet den Verein CCA bei der Fertigstellung des Innenausbaus und der Optimierung der Räume.",
-        "vision": "Das Al Iman Zentrum soll zu einem Vorbild für Integration und Offenheit werden, wo die Vielfalt des Schweizer Islam ihren harmonischsten Ausdruck findet: ein Gemeinschaftszentrum im vollen Sinne des Wortes.",
+        "avancement": "Gemäss der Vision der Stiftung für einen beständigen Waqf werden der tägliche Betrieb und die Sensibilisierungsaktivitäten vom Albanischen Kulturverein (CCA) verwaltet, einem Partner, der die volle Aktivierung des Waqf und seine Verankerung in den realen Bedürfnissen der lokalen Gemeinschaft gewährleistet.",
+        "vision": "Ein wegweisendes Modell des Waqf, das über das Gebäude hinausgeht, um eine zivilisatorische Partnerschaft zu schaffen; es schützt die Identität der Jugend, spiegelt das offene Wesen des Islam wider und bietet nachhaltige Lösungen, die unsere positive Präsenz in der Gesellschaft stärken.",
+        "headings": {
+          "intro": "Vorwort: Eine Vision, die über das Gebäude hinausgeht",
+          "objectives": "Projektziele",
+          "strengths": "Die strategische Bedeutung des Al Iman Zentrums",
+          "progress": "Die operative Partnerschaft",
+          "vision": "Zukunftsvision"
+        },
+        "strengths": [
+          "Ein Hort der Identität: Es verankert die spirituellen und kulturellen Werte der albanischen Minderheit in Freiburg und bewahrt die Identität der heranwachsenden Generationen.",
+          "Brücken der Offenheit: Es erweitert seine Dienstleistungen und Beratung auf alle Muslime der Stadt und verkörpert damit das Prinzip der Solidarität und des einen Körpers.",
+          "Kompetenz und Integration: Es bietet ein umfassendes System (religiös, pädagogisch und sozial) mit hoher Leistungsfähigkeit und beweist, dass eine grosse Wirkung nicht von der Grösse der Räumlichkeiten abhängt."
+        ],
         "captionsShort": [
           "Gebetsraum",
           "Gemeinsames Essen",

@@ -256,20 +256,21 @@
         ]
       },
       "aliman": {
-        "title": "Al Iman Centre",
-        "type": "Islamic centre",
+        "title": "Al Iman Islamic Cultural Centre (Fribourg)",
+        "type": "Islamic cultural centre",
         "ville": "Fribourg, FR",
         "surface": "132 m²",
-        "excerptHome": "An Islamic centre open to all nationalities: a spirit of complete openness in the heart of Fribourg.",
-        "excerpt": "An Islamic centre run by the Albanian Cultural Association (CCA), with a spirit of complete openness that rises above nationalities to welcome the whole Fribourg community.",
-        "subtitle": "An Islamic centre open to all nationalities",
+        "excerpt": "A symbol of openness and diversity",
+        "subtitle": "A symbol of openness and diversity",
         "villeDetail": "Fribourg, FR",
         "status": "Ongoing",
-        "intro": "The Al Iman Centre in Fribourg, run by the Albanian Cultural Association (CCA), embodies a spirit of complete openness: rising above nationalities to welcome the whole Muslim community of Fribourg. Built in 1997, it covers 132 m² in the heart of the city.",
+        "intro": "The founding of the “Al Iman Centre” in 2018 was not merely a property addition, but the embodiment of a waqf philosophy that goes beyond walls to establish a lasting human impact. A unifying home that erases ethnic and gender differences, and a living symbol of unity and complementarity in service of the common good of Muslims.",
         "objectifs": [
-          "Renovate and modernise the premises to welcome worshippers better",
-          "Offer a place of worship that reaches beyond national and cultural boundaries",
-          "Strengthen the bond between the Muslim community and Fribourg society"
+          "Preserving Islamic identity and nurturing the cultural specificity of the Albanian minority and rising generations.",
+          "Activating the principle of the “single body” to serve all Muslims and promote positive diversity within society.",
+          "Providing an integrated, competent system covering religious, educational and social aspects.",
+          "Bringing modern waqf to life through an exemplary strategic partnership with the Albanian Cultural Association (CCA).",
+          "Making the waqf a platform for community solidarity and anchoring the unity of human impact and joint action."
         ],
         "fiche": [
           {
@@ -297,9 +298,20 @@
             "value": "Ongoing"
           }
         ],
-        "description": "The Al Iman Centre stands out for its spirit of complete openness: its doors are open to all nationalities and cultures, beyond the origins of the association that runs it. It is a place of meeting, learning and prayer for the whole Muslim community of Fribourg, reflecting the cosmopolitan character of the city.",
-        "avancement": "Renovation works partly completed. Fondation Wakef is supporting the CCA association in finishing the interior fittings and making the best use of the spaces.",
-        "vision": "To make the Al Iman Centre a model of integration and openness, where the diversity of Swiss Islam finds its most harmonious expression: a community centre in the fullest sense of the word.",
+        "avancement": "In line with the foundation's vision of sustainability, daily operations and outreach activities are managed by the Albanian Cultural Association (CCA), a partner that ensures the waqf is activated to its fullest potential and connected to the real needs of the local community.",
+        "vision": "A pioneering waqf model that goes beyond bricks and mortar to build a civilizational partnership; it safeguards the identity of the younger generation, reflects the open essence of Islam, and offers sustainable solutions that strengthen our positive presence in society.",
+        "headings": {
+          "intro": "Foreword: a vision beyond bricks and mortar",
+          "objectives": "Project objectives",
+          "strengths": "The strategic importance of the Al Iman Centre",
+          "progress": "Operational partnership",
+          "vision": "Future vision"
+        },
+        "strengths": [
+          "A cradle of identity: it anchors the spiritual and cultural values of the Albanian minority in Fribourg and preserves the identity of rising generations.",
+          "Bridges of openness: it extends its services and guidance to all Muslims in the city, embodying the concept of mutual solidarity and a single body.",
+          "Competence and integration: it offers a comprehensive system (religious, educational and social) with high capability, proving that great impact is not defined by the size of a space."
+        ],
         "captionsShort": [
           "Prayer hall",
           "Community meal",
