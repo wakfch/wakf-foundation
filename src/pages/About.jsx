@@ -12,6 +12,9 @@ export default function About() {
   const pillars = t('about.pillars', { returnObjects: true });
   const governance = t('about.governance', { returnObjects: true });
   const values = t('about.values', { returnObjects: true });
+  // Histoire : un ou plusieurs paragraphes
+  const p1 = t('about.p1', { returnObjects: true });
+  const history = Array.isArray(p1) ? p1 : [p1];
   return (
     <>
       <div className="page-hero">
@@ -41,9 +44,11 @@ export default function About() {
                 <span className="section-label">{t('about.historyLabel')}</span>
                 <h2 className="section-title">{t('about.historyTitle')}</h2>
                 <span className="accent-line" />
-                <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
-                  {t('about.p1')}
-                </p>
+                {history.map((para, i) => (
+                  <p key={i} className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
+                    {para}
+                  </p>
+                ))}
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
                   {t('about.p2Before')}<em>Wakef</em> (وقف){t('about.p2After')}
                 </p>

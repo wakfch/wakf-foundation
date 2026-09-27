@@ -619,12 +619,16 @@
     "hero": {
       "label": "Fondation Wakef Suisse depuis 2009",
       "title": "À Propos de la Fondation",
-      "sub": "Découvrez notre histoire, notre mission et les 6 objectifs qui guident notre action pour la communauté musulmane en Suisse."
+      "sub": "Un don durable... une mission qui grandit à travers les générations."
     },
     "breadcrumb": "À Propos",
     "historyLabel": "Notre histoire",
     "historyTitle": "Fondée en 2009, une mission durable",
-    "p1": "La Fondation Wakef Suisse a été créée en 2009 sous l'égide de l'article 80 du Code civil suisse, enregistrée sous le numéro CHE-114.901.246. Elle est née d'une conviction profonde : la communauté musulmane de Suisse mérite des institutions durables, indépendantes et gouvernées avec rigueur.",
+    "p1": [
+      "Partant des valeurs solides de solidarité islamique, et incarnant le concept du waqf durable, la Fondation Wakef Suisse a été créée en 2009, en tant qu'entité officielle soumise aux dispositions de l'article 80 du Code civil suisse (registre du canton de Vaud, numéro CHE-114.901.246).",
+      "La fondation porte une mission civilisationnelle visant à promouvoir une citoyenneté positive et à ancrer un environnement religieux et éducatif équilibré. Ses domaines d'action couvrent l'entretien des lieux de culte et la prise en charge de leurs responsables, ainsi que le soutien à la recherche scientifique et à l'autonomisation académique des jeunes.",
+      "À travers nos investissements et nos initiatives qualitatives, nous cherchons à poser les fondations d'un travail institutionnel durable qui réponde aux attentes des musulmans en Suisse, et à garantir aux institutions islamiques une indépendance financière permettant de pérenniser le don à travers les générations."
+    ],
     "p2Before": "Son nom ",
     "p2After": " renvoie au concept islamique de dotation perpétuelle : un bien ou une somme dédiés irrévocablement à une cause d'intérêt général, dont les revenus servent la communauté génération après génération.",
     "missionLabel": "Notre mission :",
@@ -645,7 +649,7 @@
     "pillars": [
       {
         "title": "① Lieux de culte",
-        "desc": "Construire, acheter et assainir les mosquées et centres cultuels en Suisse."
+        "desc": "Construire, acheter et rénover les lieux de culte et les centres culturels islamiques en Suisse."
       },
       {
         "title": "② Imams et intégration",
@@ -676,15 +680,15 @@
     "governance": [
       {
         "title": "Organe de révision",
-        "desc": "Conformément à la législation suisse, un organe de révision indépendant vérifie annuellement les comptes et s'assure du respect des obligations légales et statutaires."
+        "desc": "La fondation s'engage aux plus hauts standards de transparence et de gouvernance financière : ses comptes annuels sont soumis à un audit indépendant réalisé par un organe agréé, conformément à la législation suisse et au Code des obligations (CO). L'organe procède chaque année à l'examen des états financiers afin de vérifier leur régularité et leur conformité à la loi et aux statuts, et soumet son rapport officiel aux autorités de surveillance compétentes."
       },
       {
         "title": "Conseil de fondation",
-        "desc": "Organe suprême responsable de la stratégie, de la surveillance et du respect des statuts. Composé de membres indépendants élus conformément à l'art. 80 CC. Il se réunit au moins une fois par an."
+        "desc": "Organe suprême responsable de l'orientation stratégique, de la supervision générale, et garant du respect des objectifs de la fondation et de ses statuts. Composé de membres indépendants élus conformément aux dispositions de l'article 83 et suivants du Code civil suisse (CC) et des statuts, il tient ses réunions périodiques au moins une fois par an."
       },
       {
         "title": "Comité de direction",
-        "desc": "Assure la gestion opérationnelle quotidienne : suivi des projets, relations partenaires, gestion financière et communication. Rend compte au Conseil de fondation avec un rapport d'activité annuel détaillé."
+        "desc": "Assure la supervision de la gestion opérationnelle quotidienne de la fondation : mise en œuvre des initiatives et projets, gestion des partenariats et relations institutionnelles, contrôle et supervision financière, coordination de la communication et des médias. S'engage à présenter un rapport d'activité annuel complet ainsi que les états financiers au conseil, pour audit et approbation."
       },
       {
         "title": "Conseil juridique",

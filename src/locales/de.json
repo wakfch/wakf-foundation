@@ -619,12 +619,16 @@
     "hero": {
       "label": "Fondation Wakef Suisse seit 2009",
       "title": "Über die Stiftung",
-      "sub": "Entdecken Sie unsere Geschichte, unseren Auftrag und die 6 Ziele, die unser Handeln für die muslimische Gemeinschaft in der Schweiz leiten."
+      "sub": "Eine dauerhafte Gabe... ein Auftrag, der über die Generationen hinweg wächst."
     },
     "breadcrumb": "Über uns",
     "historyLabel": "Unsere Geschichte",
     "historyTitle": "2009 gegründet, ein Auftrag von Dauer",
-    "p1": "Die Fondation Wakef Suisse wurde 2009 nach Artikel 80 des Schweizerischen Zivilgesetzbuchs errichtet und ist unter der Nummer CHE-114.901.246 eingetragen. Sie entstand aus einer tiefen Überzeugung: Die muslimische Gemeinschaft der Schweiz verdient dauerhafte, unabhängige und sorgfältig geführte Institutionen.",
+    "p1": [
+      "Ausgehend von den festen Werten der islamischen Solidarität und als Verkörperung des Gedankens des dauerhaften Waqf wurde die Fondation Wakef Suisse 2009 als offizielle Einrichtung gegründet, die den Bestimmungen von Artikel 80 des Schweizerischen Zivilgesetzbuches untersteht (Register des Kantons Waadt, Nummer CHE-114.901.246).",
+      "Die Stiftung verfolgt einen zivilisatorischen Auftrag: Sie will eine positive Bürgerschaft fördern und ein ausgewogenes religiöses und pädagogisches Umfeld verankern. Ihre Tätigkeitsbereiche umfassen den Unterhalt der Gebetsstätten und die Betreuung ihrer Verantwortlichen sowie die Unterstützung der wissenschaftlichen Forschung und die akademische Förderung junger Menschen.",
+      "Mit unseren Investitionen und unseren qualitativ hochwertigen Initiativen wollen wir die Grundlagen für eine dauerhafte institutionelle Arbeit legen, die den Erwartungen der Musliminnen und Muslime in der Schweiz entspricht, und den islamischen Institutionen eine finanzielle Unabhängigkeit sichern, damit die Gabe über die Generationen hinweg fortbesteht."
+    ],
     "p2Before": "Ihr Name ",
     "p2After": " verweist auf das islamische Konzept der ewigen Stiftung: ein Gut oder eine Summe, unwiderruflich einem gemeinnützigen Zweck gewidmet, deren Erträge der Gemeinschaft Generation um Generation dienen.",
     "missionLabel": "Unser Auftrag:",
@@ -645,7 +649,7 @@
     "pillars": [
       {
         "title": "① Gebetsstätten",
-        "desc": "Moscheen und Kultusstätten in der Schweiz bauen, kaufen und sanieren."
+        "desc": "Gebetsstätten und islamische Kulturzentren in der Schweiz bauen, kaufen und renovieren."
       },
       {
         "title": "② Imame und Integration",
@@ -676,15 +680,15 @@
     "governance": [
       {
         "title": "Revisionsstelle",
-        "desc": "Gemäss Schweizer Gesetzgebung prüft eine unabhängige Revisionsstelle jährlich die Rechnung und stellt die Einhaltung der gesetzlichen und statutarischen Pflichten sicher."
+        "desc": "Die Stiftung verpflichtet sich zu höchsten Standards der Transparenz und der finanziellen Governance: Ihre Jahresrechnung wird von einer zugelassenen Revisionsstelle unabhängig geprüft, gemäss der schweizerischen Gesetzgebung und dem Obligationenrecht (OR). Die Revisionsstelle prüft jedes Jahr die Jahresrechnung auf Ordnungsmässigkeit sowie auf Übereinstimmung mit Gesetz und Statuten und legt ihren offiziellen Bericht den zuständigen Aufsichtsbehörden vor."
       },
       {
         "title": "Stiftungsrat",
-        "desc": "Oberstes Organ, verantwortlich für die Strategie, die Aufsicht und die Einhaltung der Statuten. Er besteht aus unabhängigen Mitgliedern, die gemäss Art. 80 ZGB gewählt werden. Er tritt mindestens einmal jährlich zusammen."
+        "desc": "Oberstes Organ, verantwortlich für die strategische Ausrichtung und die allgemeine Aufsicht sowie Garant für die Einhaltung der Stiftungsziele und der Statuten. Es setzt sich aus unabhängigen Mitgliedern zusammen, die gemäss Art. 83 ff. des Schweizerischen Zivilgesetzbuches (ZGB) und den Statuten gewählt werden, und tritt mindestens einmal jährlich zu seinen regelmässigen Sitzungen zusammen."
       },
       {
         "title": "Geschäftsleitung",
-        "desc": "Sie führt die operative Tätigkeit im Alltag: Begleitung der Projekte, Beziehungen zu den Partnern, Finanzverwaltung und Kommunikation. Sie erstattet dem Stiftungsrat mit einem ausführlichen jährlichen Tätigkeitsbericht Rechenschaft."
+        "desc": "Überwacht die tägliche operative Führung der Stiftung: Umsetzung der Initiativen und Projekte, Pflege der Partnerschaften und institutionellen Beziehungen, finanzielle Kontrolle und Aufsicht, Koordination der Kommunikation und der Medien. Sie verpflichtet sich, dem Stiftungsrat einen vollständigen jährlichen Tätigkeitsbericht sowie die Jahresrechnung zur Prüfung und Genehmigung vorzulegen."
       },
       {
         "title": "Rechtsberatung",

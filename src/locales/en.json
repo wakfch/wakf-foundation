@@ -619,12 +619,16 @@
     "hero": {
       "label": "Fondation Wakef Suisse since 2009",
       "title": "About the Foundation",
-      "sub": "Discover our history, our mission and the 6 objectives that guide our work for the Muslim community in Switzerland."
+      "sub": "A lasting gift... a mission that grows through the generations."
     },
     "breadcrumb": "About",
     "historyLabel": "Our history",
     "historyTitle": "Founded in 2009, a lasting mission",
-    "p1": "The Fondation Wakef Suisse was established in 2009 under article 80 of the Swiss Civil Code and is registered under the number CHE-114.901.246. It was born of a deep conviction: the Muslim community of Switzerland deserves institutions that are enduring, independent and rigorously governed.",
+    "p1": [
+      "Drawing on the solid values of Islamic solidarity, and embodying the concept of lasting waqf, Fondation Wakef Suisse was created in 2009 as an official entity subject to the provisions of Article 80 of the Swiss Civil Code (register of the canton of Vaud, number CHE-114.901.246).",
+      "The foundation carries a civilisational mission that aims to promote positive citizenship and to establish a balanced religious and educational environment. Its fields of action cover the upkeep of places of worship and support for those who run them, as well as support for scientific research and the academic empowerment of young people.",
+      "Through our investments and our quality initiatives, we seek to lay the foundations of lasting institutional work that meets the expectations of Muslims in Switzerland, and to secure for Islamic institutions a financial independence that allows giving to endure across generations."
+    ],
     "p2Before": "Its name ",
     "p2After": " refers to the Islamic concept of a perpetual endowment: an asset or a sum irrevocably devoted to a cause of public benefit, whose income serves the community generation after generation.",
     "missionLabel": "Our mission:",
@@ -645,7 +649,7 @@
     "pillars": [
       {
         "title": "① Places of worship",
-        "desc": "Build, buy and renovate mosques and places of worship in Switzerland."
+        "desc": "Build, purchase and renovate places of worship and Islamic cultural centres in Switzerland."
       },
       {
         "title": "② Imams and integration",
@@ -676,15 +680,15 @@
     "governance": [
       {
         "title": "Auditors",
-        "desc": "In accordance with Swiss law, independent auditors examine the accounts every year and make sure that legal and statutory obligations are met."
+        "desc": "The foundation is committed to the highest standards of transparency and financial governance: its annual accounts are subject to an independent audit carried out by an approved body, in accordance with Swiss law and the Code of Obligations (CO). Each year the auditors examine the financial statements to verify that they are proper and comply with the law and the statutes, and submit their official report to the competent supervisory authorities."
       },
       {
         "title": "Foundation Board",
-        "desc": "The supreme body, responsible for strategy, oversight and compliance with the statutes. It is made up of independent members elected in accordance with Art. 80 CC. It meets at least once a year."
+        "desc": "The supreme body, responsible for strategic direction and overall supervision, and guarantor of respect for the foundation's objectives and statutes. Made up of independent members elected in accordance with Article 83 et seq. of the Swiss Civil Code (CC) and the statutes, it holds regular meetings at least once a year."
       },
       {
         "title": "Executive Committee",
-        "desc": "Handles day to day operational management: project monitoring, partner relations, financial management and communication. It reports to the Foundation Board with a detailed annual activity report."
+        "desc": "Oversees the daily operational management of the foundation: implementing initiatives and projects, managing partnerships and institutional relations, financial control and supervision, and coordinating communication and media. It undertakes to present a full annual activity report and the financial statements to the Board for audit and approval."
       },
       {
         "title": "Legal counsel",
