@@ -188,6 +188,7 @@
       "objectives": "Objectifs du projet",
       "strengths": "Atouts du projet",
       "cost": "Coût total",
+      "appel": "Appel au don",
       "description": "Description",
       "progress": "État d'avancement",
       "vision": "Vision future",
@@ -432,17 +433,15 @@
           "Première étape (accomplie, par la grâce d'Allah) : acquisition de la première partie du bien immobilier, d'une surface de 210 m².",
           "Deuxième étape (en cours jusqu'à fin 2026) : signature d'une promesse de vente pour acquérir une surface attenante de 210 m², afin d'augmenter la capacité d'accueil."
         ],
-        "vision": [
-          "Votre contribution aujourd'hui crée un impact durable et participe à l'achèvement de cet édifice béni.",
-          "Votre contribution est une sadaqa jariya (aumône continue) qui sert chacun et préserve la société."
-        ],
+        "vision": "Une institution waqf pionnière qui préserve les valeurs, fait grandir l'être humain et contribue activement à enrichir la diversité culturelle et l'harmonie sociale.",
         "headings": {
           "objectives": "Objectifs du projet",
           "description": "Importance du projet",
           "strengths": "Points forts du projet",
           "progress": "Étapes du projet",
           "cost": "Coût total du projet",
-          "vision": "Appel au don"
+          "appel": "Appel au don",
+          "vision": "Vision d'avenir"
         },
         "strengths": [
           "Un emplacement stratégique et flexible : le projet se situe dans une zone qui offre une souplesse totale pour toutes sortes d'activités et d'événements.",
@@ -450,6 +449,8 @@
           "Un impact durable : une propriété en waqf qui préserve les ressources et assure la stabilité institutionnelle, au service de la coexistence pacifique et de la solidarité au sein de la société."
         ],
         "cost": "CHF 900 000",
+        "appel": "Votre contribution aujourd'hui crée un impact durable et participe à l'achèvement de cet édifice béni.",
+        "closing": "Votre contribution est une sadaqa jariya (aumône continue) qui sert chacun et préserve la société.",
         "captionsShort": ["Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour"],
         "captions": ["Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion"]
       },

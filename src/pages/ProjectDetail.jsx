@@ -39,7 +39,9 @@ export default function ProjectDetail() {
     description: t(k('description'), { defaultValue: '' }),
     avancement: t(k('avancement'), { returnObjects: true }),
     cost: t(k('cost'), { defaultValue: '' }),
+    appel: t(k('appel'), { defaultValue: '' }),
     vision: t(k('vision'), { returnObjects: true }),
+    closing: t(k('closing'), { defaultValue: '' }),
     images: base.images ? base.images.map((src, i) => ({ src, caption: captions[i] })) : null,
   };
 
@@ -164,12 +166,23 @@ export default function ProjectDetail() {
                   </div>
                 )}
 
+                {project.appel && (
+                  <div style={{ marginBottom: 'var(--space-10)' }}>
+                    <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('appel', 'appel')}</h2>
+                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.appel}</p>
+                  </div>
+                )}
+
                 <div style={{ marginBottom: 'var(--space-10)' }}>
                   <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('vision', 'vision')}</h2>
                   {paragraphs(project.vision).map((p, i) => (
                     <p key={i} style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300, marginTop: i ? 'var(--space-3)' : undefined }}>{p}</p>
                   ))}
                 </div>
+
+                {project.closing && (
+                  <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300, marginBottom: 'var(--space-10)' }}>{project.closing}</p>
+                )}
 
                 <Link to="/" className="btn btn--outline btn--sm project-back project-back--desktop">{t('common.backHome')}</Link>
               </div>

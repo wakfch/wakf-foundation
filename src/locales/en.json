@@ -188,6 +188,7 @@
       "objectives": "Objectives of the project",
       "strengths": "Project strengths",
       "cost": "Total cost",
+      "appel": "Call to give",
       "description": "Description",
       "progress": "Progress",
       "vision": "Future vision",
@@ -432,17 +433,15 @@
           "Phase 1 (completed, by the grace of Allah): acquisition of the first part of the property, covering 210 m².",
           "Phase 2 (in progress until the end of 2026): signing a promise of sale to acquire an adjoining 210 m² space and increase capacity."
         ],
-        "vision": [
-          "Your contribution today creates lasting impact and helps complete this blessed project.",
-          "Your contribution is a sadaqa jariya (ongoing charity) that serves individuals and protects society."
-        ],
+        "vision": "A leading waqf institution that preserves values, nurtures people and actively contributes to enriching cultural diversity and social harmony.",
         "headings": {
           "objectives": "Project objectives",
           "description": "Why this project matters",
           "strengths": "Key strengths",
           "progress": "Project milestones",
           "cost": "Total project cost",
-          "vision": "Call to give"
+          "appel": "Call to give",
+          "vision": "Future vision"
         },
         "strengths": [
           "A strategic, flexible location: the project sits in an area that allows complete flexibility for a wide range of activities and events.",
@@ -450,6 +449,8 @@
           "Lasting impact: waqf ownership that preserves resources and secures institutional stability, supporting peaceful coexistence and strengthening community solidarity."
         ],
         "cost": "CHF 900,000",
+        "appel": "Your contribution today creates lasting impact and helps complete this blessed project.",
+        "closing": "Your contribution is a sadaqa jariya (ongoing charity) that serves individuals and protects society.",
         "captionsShort": ["An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre"],
         "captions": ["An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion"]
       },
