@@ -187,6 +187,7 @@
       "introduction": "Einführung",
       "objectives": "Ziele des Projekts",
       "strengths": "Stärken des Projekts",
+      "cost": "Gesamtkosten",
       "description": "Beschreibung",
       "progress": "Stand der Arbeiten",
       "vision": "Zukunftsvision",
@@ -390,16 +391,12 @@
         "type": "Islamisches Kulturzentrum",
         "ville": "Sitten, VS",
         "surface": "420 m²",
-        "excerpt": "Erstes arabischsprachiges Kulturzentrum des Kantons Wallis. Etappe 1 (210 m²) abgeschlossen; Etappe 2 (210 m²) läuft, mit einem Kaufversprechen bis Ende 2026.",
-        "subtitle": "Erstes arabischsprachiges Kulturzentrum des Wallis",
+        "excerpt": "Von einem gemeinsamen Traum zu einem Zentrum im Herzen von Sitten: das grosse Haus, das unsere Kinder aufnimmt und ihre Identität bewahrt.",
+        "subtitle": "Islamisches Kulturzentrum im Herzen von Sitten",
         "villeDetail": "Sitten, VS",
         "status": "Laufend",
-        "intro": "Das An-Nour Zentrum in Sitten ist ein historisches Vorhaben: Als erstes arabischsprachiges Kulturzentrum des Kantons Wallis erfüllt es die Bedürfnisse einer Gemeinschaft, die bis anhin über keinen geeigneten Gebetsraum verfügte. Mit einem Budget von CHF 900 000 und einer Fläche von 420 m² wird dieses Projekt in zwei Etappen durch den Verein An-Nour umgesetzt.",
-        "objectifs": [
-          "Dem Wallis sein erstes würdiges und geeignetes arabischsprachiges Kulturzentrum geben",
-          "Die beiden Bauetappen abschliessen (210 m² + 210 m²)",
-          "Die arabischsprachige Gemeinschaft dauerhaft in der Region Sitten verankern"
-        ],
+        "intro": "Von einem Traum, den wir gemeinsam entworfen haben, zu einem Werk, das wir errichtet haben, dank Allah und der grosszügigen Unterstützung der Spenderinnen und Spender: Dies ist das grosse Haus, das unsere Kinder aufnimmt und ihre Identität bewahrt. Es soll eine Brücke der Begegnung und ein kulturelles Wahrzeichen sein, das unseren authentischen Beitrag im Kanton Wallis widerspiegelt; ein Erbe, das uns mit diesem Land verbindet, und eine Gegenwart und Zukunft, die uns mit allen zusammenführt.",
+        "objectifs": "Einen kulturellen Raum schaffen, der die spirituellen Werte der Musliminnen und Muslime stärkt und ihre jungen Generationen begleitet, damit sie zu wertvollen Mitgliedern ihrer Gesellschaft werden, unter Wahrung ihrer religiösen Würde und durch die Entfaltung der Wirkung des Waqf.",
         "fiche": [
           {
             "label": "Standort",
@@ -430,9 +427,29 @@
             "value": "Laufend"
           }
         ],
-        "description": "Das Wallis beherbergt eine bedeutende arabischsprachige muslimische Gemeinschaft, der lange ein angemessener Gebetsort fehlte. Das An-Nour Zentrum, getragen vom Verein An-Nour mit Unterstützung der Fondation Wakef, schliesst diese historische Lücke. Etappe 1 mit 210 m² ist bereits in Betrieb.",
-        "avancement": "Etappe 1 (210 m²): abgeschlossen und in Betrieb. Etappe 2 (210 m²): Kaufversprechen unterzeichnet, gültig bis Ende 2026. Die Mittelbeschaffung für den Erwerb und die Bauarbeiten läuft.",
-        "vision": "Das An-Nour Zentrum soll zum spirituellen Herzen der arabischsprachigen Gemeinschaft im Wallis werden: ein Ort des Gebets, des Lernens und des Gemeinschaftslebens für heutige und künftige Generationen.",
+        "description": "Hin zu institutioneller Stabilität, die Werte bewahrt, die Solidarität stärkt und die muslimische Präsenz zu einem positiven Beitrag für das friedliche Zusammenleben macht, durch Eigentum in Form eines Waqf, das Beständigkeit sichert und verhindert, dass Mittel in Übergangslösungen verloren gehen.",
+        "avancement": [
+          "Erste Etappe (dank Allah abgeschlossen): Erwerb des ersten Teils der Liegenschaft mit einer Fläche von 210 m².",
+          "Zweite Etappe (laufend bis Ende 2026): Unterzeichnung eines Kaufversprechens für eine angrenzende Fläche von 210 m², um die Aufnahmekapazität zu erhöhen."
+        ],
+        "vision": [
+          "Ihr Beitrag heute schafft nachhaltige Wirkung und hilft, dieses gesegnete Werk zu vollenden.",
+          "Ihr Beitrag ist eine Sadaqa Jariya (fortlaufende Spende), die dem Einzelnen dient und die Gesellschaft stärkt."
+        ],
+        "headings": {
+          "objectives": "Ziele des Projekts",
+          "description": "Bedeutung des Projekts",
+          "strengths": "Stärken des Projekts",
+          "progress": "Etappen des Projekts",
+          "cost": "Gesamtkosten des Projekts",
+          "vision": "Spendenaufruf"
+        },
+        "strengths": [
+          "Strategischer, flexibler Standort: Das Projekt liegt in einer Zone, die volle Flexibilität für unterschiedlichste Aktivitäten und Veranstaltungen bietet.",
+          "Ein geografisches Novum: Es ist das erste arabischsprachige Kulturzentrum, das den Bedürfnissen der Gemeinschaft in Sitten, der Kantonshauptstadt, gerecht wird.",
+          "Nachhaltige Wirkung: Eigentum in Form eines Waqf, das Ressourcen bewahrt und institutionelle Stabilität schafft, um das friedliche Zusammenleben zu fördern und den gesellschaftlichen Zusammenhalt zu stärken."
+        ],
+        "cost": "CHF 900 000",
         "captionsShort": ["An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum"],
         "captions": ["An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten"]
       },

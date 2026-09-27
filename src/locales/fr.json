@@ -187,6 +187,7 @@
       "introduction": "Introduction",
       "objectives": "Objectifs du projet",
       "strengths": "Atouts du projet",
+      "cost": "Coût total",
       "description": "Description",
       "progress": "État d'avancement",
       "vision": "Vision future",
@@ -390,16 +391,12 @@
         "type": "Centre culturel islamique",
         "ville": "Sion, VS",
         "surface": "420 m²",
-        "excerpt": "Premier centre culturel arabophone du canton du Valais. Phase 1 (210 m²) finalisée ; Phase 2 (210 m²) en cours avec promesse de vente jusqu'à fin 2026.",
-        "subtitle": "Premier centre culturel arabophone du Valais",
+        "excerpt": "D'un rêve dessiné ensemble à un centre bâti au cœur de Sion : la grande maison qui accueille nos enfants et préserve leur identité.",
+        "subtitle": "Centre culturel islamique au cœur de Sion",
         "villeDetail": "Sion, VS",
         "status": "En cours",
-        "intro": "Le Centre An-Nour à Sion est un projet historique : premier centre culturel arabophone du canton du Valais, il répond aux besoins d'une communauté jusqu'alors sans espace de culte adapté. Avec un budget de CHF 900 000 et une surface de 420 m², ce projet se déploie en deux phases portées par l'Association An-Nour.",
-        "objectifs": [
-          "Offrir au Valais son premier centre culturel arabophone digne et adapté",
-          "Finaliser les deux phases de construction (210 m² + 210 m²)",
-          "Ancrer durablement la communauté arabophone dans la région sédunoise"
-        ],
+        "intro": "D'un rêve dessiné ensemble à une réalisation bâtie, par la grâce d'Allah puis grâce à la générosité des bienfaiteurs : voici la grande maison qui accueille nos enfants et préserve leur identité. Elle se veut un pont de dialogue et une vitrine de civilisation qui reflète notre contribution authentique au canton du Valais ; un héritage qui nous lie à cette terre, un présent et un avenir qui nous rassemblent avec tous.",
+        "objectifs": "Établir un espace culturel qui renforce les valeurs spirituelles des musulmans et accompagne leurs jeunes générations pour qu'elles deviennent des membres constructifs de leur société, tout en préservant leur dignité religieuse et en valorisant l'impact du waqf sur le développement.",
         "fiche": [
           {
             "label": "Localisation",
@@ -430,9 +427,29 @@
             "value": "En cours"
           }
         ],
-        "description": "Le Valais accueille une communauté musulmane arabophone importante, longtemps privée d'un lieu de culte à sa mesure. Le Centre An-Nour, porté par l'Association An-Nour avec le soutien de la Fondation Wakef, comble ce vide historique. La Phase 1 de 210 m² est d'ores et déjà opérationnelle.",
-        "avancement": "Phase 1 (210 m²) : finalisée et opérationnelle. Phase 2 (210 m²) : promesse de vente signée, valable jusqu'à fin 2026. Collecte de fonds en cours pour finaliser l'acquisition et les travaux.",
-        "vision": "Faire du Centre An-Nour le cœur spirituel de la communauté arabophone valaisanne, un espace de prière, d'apprentissage et de vie communautaire pour les générations présentes et futures.",
+        "description": "Vers une stabilité institutionnelle qui préserve les valeurs, renforce la solidarité et fait de la présence musulmane un atout pour la coexistence pacifique, grâce à une propriété en waqf qui garantit la pérennité et évite de disperser les ressources dans des solutions provisoires.",
+        "avancement": [
+          "Première étape (accomplie, par la grâce d'Allah) : acquisition de la première partie du bien immobilier, d'une surface de 210 m².",
+          "Deuxième étape (en cours jusqu'à fin 2026) : signature d'une promesse de vente pour acquérir une surface attenante de 210 m², afin d'augmenter la capacité d'accueil."
+        ],
+        "vision": [
+          "Votre contribution aujourd'hui crée un impact durable et participe à l'achèvement de cet édifice béni.",
+          "Votre contribution est une sadaqa jariya (aumône continue) qui sert chacun et préserve la société."
+        ],
+        "headings": {
+          "objectives": "Objectifs du projet",
+          "description": "Importance du projet",
+          "strengths": "Points forts du projet",
+          "progress": "Étapes du projet",
+          "cost": "Coût total du projet",
+          "vision": "Appel au don"
+        },
+        "strengths": [
+          "Un emplacement stratégique et flexible : le projet se situe dans une zone qui offre une souplesse totale pour toutes sortes d'activités et d'événements.",
+          "Une première géographique : c'est le premier centre culturel arabophone à répondre aux besoins de la communauté à Sion, capitale du canton.",
+          "Un impact durable : une propriété en waqf qui préserve les ressources et assure la stabilité institutionnelle, au service de la coexistence pacifique et de la solidarité au sein de la société."
+        ],
+        "cost": "CHF 900 000",
         "captionsShort": ["Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour"],
         "captions": ["Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion"]
       },

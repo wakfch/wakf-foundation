@@ -38,7 +38,8 @@ export default function ProjectDetail() {
     fiche: t(k('fiche'), { returnObjects: true }),
     description: t(k('description'), { defaultValue: '' }),
     avancement: t(k('avancement'), { returnObjects: true }),
-    vision: t(k('vision')),
+    cost: t(k('cost'), { defaultValue: '' }),
+    vision: t(k('vision'), { returnObjects: true }),
     images: base.images ? base.images.map((src, i) => ({ src, caption: captions[i] })) : null,
   };
 
@@ -112,15 +113,26 @@ export default function ProjectDetail() {
 
                 <div style={{ marginBottom: 'var(--space-10)' }}>
                   <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('objectives', 'objectives')}</h2>
-                  <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-                    {project.objectifs.map((obj, i) => (
-                      <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-3)', fontSize: 15, color: 'var(--text-body)', lineHeight: 1.6 }}>
-                        <span style={{ width: 24, height: 24, borderRadius: '50%', background: 'var(--green-light)', color: 'var(--green)', fontWeight: 700, fontSize: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 }}>{i + 1}</span>
-                        {obj}
-                      </li>
-                    ))}
-                  </ul>
+                  {Array.isArray(project.objectifs) ? (
+                    <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
+                      {project.objectifs.map((obj, i) => (
+                        <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-3)', fontSize: 15, color: 'var(--text-body)', lineHeight: 1.6 }}>
+                          <span style={{ width: 24, height: 24, borderRadius: '50%', background: 'var(--green-light)', color: 'var(--green)', fontWeight: 700, fontSize: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 }}>{i + 1}</span>
+                          {obj}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.objectifs}</p>
+                  )}
                 </div>
+
+                {project.description && (
+                  <div style={{ marginBottom: 'var(--space-10)' }}>
+                    <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('description', 'description')}</h2>
+                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.description}</p>
+                  </div>
+                )}
 
                 {project.strengths && (
                   <div style={{ marginBottom: 'var(--space-10)' }}>
@@ -136,13 +148,6 @@ export default function ProjectDetail() {
                   </div>
                 )}
 
-                {project.description && (
-                  <div style={{ marginBottom: 'var(--space-10)' }}>
-                    <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{t('projects.detail.description')}</h2>
-                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.description}</p>
-                  </div>
-                )}
-
                 <div style={{ marginBottom: 'var(--space-10)' }}>
                   <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('progress', 'progress')}</h2>
                   <div style={{ background: 'var(--green-light)', border: '1px solid rgba(45,122,58,.15)', borderRadius: 'var(--radius-lg)', padding: 'var(--space-6)' }}>
@@ -152,9 +157,18 @@ export default function ProjectDetail() {
                   </div>
                 </div>
 
+                {project.cost && (
+                  <div style={{ marginBottom: 'var(--space-10)' }}>
+                    <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('cost', 'cost')}</h2>
+                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.cost}</p>
+                  </div>
+                )}
+
                 <div style={{ marginBottom: 'var(--space-10)' }}>
                   <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('vision', 'vision')}</h2>
-                  <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300 }}>{project.vision}</p>
+                  {paragraphs(project.vision).map((p, i) => (
+                    <p key={i} style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontStyle: 'italic', fontWeight: 300, marginTop: i ? 'var(--space-3)' : undefined }}>{p}</p>
+                  ))}
                 </div>
 
                 <Link to="/" className="btn btn--outline btn--sm project-back project-back--desktop">{t('common.backHome')}</Link>

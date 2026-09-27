@@ -187,6 +187,7 @@
       "introduction": "Introduction",
       "objectives": "Objectives of the project",
       "strengths": "Project strengths",
+      "cost": "Total cost",
       "description": "Description",
       "progress": "Progress",
       "vision": "Future vision",
@@ -390,16 +391,12 @@
         "type": "Islamic cultural centre",
         "ville": "Sion, VS",
         "surface": "420 m²",
-        "excerpt": "The first Arabic speaking cultural centre in the canton of Valais. Phase 1 (210 m²) completed; Phase 2 (210 m²) under way, with a promise of sale valid until the end of 2026.",
-        "subtitle": "The first Arabic speaking cultural centre in Valais",
+        "excerpt": "From a dream we drew together to a centre built in the heart of Sion: the great home that embraces our children and safeguards their identity.",
+        "subtitle": "An Islamic cultural centre in the heart of Sion",
         "villeDetail": "Sion, VS",
         "status": "Ongoing",
-        "intro": "The An-Nour Centre in Sion is a landmark project: as the first Arabic speaking cultural centre in the canton of Valais, it meets the needs of a community that until now had no suitable place of worship. With a budget of CHF 900,000 and an area of 420 m², the project is being carried out in two phases by the An-Nour Association.",
-        "objectifs": [
-          "Give Valais its first Arabic speaking cultural centre, dignified and fit for purpose",
-          "Complete both construction phases (210 m² + 210 m²)",
-          "Root the Arabic speaking community lastingly in the Sion region"
-        ],
+        "intro": "From a dream we drew together to an achievement we built, by the grace of Allah and then through the generosity of our benefactors: this is the great home that embraces our children and safeguards their identity. It stands as a bridge of connection and a cultural landmark reflecting our genuine contribution to the canton of Valais; a legacy that binds us to this land, and a present and future that bring us together with everyone.",
+        "objectifs": "To establish a cultural space that strengthens the spiritual values of Muslims and nurtures their younger generations to become constructive members of their society, while preserving their religious dignity and activating the developmental impact of the waqf.",
         "fiche": [
           {
             "label": "Location",
@@ -430,9 +427,29 @@
             "value": "Ongoing"
           }
         ],
-        "description": "Valais is home to a large Arabic speaking Muslim community that long went without a place of worship to match. The An-Nour Centre, led by the An-Nour Association with the support of Fondation Wakef, fills this historic gap. Phase 1, covering 210 m², is already in use.",
-        "avancement": "Phase 1 (210 m²): completed and in use. Phase 2 (210 m²): promise of sale signed, valid until the end of 2026. Fundraising is under way to complete the purchase and the works.",
-        "vision": "To make the An-Nour Centre the spiritual heart of the Arabic speaking community of Valais: a place of prayer, learning and community life for present and future generations.",
+        "description": "Towards institutional stability that preserves values, strengthens solidarity and makes the Muslim presence a positive asset for peaceful coexistence, through waqf ownership that ensures sustainability and keeps resources from being wasted on temporary solutions.",
+        "avancement": [
+          "Phase 1 (completed, by the grace of Allah): acquisition of the first part of the property, covering 210 m².",
+          "Phase 2 (in progress until the end of 2026): signing a promise of sale to acquire an adjoining 210 m² space and increase capacity."
+        ],
+        "vision": [
+          "Your contribution today creates lasting impact and helps complete this blessed project.",
+          "Your contribution is a sadaqa jariya (ongoing charity) that serves individuals and protects society."
+        ],
+        "headings": {
+          "objectives": "Project objectives",
+          "description": "Why this project matters",
+          "strengths": "Key strengths",
+          "progress": "Project milestones",
+          "cost": "Total project cost",
+          "vision": "Call to give"
+        },
+        "strengths": [
+          "A strategic, flexible location: the project sits in an area that allows complete flexibility for a wide range of activities and events.",
+          "A geographic first: it is the first Arabic speaking cultural centre to meet the needs of the community in Sion, the cantonal capital.",
+          "Lasting impact: waqf ownership that preserves resources and secures institutional stability, supporting peaceful coexistence and strengthening community solidarity."
+        ],
+        "cost": "CHF 900,000",
         "captionsShort": ["An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre"],
         "captions": ["An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion"]
       },
