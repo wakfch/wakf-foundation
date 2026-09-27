@@ -630,7 +630,18 @@
     "missionLabel": "Notre mission :",
     "missionText": "Promouvoir une citoyenneté positive à travers un cadre éducatif et religieux équilibré. Nos actions couvrent l'entretien des lieux de culte, la formation des imams, le soutien à la recherche scientifique et l'accompagnement académique des jeunes.",
     "visionLabel": "Notre vision :",
-    "visionText": "Établir une gouvernance institutionnelle garantissant l'indépendance financière des institutions musulmanes en Suisse, afin de pérenniser leur contribution pour les générations futures.",
+    "visionText": "Le waqf est un battement de cœur humain durable, qui recherche l'agrément de Dieu pour semer le bien dans le détail des sociétés, et bâtir des édifices de bonheur et d'épanouissement pour chaque être humain.",
+    "messageLabel": "Message du Waqf :",
+    "messageText": "Investir les valeurs du waqf islamique pour bâtir des institutions capables de répondre aux besoins des musulmans, leur permettant de contribuer activement au progrès de leurs sociétés.",
+    "valuesLabel": "Nos valeurs",
+    "values": [
+      "Durabilité",
+      "Confiance",
+      "Transparence",
+      "Institutionnalité",
+      "Innovation",
+      "Coopération"
+    ],
     "pillars": [
       {
         "title": "① Lieux de culte",
@@ -664,6 +675,10 @@
     "govTitle": "Notre organisation interne",
     "governance": [
       {
+        "title": "Organe de révision",
+        "desc": "Conformément à la législation suisse, un organe de révision indépendant vérifie annuellement les comptes et s'assure du respect des obligations légales et statutaires."
+      },
+      {
         "title": "Conseil de fondation",
         "desc": "Organe suprême responsable de la stratégie, de la surveillance et du respect des statuts. Composé de membres indépendants élus conformément à l'art. 80 CC. Il se réunit au moins une fois par an."
       },
@@ -672,8 +687,8 @@
         "desc": "Assure la gestion opérationnelle quotidienne : suivi des projets, relations partenaires, gestion financière et communication. Rend compte au Conseil de fondation avec un rapport d'activité annuel détaillé."
       },
       {
-        "title": "Organe de révision",
-        "desc": "Conformément à la législation suisse, un organe de révision indépendant vérifie annuellement les comptes et s'assure du respect des obligations légales et statutaires."
+        "title": "Conseil juridique",
+        "desc": "La fondation veille à recourir à un conseiller juridique spécialisé, qui accompagne l'ensemble de ses démarches et activités, pour garantir la pleine conformité aux législations et réglementations suisses, préserver les droits de la fondation et renforcer la bonne gouvernance."
       },
       {
         "title": "Comité de conformité",

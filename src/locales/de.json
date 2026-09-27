@@ -630,7 +630,18 @@
     "missionLabel": "Unser Auftrag:",
     "missionText": "Eine positive Bürgerschaft durch einen ausgewogenen bildungsbezogenen und religiösen Rahmen fördern. Unsere Tätigkeit umfasst den Unterhalt der Gebetsstätten, die Ausbildung der Imame, die Unterstützung der wissenschaftlichen Forschung und die akademische Begleitung junger Menschen.",
     "visionLabel": "Unsere Vision:",
-    "visionText": "Eine institutionelle Führung aufbauen, welche die finanzielle Unabhängigkeit der muslimischen Institutionen in der Schweiz sichert, damit ihr Beitrag für künftige Generationen Bestand hat.",
+    "visionText": "Der Waqf ist ein beständiger menschlicher Herzschlag, der das Wohlgefallen Gottes sucht, um das Gute bis in die Einzelheiten der Gesellschaften zu säen und Bauwerke des Glücks und der Entfaltung für jeden Menschen zu errichten.",
+    "messageLabel": "Botschaft des Waqf:",
+    "messageText": "Die Werte des islamischen Waqf nutzen, um Institutionen aufzubauen, die den Bedürfnissen der Muslime gerecht werden und ihnen ermöglichen, aktiv zum Fortschritt ihrer Gesellschaften beizutragen.",
+    "valuesLabel": "Unsere Werte",
+    "values": [
+      "Nachhaltigkeit",
+      "Vertrauen",
+      "Transparenz",
+      "Institutionelle Verankerung",
+      "Innovation",
+      "Zusammenarbeit"
+    ],
     "pillars": [
       {
         "title": "① Gebetsstätten",
@@ -664,6 +675,10 @@
     "govTitle": "Unsere interne Organisation",
     "governance": [
       {
+        "title": "Revisionsstelle",
+        "desc": "Gemäss Schweizer Gesetzgebung prüft eine unabhängige Revisionsstelle jährlich die Rechnung und stellt die Einhaltung der gesetzlichen und statutarischen Pflichten sicher."
+      },
+      {
         "title": "Stiftungsrat",
         "desc": "Oberstes Organ, verantwortlich für die Strategie, die Aufsicht und die Einhaltung der Statuten. Er besteht aus unabhängigen Mitgliedern, die gemäss Art. 80 ZGB gewählt werden. Er tritt mindestens einmal jährlich zusammen."
       },
@@ -672,8 +687,8 @@
         "desc": "Sie führt die operative Tätigkeit im Alltag: Begleitung der Projekte, Beziehungen zu den Partnern, Finanzverwaltung und Kommunikation. Sie erstattet dem Stiftungsrat mit einem ausführlichen jährlichen Tätigkeitsbericht Rechenschaft."
       },
       {
-        "title": "Revisionsstelle",
-        "desc": "Gemäss Schweizer Gesetzgebung prüft eine unabhängige Revisionsstelle jährlich die Rechnung und stellt die Einhaltung der gesetzlichen und statutarischen Pflichten sicher."
+        "title": "Rechtsberatung",
+        "desc": "Die Stiftung zieht einen spezialisierten Rechtsberater bei, der alle ihre Schritte und Tätigkeiten begleitet, um die vollständige Einhaltung der schweizerischen Gesetze und Vorschriften zu gewährleisten, die Rechte der Stiftung zu wahren und eine gute Governance zu stärken."
       },
       {
         "title": "Konformitätskomitee",

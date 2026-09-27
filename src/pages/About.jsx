@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const PILLAR_ICONS = ['🕌', '📖', '🌍', '🎓'];
-const GOV_ICONS = ['🏛️', '⚙️', '📋', '☪️'];
+// Ordre du document officiel : révision, conseil de fondation, direction, conseil juridique, puis conformité
+const GOV_ICONS = ['📋', '🏛️', '⚙️', '⚖️', '☪️'];
 const LEGAL_ORDER = ['name', 'ide', 'form', 'basis', 'head', 'office', 'year', 'capital', 'recognition', 'supervision', 'email', 'phone'];
 
 export default function About() {
@@ -10,6 +11,7 @@ export default function About() {
   const objectifs = t('about.objectives', { returnObjects: true });
   const pillars = t('about.pillars', { returnObjects: true });
   const governance = t('about.governance', { returnObjects: true });
+  const values = t('about.values', { returnObjects: true });
   return (
     <>
       <div className="page-hero">
@@ -48,9 +50,22 @@ export default function About() {
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
                   <strong>{t('about.missionLabel')}</strong> {t('about.missionText')}
                 </p>
-                <p className="section-body" style={{ marginBottom: 'var(--space-8)' }}>
+                <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
                   <strong>{t('about.visionLabel')}</strong> {t('about.visionText')}
                 </p>
+                <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
+                  <strong>{t('about.messageLabel')}</strong> {t('about.messageText')}
+                </p>
+                <div style={{ marginBottom: 'var(--space-8)' }}>
+                  <p className="section-body" style={{ marginBottom: 'var(--space-3)' }}><strong>{t('about.valuesLabel')}</strong></p>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
+                    {values.map((v, i) => (
+                      <span key={v} style={{ background: i % 2 === 0 ? 'var(--green-light)' : 'var(--gold-light)', borderRadius: 'var(--radius-sm)', padding: '6px 12px', fontSize: 13, fontWeight: 600, color: i % 2 === 0 ? 'var(--green)' : '#92710a' }}>
+                        {v}
+                      </span>
+                    ))}
+                  </div>
+                </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
                   {pillars.map(({ title, desc }, i) => {

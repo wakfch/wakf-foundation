@@ -630,7 +630,18 @@
     "missionLabel": "Our mission:",
     "missionText": "To promote positive citizenship through a balanced educational and religious framework. Our work covers the upkeep of places of worship, the training of imams, support for scientific research and academic guidance for young people.",
     "visionLabel": "Our vision:",
-    "visionText": "To establish institutional governance that secures the financial independence of Muslim institutions in Switzerland, so that their contribution endures for future generations.",
+    "visionText": "Waqf is a lasting human heartbeat that seeks the pleasure of God, sowing goodness in the fabric of societies and building edifices of happiness and fulfilment for every human being.",
+    "messageLabel": "Message of the Waqf:",
+    "messageText": "To harness the values of Islamic waqf to build institutions able to meet the needs of Muslims, enabling them to contribute actively to the progress of their societies.",
+    "valuesLabel": "Our values",
+    "values": [
+      "Sustainability",
+      "Trust",
+      "Transparency",
+      "Institutional strength",
+      "Innovation",
+      "Cooperation"
+    ],
     "pillars": [
       {
         "title": "① Places of worship",
@@ -664,6 +675,10 @@
     "govTitle": "Our internal organisation",
     "governance": [
       {
+        "title": "Auditors",
+        "desc": "In accordance with Swiss law, independent auditors examine the accounts every year and make sure that legal and statutory obligations are met."
+      },
+      {
         "title": "Foundation Board",
         "desc": "The supreme body, responsible for strategy, oversight and compliance with the statutes. It is made up of independent members elected in accordance with Art. 80 CC. It meets at least once a year."
       },
@@ -672,8 +687,8 @@
         "desc": "Handles day to day operational management: project monitoring, partner relations, financial management and communication. It reports to the Foundation Board with a detailed annual activity report."
       },
       {
-        "title": "Auditors",
-        "desc": "In accordance with Swiss law, independent auditors examine the accounts every year and make sure that legal and statutory obligations are met."
+        "title": "Legal counsel",
+        "desc": "The foundation makes a point of relying on a specialised legal adviser who supports all its procedures and activities, to ensure full compliance with Swiss laws and regulations, protect the foundation's rights and strengthen good governance."
       },
       {
         "title": "Compliance Committee",
