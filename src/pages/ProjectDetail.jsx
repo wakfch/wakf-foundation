@@ -104,7 +104,7 @@ export default function ProjectDetail() {
                 </div>
 
                 <div style={{ marginBottom: 'var(--space-10)' }}>
-                  <span className="section-label">{t('projects.detail.introduction')}</span>
+                  <span className="section-label">{heading('introLabel', 'introduction')}</span>
                   {project.introTitle && (
                     <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginTop: 'var(--space-3)' }}>{project.introTitle}</h2>
                   )}
