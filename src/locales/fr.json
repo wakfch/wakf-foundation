@@ -194,7 +194,7 @@
       "vision": "Vision future",
       "factsheet": "Fiche technique",
       "supportTitle": "Soutenir ce projet",
-      "supportBody": "Votre contribution est une Sadaqa Jariya : une aumône qui dure et profite à la communauté.",
+      "supportBody": "Votre contribution est une sadaqa jariya (aumône continue) qui sert chacun et préserve la société.",
       "contribute": {
         "title": "Contribuer",
         "cotizup": "Donner via Cotizup"
@@ -450,7 +450,6 @@
         ],
         "cost": "CHF 900 000",
         "appel": "Votre contribution aujourd'hui crée un impact durable et participe à l'achèvement de cet édifice béni.",
-        "closing": "Votre contribution est une sadaqa jariya (aumône continue) qui sert chacun et préserve la société.",
         "captionsShort": ["Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour", "Centre An-Nour"],
         "captions": ["Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion", "Centre An-Nour, Sion"]
       },

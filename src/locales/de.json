@@ -194,7 +194,7 @@
       "vision": "Zukunftsvision",
       "factsheet": "Technisches Datenblatt",
       "supportTitle": "Dieses Projekt unterstützen",
-      "supportBody": "Ihr Beitrag ist eine Sadaqa Jariya: ein Almosen, das fortwirkt und der Gemeinschaft zugutekommt.",
+      "supportBody": "Ihr Beitrag ist eine Sadaqa Jariya (fortlaufende Spende), die dem Einzelnen dient und die Gesellschaft stärkt.",
       "contribute": {
         "title": "Beitragen",
         "cotizup": "Per Cotizup spenden"
@@ -450,7 +450,6 @@
         ],
         "cost": "CHF 900 000",
         "appel": "Ihr Beitrag heute schafft nachhaltige Wirkung und hilft, dieses gesegnete Werk zu vollenden.",
-        "closing": "Ihr Beitrag ist eine Sadaqa Jariya (fortlaufende Spende), die dem Einzelnen dient und die Gesellschaft stärkt.",
         "captionsShort": ["An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum", "An-Nour Zentrum"],
         "captions": ["An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten", "An-Nour Zentrum, Sitten"]
       },

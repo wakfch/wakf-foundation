@@ -194,7 +194,7 @@
       "vision": "Future vision",
       "factsheet": "Factsheet",
       "supportTitle": "Support this project",
-      "supportBody": "Your contribution is a Sadaqa Jariya: an act of charity that endures and benefits the community.",
+      "supportBody": "Your contribution is a sadaqa jariya (ongoing charity) that serves individuals and protects society.",
       "contribute": {
         "title": "Contribute",
         "cotizup": "Donate via Cotizup"
@@ -450,7 +450,6 @@
         ],
         "cost": "CHF 900,000",
         "appel": "Your contribution today creates lasting impact and helps complete this blessed project.",
-        "closing": "Your contribution is a sadaqa jariya (ongoing charity) that serves individuals and protects society.",
         "captionsShort": ["An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre", "An-Nour Centre"],
         "captions": ["An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion", "An-Nour Centre, Sion"]
       },
