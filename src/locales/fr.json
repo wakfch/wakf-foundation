@@ -189,6 +189,7 @@
       "strengths": "Atouts du projet",
       "cost": "Coût total",
       "appel": "Appel au don",
+      "message": "Message",
       "description": "Description",
       "progress": "État d'avancement",
       "vision": "Vision future",
@@ -202,20 +203,20 @@
     },
     "items": {
       "madretsch": {
-        "title": "Mosquée Madretsch",
-        "type": "Lieu de culte",
+        "title": "Le Projet Waqf",
+        "type": "Centre culturel islamique",
         "ville": "Bienne, BE",
         "surface": "496 m²",
-        "excerptHome": "Construction et aménagement de la mosquée Madretsch, premier grand projet de la Fondation Wakef.",
-        "excerpt": "Premier grand projet de la Fondation Wakef : construction et aménagement de la mosquée Madretsch à Bienne. Un espace de 496 m² au service de la communauté musulmane de Madretsch.",
-        "subtitle": "Premier grand projet de la Fondation Wakef Suisse",
+        "excerpt": "Centre culturel islamique Madretsch, Ville de Bienne",
+        "subtitle": "Centre culturel islamique Madretsch, Ville de Bienne",
         "villeDetail": "Bienne (Madretsch), BE",
         "status": "Réalisé",
-        "intro": "La Mosquée Madretsch, inaugurée en 2009 à Bienne, est le premier grand projet de la Fondation Wakef Suisse. Avec ses 496 m², elle accueille la communauté musulmane du quartier de Madretsch et constitue le fondement sur lequel la Fondation a bâti son expertise en matière de financement islamique en Suisse.",
+        "intro": "Un phare islamique ancien, et le premier mihrab où la prière fut établie dans la ville de Bienne, canton de Berne, ce n'est pas un simple bâtiment, mais un waqf stratégique qui unit le culte à l'éducation et à la pérennité financière, pour rester un foyer fédérateur et un impact durable pour les générations.",
         "objectifs": [
-          "Créer un espace de culte digne pour la communauté musulmane de Madretsch",
-          "Offrir un cadre d'apprentissage pour la langue arabe et l'éducation islamique",
-          "Favoriser l'intégration et le vivre-ensemble dans le tissu local biennois"
+          "Autonomie financière et de développement : préserver le waqf et pérenniser son impact durable.",
+          "Prise en charge des pratiques cultuelles : offrir un cadre spirituel adapté à l'accomplissement du culte, dans le respect des lois et cadres en vigueur.",
+          "Éducation et développement des connaissances : renforcer le lien communautaire et l'accompagnement culturel de la jeunesse.",
+          "Incarnation concrète des valeurs de vivre ensemble et de citoyenneté : activer le rôle des musulmans dans une contribution positive au sein de la société."
         ],
         "fiche": [
           {
@@ -239,9 +240,22 @@
             "value": "Réalisé"
           }
         ],
-        "description": "Premier grand projet de la Fondation, la Mosquée Madretsch témoigne de la capacité de la Fondation Wakef à mener à bien des projets d'infrastructure islamique en Suisse. Ce projet a posé les bases de notre modèle opérationnel : financement communautaire transparent, gestion professionnelle et ancrage local fort.",
-        "avancement": "Projet réalisé et pleinement opérationnel depuis 2009. La mosquée accueille quotidiennement la communauté de Madretsch et constitue un repère stable pour toute la région.",
-        "vision": "La Mosquée Madretsch demeure un modèle de référence : un espace de culte bien intégré dans son quartier, au service d'une communauté diverse et unie, symbole de la pérennité que la Fondation Wakef cherche à incarner.",
+        "description": [
+          "L'un des centres les plus anciens de la région, fondé pour être une maison ouverte à tous, il est devenu officiellement un waqf islamique en 2009 pour garantir la continuité de son impact.",
+          "Le projet associe la mosquée (offerte gratuitement aux musulmans) à un revenu locatif stable, générant une ressource financière constante qui couvre le fonctionnement et l'entretien de manière autonome.",
+          "Le bâtiment a connu une rénovation complète en 2020 pour garantir la qualité des installations et l'efficacité de sa mission sur le long terme."
+        ],
+        "avancement": "Contribuez à l'accomplissement de cet impact : un projet qui a connu une rénovation complète au service de nos générations, et la couverture du solde de ses coûts est aujourd'hui une responsabilité qui nous incombe. Votre participation permet de clore ce passif et d'assurer la pérennité du phare.",
+        "vision": "Que le centre devienne un modèle de waqf durable, un phare islamique alliant l'authenticité du culte, l'excellence du savoir et une citoyenneté positive au sein de la ville.",
+        "headings": {
+          "intro": "Un impact qui demeure... un don qui se renouvelle",
+          "objectives": "Objectifs stratégiques et du waqf",
+          "description": "Description",
+          "message": "Message du centre",
+          "progress": "État d'avancement",
+          "vision": "Vision future"
+        },
+        "message": "Un espace spirituel et social vivant, qui incarne les valeurs du vivre ensemble et sert notre minorité dans sa diversité. Le lieu est mis à disposition des musulmans de la ville sans contrepartie de loyer, pour garantir la pérennité de ce don, et être une maison fédératrice où chacun trouve l'ombre de la fraternité et des services communautaires.",
         "captionsShort": [
           "Après rénovation",
           "Avant travaux",

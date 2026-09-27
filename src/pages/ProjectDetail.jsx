@@ -21,6 +21,17 @@ export default function ProjectDetail() {
   const heading = (name, common) => t(k(`headings.${name}`), { defaultValue: t(`projects.detail.${common}`) });
   // Un texte peut être une chaîne ou une liste de paragraphes
   const paragraphs = (v) => (Array.isArray(v) ? v : [v]);
+  // Liste à coches (points forts, description en plusieurs points)
+  const checkList = (items) => (
+    <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
+      {items.map((item, i) => (
+        <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-3)', fontSize: 15, color: 'var(--text-body)', lineHeight: 1.6 }}>
+          <span aria-hidden="true" style={{ width: 24, height: 24, borderRadius: '50%', background: 'var(--green-light)', color: 'var(--green)', fontWeight: 700, fontSize: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 }}>✓</span>
+          {item}
+        </li>
+      ))}
+    </ul>
+  );
   const strengths = base ? t(k('strengths'), { returnObjects: true }) : null;
   const captions = base?.images ? getProjectCaptions(t, base) : [];
   const project = base && {
@@ -36,7 +47,8 @@ export default function ProjectDetail() {
     objectifs: t(k('objectifs'), { returnObjects: true }),
     strengths: Array.isArray(strengths) ? strengths : null,
     fiche: t(k('fiche'), { returnObjects: true }),
-    description: t(k('description'), { defaultValue: '' }),
+    description: t(k('description'), { returnObjects: true, defaultValue: '' }),
+    message: t(k('message'), { defaultValue: '' }),
     avancement: t(k('avancement'), { returnObjects: true }),
     cost: t(k('cost'), { defaultValue: '' }),
     appel: t(k('appel'), { defaultValue: '' }),
@@ -132,21 +144,23 @@ export default function ProjectDetail() {
                 {project.description && (
                   <div style={{ marginBottom: 'var(--space-10)' }}>
                     <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('description', 'description')}</h2>
-                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.description}</p>
+                    {Array.isArray(project.description) ? checkList(project.description) : (
+                      <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.description}</p>
+                    )}
                   </div>
                 )}
 
                 {project.strengths && (
                   <div style={{ marginBottom: 'var(--space-10)' }}>
                     <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('strengths', 'strengths')}</h2>
-                    <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
-                      {project.strengths.map((item, i) => (
-                        <li key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 'var(--space-3)', fontSize: 15, color: 'var(--text-body)', lineHeight: 1.6 }}>
-                          <span aria-hidden="true" style={{ width: 24, height: 24, borderRadius: '50%', background: 'var(--green-light)', color: 'var(--green)', fontWeight: 700, fontSize: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 2 }}>✓</span>
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
+                    {checkList(project.strengths)}
+                  </div>
+                )}
+
+                {project.message && (
+                  <div style={{ marginBottom: 'var(--space-10)' }}>
+                    <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 20, fontWeight: 700, color: 'var(--text-heading)', marginBottom: 'var(--space-5)' }}>{heading('message', 'message')}</h2>
+                    <p style={{ fontSize: 15, color: 'var(--text-body)', lineHeight: 1.8, fontWeight: 300 }}>{project.message}</p>
                   </div>
                 )}
 

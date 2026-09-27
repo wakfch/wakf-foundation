@@ -189,6 +189,7 @@
       "strengths": "Project strengths",
       "cost": "Total cost",
       "appel": "Call to give",
+      "message": "Message",
       "description": "Description",
       "progress": "Progress",
       "vision": "Future vision",
@@ -202,20 +203,20 @@
     },
     "items": {
       "madretsch": {
-        "title": "Madretsch Mosque",
-        "type": "Place of worship",
+        "title": "The Waqf Project",
+        "type": "Islamic cultural centre",
         "ville": "Biel/Bienne, BE",
         "surface": "496 m²",
-        "excerptHome": "Construction and fitting out of the Madretsch Mosque, the first major project of Fondation Wakef.",
-        "excerpt": "The first major project of Fondation Wakef: construction and fitting out of the Madretsch Mosque in Biel/Bienne. A space of 496 m² serving the Muslim community of Madretsch.",
-        "subtitle": "The first major project of Fondation Wakef Suisse",
+        "excerpt": "Madretsch Islamic Cultural Centre, City of Biel",
+        "subtitle": "Madretsch Islamic Cultural Centre, City of Biel",
         "villeDetail": "Biel/Bienne (Madretsch), BE",
         "status": "Completed",
-        "intro": "The Madretsch Mosque, opened in 2009 in Biel/Bienne, is the first major project of Fondation Wakef Suisse. With its 496 m², it welcomes the Muslim community of the Madretsch district and forms the ground on which the Foundation built its expertise in Islamic funding in Switzerland.",
+        "intro": "A longstanding Islamic beacon, and the first mihrab where prayer was established in the city of Biel, canton of Bern, this is not merely a building, but a strategic waqf that combines worship with education and financial sustainability, remaining a unifying home and a lasting impact for generations.",
         "objectifs": [
-          "Create a dignified place of worship for the Muslim community of Madretsch",
-          "Provide a setting for learning the Arabic language and for Islamic education",
-          "Foster integration and shared community life within the local fabric of Biel/Bienne"
+          "Financial and developmental independence: preserving the waqf and sustaining its lasting impact.",
+          "Caring for religious practice: providing a suitable spiritual environment for worship, in accordance with applicable laws and frameworks.",
+          "Education and knowledge development: strengthening community connection and cultural support for young people.",
+          "The practical embodiment of coexistence and citizenship values: activating the role of Muslims in positively contributing to society."
         ],
         "fiche": [
           {
@@ -239,9 +240,22 @@
             "value": "Completed"
           }
         ],
-        "description": "As the first major project of the Foundation, the Madretsch Mosque shows the ability of Fondation Wakef to carry Islamic infrastructure projects in Switzerland through to completion. It laid the foundations of our operating model: transparent community funding, professional management and strong local roots.",
-        "avancement": "Project completed and fully in use since 2009. The mosque welcomes the Madretsch community every day and is a steady landmark for the whole region.",
-        "vision": "The Madretsch Mosque remains a reference model: a place of worship well settled in its district, serving a diverse and united community, a symbol of the permanence that Fondation Wakef seeks to embody.",
+        "description": [
+          "One of the oldest centres in the region, founded to be a home for everyone, it officially became an Islamic waqf in 2009 to ensure the continuity of its impact.",
+          "The project combines the mosque (offered free of charge to Muslims) with a stable rental income, generating a steady financial resource that covers operations and maintenance independently.",
+          "The building underwent a comprehensive renovation in 2020 to ensure the quality of its facilities and the effectiveness of its mission for the long term."
+        ],
+        "avancement": "Help complete this impact: a project that has undergone a comprehensive renovation to serve our generations, and covering its remaining costs is today a responsibility resting on us. Your contribution closes this debt and ensures the sustainability of the beacon.",
+        "vision": "For the centre to become a sustainable waqf model, an Islamic beacon combining the authenticity of worship, excellence in knowledge, and positive citizenship within the city.",
+        "headings": {
+          "intro": "An impact that endures... a giving that is renewed",
+          "objectives": "Strategic and waqf objectives",
+          "description": "Description",
+          "message": "The centre's message",
+          "progress": "Progress status",
+          "vision": "Future vision"
+        },
+        "message": "A vibrant spiritual and social space that embodies the values of coexistence and serves our diverse minority. The place is provided to Muslims in the city free of rent, to ensure the sustainability of this giving, and to be a unifying home where everyone finds the shade of brotherhood and community services.",
         "captionsShort": [
           "After renovation",
           "Before the works",

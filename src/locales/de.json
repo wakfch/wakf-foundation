@@ -189,6 +189,7 @@
       "strengths": "Stärken des Projekts",
       "cost": "Gesamtkosten",
       "appel": "Spendenaufruf",
+      "message": "Botschaft",
       "description": "Beschreibung",
       "progress": "Stand der Arbeiten",
       "vision": "Zukunftsvision",
@@ -202,20 +203,20 @@
     },
     "items": {
       "madretsch": {
-        "title": "Moschee Madretsch",
-        "type": "Gebetsstätte",
+        "title": "Das Projekt Waqf",
+        "type": "Islamisches Kulturzentrum",
         "ville": "Biel/Bienne, BE",
         "surface": "496 m²",
-        "excerptHome": "Bau und Einrichtung der Moschee Madretsch, das erste grosse Projekt der Fondation Wakef.",
-        "excerpt": "Erstes grosses Projekt der Fondation Wakef: Bau und Einrichtung der Moschee Madretsch in Biel/Bienne. Ein Raum von 496 m² im Dienst der muslimischen Gemeinschaft von Madretsch.",
-        "subtitle": "Erstes grosses Projekt der Fondation Wakef Suisse",
+        "excerpt": "Islamisches Kulturzentrum Madretsch, Stadt Biel",
+        "subtitle": "Islamisches Kulturzentrum Madretsch, Stadt Biel",
         "villeDetail": "Biel/Bienne (Madretsch), BE",
         "status": "Realisiert",
-        "intro": "Die Moschee Madretsch, 2009 in Biel/Bienne eingeweiht, ist das erste grosse Projekt der Fondation Wakef Suisse. Mit ihren 496 m² empfängt sie die muslimische Gemeinschaft des Quartiers Madretsch und bildet das Fundament, auf dem die Stiftung ihre Kompetenz in der islamischen Finanzierung in der Schweiz aufgebaut hat.",
+        "intro": "Ein traditionsreicher islamischer Leuchtturm und die erste Gebetsnische (Mihrab), in der in der Stadt Biel, Kanton Bern, das Gebet errichtet wurde, kein blosses Gebäude, sondern ein strategischer Waqf, der Gottesdienst mit Bildung und finanzieller Nachhaltigkeit verbindet, um eine vereinende Heimstätte und eine dauerhafte Wirkung für die Generationen zu bleiben.",
         "objectifs": [
-          "Einen würdigen Gebetsraum für die muslimische Gemeinschaft von Madretsch schaffen",
-          "Einen Rahmen für das Erlernen der arabischen Sprache und für islamische Bildung bieten",
-          "Integration und Zusammenleben im lokalen Gefüge von Biel/Bienne fördern"
+          "Finanzielle und entwicklungsbezogene Unabhängigkeit: Bewahrung des Waqf und Sicherung seiner nachhaltigen Wirkung.",
+          "Pflege der religiösen Praxis: Bereitstellung eines geeigneten spirituellen Rahmens für die Ausübung des Gottesdienstes im Einklang mit den geltenden Gesetzen und Rahmenbedingungen.",
+          "Bildung und Wissensentwicklung: Stärkung des gesellschaftlichen Zusammenhalts und der kulturellen Betreuung der Jugend.",
+          "Praktische Verkörperung der Werte des Zusammenlebens und der Bürgerschaft: Aktivierung der Rolle der Muslime für einen positiven Beitrag innerhalb der Gesellschaft."
         ],
         "fiche": [
           {
@@ -239,9 +240,22 @@
             "value": "Realisiert"
           }
         ],
-        "description": "Als erstes grosses Projekt der Stiftung zeugt die Moschee Madretsch von der Fähigkeit der Fondation Wakef, islamische Infrastrukturvorhaben in der Schweiz erfolgreich umzusetzen. Dieses Projekt hat die Grundlagen unseres Betriebsmodells gelegt: transparente Finanzierung durch die Gemeinschaft, professionelle Führung und starke lokale Verankerung.",
-        "avancement": "Projekt realisiert und seit 2009 vollumfänglich in Betrieb. Die Moschee empfängt täglich die Gemeinschaft von Madretsch und bildet einen festen Bezugspunkt für die ganze Region.",
-        "vision": "Die Moschee Madretsch bleibt ein Referenzmodell: ein gut in sein Quartier eingebundener Gebetsraum im Dienst einer vielfältigen und geeinten Gemeinschaft, Sinnbild der Beständigkeit, die die Fondation Wakef verkörpern möchte.",
+        "description": [
+          "Eines der ältesten Zentren der Region, gegründet als offenes Haus für alle, wurde es 2009 offiziell zu einem islamischen Waqf, um die Kontinuität seiner Wirkung zu gewährleisten.",
+          "Das Projekt verbindet die Moschee (kostenlos für Muslime angeboten) mit stabilen Mieteinnahmen, was eine konstante finanzielle Ressource schafft, die Betrieb und Instandhaltung eigenständig deckt.",
+          "Das Gebäude wurde 2020 umfassend renoviert, um die Qualität der Einrichtungen und die langfristige Wirksamkeit seiner Mission zu gewährleisten."
+        ],
+        "avancement": "Helfen Sie mit, diese Wirkung zu vollenden: ein Projekt, das eine umfassende Renovierung im Dienst unserer Generationen erfahren hat, und die Deckung der verbleibenden Kosten ist heute eine Verantwortung, die auf uns lastet. Ihre Beteiligung schliesst diese Schuld und sichert die Nachhaltigkeit des Leuchtturms.",
+        "vision": "Dass das Zentrum ein nachhaltiges Modell des Waqf wird, ein islamischer Leuchtturm, der die Authentizität des Gottesdienstes, herausragendes Wissen und positive Bürgerschaft in der Stadt vereint.",
+        "headings": {
+          "intro": "Eine Wirkung, die bleibt... eine Gabe, die sich erneuert",
+          "objectives": "Strategische Ziele und Ziele des Waqf",
+          "description": "Beschreibung",
+          "message": "Botschaft des Zentrums",
+          "progress": "Fortschrittsstatus",
+          "vision": "Zukunftsvision"
+        },
+        "message": "Ein lebendiger spiritueller und sozialer Raum, der die Werte des Zusammenlebens verkörpert und unserer vielfältigen Minderheit dient. Der Ort wird den Muslimen der Stadt mietfrei zur Verfügung gestellt, um die Nachhaltigkeit dieser Gabe zu gewährleisten, und um eine vereinende Heimstätte zu sein, in der alle im Schatten der Geschwisterlichkeit und der gemeinschaftlichen Dienste Zuflucht finden.",
         "captionsShort": [
           "Nach der Renovation",
           "Vor den Arbeiten",
