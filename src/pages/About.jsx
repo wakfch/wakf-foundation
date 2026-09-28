@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const PILLAR_ICONS = ['🕌', '📖', '🌍', '🎓'];
-// Ordre du document officiel : révision, conseil de fondation, direction, conseil juridique, puis conformité
-const GOV_ICONS = ['📋', '🏛️', '⚙️', '⚖️', '☪️'];
+// Ordre du document officiel : révision, conseil de fondation, direction, conseil juridique
+const GOV_ICONS = ['📋', '🏛️', '⚙️', '⚖️'];
 const LEGAL_ORDER = ['name', 'ide', 'form', 'basis', 'head', 'office', 'year', 'capital', 'recognition', 'supervision', 'email', 'phone'];
 
 export default function About() {
@@ -103,7 +103,7 @@ export default function About() {
                     <div style={{ fontSize: 12, color: 'rgba(255,255,255,.65)' }}>{t('about.foundedYear')}</div>
                   </div>
                   <div>
-                    <div style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 800, color: 'var(--gold)' }}>CHF 38k</div>
+                    <div style={{ fontFamily: 'var(--font-heading)', fontSize: 28, fontWeight: 800, color: 'var(--gold)' }}>CHF 50k</div>
                     <div style={{ fontSize: 12, color: 'rgba(255,255,255,.65)' }}>{t('about.endowment')}</div>
                   </div>
                 </div>

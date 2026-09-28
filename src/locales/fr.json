@@ -693,10 +693,6 @@
       {
         "title": "Conseil juridique",
         "desc": "La fondation veille à recourir à un conseiller juridique spécialisé, qui accompagne l'ensemble de ses démarches et activités, pour garantir la pleine conformité aux législations et réglementations suisses, préserver les droits de la fondation et renforcer la bonne gouvernance."
-      },
-      {
-        "title": "Comité de conformité",
-        "desc": "Un comité de savants qualifiés valide la conformité de chaque projet avec les principes islamiques. Tous les fonds sont gérés selon la finance islamique, sans intérêt, dans la transparence totale."
       }
     ],
     "legalLabel": "Légal",
@@ -733,7 +729,7 @@
       },
       "capital": {
         "label": "Capital de dotation",
-        "value": "CHF 38 049"
+        "value": "CHF 50 000"
       },
       "recognition": {
         "label": "Statut juridique",
@@ -1255,7 +1251,7 @@
       },
       "capital": {
         "label": "Capital de dotation",
-        "value": "CHF 38 049"
+        "value": "CHF 50 000"
       },
       "recognition": {
         "label": "Statut juridique",

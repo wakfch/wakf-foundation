@@ -693,10 +693,6 @@
       {
         "title": "Rechtsberatung",
         "desc": "Die Stiftung zieht einen spezialisierten Rechtsberater bei, der alle ihre Schritte und Tätigkeiten begleitet, um die vollständige Einhaltung der schweizerischen Gesetze und Vorschriften zu gewährleisten, die Rechte der Stiftung zu wahren und eine gute Governance zu stärken."
-      },
-      {
-        "title": "Konformitätskomitee",
-        "desc": "Ein Komitee qualifizierter Gelehrter bestätigt die Übereinstimmung jedes Projekts mit den islamischen Grundsätzen. Alle Mittel werden nach den Regeln der islamischen Finanz verwaltet, zinsfrei und in vollständiger Transparenz."
       }
     ],
     "legalLabel": "Rechtliches",
@@ -733,7 +729,7 @@
       },
       "capital": {
         "label": "Stiftungskapital",
-        "value": "CHF 38 049"
+        "value": "CHF 50 000"
       },
       "recognition": {
         "label": "Rechtsstatus",
@@ -1219,7 +1215,7 @@
       },
       "capital": {
         "label": "Stiftungskapital",
-        "value": "CHF 38 049"
+        "value": "CHF 50 000"
       },
       "recognition": {
         "label": "Rechtsstatus",

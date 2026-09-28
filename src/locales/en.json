@@ -693,10 +693,6 @@
       {
         "title": "Legal counsel",
         "desc": "The foundation makes a point of relying on a specialised legal adviser who supports all its procedures and activities, to ensure full compliance with Swiss laws and regulations, protect the foundation's rights and strengthen good governance."
-      },
-      {
-        "title": "Compliance Committee",
-        "desc": "A committee of qualified scholars confirms that every project complies with Islamic principles. All funds are managed according to Islamic finance, without interest, in complete transparency."
       }
     ],
     "legalLabel": "Legal",
@@ -733,7 +729,7 @@
       },
       "capital": {
         "label": "Endowment capital",
-        "value": "CHF 38,049"
+        "value": "CHF 50,000"
       },
       "recognition": {
         "label": "Legal status",
@@ -1219,7 +1215,7 @@
       },
       "capital": {
         "label": "Endowment capital",
-        "value": "CHF 38,049"
+        "value": "CHF 50,000"
       },
       "recognition": {
         "label": "Legal status",
