@@ -856,12 +856,12 @@
       },
       {
         "q": "Complex situations: entrepreneurs, property, crypto…",
-        "a": "For entrepreneurs, property held for resale, cryptocurrencies or complex financial situations, we recommend consulting a qualified Islamic scholar or our Compliance Committee. Write to us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "For entrepreneurs, property held for resale, cryptocurrencies or complex financial situations, we recommend consulting a qualified Islamic scholar or our team. Write to us at <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "For complex situations",
-    "noteBody": "Our calculator covers standard cases. For entrepreneurs, owners of commercial property, investors or unusual financial situations, our Compliance Committee can guide you.",
-    "noteBtn": "Contact our Compliance Committee →"
+    "noteBody": "Our calculator covers standard cases. For entrepreneurs, owners of commercial property, investors or unusual financial situations, our team can guide you.",
+    "noteBtn": "Contact our team →"
   },
   "faq": {
     "hero": {
@@ -880,7 +880,7 @@
           },
           {
             "q": "Who oversees the Foundation?",
-            "a": "The Foundation is supervised by the Federal Supervisory Authority for Foundations. It has independent auditors who examine the accounts every year, and a Compliance Committee that confirms the Islamic compliance of every project."
+            "a": "The Foundation is supervised by the Federal Supervisory Authority for Foundations. It has independent auditors who examine the accounts every year."
           },
           {
             "q": "How large is the endowment capital?",
@@ -974,7 +974,6 @@
       "Faire un don": "Make a donation",
       "Zakat & Sadaqah": "Zakat and Sadaqah",
       "Nos projets": "Our projects",
-      "Comité de conformité": "Compliance Committee",
       "Partenariat": "Partnership",
       "Autre": "Other"
     },

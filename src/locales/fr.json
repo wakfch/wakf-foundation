@@ -892,12 +892,12 @@
       },
       {
         "q": "Situations complexes : entrepreneur, immobilier, crypto…",
-        "a": "Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre comité de conformité. Contactez-nous à <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "Pour les entrepreneurs, les biens immobiliers destinés à la revente, les cryptomonnaies ou les situations patrimoniales complexes, nous recommandons de consulter un savant islamique qualifié ou notre équipe. Contactez-nous à <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "Pour les situations complexes",
-    "noteBody": "Notre calculateur couvre les cas standard. Pour les entrepreneurs, détenteurs d'immobilier commercial, investisseurs ou situations patrimoniales atypiques, notre comité de conformité peut vous orienter.",
-    "noteBtn": "Contacter notre comité de conformité →"
+    "noteBody": "Notre calculateur couvre les cas standard. Pour les entrepreneurs, détenteurs d'immobilier commercial, investisseurs ou situations patrimoniales atypiques, notre équipe peut vous orienter.",
+    "noteBtn": "Contacter notre équipe →"
   },
   "faq": {
     "hero": {
@@ -916,7 +916,7 @@
           },
           {
             "q": "Qui contrôle la Fondation ?",
-            "a": "La Fondation est supervisée par l'Autorité fédérale de surveillance des fondations. Elle dispose d'un organe de révision indépendant qui vérifie annuellement les comptes et d'un comité de conformité qui valide la conformité islamique de chaque projet."
+            "a": "La Fondation est supervisée par l'Autorité fédérale de surveillance des fondations. Elle dispose d'un organe de révision indépendant qui vérifie annuellement les comptes."
           },
           {
             "q": "Quel est le capital de dotation ?",
@@ -1010,7 +1010,6 @@
       "Faire un don": "Faire un don",
       "Zakat & Sadaqah": "Zakat et Sadaqah",
       "Nos projets": "Nos projets",
-      "Comité de conformité": "Comité de conformité",
       "Partenariat": "Partenariat",
       "Autre": "Autre"
     },

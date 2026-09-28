@@ -856,12 +856,12 @@
       },
       {
         "q": "Komplexe Situationen: Unternehmen, Immobilien, Krypto…",
-        "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Konformitätskomitee beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
+        "a": "Für Unternehmerinnen und Unternehmer, für Immobilien zum Wiederverkauf, für Kryptowährungen oder für komplexe Vermögenslagen empfehlen wir, einen qualifizierten islamischen Gelehrten oder unser Team beizuziehen. Schreiben Sie uns an <a href=\"mailto:info@wakf.ch\" style=\"color:var(--green)\">info@wakf.ch</a>."
       }
     ],
     "noteTitle": "Für komplexe Situationen",
-    "noteBody": "Unser Rechner deckt die üblichen Fälle ab. Für Unternehmerinnen und Unternehmer, Eigentümer von Geschäftsliegenschaften, Anlegerinnen und Anleger oder aussergewöhnliche Vermögenslagen kann Ihnen unser Konformitätskomitee weiterhelfen.",
-    "noteBtn": "Unser Konformitätskomitee kontaktieren →"
+    "noteBody": "Unser Rechner deckt die üblichen Fälle ab. Für Unternehmerinnen und Unternehmer, Eigentümer von Geschäftsliegenschaften, Anlegerinnen und Anleger oder aussergewöhnliche Vermögenslagen kann Ihnen unser Team weiterhelfen.",
+    "noteBtn": "Unser Team kontaktieren →"
   },
   "faq": {
     "hero": {
@@ -880,7 +880,7 @@
           },
           {
             "q": "Wer kontrolliert die Stiftung?",
-            "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft, sowie über ein Konformitätskomitee, das die islamische Konformität jedes Projekts bestätigt."
+            "a": "Die Stiftung untersteht der Eidgenössischen Stiftungsaufsicht. Sie verfügt über eine unabhängige Revisionsstelle, welche die Rechnung jährlich prüft."
           },
           {
             "q": "Wie hoch ist das Stiftungskapital?",
@@ -974,7 +974,6 @@
       "Faire un don": "Spenden",
       "Zakat & Sadaqah": "Zakat und Sadaqah",
       "Nos projets": "Unsere Projekte",
-      "Comité de conformité": "Konformitätskomitee",
       "Partenariat": "Partnerschaft",
       "Autre": "Anderes"
     },
