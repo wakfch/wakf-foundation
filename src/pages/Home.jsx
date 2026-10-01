@@ -76,7 +76,6 @@ export default function Home() {
             </span>
           </div>
           <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(28px,3.5vw,44px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.2, marginBottom: 'var(--space-6)', maxWidth: 1120, marginInline: 'auto', textWrap: 'balance' }}>
-            <span style={{ display: 'block' }}>{t('home.hero.title1')}</span>
             <span style={{ display: 'block', color: 'var(--gold)' }}>{t('home.hero.title2')}</span>
           </h1>
           <p style={{ fontSize: 'clamp(15px,2vw,18px)', color: 'rgba(255,255,255,.75)', fontWeight: 300, lineHeight: 1.75, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-10)' }}>

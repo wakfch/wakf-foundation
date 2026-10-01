@@ -90,8 +90,7 @@
   "home": {
     "hero": {
       "badge": "Fondation Wakef Suisse",
-      "title1": "Unser Beitrag in unserer Gesellschaft:",
-      "title2": "verwurzelte Grundlagen, nachhaltiges Engagement",
+      "title2": "tief verankerte Wurzeln, ein nachhaltiges Engagement",
       "sub": "Seit 2009 setzen wir uns dafür ein, dass das Gute eine bleibende Spur hinterlässt: Wir unterstützen die Einrichtungen und Bildungsprogramme, die den Muslimen und der Gesellschaft in der Schweiz dienen.",
       "ctaDonate": "Spenden →",
       "ctaProjects": "Unsere Projekte"
@@ -143,7 +142,7 @@
       "btnZakat": "Meine Zakat berechnen"
     },
     "zakat": {
-      "label": "Säule des Islam",
+      "label": "Eine der Säulen des Islam",
       "title": "Zakatrechner",
       "body": "Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold) · Satz: 2,5% des Nettovermögens. Berechnen Sie Ihre jährliche Pflicht in wenigen Sekunden.",
       "btn": "Rechner öffnen →"
@@ -169,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Unsere Projekte",
-      "sub": "Jedes Projekt baut ein bleibendes Erbe für die muslimische Gemeinschaft in der Schweiz auf. Entdecken Sie unsere abgeschlossenen und laufenden Vorhaben."
+      "sub": "Hinterlassen Sie eine bleibende Spur... investieren Sie in den Menschen und in ein Erbe"
     },
     "breadcrumb": "Unsere Projekte",
     "filters": {
@@ -179,7 +178,7 @@
     },
     "empty": "In dieser Kategorie gibt es zurzeit kein Projekt.",
     "supportTitle": "Ein Projekt unterstützen",
-    "supportBody": "Jede Spende trägt zu einem bleibenden Erbe für die muslimische Gemeinschaft in der Schweiz bei.",
+    "supportBody": "Ihre Gabe von heute ist eine Investition in bleibende Bauwerke... und eine Wirkung, die über Generationen fortbesteht",
     "detail": {
       "notFoundTitle": "Projekt nicht gefunden",
       "notFoundText": "Dieses Projekt existiert nicht oder ist nicht mehr verfügbar.",
@@ -481,18 +480,19 @@
       },
       "bibliotheque": {
         "title": "Mobile Bibliothek",
-        "type": "Bildungsprogramm",
+        "type": "Entdeckungsprogramm",
         "ville": "Westschweiz",
         "surface": "Unterwegs",
         "excerpt": "« Ponts du Savoir » (Brücken des Wissens): eine mehrsprachige Wanderbibliothek, die den interkulturellen Dialog fördert. Slogan: « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.)",
         "subtitle": "« Ponts du Savoir »: Wissen verbindet uns",
         "villeDetail": "Westschweiz",
         "status": "Laufend",
-        "intro": "Die Mobile Bibliothek « Ponts du Savoir » (Brücken des Wissens) ist ein in der Westschweiz einzigartiges Projekt: eine mehrsprachige Wanderbibliothek für den interkulturellen Dialog. Sie ist an kulturellen Anlässen, im öffentlichen Raum und an Orten des Alltags unterwegs, um den Gemeinschaften dort zu begegnen, wo sie sich befinden.",
+        "intro": "Mitten im zeitgenössischen europäischen Umfeld, genauer im besonderen gesellschaftlichen und kulturellen Kontext der Schweizerischen Eidgenossenschaft, entsteht dieses Projekt als hochwertige zivilisatorische Initiative und als innovative Verkörperung des Konzepts der urbanen Kulturdiplomatie.",
         "objectifs": [
-          "Den interkulturellen Dialog durch das Teilen von Wissen fördern",
-          "Mehrsprachige Ressourcen für alle Gemeinschaften zugänglich machen",
-          "Botschafterinnen und Botschafter des interkulturellen Dialogs in der Westschweiz ausbilden"
+          "Ein interaktives Umfeld für den Austausch von Ideen schaffen, fern von Vorurteilen.",
+          "Hochwertige Inhalte anbieten, die authentische islamische Werte mit den Fragen der heutigen europäischen Gesellschaft verbinden.",
+          "Die Wirklichkeit in einer zeitgemässen Sprache behandeln, die sich auf das geistige Schaffen der Musliminnen und Muslime Europas stützt.",
+          "Die historischen und menschlichen Beiträge der islamischen Zivilisation und ihre Rolle für die Stärkung des menschlichen Zusammenlebens bekannt machen."
         ],
         "fiche": [
           {
@@ -524,9 +524,18 @@
             "value": "Laufend"
           }
         ],
-        "description": "Unter dem Slogan « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.) ist die Mobile Bibliothek in der ganzen Westschweiz unterwegs, um Brücken zwischen den Gemeinschaften zu bauen. Das Team der Botschafterinnen und Botschafter transportiert nicht nur Bücher, sondern auch Geschichten, Sprachen und den Schwung einer echten Begegnung zwischen Menschen unterschiedlicher Kulturen.",
+        "description": "Den Ansatz des Dialogs « auf die beste Art » hervorheben, der auf vernunftgeleitetem Zuhören, Schönheit und gegenseitigem Respekt beruht.",
         "avancement": "Das Programm ist seit 2023 aktiv. Regelmässige Präsenz an kulturellen Anlässen und im öffentlichen Raum der Westschweiz. Das Netz der Botschafterinnen und Botschafter wächst laufend.",
-        "vision": "Die Mobile Bibliothek « Ponts du Savoir » soll zu einer nationalen Referenz für den interkulturellen Dialog durch Bildung werden, getragen von der universell verbindenden Kraft des Wissens.",
+        "vision": [
+          "Von einer Dialogplattform zu Wachstum und einem nachhaltigen menschlichen Modell",
+          "Ausbau zu einem nationalen Netz (von einem Fahrzeug zu einer mobilen Flotte):",
+          "Entwicklung einer intelligenten Anwendung (App), mit der Besucherinnen und Besucher Bücher reservieren und den aktuellen Standort des Fahrzeugs auf einer Karte (GPS) verfolgen können.",
+          "Die Erfahrung dokumentieren und einen Leitfaden bewährter Praktiken erstellen, um die Initiative als inspirierendes Modell an muslimische Minderheiten in anderen europäischen Ländern weiterzugeben."
+        ],
+        "headings": {
+          "introLabel": "Vorwort",
+          "description": "Philosophie und Methode"
+        },
         "captionsShort": ["Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek", "Mobile Bibliothek"],
         "captions": ["Die Mobile Bibliothek « Ponts du Savoir »", "Der Lieferwagen der Mobilen Bibliothek", "Französischsprachige Bücher in den Regalen", "Koranübersetzungen in mehreren Sprachen", "Das Innere der Mobilen Bibliothek", "Die Regale von hinten gesehen"]
       },
@@ -776,14 +785,14 @@
   },
   "zakat": {
     "hero": {
-      "label": "Säule des Islam",
-      "title": "Zakatrechner",
-      "sub": "Berechnen Sie Ihre jährliche Zakat gemäss unseren Konformitätsprinzipien. Aktueller Nisab: CHF/€ 4 600 (≈ 85g Gold)."
+      "label": "Eine der Säulen des Islam",
+      "title": "Die Zakat",
+      "sub": "« Und diejenigen, in deren Besitz ein bestimmter Anteil ist für den Bittenden und den Unbemittelten. » (Al Maarij, 70:24 und 25)"
     },
     "breadcrumb": "Zakat",
-    "toolLabel": "Islamisches Werkzeug",
+    "toolLabel": "Islamisches Berechnungswerkzeug",
     "toolTitle": "Zakatrechner",
-    "toolBody": "Geben Sie den Wert Ihrer Vermögenswerte in CHF oder Euro ein. Die Zakat ist geschuldet, wenn Ihr Nettovermögen den Nisab seit einem vollen Mondjahr (Hawl) übersteigt.",
+    "toolBody": "Berechnen Sie Ihre jährliche Zakat flexibel und genau nach den anerkannten islamischen Regeln. Aktuelle Nisabschwelle in der Schweiz: CHF 4 600 (entspricht 85 g Gold)",
     "formTitle": "Ihre Vermögenswerte",
     "fields": {
       "or": {
@@ -808,13 +817,13 @@
       }
     },
     "calcBtn": "Meine Zakat berechnen →",
-    "estimated": "Ihre geschätzte Zakat",
+    "estimated": "Ihre geschätzte Zakat:",
     "totalAssets": "Summe der Vermögenswerte",
     "debtsDeducted": "Abgezogene Schulden",
     "taxable": "Bemessungsgrundlage",
     "rate": "Zakatsatz",
     "belowNisab": "ℹ️ Ihr Nettovermögen liegt unter dem Nisab (CHF {{nisab}}). Sie schulden dieses Jahr keine Zakat al-Māl.",
-    "nisabInfo": "ℹ️ Der Nisab entspricht dem Wert von 85g Gold (~CHF 4 600). Die Zakat ist geschuldet, wenn Ihr Nettovermögen diese Schwelle seit einem vollen Mondjahr (Hawl) übersteigt.",
+    "nisabInfo": "Der Nisab wird auf der Grundlage von 85 g Gold berechnet (rund CHF 4 600). Die Zakat ist geschuldet, wenn Ihr Nettovermögen diese Schwelle erreicht und ein volles Mondjahr (der Hawl) darüber vergangen ist.",
     "rateNoteBefore": "Angewandter Satz: ",
     "rateNoteAfter": " des steuerbaren Nettovermögens.",
     "estimateNote": "Diese Berechnung ist eine unverbindliche Schätzung.",
@@ -823,20 +832,20 @@
     "explainTitle": "Nisab, Hawl und Zakat",
     "explain": [
       {
-        "title": "Der Nisab النصاب",
-        "desc": "Der Nisab ist die Mindestschwelle des Vermögens. Er entspricht dem Wert von 85g Gold (oder 595g Silber, je nach Rechtsschule). Im Jahr 2025 entspricht dies etwa <strong>CHF 4 600</strong>. Dieser Betrag wird gemäss dem Goldkurs neu bewertet."
+        "title": "Der Nisab",
+        "desc": "Er ist die Mindestschwelle des Vermögens, ab der die Zakat verpflichtend wird, und entspricht dem Wert von 85 g Gold (oder 595 g Silber).<br />Aktueller Wert: rund CHF 4 600."
       },
       {
-        "title": "Der Hawl الحول",
-        "desc": "Der Hawl ist die zeitliche Bedingung: Ihr Vermögen muss während eines vollen Mondjahres (rund 354 Tage) über dem Nisab liegen, damit die Zakat verpflichtend wird."
+        "title": "Der Hawl:",
+        "desc": "Er ist die zeitliche Bedingung: Ein volles Mondjahr (rund 354 Tage) muss vergehen, während Sie ein Vermögen besitzen, das den Nisab erreicht."
       },
       {
-        "title": "Der Satz von 2,5%",
-        "desc": "Der Zakatsatz auf Geldvermögen (Zakat al-Māl) beträgt <strong>2,5%</strong> des steuerbaren Nettovermögens, also der Summe Ihrer Vermögenswerte abzüglich Ihrer kurzfristigen Schulden."
+        "title": "Der Zakatsatz (2,5%)",
+        "desc": "Die Zakat auf Vermögen (Zakat al Māl) wird mit 2,5% des zakatpflichtigen Nettovermögens berechnet (Ihre gesamten Ersparnisse abzüglich der kurzfristigen Schulden)."
       },
       {
-        "title": "Was zakatpflichtig ist",
-        "desc": "Zakatpflichtig sind: physisches Gold und Silber, Bargeld, Bankkonten, Aktien (Marktwert), Ersparnisse und halalkonforme Anlagen. Nicht zakatpflichtig sind: die selbst bewohnte Liegenschaft, das private Fahrzeug und Gegenstände des persönlichen Gebrauchs."
+        "title": "Was zakatpflichtig ist:",
+        "desc": "<strong>Bemessungsgrundlage der Zakat: was zakatpflichtig ist und was ausgenommen ist</strong><br />• Zakatpflichtig sind: Gold und Silber; Bargeld, flüssige Mittel und Bankkonten; Aktien und Anlageanteile (nach ihrem Marktwert); Ersparnisse und halalkonforme Anlagen.<br />• Nicht zakatpflichtig sind: die selbst bewohnte Hauptwohnung; das Auto und Gegenstände des persönlichen Gebrauchs."
       }
     ],
     "faqLabel": "Häufige Fragen",

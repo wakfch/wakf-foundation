@@ -90,7 +90,6 @@
   "home": {
     "hero": {
       "badge": "Fondation Wakef Suisse",
-      "title1": "Notre empreinte au cœur de notre société :",
       "title2": "des racines ancrées, un engagement durable",
       "sub": "Depuis 2009, nous œuvrons pour que le bien laisse une trace durable : nous soutenons les institutions et les programmes éducatifs qui servent les musulmans et la société en Suisse.",
       "ctaDonate": "Faire un don →",
@@ -143,8 +142,8 @@
       "btnZakat": "Calculer ma Zakat"
     },
     "zakat": {
-      "label": "Pilier de l'Islam",
-      "title": "Évaluateur de Zakat",
+      "label": "L'un des piliers de l'islam",
+      "title": "Calculateur de Zakat",
       "body": "Nisab actuel : CHF/€ 4 600 (≈ 85g d'or) · Taux : 2,5% du patrimoine net. Calculez votre obligation annuelle en quelques secondes.",
       "btn": "Ouvrir le calculateur →"
     },
@@ -169,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Nos Projets",
-      "sub": "Chaque projet construit un héritage durable pour la communauté musulmane en Suisse. Explorez nos réalisations passées et en cours."
+      "sub": "Laissez une empreinte qui dure... investissez dans l'être humain et dans l'héritage"
     },
     "breadcrumb": "Nos Projets",
     "filters": {
@@ -179,7 +178,7 @@
     },
     "empty": "Aucun projet dans cette catégorie pour le moment.",
     "supportTitle": "Soutenir un projet",
-    "supportBody": "Chaque don contribue à un héritage durable pour la communauté musulmane en Suisse.",
+    "supportBody": "Votre don d'aujourd'hui est un investissement dans des édifices qui durent... et une empreinte qui se prolonge à travers les générations",
     "detail": {
       "notFoundTitle": "Projet introuvable",
       "notFoundText": "Ce projet n'existe pas ou n'est plus disponible.",
@@ -481,18 +480,19 @@
       },
       "bibliotheque": {
         "title": "Bibliothèque Mobile",
-        "type": "Programme éducatif",
+        "type": "Programme de découverte",
         "ville": "Suisse romande",
         "surface": "Itinérante",
         "excerpt": "« Ponts du Savoir » : bibliothèque itinérante multilingue favorisant le dialogue interculturel. Slogan : « Faisons connaissance. Le savoir nous rassemble. »",
         "subtitle": "« Ponts du Savoir » : le savoir nous rassemble",
         "villeDetail": "Suisse romande",
         "status": "En cours",
-        "intro": "La Bibliothèque Mobile « Ponts du Savoir » est un projet unique en Suisse romande : une bibliothèque itinérante multilingue dédiée au dialogue interculturel. Elle se déplace dans les événements culturels, les espaces publics et les lieux de vie pour aller à la rencontre des communautés là où elles se trouvent.",
+        "intro": "Au cœur de l'environnement européen contemporain, et plus précisément dans le contexte social et culturel singulier de la Confédération suisse, ce projet voit le jour comme une initiative civilisationnelle de qualité et une incarnation novatrice du concept de diplomatie culturelle urbaine.",
         "objectifs": [
-          "Favoriser le dialogue interculturel par le partage des savoirs",
-          "Rendre les ressources multilingues accessibles à toutes les communautés",
-          "Former des ambassadeurs du dialogue interculturel en Suisse romande"
+          "Créer un environnement interactif d'échange d'idées, loin des préjugés.",
+          "Proposer un contenu de qualité qui relie les valeurs islamiques authentiques aux questions de la société européenne contemporaine.",
+          "Aborder la réalité dans un langage contemporain qui s'appuie sur la production intellectuelle des musulmans d'Europe.",
+          "Faire connaître les apports historiques et humains de la civilisation islamique et son rôle dans le renforcement de la coexistence humaine."
         ],
         "fiche": [
           {
@@ -524,9 +524,18 @@
             "value": "En cours"
           }
         ],
-        "description": "Sous le slogan « Faisons connaissance. Le savoir nous rassemble. », la Bibliothèque Mobile sillonne la Suisse romande pour créer des ponts entre les communautés. L'équipe d'ambassadeurs ne transporte pas seulement des livres, elle transporte des histoires, des langues, et l'élan d'une rencontre authentique entre des personnes de cultures différentes.",
+        "description": "Mettre en valeur la méthode du dialogue « de la meilleure manière », fondée sur l'écoute raisonnée, la beauté et le respect mutuel.",
         "avancement": "Programme actif depuis 2023. Présence régulière dans les événements culturels et espaces publics de Suisse romande. Réseau d'ambassadeurs en développement continu.",
-        "vision": "Faire de la Bibliothèque Mobile « Ponts du Savoir » une référence nationale pour le dialogue interculturel par l'éducation, en s'appuyant sur le pouvoir rassembleur universel de la connaissance.",
+        "vision": [
+          "D'une plateforme de dialogue vers une croissance et un modèle humain durable",
+          "Devenir un réseau national (d'un véhicule à une flotte mobile) :",
+          "Développer une application intelligente (App) permettant aux visiteurs de réserver des livres et de suivre la position du véhicule en direct sur une carte (GPS).",
+          "Documenter l'expérience et établir un guide des bonnes pratiques, pour transmettre l'initiative comme modèle inspirant aux minorités musulmanes d'autres pays européens."
+        ],
+        "headings": {
+          "introLabel": "Préambule",
+          "description": "Philosophie et méthode"
+        },
         "captionsShort": ["Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile", "Bibliothèque Mobile"],
         "captions": ["La Bibliothèque Mobile « Ponts du Savoir »", "La camionnette de la Bibliothèque Mobile", "Ouvrages en français sur les rayonnages", "Traductions du Coran en plusieurs langues", "L'intérieur de la Bibliothèque Mobile", "Les rayonnages vus depuis l'arrière"]
       },
@@ -812,14 +821,14 @@
   },
   "zakat": {
     "hero": {
-      "label": "Pilier de l'Islam",
-      "title": "Évaluateur de Zakat",
-      "sub": "Calculez votre obligation annuelle de Zakat selon nos principes de conformité. Nisab actuel : CHF/€ 4 600 (≈ 85g d'or)."
+      "label": "L'un des piliers de l'islam",
+      "title": "La Zakat",
+      "sub": "« Et sur les biens desquels il y a un droit bien déterminé, pour le mendiant et le déshérité. » (Al Maarij, 70 : 24 et 25)"
     },
     "breadcrumb": "Zakat",
-    "toolLabel": "Outil islamique",
-    "toolTitle": "Évaluateur de Zakat",
-    "toolBody": "Entrez la valeur de vos avoirs en CHF ou euros. La Zakat est due si votre patrimoine net dépasse le Nisab depuis une année lunaire complète (Hawl).",
+    "toolLabel": "Outil de calcul islamique",
+    "toolTitle": "Calculateur de Zakat",
+    "toolBody": "Calculez votre Zakat annuelle avec souplesse et précision, selon les règles islamiques reconnues. Seuil actuel du Nisab en Suisse : CHF 4 600 (soit l'équivalent de 85 g d'or)",
     "formTitle": "Vos avoirs",
     "fields": {
       "or": {
@@ -844,13 +853,13 @@
       }
     },
     "calcBtn": "Évaluer ma Zakat →",
-    "estimated": "Votre Zakat estimée",
+    "estimated": "Votre Zakat estimée :",
     "totalAssets": "Total des avoirs",
     "debtsDeducted": "Dettes déduites",
     "taxable": "Base imposable",
     "rate": "Taux Zakat",
     "belowNisab": "ℹ️ Votre patrimoine net est inférieur au Nisab (CHF {{nisab}}). Vous n'êtes pas redevable de la Zakat al-Māl cette année.",
-    "nisabInfo": "ℹ️ Le Nisab est fixé à la valeur de 85g d'or (~CHF 4 600). La Zakat est due si votre patrimoine net dépasse ce seuil depuis une année lunaire complète (Hawl).",
+    "nisabInfo": "Le Nisab se calcule sur la base de 85 g d'or (soit environ CHF 4 600). La Zakat est due si votre patrimoine net atteint ce seuil et qu'une année lunaire complète (le Hawl) s'est écoulée.",
     "rateNoteBefore": "Taux appliqué : ",
     "rateNoteAfter": " du patrimoine net imposable.",
     "estimateNote": "Ce calcul est une estimation indicative.",
@@ -859,20 +868,20 @@
     "explainTitle": "Nisab, Hawl et Zakat",
     "explain": [
       {
-        "title": "Le Nisab النصاب",
-        "desc": "Le Nisab est le seuil minimal de richesse. Il est fixé à la valeur de 85g d'or (ou 595g d'argent selon les écoles). En 2025, cela correspond environ à <strong>CHF 4 600</strong>. Ce montant est réévalué selon le cours de l'or."
+        "title": "Le Nisab",
+        "desc": "C'est le seuil minimal de richesse qui rend la Zakat obligatoire ; il équivaut à la valeur de 85 g d'or (ou 595 g d'argent).<br />Valeur actuelle : environ CHF 4 600."
       },
       {
-        "title": "Le Hawl الحول",
-        "desc": "Le Hawl est la condition de durée : votre patrimoine doit dépasser le Nisab pendant une année lunaire complète (environ 354 jours) pour que la Zakat soit obligatoire."
+        "title": "Le Hawl :",
+        "desc": "C'est la condition de durée : une année lunaire complète (environ 354 jours) doit s'écouler pendant laquelle on possède un patrimoine qui atteint le Nisab."
       },
       {
-        "title": "Le taux de 2,5%",
-        "desc": "Le taux de la Zakat sur la richesse monétaire (Zakat al-Māl) est de <strong>2,5%</strong> du patrimoine net imposable, soit la somme totale de vos avoirs moins vos dettes à court terme."
+        "title": "Le taux de la Zakat (2,5%)",
+        "desc": "La Zakat sur les biens (Zakat al Māl) se calcule au taux de 2,5% du patrimoine net soumis à la Zakat (le total de votre épargne, moins les dettes à court terme)."
       },
       {
-        "title": "Ce qui est zakatable",
-        "desc": "Sont zakatables : or et argent physiques, espèces, comptes bancaires, actions (valeur de marché), épargne et placements halal. Ne sont pas zakatables : résidence principale, véhicule personnel, biens d'usage personnel."
+        "title": "Ce qui est soumis à la Zakat :",
+        "desc": "<strong>L'assiette de la Zakat : ce qui y est soumis et ce qui en est exclu</strong><br />• La Zakat est due sur : l'or et l'argent ; les espèces, les liquidités et les comptes bancaires ; les actions et parts d'investissement (selon leur valeur de marché) ; l'épargne et les placements halal.<br />• La Zakat n'est pas due sur : la résidence principale ; la voiture et les effets à usage personnel."
       }
     ],
     "faqLabel": "Questions fréquentes",

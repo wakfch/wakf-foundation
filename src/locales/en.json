@@ -90,8 +90,7 @@
   "home": {
     "hero": {
       "badge": "Fondation Wakef Suisse",
-      "title1": "Our mark in our community:",
-      "title2": "deep roots, lasting commitment",
+      "title2": "deep roots, a lasting commitment",
       "sub": "Since 2009, we have worked so that goodness leaves a lasting mark: we support the institutions and educational programmes that serve Muslims and society in Switzerland.",
       "ctaDonate": "Donate →",
       "ctaProjects": "Our projects"
@@ -143,7 +142,7 @@
       "btnZakat": "Calculate my Zakat"
     },
     "zakat": {
-      "label": "Pillar of Islam",
+      "label": "One of the pillars of Islam",
       "title": "Zakat Calculator",
       "body": "Current Nisab: CHF/€ 4,600 (≈ 85g of gold) · Rate: 2.5% of net wealth. Work out your annual obligation in seconds.",
       "btn": "Open the calculator →"
@@ -169,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Our Projects",
-      "sub": "Every project builds a lasting legacy for the Muslim community in Switzerland. Explore what we have completed and what is under way."
+      "sub": "Leave a mark that lasts... invest in building people and a legacy"
     },
     "breadcrumb": "Our Projects",
     "filters": {
@@ -179,7 +178,7 @@
     },
     "empty": "There is no project in this category at present.",
     "supportTitle": "Support a project",
-    "supportBody": "Every donation contributes to a lasting legacy for the Muslim community in Switzerland.",
+    "supportBody": "Your gift today is an investment in lasting edifices... and an impact that reaches across generations",
     "detail": {
       "notFoundTitle": "Project not found",
       "notFoundText": "This project does not exist or is no longer available.",
@@ -481,18 +480,19 @@
       },
       "bibliotheque": {
         "title": "Mobile Library",
-        "type": "Educational programme",
+        "type": "Discovery programme",
         "ville": "Romandy",
         "surface": "Travelling",
         "excerpt": "“Ponts du Savoir” (Bridges of Knowledge): a multilingual travelling library that fosters intercultural dialogue. Slogan: “Let us get to know one another. Knowledge brings us together.”",
         "subtitle": "“Ponts du Savoir” (Bridges of Knowledge): knowledge brings us together",
         "villeDetail": "Romandy",
         "status": "Ongoing",
-        "intro": "The Mobile Library “Ponts du Savoir” (Bridges of Knowledge) is a project unlike any other in Romandy (French speaking Switzerland): a multilingual travelling library devoted to intercultural dialogue. It moves between cultural events, public spaces and everyday meeting places to reach communities where they are.",
+        "intro": "At the heart of the contemporary European setting, and more precisely within the distinctive social and cultural context of the Swiss Confederation, this project sets out as a quality civilisational initiative and an innovative embodiment of the concept of urban cultural diplomacy.",
         "objectifs": [
-          "Foster intercultural dialogue through the sharing of knowledge",
-          "Make multilingual resources available to every community",
-          "Train ambassadors of intercultural dialogue in Romandy"
+          "To create an interactive environment for exchanging ideas, free from preconceptions.",
+          "To offer quality content that connects authentic Islamic values with the issues of contemporary European society.",
+          "To address today's realities in a contemporary language drawing on the intellectual output of Europe's Muslims.",
+          "To make known the historical and human contributions of Islamic civilisation and its role in strengthening human coexistence."
         ],
         "fiche": [
           {
@@ -524,9 +524,18 @@
             "value": "Ongoing"
           }
         ],
-        "description": "Under the slogan “Let us get to know one another. Knowledge brings us together.”, the Mobile Library travels across Romandy to build bridges between communities. The team of ambassadors carries not only books, but also stories, languages and the impulse of a genuine encounter between people of different cultures.",
+        "description": "Highlighting the approach of dialogue “in the best manner”, founded on reasoned listening, beauty and mutual respect.",
         "avancement": "The programme has been running since 2023. It is regularly present at cultural events and in public spaces across Romandy. The network of ambassadors keeps growing.",
-        "vision": "To make the Mobile Library “Ponts du Savoir” a national reference for intercultural dialogue through education, drawing on the universal power of knowledge to bring people together.",
+        "vision": [
+          "From a platform for dialogue to growth and a lasting human model",
+          "Becoming a national network (from one vehicle to a mobile fleet):",
+          "Developing a smart application (App) that lets visitors reserve books and follow the vehicle's live location on a map (GPS).",
+          "Documenting the experience and producing a guide to best practice, so that the initiative can be passed on as an inspiring model to Muslim minorities in other European countries."
+        ],
+        "headings": {
+          "introLabel": "Foreword",
+          "description": "Philosophy and approach"
+        },
         "captionsShort": ["Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library", "Mobile Library"],
         "captions": ["The Mobile Library “Ponts du Savoir”", "The Mobile Library van", "Books in French on the shelves", "Translations of the Quran in several languages", "Inside the Mobile Library", "The shelves seen from the back"]
       },
@@ -776,14 +785,14 @@
   },
   "zakat": {
     "hero": {
-      "label": "Pillar of Islam",
-      "title": "Zakat Calculator",
-      "sub": "Work out your annual Zakat obligation according to our compliance principles. Current Nisab: CHF/€ 4,600 (≈ 85g of gold)."
+      "label": "One of the pillars of Islam",
+      "title": "Zakat",
+      "sub": "“And those within whose wealth is a known right, for the one who asks and the one who is deprived.” (Al Maarij, 70:24 and 25)"
     },
     "breadcrumb": "Zakat",
-    "toolLabel": "Islamic tool",
+    "toolLabel": "Islamic calculation tool",
     "toolTitle": "Zakat Calculator",
-    "toolBody": "Enter the value of your assets in Swiss francs or in euros. Zakat is due if your net wealth has exceeded the Nisab for a full lunar year (Hawl).",
+    "toolBody": "Calculate your annual Zakat flexibly and accurately, in line with recognised Islamic rules. Current Nisab threshold in Switzerland: CHF 4,600 (equivalent to 85 g of gold)",
     "formTitle": "Your assets",
     "fields": {
       "or": {
@@ -808,13 +817,13 @@
       }
     },
     "calcBtn": "Calculate my Zakat →",
-    "estimated": "Your estimated Zakat",
+    "estimated": "Your estimated Zakat:",
     "totalAssets": "Total assets",
     "debtsDeducted": "Debts deducted",
     "taxable": "Taxable base",
     "rate": "Zakat rate",
     "belowNisab": "ℹ️ Your net wealth is below the Nisab (CHF {{nisab}}). You do not owe Zakat al-Māl this year.",
-    "nisabInfo": "ℹ️ The Nisab is set at the value of 85g of gold (~CHF 4,600). Zakat is due if your net wealth has exceeded this threshold for a full lunar year (Hawl).",
+    "nisabInfo": "The Nisab is calculated on the basis of 85 g of gold (about CHF 4,600). Zakat is due if your net wealth reaches this threshold and a full lunar year (the Hawl) has passed over it.",
     "rateNoteBefore": "Rate applied: ",
     "rateNoteAfter": " of taxable net wealth.",
     "estimateNote": "This calculation is an indicative estimate.",
@@ -823,20 +832,20 @@
     "explainTitle": "Nisab, Hawl and Zakat",
     "explain": [
       {
-        "title": "The Nisab النصاب",
-        "desc": "The Nisab is the minimum threshold of wealth. It is set at the value of 85g of gold (or 595g of silver, depending on the school of law). In 2025 this corresponds to about <strong>CHF 4,600</strong>. The amount is revised in line with the price of gold."
+        "title": "The Nisab",
+        "desc": "It is the minimum level of wealth that makes Zakat obligatory, equal to the value of 85 g of gold (or 595 g of silver).<br />Current value: about CHF 4,600."
       },
       {
-        "title": "The Hawl الحول",
-        "desc": "The Hawl is the condition of duration: your wealth must remain above the Nisab for a full lunar year (about 354 days) for Zakat to become obligatory."
+        "title": "The Hawl:",
+        "desc": "It is the condition of time: a full lunar year (about 354 days) must pass while you hold wealth that reaches the Nisab."
       },
       {
-        "title": "The rate of 2.5%",
-        "desc": "The rate of Zakat on monetary wealth (Zakat al-Māl) is <strong>2.5%</strong> of taxable net wealth, that is the total of your assets less your short term debts."
+        "title": "The Zakat rate (2.5%)",
+        "desc": "Zakat on wealth (Zakat al Māl) is calculated at 2.5% of net zakatable wealth (your total savings, less short term debts)."
       },
       {
-        "title": "What is subject to Zakat",
-        "desc": "Subject to Zakat: physical gold and silver, cash, bank accounts, shares (market value), savings and halal investments. Not subject to Zakat: your main residence, your personal vehicle and goods for personal use."
+        "title": "What is subject to Zakat:",
+        "desc": "<strong>The Zakat base: what is subject to it and what is exempt</strong><br />• Zakat is due on: gold and silver; cash, liquid funds and bank accounts; shares and investment holdings (at their market value); savings and halal investments.<br />• Zakat is not due on: your main personal residence; your car and belongings for personal use."
       }
     ],
     "faqLabel": "Frequently asked questions",
