@@ -28,6 +28,7 @@ export const PROJECTS = [
   },
   {
     id: 'albadr',
+    hidden: true, // masqué du site public ; retirer cette ligne pour le réafficher
     slug: 'centre-al-badr',
     legacySlugs: ['albadr'],
     year: '2017',
@@ -75,9 +76,14 @@ export const PROJECTS = [
 
 export const projectPath = (project) => `/projets/${project.slug}`;
 
-// Retrouve un projet par son URL actuelle ou par un ancien slug (anciens liens et favoris)
+// Un projet marqué hidden: true reste dans les données mais n'apparaît nulle part sur le site
+export const isVisible = (project) => !project.hidden;
+export const getVisibleProjects = () => PROJECTS.filter(isVisible);
+
+// Retrouve un projet visible par son URL actuelle ou par un ancien slug (anciens liens et favoris).
+// Un projet masqué n'est pas trouvé : sa page affiche « Projet introuvable ».
 export const findProjectBySlug = (slug) =>
-  PROJECTS.find((p) => p.slug === slug || p.legacySlugs.includes(slug));
+  getVisibleProjects().find((p) => p.slug === slug || p.legacySlugs.includes(slug));
 
 // Textes d'un projet dans la langue courante
 export const getProjectText = (t, project) => {

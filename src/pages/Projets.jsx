@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from '../components/ProjectCard';
-import { PROJECTS } from '../data/projects';
+import { getVisibleProjects } from '../data/projects';
 
 const STATUTS = [
   { slug: 'tous', key: 'all' },
@@ -14,7 +14,8 @@ export default function Projets() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState('tous');
 
-  const visible = filter === 'tous' ? PROJECTS : PROJECTS.filter(p => p.status === filter);
+  const projects = getVisibleProjects();
+  const visible = filter === 'tous' ? projects : projects.filter(p => p.status === filter);
 
   return (
     <>

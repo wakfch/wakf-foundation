@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from '../components/ProjectCard';
-import { PROJECTS } from '../data/projects';
+import { getVisibleProjects } from '../data/projects';
 
 const STATS = [
   { num: 5, suffix: '', key: 'projects', gold: false },
@@ -165,7 +165,7 @@ export default function Home() {
             <p className="section-body" style={{ marginInline: 'auto' }}>{t('home.projects.body')}</p>
           </div>
           <div className="grid-3" style={{ marginBottom: 'var(--space-10)' }}>
-            {PROJECTS.filter((p) => p.featured).map((p) => (
+            {getVisibleProjects().filter((p) => p.featured).map((p) => (
               <ProjectCard key={p.id} project={p} variant="home" />
             ))}
           </div>

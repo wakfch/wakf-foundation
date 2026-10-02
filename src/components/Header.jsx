@@ -3,6 +3,10 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo-mark.png';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
+import { PROJECTS, isVisible, projectPath } from '../data/projects';
+
+// Liens du menu vers les projets masqués (hidden: true), retirés de la liste
+const HIDDEN_PROJECT_PATHS = PROJECTS.filter((p) => !isVisible(p)).map(projectPath);
 
 const getNavLinks = (t) => [
   { label: t('header.home'), to: '/', noActive: true },
@@ -23,7 +27,7 @@ const getNavLinks = (t) => [
       { label: t('header.delalElKhayr'), to: '/projets/delal-el-khayr' },
       { label: t('header.annour'), to: '/projets/centre-an-nour' },
       { label: t('header.bibliotheque'), to: '/projets/bibliotheque-mobile' },
-    ],
+    ].filter((item) => !HIDDEN_PROJECT_PATHS.includes(item.to)),
   },
   { label: t('header.zakat'), to: '/zakat' },
   { label: t('header.faq'), to: '/faq' },
