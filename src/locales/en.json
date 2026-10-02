@@ -481,11 +481,11 @@
       "bibliotheque": {
         "title": "Mobile Library",
         "type": "Discovery programme",
-        "ville": "Romandy",
+        "ville": "Switzerland",
         "surface": "Travelling",
         "excerpt": "“Ponts du Savoir” (Bridges of Knowledge): a multilingual travelling library that fosters intercultural dialogue. Slogan: “Let us get to know one another. Knowledge brings us together.”",
         "subtitle": "“Ponts du Savoir” (Bridges of Knowledge): knowledge brings us together",
-        "villeDetail": "Romandy",
+        "villeDetail": "Switzerland",
         "status": "Ongoing",
         "intro": "At the heart of the contemporary European setting, and more precisely within the distinctive social and cultural context of the Swiss Confederation, this project sets out as a quality civilisational initiative and an innovative embodiment of the concept of urban cultural diplomacy.",
         "objectifs": [
@@ -497,7 +497,7 @@
         "fiche": [
           {
             "label": "Area of activity",
-            "value": "Romandy (travelling)"
+            "value": "Switzerland (mobile)"
           },
           {
             "label": "Format",

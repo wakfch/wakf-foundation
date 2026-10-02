@@ -481,11 +481,11 @@
       "bibliotheque": {
         "title": "Bibliothèque Mobile",
         "type": "Programme de découverte",
-        "ville": "Suisse romande",
+        "ville": "Suisse",
         "surface": "Itinérante",
         "excerpt": "« Ponts du Savoir » : bibliothèque itinérante multilingue favorisant le dialogue interculturel. Slogan : « Faisons connaissance. Le savoir nous rassemble. »",
         "subtitle": "« Ponts du Savoir » : le savoir nous rassemble",
-        "villeDetail": "Suisse romande",
+        "villeDetail": "Suisse",
         "status": "En cours",
         "intro": "Au cœur de l'environnement européen contemporain, et plus précisément dans le contexte social et culturel singulier de la Confédération suisse, ce projet voit le jour comme une initiative civilisationnelle de qualité et une incarnation novatrice du concept de diplomatie culturelle urbaine.",
         "objectifs": [
@@ -497,7 +497,7 @@
         "fiche": [
           {
             "label": "Zone d'action",
-            "value": "Suisse romande (itinérante)"
+            "value": "Suisse (itinérante)"
           },
           {
             "label": "Format",

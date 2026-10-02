@@ -481,11 +481,11 @@
       "bibliotheque": {
         "title": "Mobile Bibliothek",
         "type": "Entdeckungsprogramm",
-        "ville": "Westschweiz",
+        "ville": "Schweiz",
         "surface": "Unterwegs",
         "excerpt": "« Ponts du Savoir » (Brücken des Wissens): eine mehrsprachige Wanderbibliothek, die den interkulturellen Dialog fördert. Slogan: « Faisons connaissance. Le savoir nous rassemble. » (Lernen wir uns kennen. Wissen verbindet uns.)",
         "subtitle": "« Ponts du Savoir »: Wissen verbindet uns",
-        "villeDetail": "Westschweiz",
+        "villeDetail": "Schweiz",
         "status": "Laufend",
         "intro": "Mitten im zeitgenössischen europäischen Umfeld, genauer im besonderen gesellschaftlichen und kulturellen Kontext der Schweizerischen Eidgenossenschaft, entsteht dieses Projekt als hochwertige zivilisatorische Initiative und als innovative Verkörperung des Konzepts der urbanen Kulturdiplomatie.",
         "objectifs": [
@@ -497,7 +497,7 @@
         "fiche": [
           {
             "label": "Einsatzgebiet",
-            "value": "Westschweiz (unterwegs)"
+            "value": "Schweiz (mobil)"
           },
           {
             "label": "Format",
