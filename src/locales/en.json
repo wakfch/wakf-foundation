@@ -919,7 +919,7 @@
         "items": [
           {
             "q": "Can I make a donation dedicated to a specific project?",
-            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), Al Badr Centre (Le Locle), An-Nour Centre (Sion) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
+            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), An-Nour Centre (Sion), Project Dilal Al Khair (Le Locle) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
           },
           {
             "q": "How do I calculate my Zakat?",
@@ -940,7 +940,7 @@
         "items": [
           {
             "q": "What are the current projects?",
-            "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), Al Badr Centre in Le Locle (ongoing, 2,029 m²), An-Nour Centre in Sion (ongoing, 420 m²) and the Mobile Library “Ponts du Savoir” in Romandy. See the Projects page for full details."
+            "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), An-Nour Centre in Sion (ongoing, 420 m²), Project Dilal Al Khair in Le Locle (ongoing) and the Mobile Library “Ponts du Savoir” in Romandy. See the Projects page for full details."
           },
           {
             "q": "How are the funds allocated?",
@@ -948,7 +948,7 @@
           },
           {
             "q": "Can I dedicate my donation to a specific project?",
-            "a": "Yes. When you donate, you can name the project you wish to support (Madretsch Mosque, Al Iman Centre or Al Badr Centre). If that project is already funded, the money will go to the most urgent project."
+            "a": "Yes. When you donate, you can name the project you wish to support (Madretsch Mosque, Al Iman Centre or An-Nour Centre). If that project is already funded, the money will go to the most urgent project."
           }
         ]
       }
