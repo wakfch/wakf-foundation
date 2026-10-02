@@ -32,6 +32,14 @@ const NUMBER_LOCALES = { fr: 'fr-CH', de: 'de-CH', en: 'en-GB', ar: 'de-CH' };
 
 export default function Home() {
   const { t, i18n } = useTranslation();
+  // Titre du hero : jusqu'à la première virgule (incluse) en blanc, la suite en doré ; sans virgule, tout en doré
+  const heroTitle = (() => {
+    const text = t('home.hero.title2');
+    const cut = text.search(/[,،]/);
+    return cut < 0
+      ? { cut, rest: text }
+      : { cut, first: text.slice(0, cut + 1).trimEnd(), rest: text.slice(cut + 1).trimStart() };
+  })();
   const numLocale = NUMBER_LOCALES[(i18n.language || 'fr').slice(0, 2)] || 'fr-CH';
   const objectives = t('home.about.objectives', { returnObjects: true });
   const values = t('home.about.values', { returnObjects: true });
@@ -76,7 +84,10 @@ export default function Home() {
             </span>
           </div>
           <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(28px,3.5vw,44px)', fontWeight: 800, color: 'var(--white)', lineHeight: 1.2, marginBottom: 'var(--space-6)', maxWidth: 1120, marginInline: 'auto', textWrap: 'balance' }}>
-            <span style={{ display: 'block', color: 'var(--gold)' }}>{t('home.hero.title2')}</span>
+            <span style={{ display: 'block' }}>
+              {heroTitle.cut >= 0 && <><span style={{ color: 'var(--white)' }}>{heroTitle.first}</span>{' '}</>}
+              <span style={{ color: 'var(--gold)' }}>{heroTitle.rest}</span>
+            </span>
           </h1>
           <p style={{ fontSize: 'clamp(15px,2vw,18px)', color: 'rgba(255,255,255,.75)', fontWeight: 300, lineHeight: 1.75, maxWidth: 560, marginInline: 'auto', marginBottom: 'var(--space-10)' }}>
             {t('home.hero.sub')}
