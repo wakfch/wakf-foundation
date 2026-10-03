@@ -72,7 +72,7 @@ export default function ProjectDetail() {
     <>
       <div className="page-hero" style={{ textAlign: 'left' }}>
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <span className="page-hero__label">{project.type}</span>
+          {project.type && <span className="page-hero__label">{project.type}</span>}
           <h1 className="page-hero__title" style={{ marginInline: 0 }}>{project.title}</h1>
           <p className="page-hero__sub" style={{ marginInline: 0 }}>{project.subtitle}</p>
           <div style={{ display: 'flex', gap: 'var(--space-3)', marginTop: 'var(--space-6)', flexWrap: 'wrap' }}>
