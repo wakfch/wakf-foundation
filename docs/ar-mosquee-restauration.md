@@ -135,3 +135,31 @@ Clé ajoutée `projects.items.<id>.typeDetail` = "" ; pour remettre l'étiquette
 - fr `aliman` : étiquette « Centre culturel islamique », titre « Centre culturel islamique Al Iman (Fribourg) »
 - en `aliman` : étiquette « Islamic cultural centre », titre « Al Iman Islamic Cultural Centre (Fribourg) »
 - de `aliman` : étiquette « Islamisches Kulturzentrum », titre « Islamisches Kulturzentrum Al Iman (Freiburg) »
+
+## Projet Al Badr (masqué) : remplacement fait ensuite
+
+Les 4 textes ci-dessous, d'abord laissés tels quels, ont été modifiés à leur tour (« المسجد الوحيد » devient « المركز الثقافي الإسلامي الوحيد »). L'indicateur `hidden: true` du projet n'a pas changé.
+
+**`projects.items.albadr.excerptHome`**
+
+```text
+المسجد الوحيد على الحدود الفرنسية السويسرية: ترميم مبنى تاريخي يعود إلى 1902.
+```
+
+**`projects.items.albadr.excerpt`**
+
+```text
+المسجد الوحيد على الحدود الفرنسية السويسرية: ترميم مبنى تاريخي يعود إلى 1902 وتوسعة بمساحة 1 400 m² لإنشاء مركز ثقافي إسلامي كبير.
+```
+
+**`projects.items.albadr.subtitle`**
+
+```text
+المسجد الوحيد على الحدود الفرنسية السويسرية
+```
+
+**`projects.items.albadr.intro`**
+
+```text
+مركز البدر في لو لوكل مشروع فريد في حجمه: بأرض مساحتها 2 029 m²، منها 600 m² مبنية بالفعل و1 400 m² مخصصة للتوسعة، وهو المسجد الوحيد الموجود على الحدود الفرنسية السويسرية. والمبنى القائم، الذي شُيّد عام 1902، لافت بقيمته المعمارية.
+```
