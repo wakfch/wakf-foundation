@@ -110,7 +110,7 @@
         "Die muslimischen Grabfelder"
       ],
       "missionTitle": "Auftrag",
-      "missionBody": "Ein bleibendes islamisches Erbe in der Schweiz aufbauen, indem wir Moscheen, islamische Zentren und Bildungsprogramme im Einklang mit den Werten des Islam und dem schweizerischen Zivilrecht finanzieren.",
+      "missionBody": "Förderung einer positiven Bürgerschaft durch ein ausgewogenes erzieherisches und religiöses Gefüge: Pflege der Gebetsstätten, Ausbildung von Imamen, Förderung der wissenschaftlichen Forschung und akademische Ausbildung junger Menschen.",
       "valuesTitle": "Werte",
       "values": [
         "Beständigkeit",
@@ -136,7 +136,7 @@
     },
     "donCta": {
       "label": "Die Stiftung unterstützen",
-      "title": "Ihre Spende zählt",
+      "title": "Geben Sie, was Sie können, für einen Lohn ohne Ende",
       "body": "Ihre Spende fliesst unabhängig von ihrer Höhe direkt in die Finanzierung unserer Projekte im Sinne des Waqf in der Schweiz: Moscheen, islamische Zentren und die Begleitung der muslimischen Gemeinschaft. Jeder Beitrag ist eine Sadaqa Jariya, ein Almosen, das fortwirkt.",
       "btnDonate": "Jetzt spenden →",
       "btnZakat": "Meine Zakat berechnen"
@@ -168,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Unsere Projekte",
-      "sub": "Hinterlassen Sie eine bleibende Spur... investieren Sie in den Menschen und in ein Erbe"
+      "sub": "Unsere Initiativen und Projekte hinterlassen Spuren, die Generationen überdauern. So haben Sie Anteil an allem Guten und eine bleibende Investition für Ihr Jenseits."
     },
     "breadcrumb": "Unsere Projekte",
     "filters": {
@@ -639,10 +639,8 @@
       "Die Stiftung verfolgt einen zivilisatorischen Auftrag: Sie will eine positive Bürgerschaft fördern und ein ausgewogenes religiöses und pädagogisches Umfeld verankern. Ihre Tätigkeitsbereiche umfassen den Unterhalt der Gebetsstätten und die Betreuung ihrer Verantwortlichen sowie die Unterstützung der wissenschaftlichen Forschung und die akademische Förderung junger Menschen.",
       "Mit unseren Investitionen und unseren qualitativ hochwertigen Initiativen wollen wir die Grundlagen für eine dauerhafte institutionelle Arbeit legen, die den Erwartungen der Musliminnen und Muslime in der Schweiz entspricht, und den islamischen Institutionen eine finanzielle Unabhängigkeit sichern, damit die Gabe über die Generationen hinweg fortbesteht."
     ],
-    "p2Before": "Ihr Name ",
-    "p2After": " verweist auf das islamische Konzept der ewigen Stiftung: ein Gut oder eine Summe, unwiderruflich einem gemeinnützigen Zweck gewidmet, deren Erträge der Gemeinschaft Generation um Generation dienen.",
     "missionLabel": "Unser Auftrag:",
-    "missionText": "Eine positive Bürgerschaft durch einen ausgewogenen bildungsbezogenen und religiösen Rahmen fördern. Unsere Tätigkeit umfasst den Unterhalt der Gebetsstätten, die Ausbildung der Imame, die Unterstützung der wissenschaftlichen Forschung und die akademische Begleitung junger Menschen.",
+    "missionText": "Förderung einer positiven Bürgerschaft durch ein ausgewogenes erzieherisches und religiöses Gefüge: Pflege der Gebetsstätten, Ausbildung von Imamen, Förderung der wissenschaftlichen Forschung und akademische Ausbildung junger Menschen.",
     "visionLabel": "Unsere Vision:",
     "visionText": "Der Waqf ist ein beständiger menschlicher Herzschlag, der das Wohlgefallen Gottes sucht, um das Gute bis in die Einzelheiten der Gesellschaften zu säen und Bauwerke des Glücks und der Entfaltung für jeden Menschen zu errichten.",
     "messageLabel": "Botschaft des Waqf:",
@@ -765,7 +763,7 @@
     "hero": {
       "label": "Die Stiftung unterstützen",
       "title": "Spenden",
-      "sub": "Ihre Grosszügigkeit baut Moscheen, finanziert Studienstipendien und schafft Räume für künftige Generationen. Jeder Franken zählt."
+      "sub": "Teilen Sie mit uns das Geben\nDer Prophet ﷺ sagte: Allah sagte: „Gib aus, o Sohn Adams, so werde Ich für dich ausgeben.“"
     },
     "breadcrumb": "Spenden",
     "guaranteesTitle": "Unsere Garantien",

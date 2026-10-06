@@ -110,7 +110,7 @@
         "Muslim burial sections"
       ],
       "missionTitle": "Mission",
-      "missionBody": "To build a lasting Islamic legacy in Switzerland by funding mosques, Islamic centres and educational programmes in keeping with the values of Islam and with Swiss civil law.",
+      "missionBody": "Fostering positive citizenship through a balanced educational and religious framework: caring for places of worship, training imams, supporting scientific research and providing academic training for young people.",
       "valuesTitle": "Values",
       "values": [
         "Permanence",
@@ -136,7 +136,7 @@
     },
     "donCta": {
       "label": "Support the Foundation",
-      "title": "Your donation counts",
+      "title": "Give what you can, for a reward that never ends",
       "body": "Whatever its size, your donation goes directly towards funding our Waqf projects in Switzerland: mosques, Islamic centres and support for the Muslim community. Every contribution is a Sadaqa Jariya, an act of charity that endures.",
       "btnDonate": "Donate now →",
       "btnZakat": "Calculate my Zakat"
@@ -168,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Our Projects",
-      "sub": "Leave a mark that lasts... invest in building people and a legacy"
+      "sub": "Our initiatives and projects leave a mark that lasts for generations, giving you a share in every good deed and a lasting investment for your Hereafter."
     },
     "breadcrumb": "Our Projects",
     "filters": {
@@ -639,10 +639,8 @@
       "The foundation carries a civilisational mission that aims to promote positive citizenship and to establish a balanced religious and educational environment. Its fields of action cover the upkeep of places of worship and support for those who run them, as well as support for scientific research and the academic empowerment of young people.",
       "Through our investments and our quality initiatives, we seek to lay the foundations of lasting institutional work that meets the expectations of Muslims in Switzerland, and to secure for Islamic institutions a financial independence that allows giving to endure across generations."
     ],
-    "p2Before": "Its name ",
-    "p2After": " refers to the Islamic concept of a perpetual endowment: an asset or a sum irrevocably devoted to a cause of public benefit, whose income serves the community generation after generation.",
     "missionLabel": "Our mission:",
-    "missionText": "To promote positive citizenship through a balanced educational and religious framework. Our work covers the upkeep of places of worship, the training of imams, support for scientific research and academic guidance for young people.",
+    "missionText": "Fostering positive citizenship through a balanced educational and religious framework: caring for places of worship, training imams, supporting scientific research and providing academic training for young people.",
     "visionLabel": "Our vision:",
     "visionText": "Waqf is a lasting human heartbeat that seeks the pleasure of God, sowing goodness in the fabric of societies and building edifices of happiness and fulfilment for every human being.",
     "messageLabel": "Message of the Waqf:",
@@ -765,7 +763,7 @@
     "hero": {
       "label": "Support the Foundation",
       "title": "Make a Donation",
-      "sub": "Your generosity builds mosques, funds scholarships and creates spaces for future generations. Every franc counts."
+      "sub": "Share in giving with us\nThe Prophet ﷺ said: Allah said: “Spend, O son of Adam, and I shall spend on you.”"
     },
     "breadcrumb": "Donate",
     "guaranteesTitle": "Our guarantees",

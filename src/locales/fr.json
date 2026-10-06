@@ -110,7 +110,7 @@
         "Les carrés musulmans"
       ],
       "missionTitle": "Mission",
-      "missionBody": "Bâtir un héritage islamique durable en Suisse en finançant des mosquées, centres islamiques et programmes éducatifs en conformité avec les valeurs de l'Islam et le droit civil suisse.",
+      "missionBody": "Promouvoir une citoyenneté positive grâce à un cadre éducatif et religieux équilibré : entretien des lieux de culte, formation des imams, soutien à la recherche scientifique et formation académique des jeunes.",
       "valuesTitle": "Valeurs",
       "values": [
         "Pérennité",
@@ -136,7 +136,7 @@
     },
     "donCta": {
       "label": "Soutenir la Fondation",
-      "title": "Votre don compte",
+      "title": "Contribuez selon vos moyens, pour une récompense sans fin",
       "body": "Votre don, quel que soit son montant, contribue directement au financement de nos projets Waqf en Suisse : mosquées, centres islamiques et accompagnement de la communauté musulmane. Chaque contribution est une Sadaqa Jariya, une aumône qui dure.",
       "btnDonate": "Faire un don maintenant →",
       "btnZakat": "Calculer ma Zakat"
@@ -168,7 +168,7 @@
     "hero": {
       "label": "Fondation Wakef Suisse",
       "title": "Nos Projets",
-      "sub": "Laissez une empreinte qui dure... investissez dans l'être humain et dans l'héritage"
+      "sub": "Nos initiatives et nos projets laissent une trace qui traverse les générations. Vous avez ainsi part à chaque bien accompli, un investissement qui demeure pour votre au-delà."
     },
     "breadcrumb": "Nos Projets",
     "filters": {
@@ -639,10 +639,8 @@
       "La fondation porte une mission civilisationnelle visant à promouvoir une citoyenneté positive et à ancrer un environnement religieux et éducatif équilibré. Ses domaines d'action couvrent l'entretien des lieux de culte et la prise en charge de leurs responsables, ainsi que le soutien à la recherche scientifique et à l'autonomisation académique des jeunes.",
       "À travers nos investissements et nos initiatives qualitatives, nous cherchons à poser les fondations d'un travail institutionnel durable qui réponde aux attentes des musulmans en Suisse, et à garantir aux institutions islamiques une indépendance financière permettant de pérenniser le don à travers les générations."
     ],
-    "p2Before": "Son nom ",
-    "p2After": " renvoie au concept islamique de dotation perpétuelle : un bien ou une somme dédiés irrévocablement à une cause d'intérêt général, dont les revenus servent la communauté génération après génération.",
     "missionLabel": "Notre mission :",
-    "missionText": "Promouvoir une citoyenneté positive à travers un cadre éducatif et religieux équilibré. Nos actions couvrent l'entretien des lieux de culte, la formation des imams, le soutien à la recherche scientifique et l'accompagnement académique des jeunes.",
+    "missionText": "Promouvoir une citoyenneté positive grâce à un cadre éducatif et religieux équilibré : entretien des lieux de culte, formation des imams, soutien à la recherche scientifique et formation académique des jeunes.",
     "visionLabel": "Notre vision :",
     "visionText": "Le waqf est un battement de cœur humain durable, qui recherche l'agrément de Dieu pour semer le bien dans le détail des sociétés, et bâtir des édifices de bonheur et d'épanouissement pour chaque être humain.",
     "messageLabel": "Message du Waqf :",
@@ -765,7 +763,7 @@
     "hero": {
       "label": "Soutenir la Fondation",
       "title": "Faire un Don",
-      "sub": "Votre générosité construit des mosquées, finance des bourses d'études et crée des espaces pour les générations futures. Chaque franc compte."
+      "sub": "Partagez avec nous le don\nLe Prophète ﷺ a dit : Allah a dit : « Dépense, ô fils d'Adam, et Je dépenserai pour toi. »"
     },
     "breadcrumb": "Faire un don",
     "guaranteesTitle": "Nos garanties",

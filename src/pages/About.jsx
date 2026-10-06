@@ -50,9 +50,6 @@ export default function About() {
                   </p>
                 ))}
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
-                  {t('about.p2Before')}<em>Wakef</em> (وقف){t('about.p2After')}
-                </p>
-                <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
                   <strong>{t('about.missionLabel')}</strong> {t('about.missionText')}
                 </p>
                 <p className="section-body" style={{ marginBottom: 'var(--space-4)' }}>

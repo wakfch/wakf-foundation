@@ -7,7 +7,11 @@ const IBAN_RAW = 'CH8409000000107618194'; // valeur copiée dans le presse papie
 const TRANSFER_ROWS = ['beneficiary', 'iban', 'bank', 'address'];
 
 export default function Don() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  // Blocs TWINT, virement et don régulier : traduits en arabe (RTL) ; ailleurs, texte français comme avant
+  const isAr = (i18n.language || '').startsWith('ar');
+  const donLang = isAr ? 'ar' : 'fr';
+  const donDir = isAr ? 'rtl' : 'ltr';
   const [copied, setCopied] = useState(false);
   const copyTimer = useRef(null);
 
@@ -63,8 +67,8 @@ export default function Don() {
             <div className="don__grid">
               {/* Left: Form */}
               <div>
-                <p className="don-intro" lang="fr">{t('donation.intro')}</p>
-                <div className="don-choices" lang="fr" dir="ltr">
+                <p className="don-intro" lang={donLang}>{t('donation.intro')}</p>
+                <div className="don-choices" lang={donLang} dir={donDir}>
                 <section className="don-twint">
                   <h2 className="don-virement__title">{t('donation.twint.title')}</h2>
                   <div className="don-twint__qr">
@@ -154,7 +158,7 @@ export default function Don() {
                 </div>
                 </div>
 
-                <div className="don-regulier" lang="fr" dir="ltr">
+                <div className="don-regulier" lang={donLang} dir={donDir}>
                   <h3 className="don-regulier__title">{t('donation.regular.title')}</h3>
                   <p className="don-regulier__body">{t('donation.regular.body')}</p>
                 </div>
