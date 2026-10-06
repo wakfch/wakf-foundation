@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
-const IMPACT_AMOUNTS = ['CHF 20', 'CHF 50', 'CHF 200', 'CHF 500', 'CHF 1 000'];
 const GUARANTEE_ICONS = ['☪️', '📊', '🏛️'];
 const IBAN_RAW = 'CH8409000000107618194'; // valeur copiée dans le presse papier
 const TRANSFER_ROWS = ['beneficiary', 'iban', 'bank', 'address'];
@@ -42,7 +41,9 @@ export default function Don() {
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <span className="page-hero__label">{t('donation.hero.label')}</span>
           <h1 className="page-hero__title">{t('donation.hero.title')}</h1>
-          <p className="page-hero__sub">{t('donation.hero.sub')}</p>
+          <p className="page-hero__sub">
+            {t('donation.hero.sub').split('\n').map((line, i) => <span key={i}>{i > 0 && <br />}{line}</span>)}
+          </p>
         </div>
       </div>
 
@@ -161,20 +162,6 @@ export default function Don() {
 
               {/* Right: Info */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
-                {/* Impact */}
-                <div style={{ background: 'linear-gradient(135deg, var(--green-dark), var(--green))', borderRadius: 'var(--radius-xl)', padding: 'var(--space-8)', color: 'var(--white)' }}>
-                  <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 'var(--space-5)' }}>{t('donation.impactTitle')}</p>
-                  {t('donation.impact', { returnObjects: true }).map((desc, i) => {
-                    const amt = IMPACT_AMOUNTS[i];
-                    return (
-                    <div key={amt} style={{ display: 'flex', gap: 'var(--space-3)', alignItems: 'flex-start', marginBottom: 'var(--space-4)' }}>
-                      <span style={{ background: 'rgba(200,169,81,.25)', borderRadius: 'var(--radius-sm)', padding: '4px 10px', fontSize: 13, fontWeight: 700, color: 'var(--gold)', flexShrink: 0 }}>{amt}</span>
-                      <p style={{ fontSize: 13, color: 'rgba(255,255,255,.8)', lineHeight: 1.5 }}>{desc}</p>
-                    </div>
-                    );
-                  })}
-                </div>
-
                 {/* Garanties */}
                 <div style={{ background: 'var(--bg-section)', border: '1px solid var(--border)', borderRadius: 'var(--radius-xl)', padding: 'var(--space-6)' }}>
                   <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: 15, marginBottom: 'var(--space-4)', color: 'var(--text-heading)' }}>{t('donation.guaranteesTitle')}</p>
