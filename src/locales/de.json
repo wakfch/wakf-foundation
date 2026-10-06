@@ -769,17 +769,17 @@
     "intro": "Wählen Sie die Möglichkeit, die Ihnen entspricht. In beiden Fällen bestimmen Sie den Betrag frei.",
     "twint": {
       "title": "Mit TWINT",
-      "qrAlt": "TWINT QR Code der Fondation Wakef Suisse",
-      "scan": "Scannen Sie diesen Code mit der TWINT App.",
-      "redirect": "Sie werden zur TWINT App weitergeleitet.",
+      "qrAlt": "TWINT-QR-Code der Fondation Wakef Suisse",
+      "scan": "Scannen Sie diesen Code mit der TWINT-App.",
+      "redirect": "Sie werden zur TWINT-App weitergeleitet.",
       "button": "Mit TWINT spenden"
     },
     "transfer": {
-      "title": "Mit Ihrer Banking App",
-      "qrAlt": "QR Rechnung der Fondation Wakef Suisse, mit Ihrer Banking App zu scannen",
-      "scan": "Scannen Sie diesen Code mit Ihrer Banking App, nicht mit TWINT.",
+      "title": "Mit Ihrer Banking-App",
+      "qrAlt": "QR-Rechnung der Fondation Wakef Suisse, mit Ihrer Banking-App zu scannen",
+      "scan": "Scannen Sie diesen Code mit Ihrer Banking-App, nicht mit TWINT.",
       "beneficiary": {
-        "label": "Begünstigte",
+        "label": "Empfänger",
         "value": "Fondation WAKEF SUISSE"
       },
       "iban": {
@@ -800,7 +800,7 @@
     },
     "regular": {
       "title": "Regelmässige Spende",
-      "body": "Sie können in Ihrem Onlinebanking auch einen monatlichen Dauerauftrag mit derselben IBAN einrichten. So unterstützen Sie unsere Projekte am wirksamsten und dauerhaft."
+      "body": "Sie können in Ihrem E-Banking auch einen monatlichen Dauerauftrag mit derselben IBAN einrichten. So unterstützen Sie unsere Projekte am wirksamsten und dauerhaft."
     },
     "guaranteesTitle": "Unsere Garantien",
     "guarantees": [

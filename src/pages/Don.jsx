@@ -76,7 +76,7 @@ export default function Don() {
                     <p className="don-virement__scan">{t('donation.twint.scan')}</p>
                   </div>
                   <p className="don-virement__scan don-twint__redirect">{t('donation.twint.redirect')}</p>
-                  <a className="don-twint__btn" href="https://pay.raisenow.io/kqhfc?lng=fr" target="_blank" rel="noopener noreferrer">{t('donation.twint.button')}</a>
+                  <a className="don-twint__btn" href={`https://pay.raisenow.io/kqhfc?lng=${['en', 'de'].includes(donLang) ? donLang : 'fr'}`} target="_blank" rel="noopener noreferrer">{t('donation.twint.button')}</a>
                 </section>
                 <div className="don-virement">
                   <style>{`
