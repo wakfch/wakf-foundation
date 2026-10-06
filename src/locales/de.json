@@ -766,6 +766,42 @@
       "sub": "Teilen Sie mit uns das Geben\nDer Prophet ﷺ sagte: Allah sagte: „Gib aus, o Sohn Adams, so werde Ich für dich ausgeben.“"
     },
     "breadcrumb": "Spenden",
+    "intro": "Wählen Sie die Möglichkeit, die Ihnen entspricht. In beiden Fällen bestimmen Sie den Betrag frei.",
+    "twint": {
+      "title": "Mit TWINT",
+      "qrAlt": "TWINT QR Code der Fondation Wakef Suisse",
+      "scan": "Scannen Sie diesen Code mit der TWINT App.",
+      "redirect": "Sie werden zur TWINT App weitergeleitet.",
+      "button": "Mit TWINT spenden"
+    },
+    "transfer": {
+      "title": "Mit Ihrer Banking App",
+      "qrAlt": "QR Rechnung der Fondation Wakef Suisse, mit Ihrer Banking App zu scannen",
+      "scan": "Scannen Sie diesen Code mit Ihrer Banking App, nicht mit TWINT.",
+      "beneficiary": {
+        "label": "Begünstigte",
+        "value": "Fondation WAKEF SUISSE"
+      },
+      "iban": {
+        "label": "IBAN",
+        "value": "CH84 0900 0000 1076 1819 4"
+      },
+      "bank": {
+        "label": "Bank",
+        "value": "PostFinance AG"
+      },
+      "address": {
+        "label": "Adresse",
+        "value": "Avenue de la Confrérie 11, 1008 Prilly"
+      },
+      "copy": "IBAN kopieren",
+      "copied": "IBAN kopiert",
+      "free": "100 % Ihrer Spende kommen der Stiftung zugute, ohne jegliche Transaktionsgebühren."
+    },
+    "regular": {
+      "title": "Regelmässige Spende",
+      "body": "Sie können in Ihrem Onlinebanking auch einen monatlichen Dauerauftrag mit derselben IBAN einrichten. So unterstützen Sie unsere Projekte am wirksamsten und dauerhaft."
+    },
     "guaranteesTitle": "Unsere Garantien",
     "guarantees": [
       "Konformität: zinsfrei",

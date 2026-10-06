@@ -8,9 +8,9 @@ const TRANSFER_ROWS = ['beneficiary', 'iban', 'bank', 'address'];
 
 export default function Don() {
   const { t, i18n } = useTranslation();
-  // Blocs TWINT, virement et don régulier : traduits en arabe (RTL) ; ailleurs, texte français comme avant
+  // Blocs TWINT, virement et don régulier : traduits dans les 4 langues ; l'arabe se lit de droite à gauche
   const isAr = (i18n.language || '').startsWith('ar');
-  const donLang = isAr ? 'ar' : 'fr';
+  const donLang = (i18n.language || 'fr').slice(0, 2);
   const donDir = isAr ? 'rtl' : 'ltr';
   const [copied, setCopied] = useState(false);
   const copyTimer = useRef(null);

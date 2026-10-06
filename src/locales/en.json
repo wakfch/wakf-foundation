@@ -766,6 +766,42 @@
       "sub": "Share in giving with us\nThe Prophet ﷺ said: Allah said: “Spend, O son of Adam, and I shall spend on you.”"
     },
     "breadcrumb": "Donate",
+    "intro": "Choose the method that suits you. Either way, you set the amount freely.",
+    "twint": {
+      "title": "With TWINT",
+      "qrAlt": "TWINT QR code of the Fondation Wakef Suisse",
+      "scan": "Scan this code with the TWINT app.",
+      "redirect": "You will be redirected to the TWINT app.",
+      "button": "Donate with TWINT"
+    },
+    "transfer": {
+      "title": "With your banking app",
+      "qrAlt": "QR bill of the Fondation Wakef Suisse, to scan with your banking app",
+      "scan": "Scan this code with your banking app, not with TWINT.",
+      "beneficiary": {
+        "label": "Beneficiary",
+        "value": "Fondation WAKEF SUISSE"
+      },
+      "iban": {
+        "label": "IBAN",
+        "value": "CH84 0900 0000 1076 1819 4"
+      },
+      "bank": {
+        "label": "Bank",
+        "value": "PostFinance AG"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Avenue de la Confrérie 11, 1008 Prilly"
+      },
+      "copy": "Copy the IBAN",
+      "copied": "IBAN copied",
+      "free": "100% of your donation reaches the foundation, with no transaction fees."
+    },
+    "regular": {
+      "title": "Regular donation",
+      "body": "You can also set up a monthly standing order in your online banking, using the same IBAN. It is the most effective way to support our projects over time."
+    },
     "guaranteesTitle": "Our guarantees",
     "guarantees": [
       "Compliance: no interest",
