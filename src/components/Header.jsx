@@ -21,7 +21,7 @@ const getNavLinks = (t) => [
     label: t('header.projects'),
     dropdown: [
       { label: t('header.allProjects'), to: '/projets' },
-      { label: t('header.madretsch'), to: '/projets/mosquee-madretsch' },
+      { label: t('header.madretsch'), to: '/projets/centre-culturel-madretsch' },
       { label: t('header.aliman'), to: '/projets/centre-al-iman' },
       { label: t('header.albadr'), to: '/projets/centre-al-badr' },
       { label: t('header.delalElKhayr'), to: '/projets/delal-el-khayr' },

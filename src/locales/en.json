@@ -32,7 +32,7 @@
     "statutes": "Statutes of the Foundation",
     "projects": "Our Projects",
     "allProjects": "All projects",
-    "madretsch": "Madretsch Mosque Biel/Bienne",
+    "madretsch": "Madretsch Islamic Cultural Centre Biel/Bienne",
     "aliman": "Al Iman Centre Fribourg",
     "albadr": "Al Badr Centre Le Locle",
     "annour": "An-Nour Centre Sion",
@@ -78,7 +78,7 @@
     "label": "Sadaqa Jariya",
     "title1": "Help us build",
     "title2": "further projects",
-    "body": "Every donation helps to fund mosques, Islamic centres and educational programmes for the Muslim community in Switzerland.",
+    "body": "Every donation helps to fund Islamic cultural centres and educational programmes for the Muslim community in Switzerland.",
     "cta": "Donate now →",
     "dismiss": "No thank you, continue browsing"
   },
@@ -137,7 +137,7 @@
     "donCta": {
       "label": "Support the Foundation",
       "title": "Give what you can, for a reward that never ends",
-      "body": "Whatever its size, your donation goes directly towards funding our Waqf projects in Switzerland: mosques, Islamic centres and support for the Muslim community. Every contribution is a Sadaqa Jariya, an act of charity that endures.",
+      "body": "Whatever its size, your donation goes directly towards funding our Waqf projects in Switzerland: Islamic cultural centres and support for the Muslim community. Every contribution is a Sadaqa Jariya, an act of charity that endures.",
       "btnDonate": "Donate now →",
       "btnZakat": "Calculate my Zakat"
     },
@@ -153,7 +153,7 @@
       "items": [
         {
           "q": "How are donations used?",
-          "a": "Every franc collected goes to concrete projects (mosques, Islamic centres, scholarships). We publish an annual report setting out in detail how all the funds are used."
+          "a": "Every franc collected goes to concrete projects (Islamic cultural centres, scholarships). We publish an annual report setting out in detail how all the funds are used."
         }
       ],
       "all": "All the questions →"
@@ -241,7 +241,7 @@
         ],
         "description": [
           "One of the oldest centres in the region, founded to be a home for everyone, it officially became an Islamic waqf in 2009 to ensure the continuity of its impact.",
-          "The project combines the mosque (offered free of charge to Muslims) with a stable rental income, generating a steady financial resource that covers operations and maintenance independently.",
+          "The project combines the prayer space (offered free of charge to Muslims) with a stable rental income, generating a steady financial resource that covers operations and maintenance independently.",
           "The building underwent a comprehensive renovation in 2020 to ensure the quality of its facilities and the effectiveness of its mission for the long term."
         ],
         "avancement": "Help complete this impact: a project that has undergone a comprehensive renovation to serve our generations, and covering its remaining costs is today a responsibility resting on us. Your contribution closes this debt and ensures the sustainability of the beacon.",
@@ -350,14 +350,14 @@
         "type": "Cultural centre",
         "ville": "Le Locle, NE",
         "surface": "2,029 m²",
-        "excerptHome": "The only mosque on the border between Switzerland and France: renovation of a historic building from 1902.",
-        "excerpt": "The only mosque on the border between Switzerland and France: renovation of a historic building from 1902 and an extension of 1,400 m² for a large Islamic cultural centre.",
-        "subtitle": "The only mosque on the border between Switzerland and France",
+        "excerptHome": "The only Islamic cultural centre on the border between Switzerland and France: renovation of a historic building from 1902.",
+        "excerpt": "The only Islamic cultural centre on the border between Switzerland and France: renovation of a historic building from 1902 and an extension of 1,400 m².",
+        "subtitle": "The only Islamic cultural centre on the border between Switzerland and France",
         "villeDetail": "Le Locle, NE",
         "surfaceDetail": "2,029 m² (land)",
         "typeDetail": "Islamic cultural centre",
         "status": "Ongoing",
-        "intro": "The Al Badr Centre in Le Locle is a project of singular scale: on a plot of 2,029 m², of which 600 m² are already built and 1,400 m² are set aside for the extension, it is the only mosque on the border between Switzerland and France. The existing building, put up in 1902, is of remarkable architectural interest.",
+        "intro": "The Al Badr Centre in Le Locle is a project of singular scale: on a plot of 2,029 m², of which 600 m² are already built and 1,400 m² are set aside for the extension, it is the only Islamic cultural centre on the border between Switzerland and France. The existing building, put up in 1902, is of remarkable architectural interest.",
         "objectifs": [
           "Complete renovation of the historic building from 1902",
           "Modern construction of an extension of 1,400 m²",
@@ -564,7 +564,7 @@
           "Our social goal: to build a bridge between the two communities on the Swiss-French border, serving the younger generations."
         ],
         "strengths": [
-          "The only mosque in the town, on the border of two countries (Switzerland and France).",
+          "The only Islamic cultural centre in the town, on the border of two countries (Switzerland and France).",
           "Financial sustainability and self-funding, free from the burden of rent.",
           "A strategic location with cross-border reach, where the two communities meet.",
           "A lasting waqf: a multiplied good and an ongoing reward. Your gift today becomes a stable asset that funds itself and serves your brothers and sisters in the border region, forever."
@@ -876,7 +876,7 @@
         "items": [
           {
             "q": "What is the Fondation Wakef Suisse?",
-            "a": "The Fondation Wakef Suisse is a foundation under Swiss private law (Art. 80 CC), registered under CHE-114.901.246 and founded in 2009. It funds Islamic infrastructure projects in Switzerland: mosques, Islamic centres, scholarships and Muslim burial sections in cemeteries."
+            "a": "The Fondation Wakef Suisse is a foundation under Swiss private law (Art. 80 CC), registered under CHE-114.901.246 and founded in 2009. It funds Islamic infrastructure projects in Switzerland: Islamic cultural centres, scholarships and Muslim burial sections in cemeteries."
           },
           {
             "q": "Who oversees the Foundation?",
@@ -910,7 +910,7 @@
         "items": [
           {
             "q": "Can I make a donation dedicated to a specific project?",
-            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Mosque (Biel/Bienne), Al Iman Centre (Fribourg), An-Nour Centre (Sion), Project Dilal Al Khair (Le Locle) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
+            "a": "Yes. When you donate, you can name the project you wish to support among our five projects: Madretsch Islamic Cultural Centre (Biel/Bienne), Al Iman Centre (Fribourg), An-Nour Centre (Sion), Project Dilal Al Khair (Le Locle) and the Mobile Library “Ponts du Savoir”. If that project is fully funded, the money will go to the priority project under way."
           },
           {
             "q": "How do I calculate my Zakat?",
@@ -931,7 +931,7 @@
         "items": [
           {
             "q": "What are the current projects?",
-            "a": "Fondation Wakef funds five projects: Madretsch Mosque in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), An-Nour Centre in Sion (ongoing, 420 m²), Project Dilal Al Khair in Le Locle (ongoing) and the Mobile Library “Ponts du Savoir” in Switzerland. See the Projects page for full details."
+            "a": "Fondation Wakef funds five projects: Madretsch Islamic Cultural Centre in Biel/Bienne (completed, 496 m²), Al Iman Centre in Fribourg (ongoing, 132 m²), An-Nour Centre in Sion (ongoing, 420 m²), Project Dilal Al Khair in Le Locle (ongoing) and the Mobile Library “Ponts du Savoir” in Switzerland. See the Projects page for full details."
           },
           {
             "q": "How are the funds allocated?",
@@ -939,7 +939,7 @@
           },
           {
             "q": "Can I dedicate my donation to a specific project?",
-            "a": "Yes. When you donate, you can name the project you wish to support (Madretsch Mosque, Al Iman Centre or An-Nour Centre). If that project is already funded, the money will go to the most urgent project."
+            "a": "Yes. When you donate, you can name the project you wish to support (Madretsch Islamic Cultural Centre, Al Iman Centre or An-Nour Centre). If that project is already funded, the money will go to the most urgent project."
           }
         ]
       }
@@ -1019,7 +1019,7 @@
         "date": "1 January 2025",
         "title": "Annual report: a review of our work in 2025",
         "excerpt": "Our annual report sets out the use of every franc collected, the projects completed in Switzerland and our objectives for 2026. Complete transparency, in keeping with our charter.",
-        "content": "<p>Our 2025 annual report sets out the use of every franc collected. We funded 3 major projects, for a total of CHF 1,350,000 invested in the Swiss Muslim community.</p><h3>Highlights of 2025</h3><ul><li>Al Badr Centre, Le Locle: 65% funded (CHF 552,500 collected)</li><li>Al Iman Centre, Fribourg: 90% funded (CHF 108,000 collected)</li><li>Madretsch Mosque, Biel/Bienne: 100% complete</li></ul><p>Thank you to all our donors for their trust and their generosity.</p>"
+        "content": "<p>Our 2025 annual report sets out the use of every franc collected. We funded 3 major projects, for a total of CHF 1,350,000 invested in the Swiss Muslim community.</p><h3>Highlights of 2025</h3><ul><li>Al Badr Centre, Le Locle: 65% funded (CHF 552,500 collected)</li><li>Al Iman Centre, Fribourg: 90% funded (CHF 108,000 collected)</li><li>Madretsch Islamic Cultural Centre, Biel/Bienne: 100% complete</li></ul><p>Thank you to all our donors for their trust and their generosity.</p>"
       },
       "zakat-al-mal": {
         "date": "10 November 2024",

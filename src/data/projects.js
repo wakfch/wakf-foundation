@@ -7,8 +7,8 @@ import { IMAGE_SRCS } from './projectImages';
 export const PROJECTS = [
   {
     id: 'madretsch',
-    slug: 'mosquee-madretsch',
-    legacySlugs: ['madretsch'],
+    slug: 'centre-culturel-madretsch',
+    legacySlugs: ['madretsch', 'mosquee-madretsch'],
     year: '2009',
     status: 'termine',
     featured: true,

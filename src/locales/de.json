@@ -32,7 +32,7 @@
     "statutes": "Stiftungsstatuten",
     "projects": "Unsere Projekte",
     "allProjects": "Alle Projekte",
-    "madretsch": "Moschee Madretsch Biel/Bienne",
+    "madretsch": "Islamisches Kulturzentrum Madretsch Biel/Bienne",
     "aliman": "Al Iman Zentrum Freiburg",
     "albadr": "Al Badr Zentrum Le Locle",
     "annour": "An-Nour Zentrum Sitten",
@@ -78,7 +78,7 @@
     "label": "Sadaqa Jariya",
     "title1": "Helfen Sie uns,",
     "title2": "weitere Projekte zu bauen",
-    "body": "Jede Spende trägt zur Finanzierung von Moscheen, islamischen Zentren und Bildungsprogrammen für die muslimische Gemeinschaft in der Schweiz bei.",
+    "body": "Jede Spende trägt zur Finanzierung von islamischen Kulturzentren und Bildungsprogrammen für die muslimische Gemeinschaft in der Schweiz bei.",
     "cta": "Jetzt spenden →",
     "dismiss": "Nein danke, Besuch fortsetzen"
   },
@@ -137,7 +137,7 @@
     "donCta": {
       "label": "Die Stiftung unterstützen",
       "title": "Geben Sie, was Sie können, für einen Lohn ohne Ende",
-      "body": "Ihre Spende fliesst unabhängig von ihrer Höhe direkt in die Finanzierung unserer Projekte im Sinne des Waqf in der Schweiz: Moscheen, islamische Zentren und die Begleitung der muslimischen Gemeinschaft. Jeder Beitrag ist eine Sadaqa Jariya, ein Almosen, das fortwirkt.",
+      "body": "Ihre Spende fliesst unabhängig von ihrer Höhe direkt in die Finanzierung unserer Projekte im Sinne des Waqf in der Schweiz: islamische Kulturzentren und die Begleitung der muslimischen Gemeinschaft. Jeder Beitrag ist eine Sadaqa Jariya, ein Almosen, das fortwirkt.",
       "btnDonate": "Jetzt spenden →",
       "btnZakat": "Meine Zakat berechnen"
     },
@@ -153,7 +153,7 @@
       "items": [
         {
           "q": "Wie werden die Spenden verwendet?",
-          "a": "Jeder gesammelte Franken fliesst in konkrete Projekte (Moscheen, islamische Zentren, Stipendien). Wir veröffentlichen einen Jahresbericht, der die Verwendung sämtlicher Mittel im Detail darlegt."
+          "a": "Jeder gesammelte Franken fliesst in konkrete Projekte (islamische Kulturzentren, Stipendien). Wir veröffentlichen einen Jahresbericht, der die Verwendung sämtlicher Mittel im Detail darlegt."
         }
       ],
       "all": "Alle Fragen →"
@@ -241,7 +241,7 @@
         ],
         "description": [
           "Eines der ältesten Zentren der Region, gegründet als offenes Haus für alle, wurde es 2009 offiziell zu einem islamischen Waqf, um die Kontinuität seiner Wirkung zu gewährleisten.",
-          "Das Projekt verbindet die Moschee (kostenlos für Muslime angeboten) mit stabilen Mieteinnahmen, was eine konstante finanzielle Ressource schafft, die Betrieb und Instandhaltung eigenständig deckt.",
+          "Das Projekt verbindet den Gebetsraum (kostenlos für Muslime angeboten) mit stabilen Mieteinnahmen, was eine konstante finanzielle Ressource schafft, die Betrieb und Instandhaltung eigenständig deckt.",
           "Das Gebäude wurde 2020 umfassend renoviert, um die Qualität der Einrichtungen und die langfristige Wirksamkeit seiner Mission zu gewährleisten."
         ],
         "avancement": "Helfen Sie mit, diese Wirkung zu vollenden: ein Projekt, das eine umfassende Renovierung im Dienst unserer Generationen erfahren hat, und die Deckung der verbleibenden Kosten ist heute eine Verantwortung, die auf uns lastet. Ihre Beteiligung schliesst diese Schuld und sichert die Nachhaltigkeit des Leuchtturms.",
@@ -350,14 +350,14 @@
         "type": "Kulturzentrum",
         "ville": "Le Locle, NE",
         "surface": "2 029 m²",
-        "excerptHome": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902.",
-        "excerpt": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902 und Erweiterung um 1 400 m² zu einem grossen islamischen Kulturzentrum.",
-        "subtitle": "Die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich",
+        "excerptHome": "Das einzige islamische Kulturzentrum an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902.",
+        "excerpt": "Das einzige islamische Kulturzentrum an der Grenze zwischen der Schweiz und Frankreich: Renovation eines historischen Gebäudes von 1902 und Erweiterung um 1 400 m².",
+        "subtitle": "Das einzige islamische Kulturzentrum an der Grenze zwischen der Schweiz und Frankreich",
         "villeDetail": "Le Locle, NE",
         "surfaceDetail": "2 029 m² (Grundstück)",
         "typeDetail": "Islamisches Kulturzentrum",
         "status": "Laufend",
-        "intro": "Das Al Badr Zentrum in Le Locle ist ein Vorhaben von einzigartiger Tragweite: Auf einem Grundstück von 2 029 m², davon 600 m² bereits überbaut und 1 400 m² für die Erweiterung vorgesehen, ist es die einzige Moschee an der Grenze zwischen der Schweiz und Frankreich. Das bestehende Gebäude aus dem Jahr 1902 ist von bemerkenswertem architektonischem Wert.",
+        "intro": "Das Al Badr Zentrum in Le Locle ist ein Vorhaben von einzigartiger Tragweite: Auf einem Grundstück von 2 029 m², davon 600 m² bereits überbaut und 1 400 m² für die Erweiterung vorgesehen, ist es das einzige islamische Kulturzentrum an der Grenze zwischen der Schweiz und Frankreich. Das bestehende Gebäude aus dem Jahr 1902 ist von bemerkenswertem architektonischem Wert.",
         "objectifs": [
           "Vollständige Renovation des historischen Gebäudes von 1902",
           "Moderner Bau einer Erweiterung von 1 400 m²",
@@ -564,7 +564,7 @@
           "Unser soziales Ziel: eine Brücke zwischen den beiden Gemeinschaften an der schweizerisch-französischen Grenze bauen, im Dienst der jungen Generationen."
         ],
         "strengths": [
-          "Die einzige Moschee der Stadt, an der Grenze zweier Länder (Schweiz und Frankreich).",
+          "Das einzige islamische Kulturzentrum der Stadt, an der Grenze zweier Länder (Schweiz und Frankreich).",
           "Finanzielle Nachhaltigkeit und Selbstfinanzierung, ohne die Last der Miete.",
           "Ein strategischer Standort mit grenzüberschreitender Wirkung, am Treffpunkt der beiden Gemeinschaften.",
           "Ein dauerhafter Waqf: vervielfachter Segen und fortwährender Lohn. Ihre Spende von heute wird zu einem beständigen Gut, das sich selbst finanziert und Ihren Brüdern und Schwestern in der Grenzregion für immer dient."
@@ -876,7 +876,7 @@
         "items": [
           {
             "q": "Was ist die Fondation Wakef Suisse?",
-            "a": "Die Fondation Wakef Suisse ist eine Stiftung des schweizerischen Privatrechts (Art. 80 ZGB), eingetragen unter CHE-114.901.246 und 2009 gegründet. Sie finanziert islamische Infrastrukturvorhaben in der Schweiz: Moscheen, islamische Zentren, Studienstipendien und muslimische Grabfelder auf Friedhöfen."
+            "a": "Die Fondation Wakef Suisse ist eine Stiftung des schweizerischen Privatrechts (Art. 80 ZGB), eingetragen unter CHE-114.901.246 und 2009 gegründet. Sie finanziert islamische Infrastrukturvorhaben in der Schweiz: islamische Kulturzentren, Studienstipendien und muslimische Grabfelder auf Friedhöfen."
           },
           {
             "q": "Wer kontrolliert die Stiftung?",
@@ -910,7 +910,7 @@
         "items": [
           {
             "q": "Kann ich für ein bestimmtes Projekt spenden?",
-            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches unserer fünf Projekte Sie unterstützen möchten: Moschee Madretsch (Biel/Bienne), Al Iman Zentrum (Freiburg), An-Nour Zentrum (Sitten), Projekt Dilal Al Khair (Le Locle) und Mobile Bibliothek « Ponts du Savoir ». Ist das Projekt vollständig finanziert, fliessen die Mittel in das laufende vorrangige Projekt."
+            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches unserer fünf Projekte Sie unterstützen möchten: Islamisches Kulturzentrum Madretsch (Biel/Bienne), Al Iman Zentrum (Freiburg), An-Nour Zentrum (Sitten), Projekt Dilal Al Khair (Le Locle) und Mobile Bibliothek « Ponts du Savoir ». Ist das Projekt vollständig finanziert, fliessen die Mittel in das laufende vorrangige Projekt."
           },
           {
             "q": "Wie berechne ich meine Zakat?",
@@ -931,7 +931,7 @@
         "items": [
           {
             "q": "Welches sind die aktuellen Projekte?",
-            "a": "Die Fondation Wakef finanziert fünf Projekte: Moschee Madretsch in Biel/Bienne (realisiert, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), An-Nour Zentrum in Sitten (laufend, 420 m²), Projekt Dilal Al Khair in Le Locle (laufend) und die Mobile Bibliothek « Ponts du Savoir » in der Schweiz. Alle Einzelheiten finden Sie auf der Seite Projekte."
+            "a": "Die Fondation Wakef finanziert fünf Projekte: Islamisches Kulturzentrum Madretsch in Biel/Bienne (realisiert, 496 m²), Al Iman Zentrum in Freiburg (laufend, 132 m²), An-Nour Zentrum in Sitten (laufend, 420 m²), Projekt Dilal Al Khair in Le Locle (laufend) und die Mobile Bibliothek « Ponts du Savoir » in der Schweiz. Alle Einzelheiten finden Sie auf der Seite Projekte."
           },
           {
             "q": "Wie werden die Mittel zugeteilt?",
@@ -939,7 +939,7 @@
           },
           {
             "q": "Kann ich meine Spende einem bestimmten Projekt widmen?",
-            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches Projekt Sie unterstützen möchten (Moschee Madretsch, Al Iman Zentrum oder An-Nour Zentrum). Ist das Projekt bereits finanziert, fliessen die Mittel in das dringendste Projekt."
+            "a": "Ja. Bei Ihrer Spende können Sie angeben, welches Projekt Sie unterstützen möchten (Islamisches Kulturzentrum Madretsch, Al Iman Zentrum oder An-Nour Zentrum). Ist das Projekt bereits finanziert, fliessen die Mittel in das dringendste Projekt."
           }
         ]
       }
@@ -1019,7 +1019,7 @@
         "date": "1. Januar 2025",
         "title": "Jahresbericht: Bilanz der Tätigkeiten 2025",
         "excerpt": "Unser Jahresbericht legt die Verwendung jedes gesammelten Frankens dar, ebenso die in der Schweiz realisierten Projekte und unsere Ziele für 2026. Vollständige Transparenz, gemäss unserer Charta.",
-        "content": "<p>Unser Jahresbericht 2025 legt die Verwendung jedes gesammelten Frankens dar. Wir haben 3 grosse Projekte finanziert und insgesamt CHF 1 350 000 in die muslimische Gemeinschaft der Schweiz investiert.</p><h3>Höhepunkte 2025</h3><ul><li>Al Badr Zentrum, Le Locle: zu 65% finanziert (CHF 552 500 gesammelt)</li><li>Al Iman Zentrum, Freiburg: zu 90% finanziert (CHF 108 000 gesammelt)</li><li>Moschee Madretsch, Biel/Bienne: zu 100% abgeschlossen</li></ul><p>Danke an alle unsere Spenderinnen und Spender für ihr Vertrauen und ihre Grosszügigkeit.</p>"
+        "content": "<p>Unser Jahresbericht 2025 legt die Verwendung jedes gesammelten Frankens dar. Wir haben 3 grosse Projekte finanziert und insgesamt CHF 1 350 000 in die muslimische Gemeinschaft der Schweiz investiert.</p><h3>Höhepunkte 2025</h3><ul><li>Al Badr Zentrum, Le Locle: zu 65% finanziert (CHF 552 500 gesammelt)</li><li>Al Iman Zentrum, Freiburg: zu 90% finanziert (CHF 108 000 gesammelt)</li><li>Islamisches Kulturzentrum Madretsch, Biel/Bienne: zu 100% abgeschlossen</li></ul><p>Danke an alle unsere Spenderinnen und Spender für ihr Vertrauen und ihre Grosszügigkeit.</p>"
       },
       "zakat-al-mal": {
         "date": "10. November 2024",
