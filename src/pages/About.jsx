@@ -42,7 +42,6 @@ export default function About() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-16)', alignItems: 'start' }}>
               <div>
                 <span className="section-label">{t('about.historyLabel')}</span>
-                <h2 className="section-title">{t('about.historyTitle')}</h2>
                 <span className="accent-line" />
                 {history.map((para, i) => (
                   <p key={i} className="section-body" style={{ marginBottom: 'var(--space-4)' }}>
